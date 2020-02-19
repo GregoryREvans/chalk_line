@@ -9,6 +9,4 @@ instrument_one_range_highest = abjad.NumberedPitch(instrument_one_range.stop_pit
 instruments = [instrument_one]
 voices = len(instruments)
 
-voice_to_name_dict = {
-    "Voice 1": "flute",
-}
+voice_to_name_dict = {"Voice 1": "flute"}

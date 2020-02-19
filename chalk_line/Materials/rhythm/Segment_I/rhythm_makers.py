@@ -2,7 +2,7 @@ import abjad
 import evans
 import numpy as np
 import abjadext.rmakers
-from random import (seed, shuffle)
+from random import seed, shuffle
 
 
 figure_one_bank = [
@@ -57,13 +57,7 @@ figure_three_bank = [
     (1, -1, -1),
 ]
 
-figure_four_bank = [
-    (6, -1),
-    (5, -1),
-    (4, -1),
-    (2, -1),
-    (1, -1),
-]
+figure_four_bank = [(6, -1), (5, -1), (4, -1), (2, -1), (1, -1)]
 
 seed(5)
 shuffle(figure_one_bank)
@@ -120,9 +114,7 @@ for x in key_list:
         rhythm_list.append((3, -1))
 
 rmaker_one = abjadext.rmakers.stack(
-    abjadext.rmakers.tuplet(
-        rhythm_list,
-        ),
+    abjadext.rmakers.tuplet(rhythm_list),
     abjadext.rmakers.trivialize(abjad.select().tuplets()),
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),

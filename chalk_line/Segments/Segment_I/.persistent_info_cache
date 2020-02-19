@@ -1,4 +1,0 @@
-2020-02-19 14:25:02.752423
-voice_0
-[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
-

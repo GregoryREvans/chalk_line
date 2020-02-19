@@ -1,0 +1,69 @@
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\setmainfont{Didot}
+\usepackage[paperwidth=8.27in,paperheight=11.69in,margin=1in,headheight=0.0in,footskip=0.5in,includehead,includefoot,portrait]{geometry}
+\usepackage[absolute]{textpos}
+\TPGrid[0.5in, 0.25in]{23}{24}
+\parindent=0pt
+\parskip=12pt
+\usepackage{nopageno}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{amsmath}
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+
+\begin{document}
+
+\begin{textblock}{23}(0, 1)
+\begin{center}
+\huge FOREWORD
+\end{center}
+\end{textblock}
+
+\vspace*{0.25\baselineskip}
+
+\begingroup
+\begin{center}
+\leftskip0.25in
+A Chalk Line is a device used for the inscription of straight lines to aid in the construction of buildings.
+\rightskip\leftskip
+\phantom{text} \hfill (G.R.E.)
+\end{center}
+\endgroup
+
+\begin{center}
+\huge PERFORMANCE NOTES
+\end{center}
+
+\begin{center}
+\pmb{Microtones}:
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.65\textwidth]{microtones.png}
+\end{center}
+
+\begingroup
+\begin{center}
+\leftskip0.25in
+\pmb{Dynamic Indications} : Dynamics within quotation marks should be considered ``effort dynamics.'' As such, $forte$ represents a heavy bow pressure rather than a ``loud'' resultant sound. Likewise, $piano$ represents a light bow pressure as opposed to a ``quiet'' resultant sound. These indications will often result in unusual bowing timbres when combined with the Bow Contact Points, the String Contact Points, and finger pressure alterations. These are the desired effects. Dynamics without quotations should be performed as usual.
+\rightskip\leftskip
+\phantom{text} \hfill \phantom{()}
+
+\leftskip0.25in
+\pmb{Miscellaneous} : \circled{1} Triangle note heads indicate \textit{pizzicato}. \circled{2} Accidentals apply only to the pitch which they immediately precede, but persist through ties.
+\rightskip\leftskip
+\phantom{text} \hfill \phantom{()}
+\end{center}
+\endgroup
+
+\vspace*{15\baselineskip}
+
+\begin{center}
+c. 4'30''
+\end{center}
+
+\end{document}

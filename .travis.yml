@@ -16,7 +16,7 @@ before_install:
     - LOCATION=`pwd`
 
     # alias package:
-    - PACKAGE=`pwd`/hamon_shu
+    - PACKAGE=`pwd`/chalk_line
     - export PYTHONPATH=$PACKAGE:$PYTHONPATH
 
     # upgrade pip:

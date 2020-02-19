@@ -1,11 +1,25 @@
 import evans
 from chalk_line.Materials.pitch.Segment_I.pitches import (
-    flute_random_walk_chord_1,
+    chord_1,
+    chord_2,
+    chord_3,
 )
 
 
 flute_pitch_handler_one = evans.PitchHandler(
-    pitch_list=flute_random_walk_chord_1,
+    pitch_list=chord_1,
     continuous=True,
-    name="flute_pitch_handler_one",
+    name="chord_1",
+)
+
+flute_pitch_handler_one = evans.PitchHandler(
+    pitch_list=chord_2,
+    continuous=True,
+    name="chord_2",
+)
+
+flute_pitch_handler_one = evans.PitchHandler(
+    pitch_list=chord_3,
+    continuous=True,
+    name="chord_3",
 )

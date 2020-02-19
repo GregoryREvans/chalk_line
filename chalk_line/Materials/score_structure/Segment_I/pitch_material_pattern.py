@@ -7,7 +7,7 @@ key_list_1 = [
 ]
 
 dict = {
-    "violin_1_pitch_handler_one": violin_1_pitch_handler_one,
+    "flute_pitch_handler_one": flute_pitch_handler_one,
 }
 
 

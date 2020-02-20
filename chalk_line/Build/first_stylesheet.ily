@@ -1,5 +1,3 @@
-% 2018-07-17 19:54
-
 \version "2.19.83"
 \language "english"
 #(set-default-paper-size "a4portrait")
@@ -18,10 +16,10 @@
 }
 
 \layout {
-    %{ \accidentalStyle forget %}
+    \accidentalStyle forget
 	%{ \accidentalStyle modern %}
 	%{ \accidentalStyle modern-cautionary %}
-	\accidentalStyle dodecaphonic
+	%{ \accidentalStyle dodecaphonic %}
     indent = #15
 	ragged-last = ##t
     ragged-right = ##t
@@ -84,8 +82,8 @@
 		%\override BarLine.stencil = ##f
         \override Beam.breakable = ##t
 		\override Beam.concaveness = #10000
-		\override Beam.beam-thickness = #0.6
-        \override Beam.length-fraction = #1.3
+		%{ \override Beam.beam-thickness = #0.6 %}
+        %{ \override Beam.length-fraction = #1.3 %}
 		\override Clef.whiteout-style = #'outline
   		\override Clef.whiteout = 1
 		\override DynamicText.font-size = #-2
@@ -93,7 +91,6 @@
         %{ \override DynamicLineSpanner.Y-extent = #'(-1.5 . 1.5) %}
 		\override Hairpin.bound-padding = #1.5 %is this necessary?
 		\override Glissando.breakable = ##t
-		%{ \override Glissando.thickness = #2 %}
 		\override Glissando.thickness = #1.8
 		\override Stem.thickness = #0.5
 		\override Staff.thickness = #0.5
@@ -118,7 +115,6 @@
 		\override TupletNumber.font-size = #1.5
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
-		%{ subdivideBeams = ##t %}
 		proportionalNotationDuration = #(ly:make-moment 1 38)
         tupletFullLength = ##t
     }
@@ -151,12 +147,6 @@
     right-margin = 10\mm
     top-margin = 10\mm
 
-	%{ top-margin = 1\cm
-	bottom-margin = 1\cm
-	left-margin = 2\cm
-	right-margin = 1\cm %}
-
-	%top-margin = .90\in
 	oddHeaderMarkup = \markup ""
 	evenHeaderMarkup = \markup ""
 	oddFooterMarkup = \markup
@@ -166,7 +156,6 @@
             \concat {
                 \override #'(font-name . "Didot")
                     \bold \fontsize #3
-                        %{ \on-the-fly #print-page-number-check-first %}
                         \fromproperty #'page:page-number-string
                 }
             }
@@ -175,7 +164,6 @@
             \concat {
                 \override #'(font-name . "Didot")
                     \bold \fontsize #3
-                        %{ \on-the-fly #print-page-number-check-first %}
                         \fromproperty #'page:page-number-string
                 }
             \override #'(font-name . "Didot")

@@ -655,3 +655,30 @@ abjad.OrderedDict(
         ]
     )
 
+2020-02-20 07:18:33.557973
+rhythm_handler_one
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 193),
+        ('logical_ties_produced', 606),
+        ]
+    )
+
+2020-02-20 07:27:36.027769
+rhythm_handler_one
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 120),
+        ('logical_ties_produced', 376),
+        ]
+    )
+
+2020-02-20 07:35:48.117835
+rhythm_handler_one
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 120),
+        ('logical_ties_produced', 376),
+        ]
+    )
+

@@ -16,7 +16,7 @@ from chalk_line.Materials.pitch.Segment_I.clef_handlers import clef_handlers
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Flute"],
-    abbreviations=["fl."],
+    abbreviations=[" "],
     rhythm_timespans=segment_I_rhythm_timespans,
     handler_timespans=segment_I_timespans,
     score_template=score,
@@ -38,10 +38,11 @@ maker = evans.SegmentMaker(
     build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
     cutaway=False,
     beam_pattern="meter",
+    beam_rests=False,
     barline="||",
-    tempo=((1, 4), 160),
+    tempo=((1, 4), 120),
     rehearsal_mark="Calligraphy",
-    page_break_counts=[15],
+    page_break_counts=[90],
     midi=False,
 )
 

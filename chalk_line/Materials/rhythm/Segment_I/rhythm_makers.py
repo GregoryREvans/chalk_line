@@ -96,7 +96,7 @@ rhythm_chain = evans.MarkovChain(transition_prob=transition_prob)
 
 np.random.seed(7)
 
-key_list = [x for x in rhythm_chain.generate_states(current_state="geture_one", no=20)]
+key_list = [x for x in rhythm_chain.generate_states(current_state="geture_one", no=30)]
 
 dict = {
     "geture_one": figure_one_bank,

@@ -15,11 +15,20 @@
                 }
             s1 * 1/4
 
-            \time 2/4                                                          %! scaling time signatures
-            s1 * 1/2
+            \time 4/4                                                          %! scaling time signatures
+            s1 * 1
 
-            \time 5/4                                                          %! scaling time signatures
-            s1 * 5/4
+            \time 1/4                                                          %! scaling time signatures
+            s1 * 1/4
+
+            \time 4/4                                                          %! scaling time signatures
+            s1 * 1
+
+            \time 1/4                                                          %! scaling time signatures
+            s1 * 1/4
+
+            \time 4/4                                                          %! scaling time signatures
+            s1 * 1
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
@@ -30,17 +39,8 @@
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
-            \time 2/4                                                          %! scaling time signatures
-            s1 * 1/2
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 5/16                                                         %! scaling time signatures
-            s1 * 5/16
+            \time 3/8                                                          %! scaling time signatures
+            s1 * 3/8
 
         }
 
@@ -67,102 +67,232 @@
                     r8.
                     ]
 
-                    r4
+                    \times 8/9 {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        r32
+                        [
+
+                        r32
+
+                        atef'32
+
+                        r16.
+
+                        \revert Staff.Stem.stemlet-length
+                        r16.
+                        ]
+
+                    }
+
+                    \times 8/9 {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        r32
+                        [
+
+                        des''32
+
+                        gef''32
+
+                        r16.
+
+                        \revert Staff.Stem.stemlet-length
+                        bqs''16.
+                        ]
+
+                    }
+
+                    \times 8/9 {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        r16
+                        [
+
+                        des'''16
+
+                        r16
+
+                        r8.
+
+                        \revert Staff.Stem.stemlet-length
+                        fqs'''8.
+                        ]
+
+                    }
+
+                    \times 4/7 {
+
+                        aes'''4.
+
+                        r16
+
+                    }
+
+                    \times 2/3 {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        r8
+                        [
+
+                        fes'8
+
+                        \revert Staff.Stem.stemlet-length
+                        r8
+                        ]
+
+                    }
+
+                    \times 8/9 {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        atef'32
+                        [
+
+                        des''32
+
+                        r32
+
+                        r16.
+
+                        \revert Staff.Stem.stemlet-length
+                        gef''16.
+                        ]
+
+                    }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    atef'16
+                    bqs''8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    r8.
+                    des'''8
+                    ~
                     ]
 
-                    r4
-
                     \override Staff.Stem.stemlet-length = 0.75
-                    des''16
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    r8.
-                    ]
-
-                    r4
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    gef''8
+                    des'''8
                     [
 
                     \revert Staff.Stem.stemlet-length
                     r8
                     ]
 
-                    r4
+                    \times 8/9 {
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
+                        \override Staff.Stem.stemlet-length = 0.75
+                        r32
+                        [
 
-                    R1 * 1/8
+                        r32
+
+                        r32
+
+                        fqs'''16.
+
+                        \revert Staff.Stem.stemlet-length
+                        aes'''16.
+                        ]
+
+                    }
+
+                    \times 8/9 {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        r32
+                        [
+
+                        r32
+
+                        r32
+
+                        r16.
+
+                        \revert Staff.Stem.stemlet-length
+                        fes'16.
+                        ]
+
+                    }
+
+                    \times 8/9 {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        r32
+                        [
+
+                        atef'32
+
+                        des''32
+
+                        gef''16.
+
+                        \revert Staff.Stem.stemlet-length
+                        r16.
+                        ]
+
+                    }
+
+                    \times 2/3 {
+
+                        bqs''4
+
+                        des'''4
+
+                        r4
+
+                    }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bqs''16
+                    r16
                     [
 
-                    \revert Staff.Stem.stemlet-length
-                    r8.
-                    ]
-
-                    r4
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    des'''16
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    r8.
-                    ]
-
-                    r4
-
-                    \override Staff.Stem.stemlet-length = 0.75
                     fqs'''16
-                    [
+                    ~
+
+                    fqs'''16
 
                     \revert Staff.Stem.stemlet-length
-                    r8.
+                    aes'''16
                     ]
-
-                    r4
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    aes'''8
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    r8
-                    ]
-
-                    r4
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
-
-                    R1 * 1/8
 
                     \override Staff.Stem.stemlet-length = 0.75
                     fes'16
                     [
 
+                    atef'16
+                    ~
+
+                    atef'16
+
                     \revert Staff.Stem.stemlet-length
-                    r8
+                    des''16
                     ]
 
-                    r16
-                    \bar "||"
+                    \times 8/9 {
 
-                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
+                        \override Staff.Stem.stemlet-length = 0.75
+                        gef''32
+                        [
+
+                        r32
+
+                        r32
+
+                        r16.
+
+                        \revert Staff.Stem.stemlet-length
+                        r16.
+                        ]
+
+                    }
+
+                    \times 4/5 {
+
+                        bqs''4
+
+                        r16
+
+                    }
 
                 }
 

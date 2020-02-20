@@ -129,6 +129,7 @@
     \context {
         \Staff
 		%{ \remove Time_signature_engraver %}
+		\numericTimeSignature
 		fontSize = #-1
     }
     \context {

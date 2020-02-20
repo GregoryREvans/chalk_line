@@ -17,8 +17,8 @@ if __name__ == "__main__":
         author_email="gregoryrowlandevans@gmail.com",
         install_requires=install_requires,
         keywords=", ".join(keywords),
-        name="hamon_shu",
-        packages=["hamon_shu"],
+        name="chalk_line",
+        packages=["chalk_line"],
         platforms="Any",
-        url="https://github.com/GregoryREvans/hamon_shu",
+        url="https://github.com/GregoryREvans/chalk_line",
     )

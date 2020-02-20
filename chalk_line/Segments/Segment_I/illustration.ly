@@ -20,12 +20,12 @@
         \context TimeSignatureContext = "Global Context"
         {
 
-            \tempo 4=120
+            \tempo 4=160
             \time 1/4                                                          %! scaling time signatures
             \mark \markup {
                 \bold
                     {
-                        Caligraphy
+                        Calligraphy
                     }
                 }
             s1 * 1/4
@@ -50,7 +50,6 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            \pageBreak
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4

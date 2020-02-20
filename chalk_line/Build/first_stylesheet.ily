@@ -3,17 +3,17 @@
 \version "2.19.83"
 \language "english"
 #(set-default-paper-size "a4portrait")
-#(set-global-staff-size 13)
+#(set-global-staff-size 16)
 \include "ekmel.ily"
 \ekmelicStyle evans
 
 \header {
 	tagline = ##f
 	breakbefore = ##t
-	dedication = \markup \override #'(font-name . "Didot") \fontsize #4 \center-column {"to Paul Mizzi"}
-	title = \markup \override #'(font-name . "Didot") \fontsize #8 \center-column {"C h a l k   L i n e"}
-	subtitle = \markup \override #'(font-name . "Didot") \fontsize #2.5 \center-column {"for solo flute"}
-	subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #3 \center-column {"; or , inscriptions from a crumbling stone"}
+	dedication = \markup \override #'(font-name . "Didot") \fontsize #5 \center-column {"t  o      P  a  u  l      M  i  z  z  i"}
+	title = \markup \override #'(font-name . "Didot") \fontsize #9.5 \center-column {"Chalk Line"}
+	subtitle = \markup \override #'(font-name . "Didot") \fontsize #4 \center-column {"f  o  r     s  o  l  o     f  l  u  t  e"}
+	%{ subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #3 \center-column {"; or , inscriptions from a crumbling stone"} %}
 	composer = \markup \override #'(font-name . "Didot") \fontsize #3 {"Gregory Rowland Evans"}
 }
 
@@ -24,7 +24,7 @@
 	\accidentalStyle dodecaphonic
     indent = #15
 	ragged-last = ##t
-    %{ ragged-right = ##t %}
+    ragged-right = ##t
     %left-margin = #15
 	\context {
         \name TimeSignatureContext
@@ -32,7 +32,7 @@
         \numericTimeSignature
         \consists Axis_group_engraver
 		\consists Bar_number_engraver
-        \consists Time_signature_engraver
+        %{ \consists Time_signature_engraver %}
 		\consists Mark_engraver
 		\consists Metronome_mark_engraver
 		\consists Text_engraver
@@ -40,25 +40,24 @@
 		\override BarNumber.Y-offset = 0
 		\override BarNumber.extra-offset = #'(-4 . 0)
 		%\override BarNumber.font-name = "Didot"
-		%{ \override BarNumber.stencil = #(make-stencil-boxer 0.1 0.7 ly:text-interface::print) %}
-		\override BarNumber.stencil = #(make-stencil-boxer 0.1 0.7 ly:text-interface::print)
-		\override BarNumber.font-size = 5
+		\override BarNumber.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
+		\override BarNumber.font-size = 3
 		\override BarNumber.padding = 4
 		%\override BarNumber.stencil = ##f
 		\override MetronomeMark.X-extent = #'(0 . 0)
 		\override MetronomeMark.Y-extent = #'(0 . 0)
 		\override MetronomeMark.break-align-symbols = #'(left-edge)
 		\override MetronomeMark.extra-offset = #'(0 . 1)
-		\override MetronomeMark.font-size = 3
+		\override MetronomeMark.font-size = 2
 		%\override RehearsalMark.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
-		\override RehearsalMark.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
+		%{ \override RehearsalMark.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print) %}
 		\override RehearsalMark.X-extent = #'(0 . 0)
 		\override RehearsalMark.X-offset = 6
 		\override RehearsalMark.Y-offset = -2.5
 		\override RehearsalMark.break-align-symbols = #'(time-signature)
 		\override RehearsalMark.break-visibility = #end-of-line-invisible
 		\override RehearsalMark.font-name = "Didot"
-		\override RehearsalMark.font-size = 9.5
+		\override RehearsalMark.font-size = 3
 		\override RehearsalMark.outside-staff-priority = 500
 		\override RehearsalMark.self-alignment-X = #center
         \override TimeSignature.X-extent = #'(0 . 0)
@@ -66,12 +65,12 @@
         \override TimeSignature.Y-extent = #'(0 . 0)
         \override TimeSignature.break-align-symbol = ##f
         \override TimeSignature.break-visibility = #end-of-line-invisible
-        \override TimeSignature.font-size = #4
+        \override TimeSignature.font-size = #2
         \override TimeSignature.self-alignment-X = #center
 		%\override TimeSignature.stencil = ##f
 		\override TimeSignature.whiteout-style = #'outline
 		\override TimeSignature.whiteout = ##t
-        \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 17) (minimum-distance . 17) (padding . 4) (stretchability . 0))
+        \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 8) (minimum-distance . 8) (padding . 2) (stretchability . 0))
     }
     \context {
         \Score
@@ -129,7 +128,7 @@
     }
     \context {
         \Staff
-		\remove Time_signature_engraver
+		%{ \remove Time_signature_engraver %}
 		fontSize = #-1
     }
     \context {
@@ -142,7 +141,7 @@
 }
 
 \paper {
-	system-system-spacing = #'((basic-distance . 17) (minimum-distance . 17) (padding . 4))
+	system-system-spacing = #'((basic-distance . 10) (minimum-distance . 10) (padding . 4))
 
 	indent = 20\mm
     short-indent = 15\mm

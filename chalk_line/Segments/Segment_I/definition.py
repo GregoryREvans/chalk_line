@@ -39,9 +39,9 @@ maker = evans.SegmentMaker(
     cutaway=False,
     beam_pattern="meter",
     barline="||",
-    tempo=((1, 4), 120),
-    rehearsal_mark="Caligraphy",
-    page_break_counts=[8],
+    tempo=((1, 4), 160),
+    rehearsal_mark="Calligraphy",
+    page_break_counts=[15],
     midi=False,
 )
 

@@ -12,7 +12,7 @@ figure_one_bank = [
     (1, 2, -1),
     (-3, 1),
     (-1, 2, -1),
-    (1, -3,),
+    (1, -3),
 ]
 
 figure_two_bank = [
@@ -66,26 +66,26 @@ shuffle(figure_three_bank)
 shuffle(figure_four_bank)
 
 transition_prob = {
-    "geture_one": {
-        "geture_one": 0.2,
+    "gesture_one": {
+        "gesture_one": 0.2,
         "gesture_two": 0.6,
         "gesture_three": 0.19,
         "gesture_four": 0.01,
     },
     "gesture_two": {
-        "geture_one": 0.2,
+        "gesture_one": 0.2,
         "gesture_two": 0.6,
         "gesture_three": 0.1,
         "gesture_four": 0.1,
     },
     "gesture_three": {
-        "geture_one": 0.5,
+        "gesture_one": 0.5,
         "gesture_two": 0.1,
         "gesture_three": 0.3,
         "gesture_four": 0.1,
     },
     "gesture_four": {
-        "geture_one": 0.25,
+        "gesture_one": 0.25,
         "gesture_two": 0.25,
         "gesture_three": 0.25,
         "gesture_four": 0.25,
@@ -96,10 +96,10 @@ rhythm_chain = evans.MarkovChain(transition_prob=transition_prob)
 
 np.random.seed(7)
 
-key_list = [x for x in rhythm_chain.generate_states(current_state="geture_one", no=30)]
+key_list = [x for x in rhythm_chain.generate_states(current_state="gesture_one", no=30)]
 
 dict = {
-    "geture_one": figure_one_bank,
+    "gesture_one": figure_one_bank,
     "gesture_two": figure_two_bank,
     "gesture_three": figure_three_bank,
     "gesture_four": figure_four_bank,

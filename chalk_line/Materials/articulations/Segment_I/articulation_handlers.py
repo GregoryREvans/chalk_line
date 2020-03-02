@@ -18,9 +18,9 @@ articulation_handler_one = evans.ArticulationHandler(
 
 test_fingering = abjad.WoodwindFingering(
     name="flute",
-    center_column=("one", "two", "three", "four", "five", "six",),
+    center_column=("one", "two", "three", "four", "five", "six"),
     left_hand=("bes", "b", "gis"),
-    right_hand=("bes", "d", "dis", "ees", "cis", "c", "gz",),
+    right_hand=("bes", "d", "dis", "ees", "cis", "c", "gz"),
 )
 mark = abjad.Markup(contents=test_fingering(), direction=abjad.Down)
 # abjad.show(mark)

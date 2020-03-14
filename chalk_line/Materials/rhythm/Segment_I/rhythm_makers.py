@@ -5,6 +5,8 @@ import abjadext.rmakers
 from random import seed, shuffle
 
 
+#reconsider generation process. Maybe use rtm. Il tempo dell'a figura?
+
 figure_one_bank = [
     (1, 2, 1),
     (-1, 2, 1),

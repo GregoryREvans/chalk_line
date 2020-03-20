@@ -1,4 +1,4 @@
-\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
+\version "2.19.84"                                                             %! abjad.LilyPondFile._get_format_pieces()
 \language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
 
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
@@ -250,10 +250,10 @@
 
         \context StaffGroup = "Staff Group"
         <<
-            \tag #'voice1 {
 
             \context Staff = "Staff 1"
             {
+                \tag #'voice1 {
 
                 \context Voice = "Voice 1"
                 {
@@ -263,7 +263,7 @@
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Flute }                                          %! applying staff names and clefs
                     \clef "treble"
-                    fes'16
+                    f'16
 
                     r8.
 
@@ -271,7 +271,7 @@
 
                         r16
 
-                        atef'32
+                        af'32
 
                         r8.
 
@@ -282,11 +282,11 @@
                         r32
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        des''32
+                        d''32
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        gef''32
+                        g''32
                         ]
 
                         r16.
@@ -299,7 +299,7 @@
 
                         r16
 
-                        des'''16
+                        d'''16
 
                         r4
 
@@ -309,7 +309,7 @@
 
                     \times 4/7 {
 
-                        aes'''8.
+                        a'''8.
 
                         r32
 
@@ -319,7 +319,7 @@
 
                         r8
 
-                        fes'8
+                        f'8
 
                         r8
 
@@ -328,22 +328,22 @@
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'32
+                        af'32
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        des''32
+                        d''32
                         ]
 
                         r8
 
-                        gef''16.
+                        g''16.
 
                     }
 
                     bqs''8
 
-                    des'''4
+                    d'''4
 
                     r8
 
@@ -354,26 +354,26 @@
 
                         fqs'''4
 
-                        aes'''4
+                        a'''4
 
                     }
 
                     r2
 
-                    fes'4
+                    f'4
 
                     \times 8/9 {
 
                         r32
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'32
+                        af'32
                         [
 
-                        des''32
+                        d''32
 
                         \revert Staff.Stem.stemlet-length
-                        gef''16.
+                        g''16.
                         ]
 
                         r16.
@@ -387,7 +387,7 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        des'''8
+                        d'''8
                         ]
 
                         r8
@@ -404,29 +404,29 @@
                     fqs'''16
 
                     \revert Staff.Stem.stemlet-length
-                    aes'''16
+                    a'''16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fes'8
+                    f'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    atef'8
+                    af'8
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    atef'8
+                    af'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des''8
+                    d''8
                     ]
 
                     \times 8/9 {
 
-                        gef''64
+                        g''64
 
                         r8
 
@@ -443,12 +443,12 @@
                     r16
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    des'''16
+                    d'''16
                     ~
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des'''16
+                    d'''16
                     ]
 
                     r16
@@ -460,11 +460,11 @@
                         r8
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aes'''8.
+                        a'''8.
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        fes'8.
+                        f'8.
                         ]
 
                     }
@@ -472,13 +472,13 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
 
-                        atef'2
+                        af'2
 
                         r4
 
                     }
 
-                    des''8.
+                    d''8.
 
                     r16
 
@@ -486,7 +486,7 @@
 
                     r16
 
-                    gef''8.
+                    g''8.
 
                     \times 8/9 {
 
@@ -498,7 +498,7 @@
 
                     }
 
-                    des'''8
+                    d'''8
 
                     r8
 
@@ -508,39 +508,39 @@
 
                     \times 8/9 {
 
-                        aes'''16
+                        a'''16
 
                         r4
 
                         r16
 
-                        fes'8.
+                        f'8.
 
                     }
 
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'8
+                        af'8
                         ~
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        atef'32
+                        af'32
                         ]
 
                         r32
 
                     }
 
-                    des''8.
+                    d''8.
 
                     r16
 
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        gef''32
+                        g''32
                         [
 
                         \revert Staff.Stem.stemlet-length
@@ -549,7 +549,7 @@
 
                         r32
 
-                        des'''16.
+                        d'''16.
 
                         r16.
 
@@ -562,13 +562,13 @@
                         r16
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aes'''16
+                        a'''16
                         [
 
-                        fes'8.
+                        f'8.
 
                         \revert Staff.Stem.stemlet-length
-                        atef'8.
+                        af'8.
                         ]
 
                     }
@@ -577,10 +577,10 @@
                     \times 5/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        des''8
+                        d''8
                         [
 
-                        gef''8
+                        g''8
 
                         \revert Staff.Stem.stemlet-length
                         bqs''8
@@ -588,7 +588,7 @@
 
                         r4.
 
-                        des'''4.
+                        d'''4.
 
                     }
 
@@ -599,14 +599,14 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        aes'''8
+                        a'''8
                         ]
 
                         r2..
 
                     }
 
-                    fes'16
+                    f'16
 
                     r8.
 
@@ -614,7 +614,7 @@
 
                         r16
 
-                        atef'32
+                        af'32
 
                         r8.
 
@@ -625,11 +625,11 @@
                         r32
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        des''32
+                        d''32
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        gef''32
+                        g''32
                         ]
 
                         r16.
@@ -642,7 +642,7 @@
 
                         r16
 
-                        des'''16
+                        d'''16
 
                         r4
 
@@ -652,7 +652,7 @@
 
                     \times 4/7 {
 
-                        aes'''8.
+                        a'''8.
 
                         r32
 
@@ -662,7 +662,7 @@
 
                         r8
 
-                        fes'8
+                        f'8
 
                         r8
 
@@ -671,22 +671,22 @@
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'32
+                        af'32
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        des''32
+                        d''32
                         ]
 
                         r8
 
-                        gef''16.
+                        g''16.
 
                     }
 
                     bqs''8
 
-                    des'''4
+                    d'''4
 
                     r8
 
@@ -697,26 +697,26 @@
 
                         fqs'''4
 
-                        aes'''4
+                        a'''4
 
                     }
 
                     r2
 
-                    fes'4
+                    f'4
 
                     \times 8/9 {
 
                         r32
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'32
+                        af'32
                         [
 
-                        des''32
+                        d''32
 
                         \revert Staff.Stem.stemlet-length
-                        gef''16.
+                        g''16.
                         ]
 
                         r16.
@@ -730,7 +730,7 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        des'''8
+                        d'''8
                         ]
 
                         r8
@@ -747,29 +747,29 @@
                     fqs'''16
 
                     \revert Staff.Stem.stemlet-length
-                    aes'''16
+                    a'''16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fes'8
+                    f'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    atef'8
+                    af'8
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    atef'8
+                    af'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des''8
+                    d''8
                     ]
 
                     \times 8/9 {
 
-                        gef''64
+                        g''64
 
                         r8
 
@@ -786,12 +786,12 @@
                     r16
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    des'''16
+                    d'''16
                     ~
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des'''16
+                    d'''16
                     ]
 
                     r16
@@ -803,11 +803,11 @@
                         r8
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aes'''8.
+                        a'''8.
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        fes'8.
+                        f'8.
                         ]
 
                     }
@@ -815,13 +815,13 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
 
-                        atef'2
+                        af'2
 
                         r4
 
                     }
 
-                    des''8.
+                    d''8.
 
                     r16
 
@@ -829,7 +829,7 @@
 
                     r16
 
-                    gef''8.
+                    g''8.
 
                     \times 8/9 {
 
@@ -841,7 +841,7 @@
 
                     }
 
-                    des'''8
+                    d'''8
 
                     r8
 
@@ -851,39 +851,39 @@
 
                     \times 8/9 {
 
-                        aes'''16
+                        a'''16
 
                         r4
 
                         r16
 
-                        fes'8.
+                        f'8.
 
                     }
 
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'8
+                        af'8
                         ~
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        atef'32
+                        af'32
                         ]
 
                         r32
 
                     }
 
-                    des''8.
+                    d''8.
 
                     r16
 
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        gef''32
+                        g''32
                         [
 
                         \revert Staff.Stem.stemlet-length
@@ -892,7 +892,7 @@
 
                         r32
 
-                        des'''16.
+                        d'''16.
 
                         r16.
 
@@ -905,13 +905,13 @@
                         r16
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aes'''16
+                        a'''16
                         [
 
-                        fes'8.
+                        f'8.
 
                         \revert Staff.Stem.stemlet-length
-                        atef'8.
+                        af'8.
                         ]
 
                     }
@@ -920,10 +920,10 @@
                     \times 5/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        des''8
+                        d''8
                         [
 
-                        gef''8
+                        g''8
 
                         \revert Staff.Stem.stemlet-length
                         bqs''8
@@ -931,7 +931,7 @@
 
                         r4.
 
-                        des'''4.
+                        d'''4.
 
                     }
 
@@ -942,14 +942,14 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        aes'''8
+                        a'''8
                         ]
 
                         r2..
 
                     }
 
-                    fes'16
+                    f'16
 
                     r8.
 
@@ -957,7 +957,7 @@
 
                         r16
 
-                        atef'32
+                        af'32
 
                         r8.
 
@@ -968,11 +968,11 @@
                         r32
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        des''32
+                        d''32
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        gef''32
+                        g''32
                         ]
 
                         r16.
@@ -985,7 +985,7 @@
 
                         r16
 
-                        des'''16
+                        d'''16
 
                         r4
 
@@ -995,7 +995,7 @@
 
                     \times 4/7 {
 
-                        aes'''8.
+                        a'''8.
 
                         r32
 
@@ -1005,7 +1005,7 @@
 
                         r8
 
-                        fes'8
+                        f'8
 
                         r8
 
@@ -1014,22 +1014,22 @@
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'32
+                        af'32
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        des''32
+                        d''32
                         ]
 
                         r8
 
-                        gef''16.
+                        g''16.
 
                     }
 
                     bqs''8
 
-                    des'''4
+                    d'''4
 
                     r8
 
@@ -1040,26 +1040,26 @@
 
                         fqs'''4
 
-                        aes'''4
+                        a'''4
 
                     }
 
                     r2
 
-                    fes'4
+                    f'4
 
                     \times 8/9 {
 
                         r32
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'32
+                        af'32
                         [
 
-                        des''32
+                        d''32
 
                         \revert Staff.Stem.stemlet-length
-                        gef''16.
+                        g''16.
                         ]
 
                         r16.
@@ -1073,7 +1073,7 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        des'''8
+                        d'''8
                         ]
 
                         r8
@@ -1090,29 +1090,29 @@
                     fqs'''16
 
                     \revert Staff.Stem.stemlet-length
-                    aes'''16
+                    a'''16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fes'8
+                    f'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    atef'8
+                    af'8
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    atef'8
+                    af'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des''8
+                    d''8
                     ]
 
                     \times 8/9 {
 
-                        gef''64
+                        g''64
 
                         r8
 
@@ -1129,12 +1129,12 @@
                     r16
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    des'''16
+                    d'''16
                     ~
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des'''16
+                    d'''16
                     ]
 
                     r16
@@ -1146,11 +1146,11 @@
                         r8
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aes'''8.
+                        a'''8.
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        fes'8.
+                        f'8.
                         ]
 
                     }
@@ -1158,13 +1158,13 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
 
-                        atef'2
+                        af'2
 
                         r4
 
                     }
 
-                    des''8.
+                    d''8.
 
                     r16
 
@@ -1172,7 +1172,7 @@
 
                     r16
 
-                    gef''8.
+                    g''8.
 
                     \times 8/9 {
 
@@ -1184,7 +1184,7 @@
 
                     }
 
-                    des'''8
+                    d'''8
 
                     r8
 
@@ -1194,39 +1194,39 @@
 
                     \times 8/9 {
 
-                        aes'''16
+                        a'''16
 
                         r4
 
                         r16
 
-                        fes'8.
+                        f'8.
 
                     }
 
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'8
+                        af'8
                         ~
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        atef'32
+                        af'32
                         ]
 
                         r32
 
                     }
 
-                    des''8.
+                    d''8.
 
                     r16
 
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        gef''32
+                        g''32
                         [
 
                         \revert Staff.Stem.stemlet-length
@@ -1235,7 +1235,7 @@
 
                         r32
 
-                        des'''16.
+                        d'''16.
 
                         r16.
 
@@ -1248,13 +1248,13 @@
                         r16
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aes'''16
+                        a'''16
                         [
 
-                        fes'8.
+                        f'8.
 
                         \revert Staff.Stem.stemlet-length
-                        atef'8.
+                        af'8.
                         ]
 
                     }
@@ -1263,10 +1263,10 @@
                     \times 5/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        des''8
+                        d''8
                         [
 
-                        gef''8
+                        g''8
 
                         \revert Staff.Stem.stemlet-length
                         bqs''8
@@ -1274,7 +1274,7 @@
 
                         r4.
 
-                        des'''4.
+                        d'''4.
 
                     }
 
@@ -1285,14 +1285,14 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        aes'''8
+                        a'''8
                         ]
 
                         r2..
 
                     }
 
-                    fes'16
+                    f'16
 
                     r8.
 
@@ -1300,7 +1300,7 @@
 
                         r16
 
-                        atef'32
+                        af'32
 
                         r8.
 
@@ -1311,11 +1311,11 @@
                         r32
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        des''32
+                        d''32
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        gef''32
+                        g''32
                         ]
 
                         r16.
@@ -1328,7 +1328,7 @@
 
                         r16
 
-                        des'''16
+                        d'''16
 
                         r4
 
@@ -1338,7 +1338,7 @@
 
                     \times 4/7 {
 
-                        aes'''8.
+                        a'''8.
 
                         r32
 
@@ -1348,7 +1348,7 @@
 
                         r8
 
-                        fes'8
+                        f'8
 
                         r8
 
@@ -1357,22 +1357,22 @@
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'32
+                        af'32
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        des''32
+                        d''32
                         ]
 
                         r8
 
-                        gef''16.
+                        g''16.
 
                     }
 
                     bqs''8
 
-                    des'''4
+                    d'''4
 
                     r8
 
@@ -1383,26 +1383,26 @@
 
                         fqs'''4
 
-                        aes'''4
+                        a'''4
 
                     }
 
                     r2
 
-                    fes'4
+                    f'4
 
                     \times 8/9 {
 
                         r32
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'32
+                        af'32
                         [
 
-                        des''32
+                        d''32
 
                         \revert Staff.Stem.stemlet-length
-                        gef''16.
+                        g''16.
                         ]
 
                         r16.
@@ -1416,7 +1416,7 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        des'''8
+                        d'''8
                         ]
 
                         r8
@@ -1433,29 +1433,29 @@
                     fqs'''16
 
                     \revert Staff.Stem.stemlet-length
-                    aes'''16
+                    a'''16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fes'8
+                    f'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    atef'8
+                    af'8
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    atef'8
+                    af'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des''8
+                    d''8
                     ]
 
                     \times 8/9 {
 
-                        gef''64
+                        g''64
 
                         r8
 
@@ -1472,12 +1472,12 @@
                     r16
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    des'''16
+                    d'''16
                     ~
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des'''16
+                    d'''16
                     ]
 
                     r16
@@ -1489,11 +1489,11 @@
                         r8
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aes'''8.
+                        a'''8.
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        fes'8.
+                        f'8.
                         ]
 
                     }
@@ -1501,13 +1501,13 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
 
-                        atef'2
+                        af'2
 
                         r4
 
                     }
 
-                    des''8.
+                    d''8.
 
                     r16
 
@@ -1515,7 +1515,7 @@
 
                     r16
 
-                    gef''8.
+                    g''8.
 
                     \times 8/9 {
 
@@ -1527,7 +1527,7 @@
 
                     }
 
-                    des'''8
+                    d'''8
 
                     r8
 
@@ -1537,39 +1537,39 @@
 
                     \times 8/9 {
 
-                        aes'''16
+                        a'''16
 
                         r4
 
                         r16
 
-                        fes'8.
+                        f'8.
 
                     }
 
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        atef'8
+                        af'8
                         ~
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        atef'32
+                        af'32
                         ]
 
                         r32
 
                     }
 
-                    des''8.
+                    d''8.
 
                     r16
 
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        gef''32
+                        g''32
                         [
 
                         \revert Staff.Stem.stemlet-length
@@ -1578,7 +1578,7 @@
 
                         r32
 
-                        des'''16.
+                        d'''16.
 
                         r16.
 
@@ -1591,13 +1591,13 @@
                         r16
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aes'''16
+                        a'''16
                         [
 
-                        fes'8.
+                        f'8.
 
                         \revert Staff.Stem.stemlet-length
-                        atef'8.
+                        af'8.
                         ]
 
                     }
@@ -1606,10 +1606,10 @@
                     \times 5/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        des''8
+                        d''8
                         [
 
-                        gef''8
+                        g''8
 
                         \revert Staff.Stem.stemlet-length
                         bqs''8
@@ -1617,7 +1617,7 @@
 
                         r4.
 
-                        des'''4.
+                        d'''4.
 
                     }
 
@@ -1628,7 +1628,7 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        aes'''8
+                        a'''8
                         ]
 
                         r2..
@@ -1637,8 +1637,8 @@
                     }
 
                 }
+                }
 
-            }
             }
 
         >>

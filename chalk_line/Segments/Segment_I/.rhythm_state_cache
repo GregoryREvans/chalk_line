@@ -691,3 +691,12 @@ abjad.OrderedDict(
         ]
     )
 
+2020-03-20 15:56:23.415765
+rhythm_handler_one
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 120),
+        ('logical_ties_produced', 376),
+        ]
+    )
+

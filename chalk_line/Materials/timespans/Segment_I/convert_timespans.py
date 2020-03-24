@@ -1,12 +1,15 @@
 import evans
 import pathlib
 
-# from evans.abjad_functions.ConvertTimespans import ConvertTimespans
+
 from chalk_line.Materials.score_structure.Segment_I.rhythm_material_pattern import (
     rhythm_material_list,
 )
 from chalk_line.Materials.score_structure.Segment_I.pitch_material_pattern import (
     pitch_material_list,
+)
+from chalk_line.Materials.score_structure.Segment_I.grace_material_pattern import (
+    grace_material_list,
 )
 from chalk_line.Materials.score_structure.Segment_I.dynamic_material_pattern import (
     dynamic_material_list,
@@ -17,6 +20,7 @@ from chalk_line.Materials.score_structure.Segment_I.articulation_material_patter
 from chalk_line.Materials.timespans.Segment_I.make_timespans import (
     rhythm_timespan_list,
     pitch_timespan_list,
+    grace_timespan_list,
     dynamic_timespan_list,
     articulation_timespan_list,
 )
@@ -48,6 +52,20 @@ segment_I_pitch_timespans = evans.ConvertTimespans.convert_timespans(
     ts_list=pitch_timespan_list,
     bounds=bounds,
     segment_name="Segment_I_pitch_timespans",
+    current_directory=pathlib.Path(__file__).parent,
+    add_silence=False,
+)
+
+#######
+# grace#
+#######
+grace_mat = grace_material_list
+
+segment_I_grace_timespans = evans.ConvertTimespans.convert_timespans(
+    materials=grace_mat,
+    ts_list=grace_timespan_list,
+    bounds=bounds,
+    segment_name="Segment_I_grace_timespans",
     current_directory=pathlib.Path(__file__).parent,
     add_silence=False,
 )
@@ -84,6 +102,7 @@ segment_I_articulation_timespans = evans.ConvertTimespans.convert_timespans(
 # all timespans#
 ###############
 segment_I_timespans = [
+    segment_I_grace_timespans,
     segment_I_pitch_timespans,
     # segment_I_dynamic_timespans,
     # segment_I_articulation_timespans,

@@ -73,3 +73,193 @@ Segment runtime: 65 seconds
 Abjad/Lilypond runtime: 2 seconds 
 Parts extraction runtime: -2 seconds 
 
+2020-03-23 23:06:21.685804
+Segment runtime: 200 seconds 
+Abjad/Lilypond runtime: 3 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-23 23:13:44.237868
+Segment runtime: 214 seconds 
+Abjad/Lilypond runtime: 3 seconds 
+Parts extraction runtime: -4 seconds 
+
+2020-03-23 23:22:03.835797
+Segment runtime: 216 seconds 
+Abjad/Lilypond runtime: 3 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-23 23:27:53.704483
+Segment runtime: 15 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-23 23:36:32.734261
+Segment runtime: 35 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-23 23:43:34.469649
+Segment runtime: 96 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+
+2020-03-23 23:51:04.916050
+Segment runtime: 287 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-24 08:57:35.992901
+Segment runtime: 30 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-24 09:04:24.600827
+Segment runtime: 29 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-24 09:08:19.291784
+Segment runtime: 30 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-24 09:10:02.284820
+Segment runtime: 29 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-24 09:21:39.649658
+Segment runtime: 11 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-24 09:26:40.798528
+Segment runtime: 16 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-24 09:28:17.975362
+Segment runtime: 15 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-24 10:11:35.603570
+Segment runtime: 15 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-24 10:16:08.308672
+Segment runtime: 61 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-24 10:19:05.738842
+Segment runtime: 58 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-24 10:21:59.086694
+Segment runtime: 13 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+
+2020-03-24 10:29:40.838335
+Segment runtime: 14 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+
+2020-03-24 10:31:30.812611
+Segment runtime: 14 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+
+2020-03-24 10:35:36.536941
+Segment runtime: 13 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+
+2020-03-24 10:37:21.762551
+Segment runtime: 13 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+
+2020-03-24 10:41:16.318699
+Segment runtime: 59 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2020-03-24 10:42:23.800937
+Segment runtime: 13 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+
+2020-03-24 11:20:00.736390
+Segment runtime: 13 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+
+2020-03-24 11:22:34.910131
+Segment runtime: 63 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+
+2020-03-24 11:28:40.503640
+Segment runtime: 63 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+
+2020-03-24 11:36:11.358319
+Segment runtime: 64 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+
+2020-03-24 13:31:48.685236
+Segment runtime: 161 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-24 13:34:48.134955
+Segment runtime: 125 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-24 13:39:22.588300
+Segment runtime: 138 seconds 
+Abjad/Lilypond runtime: 3 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-24 13:53:02.245141
+Segment runtime: 135 seconds 
+Abjad/Lilypond runtime: 3 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-24 13:58:17.106903
+Segment runtime: 220 seconds 
+Abjad/Lilypond runtime: 3 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-24 14:03:52.686795
+Segment runtime: 225 seconds 
+Abjad/Lilypond runtime: 3 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-24 14:09:41.282668
+Segment runtime: 216 seconds 
+Abjad/Lilypond runtime: 3 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-24 14:14:10.915958
+Segment runtime: 222 seconds 
+Abjad/Lilypond runtime: 3 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-24 14:18:01.320171
+Segment runtime: 117 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -3 seconds 
+
+2020-03-24 14:22:27.126282
+Segment runtime: 93 seconds 
+Abjad/Lilypond runtime: 2 seconds 
+Parts extraction runtime: -2 seconds 
+

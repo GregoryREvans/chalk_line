@@ -1,6 +1,6 @@
 \version "2.19.83"
 \language "english"
-#(set-default-paper-size "a4portrait")
+#(set-default-paper-size "11x17landscape")
 #(set-global-staff-size 16)
 \include "ekmel.ily"
 \ekmelicStyle evans
@@ -30,7 +30,7 @@
         \numericTimeSignature
         \consists Axis_group_engraver
 		\consists Bar_number_engraver
-        %{ \consists Time_signature_engraver %}
+        \consists Time_signature_engraver
 		\consists Mark_engraver
 		\consists Metronome_mark_engraver
 		\consists Text_engraver
@@ -76,6 +76,8 @@
         \remove Bar_number_engraver
 		\remove Mark_engraver
         \accepts TimeSignatureContext
+		%{ \override Accidental.X-extent = #'(5 . 5) %}
+		\override BarLine.X-extent = #'(0 . 0) %
 		\override BarLine.bar-extent = #'(-2 . 2)
 		\override BarLine.hair-thickness = #0.9
 		\override BarLine.thick-thickness = #8
@@ -95,16 +97,24 @@
 		\override Stem.thickness = #0.5
 		\override Staff.thickness = #0.5
 		\override MetronomeMark.font-size = 3
+		\override NoteCollision.merge-differently-dotted = ##t %
+		\override NoteColumn.ignore-collision = ##t %
         \override SpacingSpanner.strict-grace-spacing = ##t
+		\override SpacingSpanner.uniform-stretching = ##t %
+		%{ \override GraceSpacing.spacing-increment = #2.0 %}
+		\override GraceSpacing.common-shortest-duration = #(ly:make-moment 1 16) %
+		\override GraceSpacing.shortest-duration-space = #1 %
         \override SpacingSpanner.strict-note-spacing = ##t
         \override SpacingSpanner.uniform-stretching = ##t
         \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 23) (minimum-distance . 23) (padding . 0))
-		\override Stem.stemlet-length = #1.15
+		\override StemTremolo.beam-width = 1.5
+        \override StemTremolo.flag-count = 4
+        \override StemTremolo.slope = 0.5
 		\override StemTremolo.slope = #0.3
 		%{ \override StemTremolo.shape = #'rectangle %}
 		\override StemTremolo.shape = #'beam-like
 		%{ \override StemTremolo.flag-count = #3 %}
-		\override StemTremolo.beam-thickness = #0.3
+		%{ \override StemTremolo.beam-thickness = #0.3 %}
 		\override TupletBracket.bracket-visibility = ##t
         \override TupletBracket.minimum-length = #3
         \override TupletBracket.padding = #2
@@ -115,7 +125,7 @@
 		\override TupletNumber.font-size = #1.5
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
-		proportionalNotationDuration = #(ly:make-moment 1 38)
+		proportionalNotationDuration = #(ly:make-moment 1 60)
         tupletFullLength = ##t
     }
 	\context {
@@ -124,7 +134,7 @@
     }
     \context {
         \Staff
-		%{ \remove Time_signature_engraver %}
+		\remove Time_signature_engraver
 		\numericTimeSignature
 		fontSize = #-1
     }

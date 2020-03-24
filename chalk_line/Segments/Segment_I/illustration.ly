@@ -21,221 +21,17 @@
         {
 
             \tempo 4=120
-            \time 1/4                                                          %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             \mark \markup {
                 \bold
                     {
                         Calligraphy
                     }
                 }
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
+            s1 * 1/2
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -245,6 +41,63 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
+
+            \time 5/4                                                          %! scaling time signatures
+            s1 * 5/4
+
+            \time 3/8                                                          %! scaling time signatures
+            s1 * 3/8
+
+            \time 1/4                                                          %! scaling time signatures
+            s1 * 1/4
+
+            \time 7/8                                                          %! scaling time signatures
+            s1 * 7/8
+
+            \time 3/8                                                          %! scaling time signatures
+            s1 * 3/8
+
+            \time 2/4                                                          %! scaling time signatures
+            s1 * 1/2
+
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
+
+            \time 3/4                                                          %! scaling time signatures
+            s1 * 3/4
+
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
+
+            \time 5/4                                                          %! scaling time signatures
+            s1 * 5/4
+
+            \time 3/8                                                          %! scaling time signatures
+            s1 * 3/8
+
+            \time 1/4                                                          %! scaling time signatures
+            s1 * 1/4
+
+            \time 7/8                                                          %! scaling time signatures
+            s1 * 7/8
+
+            \time 3/8                                                          %! scaling time signatures
+            s1 * 3/8
+
+            \time 2/4                                                          %! scaling time signatures
+            s1 * 1/2
+
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
+
+            \time 3/4                                                          %! scaling time signatures
+            s1 * 3/4
+
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
 
         }
 
@@ -258,314 +111,108 @@
                 \context Voice = "Voice 1"
                 {
 
-                    \set Staff.shortInstrumentName =                           %! applying staff names and clefs
-                    \markup { [] }                                             %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Flute }                                          %! applying staff names and clefs
                     \clef "treble"
-                    f'16
-
-                    r8.
-
-                    \times 8/9 {
-
-                        r16
-
-                        af'32
-
-                        r8.
-
-                    }
-
-                    \times 8/9 {
-
-                        r32
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        d''32
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        g''32
-                        ]
-
-                        r16.
-
-                        bqs''16.
-
-                    }
-
-                    \times 8/9 {
-
-                        r16
-
-                        d'''16
-
-                        r4
-
-                        fqs'''8.
-
-                    }
-
-                    \times 4/7 {
-
-                        a'''8.
-
-                        r32
-
-                    }
+                    af'8.
 
                     \times 2/3 {
 
-                        r8
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
 
-                        f'8
+                            a'16
 
-                        r8
+                            s8
 
-                    }
+                            s2
 
-                    \times 8/9 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        af'32
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        d''32
-                        ]
-
-                        r8
-
-                        g''16.
-
-                    }
-
-                    bqs''8
-
-                    d'''4
-
-                    r8
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-
-                        r4
-
-                        fqs'''4
-
-                        a'''4
-
-                    }
-
-                    r2
-
-                    f'4
-
-                    \times 8/9 {
-
-                        r32
+                        }
+                        }
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        af'32
+                        bf'32
                         [
 
-                        d''32
-
-                        \revert Staff.Stem.stemlet-length
-                        g''16.
-                        ]
-
-                        r16.
-
-                    }
-
-                    \times 2/3 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        bqs''8
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        d'''8
-                        ]
-
-                        r8
-
-                    }
-
-                    r16
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    fqs'''16
-                    ~
-                    [
-
-                    fqs'''16
-
-                    \revert Staff.Stem.stemlet-length
-                    a'''16
-                    ]
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    f'8
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    af'8
-                    ~
-                    ]
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    af'8
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    d''8
-                    ]
-
-                    \times 8/9 {
-
-                        g''64
-
-                        r8
-
-                    }
-
-                    \times 4/5 {
-
-                        bqs''4
-
-                        r16
-
-                    }
-
-                    r16
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    d'''16
-                    ~
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    d'''16
-                    ]
-
-                    r16
-
-                    \times 8/9 {
-
-                        fqs'''16
-
-                        r8
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        a'''8.
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        f'8.
-                        ]
-
-                    }
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-
-                        af'2
-
-                        r4
-
-                    }
-
-                    d''8.
-
-                    r16
-
-                    r4
-
-                    r16
-
-                    g''8.
-
-                    \times 8/9 {
-
-                        r32
-
-                        bqs''32
-
-                        r8..
-
-                    }
-
-                    d'''8
-
-                    r8
-
-                    r8.
-
-                    fqs'''16
-
-                    \times 8/9 {
-
-                        a'''16
-
-                        r4
-
-                        r16
-
-                        f'8.
-
-                    }
-
-                    \times 2/3 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        af'8
-                        ~
-                        [
+                        b'32
 
                         \revert Staff.Stem.stemlet-length
                         af'32
                         ]
 
-                        r32
-
                     }
 
-                    d''8.
+                    \override Staff.Stem.stemlet-length = 0.75
+                    a'16
+                    [
 
-                    r16
+                    \scaleDurations #'(1 . 1) {
+                    \appoggiatura {
 
-                    \times 8/9 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        g''32
+                        \override Staff.Stem.stemlet-length = 0
+                        bf'16
                         [
+
+                        s8
+
+                        b'16
+
+                        s8
 
                         \revert Staff.Stem.stemlet-length
-                        bqs''32
+                        s2
                         ]
 
-                        r32
-
-                        d'''16.
-
-                        r16.
-
+                    }
                     }
 
-                    \times 8/9 {
+                    af'16
 
-                        fqs'''16
+                    a'32
 
-                        r16
+                    bf'32
+
+                    b'32
+
+                    \revert Staff.Stem.stemlet-length
+                    af'32
+                    ]
+
+                    \scaleDurations #'(1 . 1) {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        a'''16
+                        a'32.
                         [
 
-                        f'8.
+                        bf'64.
+
+                        b'64.
+
+                        af'16.
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            \override Staff.Stem.stemlet-length = 0
+                            a'16
+                            [
+
+                            s8
+
+                            bf'16
+
+                            s8
+
+                            b'16
+
+                            s8
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
 
                         \revert Staff.Stem.stemlet-length
                         af'8.
@@ -573,927 +220,1251 @@
 
                     }
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/9 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        d''8
-                        [
-
-                        g''8
-
-                        \revert Staff.Stem.stemlet-length
-                        bqs''8
-                        ]
-
-                        r4.
-
-                        d'''4.
-
-                    }
-
                     \times 2/3 {
 
-                        \override Staff.Stem.stemlet-length = 0.75
-                        fqs'''8
-                        [
+                        \times 2/3 {
 
-                        \revert Staff.Stem.stemlet-length
-                        a'''8
-                        ]
+                            \override Staff.Stem.stemlet-length = 0.75
+                            a'8
+                            [
 
-                        r2..
+                            \scaleDurations #'(1 . 1) {
+                            \appoggiatura {
 
-                    }
+                                bf'16
 
-                    f'16
+                                s8
 
-                    r8.
+                                s2
 
-                    \times 8/9 {
+                            }
+                            }
 
-                        r16
+                            b'8
 
-                        af'32
+                            \revert Staff.Stem.stemlet-length
+                            af'8
+                            ]
 
-                        r8.
+                        }
 
-                    }
+                        a'4
 
-                    \times 8/9 {
-
-                        r32
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        d''32
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        g''32
-                        ]
-
-                        r16.
-
-                        bqs''16.
+                        bf'4
 
                     }
-
-                    \times 8/9 {
-
-                        r16
-
-                        d'''16
-
-                        r4
-
-                        fqs'''8.
-
-                    }
-
-                    \times 4/7 {
-
-                        a'''8.
-
-                        r32
-
-                    }
-
-                    \times 2/3 {
-
-                        r8
-
-                        f'8
-
-                        r8
-
-                    }
-
-                    \times 8/9 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        af'32
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        d''32
-                        ]
-
-                        r8
-
-                        g''16.
-
-                    }
-
-                    bqs''8
-
-                    d'''4
-
-                    r8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
+                    \times 5/8 {
 
-                        r4
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
 
-                        fqs'''4
+                            \override Staff.Stem.stemlet-length = 0
+                            b'16
+                            [
 
-                        a'''4
+                            s8
+
+                            af'16
+
+                            s8
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
+
+                        a'4.
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        bf'8
+                        [
+
+                        b'8
+
+                        \revert Staff.Stem.stemlet-length
+                        af'8
+                        ]
+
+                        a'4
 
                     }
 
-                    r2
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/5 {
 
-                    f'4
+                        bf'2
 
-                    \times 8/9 {
+                        \times 2/3 {
 
-                        r32
+                            b'4
+
+                            af'4
+
+                            a'4
+
+                        }
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            \override Staff.Stem.stemlet-length = 0
+                            bf'16
+                            [
+
+                            s8
+
+                            b'16
+
+                            s8
+
+                            af'16
+
+                            s8
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
+
+                        a'4
+
+                    }
+
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/8 {
+
+                        bf'4.
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            b'16
+
+                            s8
+
+                            s2
+
+                        }
+                        }
+
+                        af'8
+
+                        a'4
+
+                        bf'4
+
+                    }
+
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/4 {
+
+                        b'4.
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            \override Staff.Stem.stemlet-length = 0
+                            af'16
+                            [
+
+                            s8
+
+                            a'16
+
+                            s8
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
+
+                        bf'8
+
+                        b'4
+
+                        \times 2/3 {
+
+                            \override Staff.Stem.stemlet-length = 0.75
+                            af'8
+                            [
+
+                            a'8
+
+                            \revert Staff.Stem.stemlet-length
+                            bf'8
+                            ]
+
+                        }
+
+                    }
+
+                    \scaleDurations #'(1 . 1) {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        af'32
+                        b'16.
                         [
 
-                        d''32
-
                         \revert Staff.Stem.stemlet-length
-                        g''16.
+                        af'16.
                         ]
 
-                        r16.
+                    }
+
+                    a'16
+
+                    bf'8
+
+                    \times 2/3 {
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            \override Staff.Stem.stemlet-length = 0
+                            b'16
+                            [
+
+                            s8
+
+                            af'16
+
+                            s8
+
+                            a'16
+
+                            s8
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        bf'16
+                        [
+
+                        b'16
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            af'16
+
+                            s8
+
+                            s2
+
+                        }
+                        }
+
+                        \revert Staff.Stem.stemlet-length
+                        a'16
+                        ]
+
+                    }
+
+                    \scaleDurations #'(1 . 1) {
+
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 9/16 {
+
+                            \override Staff.Stem.stemlet-length = 0.75
+                            bf'8
+                            [
+
+                            b'8
+
+                        }
+
+                        af'32.
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            \override Staff.Stem.stemlet-length = 0
+                            a'16
+                            [
+
+                            s8
+
+                            bf'16
+
+                            s8
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
+
+                        b'32.
+
+                        af'32.
+
+                        \scaleDurations #'(1 . 1) {
+
+                            a'32
+
+                            bf'32
+
+                            \revert Staff.Stem.stemlet-length
+                            b'32
+                            ]
+
+                        }
+
+                    }
+
+                    \times 8/11 {
+
+                        \scaleDurations #'(1 . 1) {
+
+                            \override Staff.Stem.stemlet-length = 0.75
+                            af'32.
+                            [
+
+                            a'32.
+
+                        }
+
+                        bf'16
+
+                        \scaleDurations #'(1 . 1) {
+
+                            b'32.
+
+                            \scaleDurations #'(1 . 1) {
+                            \appoggiatura {
+
+                                \override Staff.Stem.stemlet-length = 0
+                                af'16
+                                [
+
+                                s8
+
+                                a'16
+
+                                s8
+
+                                bf'16
+
+                                s8
+
+                                \revert Staff.Stem.stemlet-length
+                                s2
+                                ]
+
+                            }
+                            }
+
+                            b'32.
+
+                        }
+
+                        af'32
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            a'16
+
+                            s8
+
+                            s2
+
+                        }
+                        }
+
+                        bf'32
+
+                        \revert Staff.Stem.stemlet-length
+                        b'32
+                        ]
+
+                    }
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    af'32.
+                    [
+
+                    a'32.
+
+                    \scaleDurations #'(1 . 1) {
+                    \appoggiatura {
+
+                        \override Staff.Stem.stemlet-length = 0
+                        bf'16
+                        [
+
+                        s8
+
+                        b'16
+
+                        s8
+
+                        \revert Staff.Stem.stemlet-length
+                        s2
+                        ]
+
+                    }
+                    }
+
+                    af'32
+                    ~
+
+                    af'16
+
+                    a'32.
+
+                    bf'64
+                    ~
+
+                    \revert Staff.Stem.stemlet-length
+                    bf'32
+                    ]
+
+                    \scaleDurations #'(1 . 1) {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        b'32
+                        [
+
+                        af'32
+
+                        \revert Staff.Stem.stemlet-length
+                        a'32
+                        ]
+
+                    }
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    bf'16
+                    [
+
+                    b'16
+                    ~
+
+                    b'16
+
+                    \revert Staff.Stem.stemlet-length
+                    af'16
+                    ~
+                    ]
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    af'16
+                    [
+
+                    \scaleDurations #'(1 . 1) {
+                    \appoggiatura {
+
+                        \override Staff.Stem.stemlet-length = 0
+                        a'16
+                        [
+
+                        s8
+
+                        bf'16
+
+                        s8
+
+                        b'16
+
+                        s8
+
+                        \revert Staff.Stem.stemlet-length
+                        s2
+                        ]
+
+                    }
+                    }
+
+                    \revert Staff.Stem.stemlet-length
+                    af'8.
+                    ]
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    a'16
+                    [
+
+                    \scaleDurations #'(1 . 1) {
+                    \appoggiatura {
+
+                        bf'16
+
+                        s8
+
+                        s2
+
+                    }
+                    }
+
+                    b'16
+                    ~
+
+                    b'16
+
+                    af'16
+                    ~
+
+                    \revert Staff.Stem.stemlet-length
+                    af'16
+                    ]
+
+                    \times 4/5 {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        a'64
+                        [
+
+                        bf'64
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            \override Staff.Stem.stemlet-length = 0
+                            b'16
+                            [
+
+                            s8
+
+                            af'16
+
+                            s8
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
+
+                        \revert Staff.Stem.stemlet-length
+                        a'32.
+                        ]
 
                     }
 
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bqs''8
+                        bf'16
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        d'''8
+                        b'16
                         ]
 
-                        r8
+                        af'4
+
+                        a'4
+
+                        \times 4/5 {
+
+                            \override Staff.Stem.stemlet-length = 0.75
+                            bf'32
+                            [
+
+                            b'32
+
+                            \revert Staff.Stem.stemlet-length
+                            af'16.
+                            ]
+
+                        }
 
                     }
 
-                    r16
-
                     \override Staff.Stem.stemlet-length = 0.75
-                    fqs'''16
-                    ~
+                    a'16
                     [
 
-                    fqs'''16
+                    \scaleDurations #'(1 . 1) {
+                    \appoggiatura {
+
+                        \override Staff.Stem.stemlet-length = 0
+                        bf'16
+                        [
+
+                        s8
+
+                        b'16
+
+                        s8
+
+                        af'16
+
+                        s8
+
+                        \revert Staff.Stem.stemlet-length
+                        s2
+                        ]
+
+                    }
+                    }
 
                     \revert Staff.Stem.stemlet-length
-                    a'''16
+                    a'16
                     ]
 
-                    \override Staff.Stem.stemlet-length = 0.75
-                    f'8
-                    [
+                    bf'4
 
-                    \revert Staff.Stem.stemlet-length
-                    af'8
-                    ~
-                    ]
+                    \times 2/3 {
 
-                    \override Staff.Stem.stemlet-length = 0.75
-                    af'8
-                    [
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
 
-                    \revert Staff.Stem.stemlet-length
-                    d''8
-                    ]
+                            b'16
 
-                    \times 8/9 {
+                            s8
 
-                        g''64
+                            s2
 
-                        r8
+                        }
+                        }
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        af'16
+                        [
+
+                        \revert Staff.Stem.stemlet-length
+                        a'8
+                        ]
 
                     }
 
                     \times 4/5 {
 
-                        bqs''4
-
-                        r16
-
-                    }
-
-                    r16
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    d'''16
-                    ~
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    d'''16
-                    ]
-
-                    r16
-
-                    \times 8/9 {
-
-                        fqs'''16
-
-                        r8
-
                         \override Staff.Stem.stemlet-length = 0.75
-                        a'''8.
+                        bf'32
                         [
 
+                        b'32
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            \override Staff.Stem.stemlet-length = 0
+                            af'16
+                            [
+
+                            s8
+
+                            a'16
+
+                            s8
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
+
                         \revert Staff.Stem.stemlet-length
-                        f'8.
+                        bf'16.
                         ]
-
-                    }
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-
-                        af'2
-
-                        r4
-
-                    }
-
-                    d''8.
-
-                    r16
-
-                    r4
-
-                    r16
-
-                    g''8.
-
-                    \times 8/9 {
-
-                        r32
-
-                        bqs''32
-
-                        r8..
-
-                    }
-
-                    d'''8
-
-                    r8
-
-                    r8.
-
-                    fqs'''16
-
-                    \times 8/9 {
-
-                        a'''16
-
-                        r4
-
-                        r16
-
-                        f'8.
 
                     }
 
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
+                        b'8
+                        [
+
+                        \revert Staff.Stem.stemlet-length
                         af'8
-                        ~
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        af'32
                         ]
 
-                        r32
+                        a'4.
 
-                    }
+                        \times 4/5 {
 
-                    d''8.
+                            \override Staff.Stem.stemlet-length = 0.75
+                            bf'8
+                            [
 
-                    r16
+                            b'8.
 
-                    \times 8/9 {
+                        }
 
-                        \override Staff.Stem.stemlet-length = 0.75
-                        g''32
-                        [
+                        \times 4/7 {
 
-                        \revert Staff.Stem.stemlet-length
-                        bqs''32
-                        ]
+                            af'8
 
-                        r32
+                            a'8
 
-                        d'''16.
+                            \revert Staff.Stem.stemlet-length
+                            bf'8.
+                            ]
 
-                        r16.
-
-                    }
-
-                    \times 8/9 {
-
-                        fqs'''16
-
-                        r16
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        a'''16
-                        [
-
-                        f'8.
-
-                        \revert Staff.Stem.stemlet-length
-                        af'8.
-                        ]
-
-                    }
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/9 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        d''8
-                        [
-
-                        g''8
-
-                        \revert Staff.Stem.stemlet-length
-                        bqs''8
-                        ]
-
-                        r4.
-
-                        d'''4.
-
-                    }
-
-                    \times 2/3 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        fqs'''8
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        a'''8
-                        ]
-
-                        r2..
-
-                    }
-
-                    f'16
-
-                    r8.
-
-                    \times 8/9 {
-
-                        r16
-
-                        af'32
-
-                        r8.
-
-                    }
-
-                    \times 8/9 {
-
-                        r32
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        d''32
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        g''32
-                        ]
-
-                        r16.
-
-                        bqs''16.
-
-                    }
-
-                    \times 8/9 {
-
-                        r16
-
-                        d'''16
-
-                        r4
-
-                        fqs'''8.
-
-                    }
-
-                    \times 4/7 {
-
-                        a'''8.
-
-                        r32
-
-                    }
-
-                    \times 2/3 {
-
-                        r8
-
-                        f'8
-
-                        r8
-
-                    }
-
-                    \times 8/9 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        af'32
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        d''32
-                        ]
-
-                        r8
-
-                        g''16.
-
-                    }
-
-                    bqs''8
-
-                    d'''4
-
-                    r8
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-
-                        r4
-
-                        fqs'''4
-
-                        a'''4
-
-                    }
-
-                    r2
-
-                    f'4
-
-                    \times 8/9 {
-
-                        r32
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        af'32
-                        [
-
-                        d''32
-
-                        \revert Staff.Stem.stemlet-length
-                        g''16.
-                        ]
-
-                        r16.
-
-                    }
-
-                    \times 2/3 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        bqs''8
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        d'''8
-                        ]
-
-                        r8
-
-                    }
-
-                    r16
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    fqs'''16
-                    ~
-                    [
-
-                    fqs'''16
-
-                    \revert Staff.Stem.stemlet-length
-                    a'''16
-                    ]
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    f'8
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    af'8
-                    ~
-                    ]
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    af'8
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    d''8
-                    ]
-
-                    \times 8/9 {
-
-                        g''64
-
-                        r8
-
-                    }
-
-                    \times 4/5 {
-
-                        bqs''4
-
-                        r16
-
-                    }
-
-                    r16
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    d'''16
-                    ~
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    d'''16
-                    ]
-
-                    r16
-
-                    \times 8/9 {
-
-                        fqs'''16
-
-                        r8
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        a'''8.
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        f'8.
-                        ]
+                        }
 
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
 
-                        af'2
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
 
-                        r4
+                            \override Staff.Stem.stemlet-length = 0
+                            b'16
+                            [
+
+                            s8
+
+                            af'16
+
+                            s8
+
+                            a'16
+
+                            s8
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        bf'16.
+                        [
+
+                        b'16.
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            af'16
+
+                            s8
+
+                            s2
+
+                        }
+                        }
+
+                        a'8.
+
+                        bf'16.
+
+                        b'16.
+
+                        \scaleDurations #'(1 . 1) {
+
+                            af'16
+
+                            \scaleDurations #'(1 . 1) {
+                            \appoggiatura {
+
+                                \override Staff.Stem.stemlet-length = 0
+                                a'16
+                                [
+
+                                s8
+
+                                bf'16
+
+                                s8
+
+                                \revert Staff.Stem.stemlet-length
+                                s2
+                                ]
+
+                            }
+                            }
+
+                            b'16
+
+                            \revert Staff.Stem.stemlet-length
+                            af'16
+                            ]
+
+                        }
 
                     }
 
-                    d''8.
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/4 {
 
-                    r16
+                        a'4.
 
-                    r4
+                        \times 2/3 {
 
-                    r16
+                            \override Staff.Stem.stemlet-length = 0.75
+                            bf'16
+                            [
 
-                    g''8.
+                            b'16
 
-                    \times 8/9 {
+                            af'16
 
-                        r32
+                        }
 
-                        bqs''32
+                        a'8
 
-                        r8..
+                        bf'8
+
+                        b'16
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            \override Staff.Stem.stemlet-length = 0
+                            af'16
+                            [
+
+                            s8
+
+                            a'16
+
+                            s8
+
+                            bf'16
+
+                            s8
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
+
+                        b'16
+
+                        af'16
+
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
+
+                            a'16
+
+                            s8
+
+                            s2
+
+                        }
+                        }
+
+                        \revert Staff.Stem.stemlet-length
+                        bf'16
+                        ]
 
                     }
 
-                    d'''8
+                    \override Staff.Stem.stemlet-length = 0.75
+                    b'16
+                    [
 
-                    r8
+                    af'32
 
-                    r8.
+                    a'32
 
-                    fqs'''16
+                    \scaleDurations #'(1 . 1) {
+                    \appoggiatura {
 
-                    \times 8/9 {
+                        \override Staff.Stem.stemlet-length = 0
+                        bf'16
+                        [
 
-                        a'''16
+                        s8
 
-                        r4
+                        b'16
 
-                        r16
+                        s8
 
-                        f'8.
+                        \revert Staff.Stem.stemlet-length
+                        s2
+                        ]
 
                     }
+                    }
+
+                    \revert Staff.Stem.stemlet-length
+                    af'8
+                    ]
+
+                    a'4
 
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
+                        bf'16
+                        [
+
+                        b'16
+
+                        \revert Staff.Stem.stemlet-length
+                        af'16
+                        ]
+
+                    }
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    a'8
+                    [
+
+                    \revert Staff.Stem.stemlet-length
+                    bf'8
+                    ]
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    b'16.
+                    [
+
+                    af'32
+
+                    \scaleDurations #'(1 . 1) {
+                    \appoggiatura {
+
+                        \override Staff.Stem.stemlet-length = 0
+                        a'16
+                        [
+
+                        s8
+
+                        bf'16
+
+                        s8
+
+                        b'16
+
+                        s8
+
+                        \revert Staff.Stem.stemlet-length
+                        s2
+                        ]
+
+                    }
+                    }
+
+                    af'32
+
+                    a'32
+
+                    \scaleDurations #'(1 . 1) {
+                    \appoggiatura {
+
+                        bf'16
+
+                        s8
+
+                        s2
+
+                    }
+                    }
+
+                    \revert Staff.Stem.stemlet-length
+                    b'16
+                    ]
+
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/5 {
+
+                        af'4
+
+                        \times 2/3 {
+
+                            \override Staff.Stem.stemlet-length = 0.75
+                            a'8
+                            [
+
+                            bf'8
+
+                            \scaleDurations #'(1 . 1) {
+                            \appoggiatura {
+
+                                \override Staff.Stem.stemlet-length = 0
+                                b'16
+                                [
+
+                                s8
+
+                                af'16
+
+                                s8
+
+                                \revert Staff.Stem.stemlet-length
+                                s2
+                                ]
+
+                            }
+                            }
+
+                            a'8
+
+                        }
+
+                        \revert Staff.Stem.stemlet-length
+                        bf'8
+                        ]
+
+                    }
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    b'8.
+                    [
+
+                    \revert Staff.Stem.stemlet-length
+                    af'16
+                    ]
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    a'8
+                    [
+
+                    \revert Staff.Stem.stemlet-length
+                    bf'8
+                    ]
+
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/4 {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        b'8.
+                        [
+
+                        af'16
+
+                        a'8
+
+                        \times 2/3 {
+
+                            \scaleDurations #'(1 . 1) {
+                            \appoggiatura {
+
+                                \override Staff.Stem.stemlet-length = 0
+                                bf'16
+                                [
+
+                                s8
+
+                                b'16
+
+                                s8
+
+                                af'16
+
+                                s8
+
+                                \revert Staff.Stem.stemlet-length
+                                s2
+                                ]
+
+                            }
+                            }
+
+                            a'16
+
+                            bf'16
+
+                            \scaleDurations #'(1 . 1) {
+                            \appoggiatura {
+
+                                b'16
+
+                                s8
+
+                                s2
+
+                            }
+                            }
+
+                            \revert Staff.Stem.stemlet-length
+                            af'16
+                            ]
+
+                        }
+
+                    }
+
+                    \scaleDurations #'(1 . 1) {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        a'16.
+                        [
+
+                        \revert Staff.Stem.stemlet-length
+                        bf'16.
+                        ]
+
+                    }
+
+                    b'16
+
+                    \scaleDurations #'(1 . 1) {
+                    \appoggiatura {
+
+                        \override Staff.Stem.stemlet-length = 0
+                        af'16
+                        [
+
+                        s8
+
+                        a'16
+
+                        s8
+
+                        \revert Staff.Stem.stemlet-length
+                        s2
+                        ]
+
+                    }
+                    }
+
+                    bf'8
+
+                    \times 2/3 {
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        b'16
+                        [
+
+                        af'16
+
+                        \revert Staff.Stem.stemlet-length
+                        a'16
+                        ]
+
+                    }
+
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/8 {
+
+                        \scaleDurations #'(1 . 1) {
+
+                            \override Staff.Stem.stemlet-length = 0.75
+                            bf'8.
+                            [
+
+                            b'8.
+
+                        }
+
                         af'8
-                        ~
-                        [
 
-                        \revert Staff.Stem.stemlet-length
-                        af'32
-                        ]
+                        a'8
 
-                        r32
+                        bf'8
 
-                    }
+                        \times 2/3 {
 
-                    d''8.
+                            \scaleDurations #'(1 . 1) {
+                            \appoggiatura {
 
-                    r16
+                                \override Staff.Stem.stemlet-length = 0
+                                b'16
+                                [
 
-                    \times 8/9 {
+                                s8
 
-                        \override Staff.Stem.stemlet-length = 0.75
-                        g''32
-                        [
+                                af'16
 
-                        \revert Staff.Stem.stemlet-length
-                        bqs''32
-                        ]
+                                s8
 
-                        r32
+                                a'16
 
-                        d'''16.
+                                s8
 
-                        r16.
+                                \revert Staff.Stem.stemlet-length
+                                s2
+                                ]
 
-                    }
+                            }
+                            }
 
-                    \times 8/9 {
+                            bf'8
 
-                        fqs'''16
+                            b'8
 
-                        r16
+                            \scaleDurations #'(1 . 1) {
+                            \appoggiatura {
 
-                        \override Staff.Stem.stemlet-length = 0.75
-                        a'''16
-                        [
+                                af'16
 
-                        f'8.
+                                s8
 
-                        \revert Staff.Stem.stemlet-length
-                        af'8.
-                        ]
+                                s2
+
+                            }
+                            }
+
+                            \revert Staff.Stem.stemlet-length
+                            a'8
+                            ]
+
+                        }
 
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/9 {
+                    \times 6/11 {
 
-                        \override Staff.Stem.stemlet-length = 0.75
-                        d''8
-                        [
+                        \scaleDurations #'(1 . 1) {
 
-                        g''8
+                            \override Staff.Stem.stemlet-length = 0.75
+                            bf'8.
+                            [
 
-                        \revert Staff.Stem.stemlet-length
-                        bqs''8
-                        ]
+                            \revert Staff.Stem.stemlet-length
+                            b'8.
+                            ]
 
-                        r4.
+                        }
 
-                        d'''4.
+                        af'4
 
-                    }
+                        \scaleDurations #'(1 . 1) {
 
-                    \times 2/3 {
+                            \scaleDurations #'(1 . 1) {
+                            \appoggiatura {
 
-                        \override Staff.Stem.stemlet-length = 0.75
-                        fqs'''8
-                        [
+                                \override Staff.Stem.stemlet-length = 0
+                                a'16
+                                [
 
-                        \revert Staff.Stem.stemlet-length
-                        a'''8
-                        ]
+                                s8
 
-                        r2..
+                                bf'16
 
-                    }
+                                s8
 
-                    f'16
+                                \revert Staff.Stem.stemlet-length
+                                s2
+                                ]
 
-                    r8.
+                            }
+                            }
 
-                    \times 8/9 {
+                            \override Staff.Stem.stemlet-length = 0.75
+                            b'8.
+                            [
 
-                        r16
+                            af'8.
 
-                        af'32
+                        }
 
-                        r8.
+                        a'8
 
-                    }
-
-                    \times 8/9 {
-
-                        r32
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        d''32
-                        [
+                        bf'8
 
                         \revert Staff.Stem.stemlet-length
-                        g''32
-                        ]
-
-                        r16.
-
-                        bqs''16.
-
-                    }
-
-                    \times 8/9 {
-
-                        r16
-
-                        d'''16
-
-                        r4
-
-                        fqs'''8.
-
-                    }
-
-                    \times 4/7 {
-
-                        a'''8.
-
-                        r32
-
-                    }
-
-                    \times 2/3 {
-
-                        r8
-
-                        f'8
-
-                        r8
-
-                    }
-
-                    \times 8/9 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        af'32
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        d''32
-                        ]
-
-                        r8
-
-                        g''16.
-
-                    }
-
-                    bqs''8
-
-                    d'''4
-
-                    r8
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-
-                        r4
-
-                        fqs'''4
-
-                        a'''4
-
-                    }
-
-                    r2
-
-                    f'4
-
-                    \times 8/9 {
-
-                        r32
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        af'32
-                        [
-
-                        d''32
-
-                        \revert Staff.Stem.stemlet-length
-                        g''16.
-                        ]
-
-                        r16.
-
-                    }
-
-                    \times 2/3 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        bqs''8
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        d'''8
-                        ]
-
-                        r8
-
-                    }
-
-                    r16
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    fqs'''16
-                    ~
-                    [
-
-                    fqs'''16
-
-                    \revert Staff.Stem.stemlet-length
-                    a'''16
-                    ]
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    f'8
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    af'8
-                    ~
-                    ]
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    af'8
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    d''8
-                    ]
-
-                    \times 8/9 {
-
-                        g''64
-
-                        r8
-
-                    }
-
-                    \times 4/5 {
-
-                        bqs''4
-
-                        r16
-
-                    }
-
-                    r16
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    d'''16
-                    ~
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    d'''16
-                    ]
-
-                    r16
-
-                    \times 8/9 {
-
-                        fqs'''16
-
-                        r8
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        a'''8.
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        f'8.
+                        b'8
                         ]
 
                     }
@@ -1501,138 +1472,66 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
 
-                        af'2
-
-                        r4
-
-                    }
-
-                    d''8.
-
-                    r16
-
-                    r4
-
-                    r16
-
-                    g''8.
-
-                    \times 8/9 {
-
-                        r32
-
-                        bqs''32
-
-                        r8..
-
-                    }
-
-                    d'''8
-
-                    r8
-
-                    r8.
-
-                    fqs'''16
-
-                    \times 8/9 {
-
-                        a'''16
-
-                        r4
-
-                        r16
-
-                        f'8.
-
-                    }
-
-                    \times 2/3 {
-
                         \override Staff.Stem.stemlet-length = 0.75
-                        af'8
-                        ~
+                        af'16.
                         [
 
-                        \revert Staff.Stem.stemlet-length
-                        af'32
-                        ]
+                        a'16.
 
-                        r32
+                        bf'8.
 
-                    }
+                        b'16.
 
-                    d''8.
+                        \scaleDurations #'(1 . 1) {
+                        \appoggiatura {
 
-                    r16
+                            \override Staff.Stem.stemlet-length = 0
+                            af'16
+                            [
 
-                    \times 8/9 {
+                            s8
 
-                        \override Staff.Stem.stemlet-length = 0.75
-                        g''32
-                        [
+                            a'16
 
-                        \revert Staff.Stem.stemlet-length
-                        bqs''32
-                        ]
+                            s8
 
-                        r32
+                            bf'16
 
-                        d'''16.
+                            s8
 
-                        r16.
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
 
-                    }
+                        }
+                        }
 
-                    \times 8/9 {
+                        b'16.
 
-                        fqs'''16
+                        \scaleDurations #'(1 . 1) {
 
-                        r16
+                            af'16
 
-                        \override Staff.Stem.stemlet-length = 0.75
-                        a'''16
-                        [
+                            \scaleDurations #'(1 . 1) {
+                            \appoggiatura {
 
-                        f'8.
+                                a'16
 
-                        \revert Staff.Stem.stemlet-length
-                        af'8.
-                        ]
+                                s8
 
-                    }
+                                s2
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/9 {
+                            }
+                            }
 
-                        \override Staff.Stem.stemlet-length = 0.75
-                        d''8
-                        [
+                            bf'16
 
-                        g''8
+                            \revert Staff.Stem.stemlet-length
+                            b'16
+                            ]
+                            \bar "||"
 
-                        \revert Staff.Stem.stemlet-length
-                        bqs''8
-                        ]
-
-                        r4.
-
-                        d'''4.
-
-                    }
-
-                    \times 2/3 {
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        fqs'''8
-                        [
-
-                        \revert Staff.Stem.stemlet-length
-                        a'''8
-                        ]
-
-                        r2..
-                        \bar "||"
+                        }
 
                     }
 

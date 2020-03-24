@@ -1,8 +1,8 @@
 import abjad
 import evans
-from chalk_line.Materials.score_structure.instruments import instrument_one_range_lowest
 from chalk_line.Materials.score_structure.instruments import (
     instrument_one_range_highest,
+    instrument_one_range_lowest,
 )
 
 
@@ -11,7 +11,7 @@ from chalk_line.Materials.score_structure.instruments import (
 # chord_3 = evans.combination_tones(pitches=[7.75, 8.25, 18.75, 19, 23.5, 25.25, 28.5], depth=1)
 
 # chord_1 = [8.25, 14.25, 18.75, 5.166666666666667, 23.5, 26.25, 29.5, 33.25]
-chord_1 = [0, 1, 2, 3]
+chord_1 = [0, 1, 2, 3, 0, 13, 2, 3, 14, 12, 3, 15, 14, 15, 13]
 
 # chord_2 = [
 #     4.5,
@@ -76,11 +76,11 @@ chord_3 = [8, 9, 10, 11]
 
 chords = [chord_1, chord_2, chord_3]
 
-for l in chords:
-    for i, _ in enumerate(l):
-        if _ > instrument_one_range_highest:
-            del l[i]
-        elif _ < instrument_one_range_lowest:
-            del l[i]
-        else:
-            continue
+# for l in chords:
+#     for i, _ in enumerate(l):
+#         if _ > instrument_one_range_highest:
+#             del l[i]
+#         elif _ < instrument_one_range_lowest:
+#             del l[i]
+#         else:
+#             continue

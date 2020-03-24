@@ -20,7 +20,7 @@
         \context TimeSignatureContext = "Global Context"
         {
 
-            \tempo 4=120
+            \tempo 4=87
             \time 2/4                                                          %! scaling time signatures
             \mark \markup {
                 \bold
@@ -114,14 +114,14 @@
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Flute }                                          %! applying staff names and clefs
                     \clef "treble"
-                    af'8.
+                    c'8.
 
                     \times 2/3 {
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
-                            a'16
+                            cs'16
 
                             s8
 
@@ -131,31 +131,31 @@
                         }
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bf'32
+                        d'32
                         [
 
-                        b'32
+                        ef'32
 
                         \revert Staff.Stem.stemlet-length
-                        af'32
+                        c'32
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    a'16
+                    cs''16
                     [
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
 
                         \override Staff.Stem.stemlet-length = 0
-                        bf'16
+                        d'16
                         [
 
                         s8
 
-                        b'16
+                        ef'16
 
                         s8
 
@@ -166,44 +166,44 @@
                     }
                     }
 
-                    af'16
+                    d''16
 
-                    a'32
+                    c''32
 
-                    bf'32
+                    ef'32
 
-                    b'32
+                    ef''32
 
                     \revert Staff.Stem.stemlet-length
-                    af'32
+                    d''32
                     ]
 
                     \scaleDurations #'(1 . 1) {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        a'32.
+                        ef''32.
                         [
 
-                        bf'64.
+                        cs''64.
 
-                        b'64.
+                        c'64.
 
-                        af'16.
+                        cs'16.
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            a'16
+                            d'16
                             [
 
                             s8
 
-                            bf'16
+                            ef'16
 
                             s8
 
-                            b'16
+                            c'16
 
                             s8
 
@@ -215,7 +215,7 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        af'8.
+                        cs''8.
                         ]
 
                     }
@@ -225,13 +225,13 @@
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            a'8
+                            d'8
                             [
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
-                                bf'16
+                                ef'16
 
                                 s8
 
@@ -240,17 +240,17 @@
                             }
                             }
 
-                            b'8
+                            d''8
 
                             \revert Staff.Stem.stemlet-length
-                            af'8
+                            c''8
                             ]
 
                         }
 
-                        a'4
+                        ef'4
 
-                        bf'4
+                        ef''4
 
                     }
 
@@ -261,12 +261,12 @@
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            b'16
+                            d''16
                             [
 
                             s8
 
-                            af'16
+                            ef''16
 
                             s8
 
@@ -277,34 +277,34 @@
                         }
                         }
 
-                        a'4.
+                        cs''4.
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bf'8
+                        c'8
                         [
 
-                        b'8
+                        cs'8
 
                         \revert Staff.Stem.stemlet-length
-                        af'8
+                        d'8
                         ]
 
-                        a'4
+                        ef'4
 
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
 
-                        bf'2
+                        c'2
 
                         \times 2/3 {
 
-                            b'4
+                            cs''4
 
-                            af'4
+                            d'4
 
-                            a'4
+                            ef'4
 
                         }
 
@@ -312,16 +312,16 @@
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            bf'16
+                            d''16
                             [
 
                             s8
 
-                            b'16
+                            c''16
 
                             s8
 
-                            af'16
+                            ef'16
 
                             s8
 
@@ -332,19 +332,19 @@
                         }
                         }
 
-                        a'4
+                        ef''4
 
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/8 {
 
-                        bf'4.
+                        d''4.
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
-                            b'16
+                            ef''16
 
                             s8
 
@@ -353,29 +353,29 @@
                         }
                         }
 
-                        af'8
+                        cs''8
 
-                        a'4
+                        c'4
 
-                        bf'4
+                        cs'4
 
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
 
-                        b'4.
+                        d'4.
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            af'16
+                            ef'16
                             [
 
                             s8
 
-                            a'16
+                            c'16
 
                             s8
 
@@ -386,20 +386,20 @@
                         }
                         }
 
-                        bf'8
+                        cs''8
 
-                        b'4
+                        d'4
 
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            af'8
+                            ef'8
                             [
 
-                            a'8
+                            d''8
 
                             \revert Staff.Stem.stemlet-length
-                            bf'8
+                            c''8
                             ]
 
                         }
@@ -409,18 +409,18 @@
                     \scaleDurations #'(1 . 1) {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        b'16.
+                        ef'16.
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        af'16.
+                        ef''16.
                         ]
 
                     }
 
-                    a'16
+                    d''16
 
-                    bf'8
+                    ef''8
 
                     \times 2/3 {
 
@@ -428,16 +428,16 @@
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            b'16
+                            cs''16
                             [
 
                             s8
 
-                            af'16
+                            c'16
 
                             s8
 
-                            a'16
+                            cs'16
 
                             s8
 
@@ -449,15 +449,15 @@
                         }
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bf'16
+                        d'16
                         [
 
-                        b'16
+                        ef'16
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
-                            af'16
+                            c'16
 
                             s8
 
@@ -467,7 +467,7 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        a'16
+                        cs''16
                         ]
 
                     }
@@ -478,25 +478,25 @@
                         \times 9/16 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            bf'8
+                            d'8
                             [
 
-                            b'8
+                            ef'8
 
                         }
 
-                        af'32.
+                        d''32.
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            a'16
+                            c''16
                             [
 
                             s8
 
-                            bf'16
+                            ef'16
 
                             s8
 
@@ -507,18 +507,18 @@
                         }
                         }
 
-                        b'32.
+                        ef''32.
 
-                        af'32.
+                        d''32.
 
                         \scaleDurations #'(1 . 1) {
 
-                            a'32
+                            ef''32
 
-                            bf'32
+                            cs''32
 
                             \revert Staff.Stem.stemlet-length
-                            b'32
+                            c'32
                             ]
 
                         }
@@ -530,33 +530,33 @@
                         \scaleDurations #'(1 . 1) {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            af'32.
+                            cs'32.
                             [
 
-                            a'32.
+                            d'32.
 
                         }
 
-                        bf'16
+                        ef'16
 
                         \scaleDurations #'(1 . 1) {
 
-                            b'32.
+                            c'32.
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
                                 \override Staff.Stem.stemlet-length = 0
-                                af'16
+                                cs''16
                                 [
 
                                 s8
 
-                                a'16
+                                d'16
 
                                 s8
 
-                                bf'16
+                                ef'16
 
                                 s8
 
@@ -567,16 +567,16 @@
                             }
                             }
 
-                            b'32.
+                            d''32.
 
                         }
 
-                        af'32
+                        c''32
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
-                            a'16
+                            ef'16
 
                             s8
 
@@ -585,30 +585,30 @@
                         }
                         }
 
-                        bf'32
+                        ef''32
 
                         \revert Staff.Stem.stemlet-length
-                        b'32
+                        d''32
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    af'32.
+                    ef''32.
                     [
 
-                    a'32.
+                    cs''32.
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
 
                         \override Staff.Stem.stemlet-length = 0
-                        bf'16
+                        c'16
                         [
 
                         s8
 
-                        b'16
+                        cs'16
 
                         s8
 
@@ -619,66 +619,66 @@
                     }
                     }
 
-                    af'32
+                    d'32
                     ~
 
-                    af'16
+                    d'16
 
-                    a'32.
+                    ef'32.
 
-                    bf'64
+                    c'64
                     ~
 
                     \revert Staff.Stem.stemlet-length
-                    bf'32
+                    c'32
                     ]
 
                     \scaleDurations #'(1 . 1) {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        b'32
+                        cs''32
                         [
 
-                        af'32
+                        d'32
 
                         \revert Staff.Stem.stemlet-length
-                        a'32
+                        ef'32
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bf'16
+                    d''16
                     [
 
-                    b'16
+                    c''16
                     ~
 
-                    b'16
+                    c''16
 
                     \revert Staff.Stem.stemlet-length
-                    af'16
+                    ef'16
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    af'16
+                    ef'16
                     [
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
 
                         \override Staff.Stem.stemlet-length = 0
-                        a'16
+                        ef''16
                         [
 
                         s8
 
-                        bf'16
+                        d''16
 
                         s8
 
-                        b'16
+                        ef''16
 
                         s8
 
@@ -690,17 +690,17 @@
                     }
 
                     \revert Staff.Stem.stemlet-length
-                    af'8.
+                    cs''8.
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    a'16
+                    c'16
                     [
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
 
-                        bf'16
+                        cs'16
 
                         s8
 
@@ -709,36 +709,36 @@
                     }
                     }
 
-                    b'16
+                    d'16
                     ~
 
-                    b'16
+                    d'16
 
-                    af'16
+                    ef'16
                     ~
 
                     \revert Staff.Stem.stemlet-length
-                    af'16
+                    ef'16
                     ]
 
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        a'64
+                        c'64
                         [
 
-                        bf'64
+                        cs''64
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            b'16
+                            d'16
                             [
 
                             s8
 
-                            af'16
+                            ef'16
 
                             s8
 
@@ -750,7 +750,7 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        a'32.
+                        d''32.
                         ]
 
                     }
@@ -758,27 +758,27 @@
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bf'16
+                        c''16
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        b'16
+                        ef'16
                         ]
 
-                        af'4
+                        ef''4
 
-                        a'4
+                        d''4
 
                         \times 4/5 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            bf'32
+                            ef''32
                             [
 
-                            b'32
+                            cs''32
 
                             \revert Staff.Stem.stemlet-length
-                            af'16.
+                            c'16.
                             ]
 
                         }
@@ -786,23 +786,23 @@
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    a'16
+                    cs'16
                     [
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
 
                         \override Staff.Stem.stemlet-length = 0
-                        bf'16
+                        d'16
                         [
 
                         s8
 
-                        b'16
+                        ef'16
 
                         s8
 
-                        af'16
+                        c'16
 
                         s8
 
@@ -814,17 +814,17 @@
                     }
 
                     \revert Staff.Stem.stemlet-length
-                    a'16
+                    cs''16
                     ]
 
-                    bf'4
+                    d'4
 
                     \times 2/3 {
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
-                            b'16
+                            ef'16
 
                             s8
 
@@ -834,11 +834,11 @@
                         }
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        af'16
+                        d''16
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        a'8
+                        c''8
                         ]
 
                     }
@@ -846,21 +846,21 @@
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bf'32
+                        ef'32
                         [
 
-                        b'32
+                        ef''32
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            af'16
+                            d''16
                             [
 
                             s8
 
-                            a'16
+                            ef''16
 
                             s8
 
@@ -872,7 +872,7 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        bf'16.
+                        cs''16.
                         ]
 
                     }
@@ -880,33 +880,33 @@
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        b'8
+                        c'8
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        af'8
+                        cs'8
                         ]
 
-                        a'4.
+                        d'4.
 
                         \times 4/5 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            bf'8
+                            ef'8
                             [
 
-                            b'8.
+                            c'8.
 
                         }
 
                         \times 4/7 {
 
-                            af'8
+                            cs''8
 
-                            a'8
+                            d'8
 
                             \revert Staff.Stem.stemlet-length
-                            bf'8.
+                            ef'8.
                             ]
 
                         }
@@ -920,16 +920,16 @@
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            b'16
+                            d''16
                             [
 
                             s8
 
-                            af'16
+                            c''16
 
                             s8
 
-                            a'16
+                            ef'16
 
                             s8
 
@@ -941,15 +941,15 @@
                         }
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bf'16.
+                        ef''16.
                         [
 
-                        b'16.
+                        d''16.
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
-                            af'16
+                            ef''16
 
                             s8
 
@@ -958,26 +958,26 @@
                         }
                         }
 
-                        a'8.
+                        cs''8.
 
-                        bf'16.
+                        c'16.
 
-                        b'16.
+                        cs'16.
 
                         \scaleDurations #'(1 . 1) {
 
-                            af'16
+                            d'16
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
                                 \override Staff.Stem.stemlet-length = 0
-                                a'16
+                                ef'16
                                 [
 
                                 s8
 
-                                bf'16
+                                c'16
 
                                 s8
 
@@ -988,10 +988,10 @@
                             }
                             }
 
-                            b'16
+                            cs''16
 
                             \revert Staff.Stem.stemlet-length
-                            af'16
+                            d'16
                             ]
 
                         }
@@ -1001,40 +1001,40 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
 
-                        a'4.
+                        ef'4.
 
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            bf'16
+                            d''16
                             [
 
-                            b'16
+                            c''16
 
-                            af'16
+                            ef'16
 
                         }
 
-                        a'8
+                        ef''8
 
-                        bf'8
+                        d''8
 
-                        b'16
+                        ef''16
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            af'16
+                            cs''16
                             [
 
                             s8
 
-                            a'16
+                            c'16
 
                             s8
 
-                            bf'16
+                            cs'16
 
                             s8
 
@@ -1045,14 +1045,14 @@
                         }
                         }
 
-                        b'16
+                        d'16
 
-                        af'16
+                        ef'16
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
-                            a'16
+                            c'16
 
                             s8
 
@@ -1062,29 +1062,29 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        bf'16
+                        cs''16
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    b'16
+                    d'16
                     [
 
-                    af'32
+                    ef'32
 
-                    a'32
+                    d''32
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
 
                         \override Staff.Stem.stemlet-length = 0
-                        bf'16
+                        c''16
                         [
 
                         s8
 
-                        b'16
+                        ef'16
 
                         s8
 
@@ -1096,53 +1096,53 @@
                     }
 
                     \revert Staff.Stem.stemlet-length
-                    af'8
+                    ef''8
                     ]
 
-                    a'4
+                    d''4
 
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bf'16
+                        ef''16
                         [
 
-                        b'16
+                        cs''16
 
                         \revert Staff.Stem.stemlet-length
-                        af'16
+                        c'16
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    a'8
+                    cs'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    bf'8
+                    d'8
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    b'16.
+                    ef'16.
                     [
 
-                    af'32
+                    c'32
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
 
                         \override Staff.Stem.stemlet-length = 0
-                        a'16
+                        cs''16
                         [
 
                         s8
 
-                        bf'16
+                        d'16
 
                         s8
 
-                        b'16
+                        ef'16
 
                         s8
 
@@ -1153,14 +1153,14 @@
                     }
                     }
 
-                    af'32
+                    d''32
 
-                    a'32
+                    c''32
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
 
-                        bf'16
+                        ef'16
 
                         s8
 
@@ -1170,32 +1170,32 @@
                     }
 
                     \revert Staff.Stem.stemlet-length
-                    b'16
+                    ef''16
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
 
-                        af'4
+                        d''4
 
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            a'8
+                            ef''8
                             [
 
-                            bf'8
+                            cs''8
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
                                 \override Staff.Stem.stemlet-length = 0
-                                b'16
+                                c'16
                                 [
 
                                 s8
 
-                                af'16
+                                cs'16
 
                                 s8
 
@@ -1206,42 +1206,42 @@
                             }
                             }
 
-                            a'8
+                            d'8
 
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        bf'8
+                        ef'8
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    b'8.
+                    c'8.
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    af'16
+                    cs''16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    a'8
+                    d'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    bf'8
+                    ef'8
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        b'8.
+                        d''8.
                         [
 
-                        af'16
+                        c''16
 
-                        a'8
+                        ef'8
 
                         \times 2/3 {
 
@@ -1249,16 +1249,16 @@
                             \appoggiatura {
 
                                 \override Staff.Stem.stemlet-length = 0
-                                bf'16
+                                ef''16
                                 [
 
                                 s8
 
-                                b'16
+                                d''16
 
                                 s8
 
-                                af'16
+                                ef''16
 
                                 s8
 
@@ -1269,14 +1269,14 @@
                             }
                             }
 
-                            a'16
+                            cs''16
 
-                            bf'16
+                            c'16
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
-                                b'16
+                                cs'16
 
                                 s8
 
@@ -1286,7 +1286,7 @@
                             }
 
                             \revert Staff.Stem.stemlet-length
-                            af'16
+                            d'16
                             ]
 
                         }
@@ -1296,27 +1296,27 @@
                     \scaleDurations #'(1 . 1) {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        a'16.
+                        ef'16.
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        bf'16.
+                        c'16.
                         ]
 
                     }
 
-                    b'16
+                    cs''16
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
 
                         \override Staff.Stem.stemlet-length = 0
-                        af'16
+                        d'16
                         [
 
                         s8
 
-                        a'16
+                        ef'16
 
                         s8
 
@@ -1327,18 +1327,18 @@
                     }
                     }
 
-                    bf'8
+                    d''8
 
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        b'16
+                        c''16
                         [
 
-                        af'16
+                        ef'16
 
                         \revert Staff.Stem.stemlet-length
-                        a'16
+                        ef''16
                         ]
 
                     }
@@ -1349,18 +1349,18 @@
                         \scaleDurations #'(1 . 1) {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            bf'8.
+                            d''8.
                             [
 
-                            b'8.
+                            ef''8.
 
                         }
 
-                        af'8
+                        cs''8
 
-                        a'8
+                        c'8
 
-                        bf'8
+                        cs'8
 
                         \times 2/3 {
 
@@ -1368,16 +1368,16 @@
                             \appoggiatura {
 
                                 \override Staff.Stem.stemlet-length = 0
-                                b'16
+                                d'16
                                 [
 
                                 s8
 
-                                af'16
+                                ef'16
 
                                 s8
 
-                                a'16
+                                c'16
 
                                 s8
 
@@ -1388,14 +1388,14 @@
                             }
                             }
 
-                            bf'8
+                            cs''8
 
-                            b'8
+                            d'8
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
-                                af'16
+                                ef'16
 
                                 s8
 
@@ -1405,7 +1405,7 @@
                             }
 
                             \revert Staff.Stem.stemlet-length
-                            a'8
+                            d''8
                             ]
 
                         }
@@ -1418,16 +1418,16 @@
                         \scaleDurations #'(1 . 1) {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            bf'8.
+                            c''8.
                             [
 
                             \revert Staff.Stem.stemlet-length
-                            b'8.
+                            ef'8.
                             ]
 
                         }
 
-                        af'4
+                        ef''4
 
                         \scaleDurations #'(1 . 1) {
 
@@ -1435,12 +1435,12 @@
                             \appoggiatura {
 
                                 \override Staff.Stem.stemlet-length = 0
-                                a'16
+                                d''16
                                 [
 
                                 s8
 
-                                bf'16
+                                ef''16
 
                                 s8
 
@@ -1452,19 +1452,19 @@
                             }
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            b'8.
+                            cs''8.
                             [
 
-                            af'8.
+                            c'8.
 
                         }
 
-                        a'8
+                        cs'8
 
-                        bf'8
+                        d'8
 
                         \revert Staff.Stem.stemlet-length
-                        b'8
+                        ef'8
                         ]
 
                     }
@@ -1473,29 +1473,29 @@
                     \times 5/6 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        af'16.
+                        c'16.
                         [
 
-                        a'16.
+                        cs''16.
 
-                        bf'8.
+                        d'8.
 
-                        b'16.
+                        ef'16.
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            af'16
+                            d''16
                             [
 
                             s8
 
-                            a'16
+                            c''16
 
                             s8
 
-                            bf'16
+                            ef'16
 
                             s8
 
@@ -1506,16 +1506,16 @@
                         }
                         }
 
-                        b'16.
+                        ef''16.
 
                         \scaleDurations #'(1 . 1) {
 
-                            af'16
+                            d''16
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
-                                a'16
+                                ef''16
 
                                 s8
 
@@ -1524,10 +1524,10 @@
                             }
                             }
 
-                            bf'16
+                            cs''16
 
                             \revert Staff.Stem.stemlet-length
-                            b'16
+                            c'16
                             ]
                             \bar "||"
 

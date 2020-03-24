@@ -1,7 +1,7 @@
 \version "2.19.83"
 \language "english"
 #(set-default-paper-size "11x17landscape")
-#(set-global-staff-size 16)
+#(set-global-staff-size 15)
 \include "ekmel.ily"
 \ekmelicStyle evans
 
@@ -16,10 +16,10 @@
 }
 
 \layout {
-    \accidentalStyle forget
+    %{ \accidentalStyle forget %}
 	%{ \accidentalStyle modern %}
 	%{ \accidentalStyle modern-cautionary %}
-	%{ \accidentalStyle dodecaphonic %}
+	\accidentalStyle dodecaphonic
     indent = #15
 	ragged-last = ##t
     ragged-right = ##t
@@ -148,7 +148,7 @@
 }
 
 \paper {
-	system-system-spacing = #'((basic-distance . 10) (minimum-distance . 10) (padding . 4))
+	system-system-spacing = #'((basic-distance . 12) (minimum-distance . 12) (padding . 4))
 
 	indent = 20\mm
     short-indent = 15\mm

@@ -1,4 +1,4 @@
-\version "2.19.83"
+\version "2.19.84"
 \language "english"
 #(set-default-paper-size "11x17landscape")
 #(set-global-staff-size 15)
@@ -12,7 +12,7 @@
 	title = \markup \override #'(font-name . "Didot") \fontsize #9.5 \center-column {"Chalk Line"}
 	subtitle = \markup \override #'(font-name . "Didot") \fontsize #4 \center-column {"f  o  r     s  o  l  o     f  l  u  t  e"}
 	%{ subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #3 \center-column {"; or , inscriptions from a crumbling stone"} %}
-	composer = \markup \override #'(font-name . "Didot") \fontsize #3 {"Gregory Rowland Evans"}
+	composer = \markup \override #'(font-name . "Didot") \fontsize #3 {"Gregory Rowland Evans" \override #'(font-name . "MaestroTimes") "(*1995)"}
 }
 
 \layout {
@@ -68,7 +68,7 @@
 		%\override TimeSignature.stencil = ##f
 		\override TimeSignature.whiteout-style = #'outline
 		\override TimeSignature.whiteout = ##t
-        \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 8) (minimum-distance . 8) (padding . 2) (stretchability . 0))
+        \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 9) (minimum-distance . 9) (padding . 2) (stretchability . 0))
     }
     \context {
         \Score
@@ -119,10 +119,10 @@
         \override TupletBracket.minimum-length = #3
         \override TupletBracket.padding = #2
 		%{ \override TupletBracket.staff-padding = #1.5 %}
-		\override TupletBracket.staff-padding = #2
+		\override TupletBracket.staff-padding = #1.5
         \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
 		\override TupletBracket.direction = #down
-		\override TupletNumber.font-size = #1.5
+		\override TupletNumber.font-size = #1
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
 		proportionalNotationDuration = #(ly:make-moment 1 60)
@@ -157,6 +157,12 @@
     right-margin = 10\mm
     top-margin = 10\mm
 
+	%{ top-margin = 1\cm
+	bottom-margin = 1\cm
+	left-margin = 2\cm
+	right-margin = 1\cm %}
+
+	%top-margin = .90\in
 	oddHeaderMarkup = \markup ""
 	evenHeaderMarkup = \markup ""
 	oddFooterMarkup = \markup
@@ -164,16 +170,18 @@
             \override #'(font-name . "Didot")
                 \bold \fontsize #3 "Chalk Line - GR Evans"
             \concat {
-                \override #'(font-name . "Didot")
+                \override #'(font-name . "MaestroTimes")
                     \bold \fontsize #3
+                        %{ \on-the-fly #print-page-number-check-first %}
                         \fromproperty #'page:page-number-string
                 }
             }
     evenFooterMarkup = \markup
         \fill-line {
             \concat {
-                \override #'(font-name . "Didot")
+                \override #'(font-name . "MaestroTimes")
                     \bold \fontsize #3
+                        %{ \on-the-fly #print-page-number-check-first %}
                         \fromproperty #'page:page-number-string
                 }
             \override #'(font-name . "Didot")

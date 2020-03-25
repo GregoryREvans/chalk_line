@@ -93,7 +93,7 @@
         %{ \override DynamicLineSpanner.Y-extent = #'(-1.5 . 1.5) %}
 		\override Hairpin.bound-padding = #1.5 %is this necessary?
 		\override Glissando.breakable = ##t
-		\override Glissando.thickness = #1.8
+		\override Glissando.thickness = #2
 		\override Stem.thickness = #0.5
 		\override Staff.thickness = #0.5
 		\override MetronomeMark.font-size = 3

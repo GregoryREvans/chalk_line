@@ -153,6 +153,7 @@
                     }
 
                     d''16
+                    \glissando
 
                     c''32
 
@@ -202,6 +203,7 @@
 
                         \revert Staff.Stem.stemlet-length
                         cs''8.
+                        \glissando
                         ]
 
                     }
@@ -236,7 +238,9 @@
 
                         }
 
+                        \pitchedTrill
                         ef'4
+                        \startTrillSpan c''
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
@@ -244,6 +248,7 @@
                             \override Staff.Stem.stemlet-length = 0
                             ef''16
                             [
+                            \stopTrillSpan
 
                             s8
 
@@ -303,6 +308,7 @@
                         ]
 
                         e'4
+                        \glissando
 
                     }
 
@@ -327,7 +333,9 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                         \times 2/3 {
 
-                            bf'4
+                            \pitchedTrill
+                            fs'4
+                            \startTrillSpan bf'
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
@@ -335,6 +343,7 @@
                                 \override Staff.Stem.stemlet-length = 0
                                 c''16
                                 [
+                                \stopTrillSpan
 
                                 s8
 
@@ -364,6 +373,7 @@
                     \times 5/8 {
 
                         c'4.
+                        \glissando
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
@@ -403,9 +413,12 @@
 
                         ef'4.
 
+                        \pitchedTrill
                         d''8
+                        \startTrillSpan ef''
 
                         c''4
+                        \stopTrillSpan
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                         \times 2/3 {
@@ -469,8 +482,10 @@
                     }
 
                     d'16
+                    \glissando
 
                     c'8
+                    \glissando
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
@@ -676,6 +691,7 @@
 
                     \revert Staff.Stem.stemlet-length
                     a'8.
+                    \glissando
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
@@ -782,6 +798,7 @@
                     ]
 
                     c''4
+                    \glissando
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
@@ -879,6 +896,7 @@
                         ]
 
                         c'4.
+                        \glissando
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                         \times 4/5 {
@@ -911,7 +929,9 @@
                             c'8
                             [
 
+                            \pitchedTrill
                             cs''8.
+                            \startTrillSpan d''
 
                         }
 
@@ -919,6 +939,7 @@
                         \times 4/7 {
 
                             d'8
+                            \stopTrillSpan
 
                             ef'8
 
@@ -1161,6 +1182,7 @@
 
                     \revert Staff.Stem.stemlet-length
                     e''8
+                    \glissando
                     ]
 
                     f''4
@@ -1366,6 +1388,7 @@
 
                         \revert Staff.Stem.stemlet-length
                         fs''16.
+                        \glissando
                         ]
 
                     }
@@ -1521,6 +1544,7 @@
                         }
 
                         ef'4
+                        \glissando
 
                         \scaleDurations #'(1 . 1) {
 

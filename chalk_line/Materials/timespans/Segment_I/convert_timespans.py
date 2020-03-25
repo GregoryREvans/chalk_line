@@ -23,6 +23,9 @@ from chalk_line.Materials.score_structure.Segment_I.gliss_material_pattern impor
 from chalk_line.Materials.score_structure.Segment_I.trill_material_pattern import (
     trill_material_list,
 )
+from chalk_line.Materials.score_structure.Segment_I.tempo_material_pattern import (
+    tempo_material_list,
+)
 from chalk_line.Materials.timespans.Segment_I.make_timespans import (
     rhythm_timespan_list,
     pitch_timespan_list,
@@ -31,6 +34,7 @@ from chalk_line.Materials.timespans.Segment_I.make_timespans import (
     articulation_timespan_list,
     gliss_timespan_list,
     trill_timespan_list,
+    tempo_timespan_list,
 )
 from chalk_line.Materials.score_structure.Segment_I.time_signatures import bounds
 
@@ -134,14 +138,30 @@ segment_I_trill_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
+##############
+# tempo#
+##############
+tempo_mat = tempo_material_list
+
+segment_I_tempo_timespans = evans.ConvertTimespans.convert_timespans(
+    materials=tempo_mat,
+    ts_list=tempo_timespan_list,
+    bounds=bounds,
+    segment_name="Segment_I_tempo_timespans",
+    current_directory=pathlib.Path(__file__).parent,
+    add_silence=False,
+    is_global=True,
+)
+
 ###############
 # all timespans#
 ###############
 segment_I_timespans = [
+    segment_I_tempo_timespans,
     segment_I_grace_timespans,
     segment_I_pitch_timespans,
     segment_I_gliss_timespans,
     segment_I_trill_timespans,
-    # segment_I_dynamic_timespans,
-    # segment_I_articulation_timespans,
+    segment_I_dynamic_timespans,
+    segment_I_articulation_timespans,
 ]

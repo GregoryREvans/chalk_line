@@ -56,11 +56,11 @@ grace_timespan_list = pitch_timespan_maker(
 #########
 # dynamic#
 #########
-dynamic_target_timespan = abjad.Timespan(0, 15)
+dynamic_target_timespan = abjad.Timespan(0, 14)
 
 dynamic_timespan_maker = TaleaTimespanMaker(
-    playing_talea=rmakers.Talea(counts=([1, 1, 1, 2]), denominator=2),
-    silence_talea=rmakers.Talea(counts=([0]), denominator=4),
+    playing_talea=rmakers.Talea(counts=([3, 2, 1, 2, 2, 4, 5, 3, 1, 2]), denominator=8),
+    silence_talea=rmakers.Talea(counts=([1, 2, 1, 2]), denominator=4),
 )
 
 dynamic_timespan_list = dynamic_timespan_maker(
@@ -91,7 +91,7 @@ gliss_timespan_maker = TaleaTimespanMaker(
     silence_talea=rmakers.Talea(counts=([0]), denominator=4),
 )
 
-gliss_timespan_list = articulation_timespan_maker(
+gliss_timespan_list = gliss_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=gliss_target_timespan
 )
 
@@ -105,6 +105,21 @@ trill_timespan_maker = TaleaTimespanMaker(
     silence_talea=rmakers.Talea(counts=([0]), denominator=4),
 )
 
-trill_timespan_list = articulation_timespan_maker(
+trill_timespan_list = trill_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=trill_target_timespan
+)
+
+##############
+# tempo#
+##############
+tempo_target_timespan = abjad.Timespan(0, 13)
+
+tempo_timespan_maker = TaleaTimespanMaker(
+    initial_silence_talea=rmakers.Talea(counts=([6]), denominator=4),
+    playing_talea=rmakers.Talea(counts=([7, 7, 7]), denominator=4),
+    silence_talea=rmakers.Talea(counts=([3, 4, 5]), denominator=4),
+)
+
+tempo_timespan_list = tempo_timespan_maker(
+    music_specifiers=OrderedDict([("Global Context", None)]), target_timespan=tempo_target_timespan
 )

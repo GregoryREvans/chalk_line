@@ -41,51 +41,91 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            - \abjad-dashed-line-with-arrow
+            - \baca-metronome-mark-spanner-left-text 2 0 1 "87"
+            - \tweak staff-padding #1
+            \bacaStartTextSpanMM
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
+            \bacaStopTextSpanMM
+            - \abjad-invisible-line
+            - \baca-metronome-mark-spanner-left-text 2 0 1 "95"
+            - \tweak staff-padding #1
+            \bacaStartTextSpanMM
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            \bacaStopTextSpanMM
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
+            - \abjad-dashed-line-with-arrow
+            - \baca-metronome-mark-spanner-left-text 2 0 1 "95"
+            - \tweak staff-padding #1
+            \bacaStartTextSpanMM
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
+            \bacaStopTextSpanMM
+            - \abjad-invisible-line
+            - \baca-metronome-mark-spanner-left-text 2 0 1 "60"
+            - \tweak staff-padding #1
+            \bacaStartTextSpanMM
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
+            \bacaStopTextSpanMM
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
+            - \abjad-dashed-line-with-arrow
+            - \baca-metronome-mark-spanner-left-text 2 0 1 "73"
+            - \tweak staff-padding #1
+            \bacaStartTextSpanMM
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
+            \bacaStopTextSpanMM
+            - \abjad-invisible-line
+            - \baca-metronome-mark-spanner-left-text 2 0 1 "90"
+            - \tweak staff-padding #1
+            \bacaStartTextSpanMM
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            \bacaStopTextSpanMM
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
+            - \abjad-dashed-line-with-arrow
+            - \baca-metronome-mark-spanner-left-text 2 0 1 "90"
+            - \tweak staff-padding #1
+            \bacaStartTextSpanMM
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
+            \bacaStopTextSpanMM
+            - \abjad-invisible-line
+            - \baca-metronome-mark-spanner-left-text 2 0 1 "87"
+            - \tweak staff-padding #1
+            \bacaStartTextSpanMM
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
+            \bacaStopTextSpanMM
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -115,6 +155,7 @@
                     \markup { Flute }                                          %! applying staff names and clefs
                     \clef "treble"
                     c'8.
+                    \pp
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "32")
                     \times 2/3 {
@@ -124,7 +165,7 @@
 
                             cs'16
 
-                            s8
+                            s8..
 
                             s2
 
@@ -154,11 +195,11 @@
                         d'16
                         [
 
-                        s8
+                        s8..
 
                         ef'16
 
-                        s8
+                        s8..
 
                         \revert Staff.Stem.stemlet-length
                         s2
@@ -187,6 +228,7 @@
                         [
 
                         cs''64.
+                        - \tenuto
 
                         c'64.
 
@@ -197,17 +239,19 @@
 
                             \override Staff.Stem.stemlet-length = 0
                             d'16
+                            \mp
                             [
 
-                            s8
+                            s8..
 
                             ef'16
+                            - \accent
 
-                            s8
+                            s8..
 
                             c'16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -238,7 +282,7 @@
 
                                 ef'16
 
-                                s8
+                                s8..
 
                                 s2
 
@@ -249,12 +293,14 @@
 
                             \revert Staff.Stem.stemlet-length
                             c''8
+                            - \tenuto
                             ]
 
                         }
 
                         \pitchedTrill
                         ef'4
+                        - \accent
                         \startTrillSpan c''
 
                         \scaleDurations #'(1 . 1) {
@@ -265,11 +311,12 @@
                             [
                             \stopTrillSpan
 
-                            s8
+                            s8..
 
                             d''16
+                            - \tenuto
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -287,6 +334,7 @@
                     \times 5/8 {
 
                         cs''4.
+                        \p
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
@@ -295,15 +343,15 @@
                             e'16
                             [
 
-                            s8
+                            s8..
 
                             fs'16
 
-                            s8
+                            s8..
 
                             af'16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -317,12 +365,16 @@
                         [
 
                         c''8
+                        :32
 
                         \revert Staff.Stem.stemlet-length
                         af''8
+                        :32
+                        \mf
                         ]
 
                         e'4
+                        :32
                         \glissando
 
                     }
@@ -335,8 +387,9 @@
                         \appoggiatura {
 
                             fs'16
+                            :32
 
-                            s8
+                            s8..
 
                             s2
 
@@ -360,11 +413,11 @@
                                 [
                                 \stopTrillSpan
 
-                                s8
+                                s8..
 
                                 af''16
 
-                                s8
+                                s8..
 
                                 \revert Staff.Stem.stemlet-length
                                 s2
@@ -376,6 +429,7 @@
                             bf''4
 
                             fs''4
+                            \ff
 
                         }
 
@@ -397,15 +451,15 @@
                             cs'16
                             [
 
-                            s8
+                            s8..
 
                             d'16
 
-                            s8
+                            s8..
 
                             ef'16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -417,6 +471,8 @@
                         c'8
 
                         cs''4
+                        \f
+                        \>
 
                         d'4
 
@@ -427,6 +483,8 @@
                     \times 3/4 {
 
                         ef'4.
+                        \mf
+                        - \tenuto
 
                         \pitchedTrill
                         d''8
@@ -443,6 +501,8 @@
                             [
 
                             ef''8
+                            \p
+                            - \accent
 
                             \revert Staff.Stem.stemlet-length
                             d''8
@@ -459,7 +519,7 @@
 
                             ef''16
 
-                            s8
+                            s8..
 
                             s2
 
@@ -483,11 +543,12 @@
                         fs'16
                         [
 
-                        s8
+                        s8..
 
                         e'16
+                        - \tenuto
 
-                        s8
+                        s8..
 
                         \revert Staff.Stem.stemlet-length
                         s2
@@ -497,6 +558,7 @@
                     }
 
                     d'16
+                    - \accent
                     \glissando
 
                     c'8
@@ -507,6 +569,7 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         e'16
+                        - \tenuto
                         [
 
                         af'16
@@ -528,7 +591,7 @@
 
                                 e'16
 
-                                s8
+                                s8..
 
                                 s2
 
@@ -546,12 +609,15 @@
                         e'32.
 
                         d'32.
+                        :32
 
                         fs'32.
+                        :32
 
                         \scaleDurations #'(1 . 1) {
 
                             af'32
+                            \pp
 
                             ef''32
 
@@ -612,7 +678,7 @@
 
                         c''16
 
-                        s8
+                        s8..
 
                         s2
 
@@ -622,6 +688,7 @@
                     ef''32.
 
                     b'64
+                    - \tenuto
                     ~
 
                     \revert Staff.Stem.stemlet-length
@@ -644,6 +711,7 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     f'16
+                    - \accent
                     [
 
                     \scaleDurations #'(1 . 1) {
@@ -653,11 +721,11 @@
                         b'16
                         [
 
-                        s8
+                        s8..
 
                         a'16
 
-                        s8
+                        s8..
 
                         \revert Staff.Stem.stemlet-length
                         s2
@@ -676,17 +744,20 @@
 
                         \override Staff.Stem.stemlet-length = 0
                         g'16
+                        \mp
+                        \>
                         [
 
-                        s8
+                        s8..
 
                         f'16
 
-                        s8
+                        s8..
 
                         b'16
+                        - \tenuto
 
-                        s8
+                        s8..
 
                         \revert Staff.Stem.stemlet-length
                         s2
@@ -697,11 +768,13 @@
 
                     \revert Staff.Stem.stemlet-length
                     af'16
+                    - \accent
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
                     af'16
+                    \p
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -711,6 +784,8 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     g'16
+                    \mf
+                    - \tenuto
                     [
 
                     af'16
@@ -749,14 +824,16 @@
 
                         \revert Staff.Stem.stemlet-length
                         fs'16
+                        :32
                         ]
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             c''16
+                            :32
 
-                            s8
+                            s8..
 
                             s2
 
@@ -764,19 +841,21 @@
                         }
 
                         bf'4
+                        :32
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
                             fs''16
+                            :32
                             [
 
-                            s8
+                            s8..
 
                             f''16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -792,6 +871,7 @@
 
                             \override Staff.Stem.stemlet-length = 0.75
                             a''32
+                            \ff
                             [
 
                             fs''32
@@ -825,15 +905,15 @@
                             bf'16
                             [
 
-                            s8
+                            s8..
 
                             a'16
 
-                            s8
+                            s8..
 
                             af'16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -857,14 +937,17 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         bf'32
+                        \f
+                        \>
                         [
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             fs''16
+                            - \tenuto
 
-                            s8
+                            s8..
 
                             s2
 
@@ -891,13 +974,14 @@
 
                             \override Staff.Stem.stemlet-length = 0
                             fs''16
+                            - \accent
                             [
 
-                            s8
+                            s8..
 
                             g''16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -908,6 +992,7 @@
 
                         \revert Staff.Stem.stemlet-length
                         f''8
+                        \mf
                         ]
 
                         c'4.
@@ -923,15 +1008,16 @@
                                 cs'16
                                 [
 
-                                s8
+                                s8..
 
                                 d'16
 
-                                s8
+                                s8..
 
                                 ef'16
+                                - \tenuto
 
-                                s8
+                                s8..
 
                                 \revert Staff.Stem.stemlet-length
                                 s2
@@ -942,6 +1028,7 @@
 
                             \override Staff.Stem.stemlet-length = 0.75
                             c'8
+                            - \accent
                             [
 
                             \pitchedTrill
@@ -954,16 +1041,18 @@
                         \times 4/7 {
 
                             d'8
+                            - \tenuto
                             \stopTrillSpan
 
                             ef'8
+                            \p
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
                                 d''16
 
-                                s8
+                                s8..
 
                                 s2
 
@@ -993,11 +1082,11 @@
                             ef''16
                             [
 
-                            s8
+                            s8..
 
                             d''16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -1007,12 +1096,17 @@
                         }
 
                         ef''16.
+                        :32
 
                         cs''8.
+                        :32
 
                         cs'16.
+                        :32
+                        \pp
 
                         d'16.
+                        :32
 
                         \scaleDurations #'(1 . 1) {
 
@@ -1023,15 +1117,15 @@
                                 ef'16
                                 [
 
-                                s8
+                                s8..
 
                                 e'16
 
-                                s8
+                                s8..
 
                                 cs'16
 
-                                s8
+                                s8..
 
                                 \revert Staff.Stem.stemlet-length
                                 s2
@@ -1066,7 +1160,7 @@
 
                                 cs''16
 
-                                s8
+                                s8..
 
                                 s2
 
@@ -1084,6 +1178,8 @@
                         }
 
                         e''8
+                        \mp
+                        \>
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
@@ -1092,11 +1188,11 @@
                             d''16
                             [
 
-                            s8
+                            s8..
 
                             cs'''16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -1106,6 +1202,7 @@
                         }
 
                         c'''8
+                        - \tenuto
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
@@ -1114,15 +1211,15 @@
                             b''16
                             [
 
-                            s8
+                            s8..
 
                             bf''16
 
-                            s8
+                            s8..
 
                             cs'''16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -1132,15 +1229,17 @@
                         }
 
                         c''16
+                        - \accent
 
                         b''16
+                        \p
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             bf''16
 
-                            s8
+                            s8..
 
                             s2
 
@@ -1164,13 +1263,15 @@
 
                         \override Staff.Stem.stemlet-length = 0
                         bf'16
+                        - \tenuto
                         [
 
-                        s8
+                        s8..
 
                         b'16
+                        - \accent
 
-                        s8
+                        s8..
 
                         \revert Staff.Stem.stemlet-length
                         s2
@@ -1182,13 +1283,14 @@
                     bf'32
 
                     c''32
+                    - \tenuto
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
 
                         fs''16
 
-                        s8
+                        s8..
 
                         s2
 
@@ -1197,6 +1299,7 @@
 
                     \revert Staff.Stem.stemlet-length
                     e''8
+                    \mf
                     \glissando
                     ]
 
@@ -1216,7 +1319,7 @@
 
                             g''16
 
-                            s8
+                            s8..
 
                             s2
 
@@ -1225,12 +1328,14 @@
 
                         \revert Staff.Stem.stemlet-length
                         f''16
+                        :32
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
                     e'''8
+                    :32
                     [
 
                     \scaleDurations #'(1 . 1) {
@@ -1238,13 +1343,15 @@
 
                         \override Staff.Stem.stemlet-length = 0
                         f'''16
+                        :32
                         [
 
-                        s8
+                        s8..
 
                         fs''16
+                        :32
 
-                        s8
+                        s8..
 
                         \revert Staff.Stem.stemlet-length
                         s2
@@ -1276,6 +1383,7 @@
                     \times 3/5 {
 
                         cs'4
+                        \ff
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                         \times 2/3 {
@@ -1303,15 +1411,15 @@
                         d'16
                         [
 
-                        s8
+                        s8..
 
                         ef'16
 
-                        s8
+                        s8..
 
                         d''16
 
-                        s8
+                        s8..
 
                         \revert Staff.Stem.stemlet-length
                         s2
@@ -1322,6 +1430,7 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     c''8.
+                    - \tenuto
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -1333,7 +1442,7 @@
 
                         ef''16
 
-                        s8
+                        s8..
 
                         s2
 
@@ -1346,6 +1455,7 @@
 
                     \revert Staff.Stem.stemlet-length
                     ef''8
+                    - \accent
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -1354,6 +1464,8 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         cs''8.
+                        \f
+                        \>
                         [
 
                         fs'16
@@ -1370,11 +1482,11 @@
                                 bf'16
                                 [
 
-                                s8
+                                s8..
 
                                 a'16
 
-                                s8
+                                s8..
 
                                 \revert Staff.Stem.stemlet-length
                                 s2
@@ -1384,11 +1496,14 @@
                             }
 
                             af'16
+                            - \tenuto
 
                             fs'16
+                            - \accent
 
                             \revert Staff.Stem.stemlet-length
                             c''16
+                            \mf
                             ]
 
                         }
@@ -1399,6 +1514,7 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         bf'16.
+                        - \tenuto
                         [
 
                         \revert Staff.Stem.stemlet-length
@@ -1417,15 +1533,15 @@
                         ef''16
                         [
 
-                        s8
+                        s8..
 
                         a''16
 
-                        s8
+                        s8..
 
                         fs''16
 
-                        s8
+                        s8..
 
                         \revert Staff.Stem.stemlet-length
                         s2
@@ -1441,14 +1557,16 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         f''16
+                        :32
                         [
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             b'16
+                            :32
 
-                            s8
+                            s8..
 
                             s2
 
@@ -1456,9 +1574,11 @@
                         }
 
                         a'16
+                        :32
 
                         \revert Staff.Stem.stemlet-length
                         af'16
+                        :32
                         ]
 
                     }
@@ -1471,6 +1591,7 @@
 
                             \override Staff.Stem.stemlet-length = 0.75
                             g'8.
+                            \p
                             [
 
                             f'8.
@@ -1484,11 +1605,11 @@
                             b'16
                             [
 
-                            s8
+                            s8..
 
                             a'16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -1502,6 +1623,7 @@
                         g'8
 
                         f'8
+                        \pp
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                         \times 2/3 {
@@ -1535,15 +1657,15 @@
                                 af'16
                                 [
 
-                                s8
+                                s8..
 
                                 c'16
 
-                                s8
+                                s8..
 
                                 cs'16
 
-                                s8
+                                s8..
 
                                 \revert Staff.Stem.stemlet-length
                                 s2
@@ -1554,6 +1676,7 @@
 
                             \revert Staff.Stem.stemlet-length
                             d'8.
+                            - \tenuto
                             ]
 
                         }
@@ -1568,7 +1691,7 @@
 
                                 c'16
 
-                                s8
+                                s8..
 
                                 s2
 
@@ -1580,6 +1703,7 @@
                             [
 
                             d'8.
+                            - \accent
 
                         }
 
@@ -1590,11 +1714,11 @@
                             ef'16
                             [
 
-                            s8
+                            s8..
 
                             d''16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -1619,9 +1743,11 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         d''16.
+                        - \tenuto
                         [
 
                         ef''16.
+                        - \accent
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
@@ -1630,15 +1756,16 @@
                             cs''16
                             [
 
-                            s8
+                            s8..
 
                             c'16
+                            - \tenuto
 
-                            s8
+                            s8..
 
                             cs'16
 
-                            s8
+                            s8..
 
                             \revert Staff.Stem.stemlet-length
                             s2
@@ -1654,7 +1781,7 @@
 
                             ef'16
 
-                            s8
+                            s8..
 
                             s2
 
@@ -1674,13 +1801,15 @@
 
                                 \override Staff.Stem.stemlet-length = 0
                                 ef'16
+                                :32
                                 [
 
-                                s8
+                                s8..
 
                                 d''16
+                                :32
 
-                                s8
+                                s8..
 
                                 \revert Staff.Stem.stemlet-length
                                 s2
@@ -1690,9 +1819,11 @@
                             }
 
                             c''16
+                            :32
 
                             \revert Staff.Stem.stemlet-length
                             ef'16
+                            :32
                             ]
                             \bar "||"
 

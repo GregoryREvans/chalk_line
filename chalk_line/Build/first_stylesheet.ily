@@ -2,8 +2,10 @@
 \language "english"
 #(set-default-paper-size "11x17landscape")
 #(set-global-staff-size 15)
-\include "ekmel.ily"
-\ekmelicStyle evans
+%\include "/Users/evansdsg2/evans/evans/lilypond/evans-articulations.ily"
+\include "/Users/evansdsg2/evans/evans/lilypond/evans-spanners.ily"
+%{ \include "ekmel.ily"
+\ekmelicStyle evans %}
 
 \header {
 	tagline = ##f
@@ -34,6 +36,7 @@
 		\consists Mark_engraver
 		\consists Metronome_mark_engraver
 		\consists Text_engraver
+		\consists Text_spanner_engraver
 		\override BarNumber.Y-extent = #'(0 . 0)
 		\override BarNumber.Y-offset = 0
 		\override BarNumber.extra-offset = #'(-4 . 0)
@@ -125,7 +128,7 @@
 		\override TupletNumber.font-size = #1
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
-		proportionalNotationDuration = #(ly:make-moment 1 60)
+		proportionalNotationDuration = #(ly:make-moment 1 61)
         tupletFullLength = ##t
     }
 	\context {
@@ -148,7 +151,7 @@
 }
 
 \paper {
-	system-system-spacing = #'((basic-distance . 12) (minimum-distance . 12) (padding . 4))
+	system-system-spacing = #'((basic-distance . 19) (minimum-distance . 19) (padding . 4))
 
 	indent = 20\mm
     short-indent = 15\mm

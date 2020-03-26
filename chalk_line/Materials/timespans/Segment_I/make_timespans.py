@@ -60,7 +60,7 @@ dynamic_target_timespan = abjad.Timespan(0, 14)
 
 dynamic_timespan_maker = TaleaTimespanMaker(
     playing_talea=rmakers.Talea(counts=([3, 2, 1, 2, 2, 4, 5, 3, 1, 2]), denominator=8),
-    silence_talea=rmakers.Talea(counts=([1, 2, 1, 2]), denominator=4),
+    silence_talea=rmakers.Talea(counts=([0]), denominator=16),
 )
 
 dynamic_timespan_list = dynamic_timespan_maker(

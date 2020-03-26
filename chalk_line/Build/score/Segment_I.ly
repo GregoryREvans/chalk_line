@@ -158,13 +158,13 @@
                         }
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        d'32
+                        dqs'32
                         [
 
                         ef'32
 
                         \revert Staff.Stem.stemlet-length
-                        c'32
+                        aqf'32
                         ]
 
                     }
@@ -182,7 +182,7 @@
 
                         s8..
 
-                        ef'16
+                        eqf'16
 
                         s8..
 
@@ -196,14 +196,16 @@
                     d''16
                     \glissando
 
-                    c''32
+                    bqs'32
+                    \mp
+                    \>
 
                     ef'32
 
                     ef''32
 
                     \revert Staff.Stem.stemlet-length
-                    d''32
+                    dqs''32
                     ]
 
                     \scaleDurations #'(1 . 1) {
@@ -212,19 +214,21 @@
                         ef''32.
                         [
 
-                        cs''64.
+                        cqs''64.
                         - \tenuto
 
                         c'64.
 
                         cs'16.
+                        \p
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            d'16
-                            \mp
+                            dqs'16
+                            \mf
+                            \<
                             [
 
                             s8..
@@ -234,7 +238,7 @@
 
                             s8..
 
-                            c'16
+                            aqf'16
 
                             s8..
 
@@ -247,6 +251,7 @@
 
                         \revert Staff.Stem.stemlet-length
                         cs''8.
+                        \ff
                         \glissando
                         ]
 
@@ -260,12 +265,13 @@
 
                             \override Staff.Stem.stemlet-length = 0.75
                             d'8
+                            \f
                             [
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
-                                ef'16
+                                eqf'16
 
                                 s8..
 
@@ -277,7 +283,7 @@
                             d''8
 
                             \revert Staff.Stem.stemlet-length
-                            c''8
+                            bqs'8
                             - \tenuto
                             ]
 
@@ -285,7 +291,9 @@
 
                         \pitchedTrill
                         ef'4
+                        \mf
                         - \accent
+                        \>
                         \startTrillSpan c''
 
                         \scaleDurations #'(1 . 1) {
@@ -298,7 +306,7 @@
 
                             s8..
 
-                            d''16
+                            dqs''16
                             - \tenuto
 
                             s8..
@@ -311,6 +319,7 @@
                         }
 
                         ef''4
+                        \p
 
                     }
 
@@ -318,8 +327,8 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 8 5) "8")
                     \times 5/8 {
 
-                        cs''4.
-                        \p
+                        cqs''4.
+                        \pp
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
@@ -334,7 +343,7 @@
 
                             s8..
 
-                            af'16
+                            aqf'16
 
                             s8..
 
@@ -349,13 +358,14 @@
                         bf'8
                         [
 
-                        c''8
+                        bqs'8
                         :32
 
                         \revert Staff.Stem.stemlet-length
                         af''8
                         :32
-                        \mf
+                        \mp
+                        \>
                         ]
 
                         e'4
@@ -371,7 +381,7 @@
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
-                            fs'16
+                            gqf'16
                             :32
 
                             s8..
@@ -387,14 +397,17 @@
                         \times 2/3 {
 
                             \pitchedTrill
-                            fs'4
-                            \startTrillSpan bf'
+                            gqf'4
+                            \p
+                            \startTrillSpan aqs'
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
                                 \override Staff.Stem.stemlet-length = 0
                                 c''16
+                                \mf
+                                \<
                                 [
                                 \stopTrillSpan
 
@@ -411,14 +424,14 @@
                             }
                             }
 
-                            bf''4
+                            aqs''4
 
                             fs''4
-                            \ff
 
                         }
 
-                        e'4
+                        eqs'4
+                        \ff
 
                     }
 
@@ -427,6 +440,7 @@
                     \times 5/8 {
 
                         c'4.
+                        \f
                         \glissando
 
                         \scaleDurations #'(1 . 1) {
@@ -434,11 +448,13 @@
 
                             \override Staff.Stem.stemlet-length = 0
                             cs'16
+                            \mf
+                            \>
                             [
 
                             s8..
 
-                            d'16
+                            dqf'16
 
                             s8..
 
@@ -453,13 +469,13 @@
                         }
                         }
 
-                        c'8
+                        aqs'8
 
                         cs''4
-                        \f
-                        \>
+                        \p
 
                         d'4
+                        \pp
 
                     }
 
@@ -467,15 +483,16 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 3) "4")
                     \times 3/4 {
 
-                        ef'4.
-                        \mf
+                        dqs'4.
                         - \tenuto
 
                         \pitchedTrill
                         d''8
+                        \mp
                         \startTrillSpan ef''
 
-                        c''4
+                        cqs''4
+                        \p
                         \stopTrillSpan
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
@@ -483,14 +500,14 @@
 
                             \override Staff.Stem.stemlet-length = 0.75
                             ef'8
+                            \mf
                             [
 
                             ef''8
-                            \p
                             - \accent
 
                             \revert Staff.Stem.stemlet-length
-                            d''8
+                            dqf''8
                             ]
 
                         }
@@ -512,7 +529,9 @@
                         }
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        cs''16.
+                        dqf''16.
+                        \ff
+                        \>
                         [
 
                         \revert Staff.Stem.stemlet-length
@@ -530,7 +549,7 @@
 
                         s8..
 
-                        e'16
+                        eqf'16
                         - \tenuto
 
                         s8..
@@ -543,10 +562,12 @@
                     }
 
                     d'16
+                    \f
                     - \accent
                     \glissando
 
-                    c'8
+                    cqs'8
+                    \mf
                     \glissando
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
@@ -560,7 +581,7 @@
                         af'16
 
                         \revert Staff.Stem.stemlet-length
-                        fs'16
+                        fqs'16
                         ]
 
                     }
@@ -584,7 +605,7 @@
                             }
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            d'8
+                            dqs'8
                             [
 
                             c'8
@@ -593,7 +614,7 @@
 
                         e'32.
 
-                        d'32.
+                        dqf'32.
                         :32
 
                         fs'32.
@@ -601,8 +622,9 @@
 
                         \scaleDurations #'(1 . 1) {
 
-                            af'32
-                            \pp
+                            aqf'32
+                            \p
+                            \>
 
                             ef''32
 
@@ -620,14 +642,14 @@
                         \scaleDurations #'(1 . 1) {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            c'32.
+                            bqs32.
                             [
 
                             ef'32.
 
                         }
 
-                        ef'16
+                        eqf'16
 
                         \scaleDurations #'(1 . 1) {
 
@@ -637,12 +659,12 @@
 
                         }
 
-                        c''32
+                        bqs'32
 
                         ef''32
 
                         \revert Staff.Stem.stemlet-length
-                        ef'32
+                        eqf'32
                         ]
 
                     }
@@ -653,10 +675,10 @@
 
                     fs'32.
 
-                    a'32
+                    aqf'32
                     ~
 
-                    a'16
+                    aqf'16
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
@@ -670,7 +692,7 @@
                     }
                     }
 
-                    ef''32.
+                    eqf''32.
 
                     b'64
                     - \tenuto
@@ -678,15 +700,18 @@
 
                     \revert Staff.Stem.stemlet-length
                     b'32
+                    \pp
                     ]
 
                     \scaleDurations #'(1 . 1) {
 
                         \override Staff.Stem.stemlet-length = 0.75
                         a'32
+                        \mp
+                        \>
                         [
 
-                        af'32
+                        gqs'32
 
                         \revert Staff.Stem.stemlet-length
                         g'32
@@ -695,7 +720,7 @@
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    f'16
+                    fqs'16
                     - \accent
                     [
 
@@ -719,23 +744,21 @@
                     }
                     }
 
-                    af'16
+                    gqs'16
                     ~
 
-                    af'16
+                    gqs'16
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
 
                         \override Staff.Stem.stemlet-length = 0
                         g'16
-                        \mp
-                        \>
                         [
 
                         s8..
 
-                        f'16
+                        fqs'16
 
                         s8..
 
@@ -763,22 +786,26 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    a'8.
+                    aqf'8.
+                    \mf
                     \glissando
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
                     g'16
-                    \mf
+                    \ff
                     - \tenuto
+                    \>
                     [
 
-                    af'16
+                    aqf'16
                     ~
 
-                    af'16
+                    aqf'16
+                    \f
 
                     fs'16
+                    \mf
                     ~
 
                     \revert Staff.Stem.stemlet-length
@@ -792,7 +819,7 @@
                         c''64
                         [
 
-                        bf'64
+                        aqs'64
 
                         \revert Staff.Stem.stemlet-length
                         a'32.
@@ -804,7 +831,7 @@
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        af'16
+                        aqf'16
                         [
 
                         \revert Staff.Stem.stemlet-length
@@ -825,7 +852,7 @@
                         }
                         }
 
-                        bf'4
+                        aqs'4
                         :32
 
                         \scaleDurations #'(1 . 1) {
@@ -834,11 +861,13 @@
                             \override Staff.Stem.stemlet-length = 0
                             fs''16
                             :32
+                            \p
+                            \>
                             [
 
                             s8..
 
-                            f''16
+                            fqs''16
 
                             s8..
 
@@ -850,19 +879,22 @@
                         }
 
                         ef''4
+                        \pp
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "32")
                         \times 4/5 {
 
                             \override Staff.Stem.stemlet-length = 0.75
                             a''32
-                            \ff
+                            \mp
+                            \>
                             [
 
-                            fs''32
+                            fqs''32
 
                             \revert Staff.Stem.stemlet-length
                             g''16.
+                            \p
                             ]
 
                         }
@@ -870,7 +902,8 @@
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    f''16
+                    fqs''16
+                    \mf
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -887,7 +920,9 @@
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            bf'16
+                            aqs'16
+                            \ff
+                            \>
                             [
 
                             s8..
@@ -896,7 +931,7 @@
 
                             s8..
 
-                            af'16
+                            aqf'16
 
                             s8..
 
@@ -913,6 +948,7 @@
 
                         \revert Staff.Stem.stemlet-length
                         c''8
+                        \f
                         ]
 
                     }
@@ -921,9 +957,8 @@
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bf'32
-                        \f
-                        \>
+                        aqs'32
+                        \mf
                         [
 
                         \scaleDurations #'(1 . 1) {
@@ -939,7 +974,7 @@
                         }
                         }
 
-                        f''32
+                        fqs''32
 
                         \revert Staff.Stem.stemlet-length
                         ef''16.
@@ -958,7 +993,7 @@
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            fs''16
+                            fqs''16
                             - \accent
                             [
 
@@ -976,8 +1011,7 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        f''8
-                        \mf
+                        fqs''8
                         ]
 
                         c'4.
@@ -991,11 +1025,13 @@
 
                                 \override Staff.Stem.stemlet-length = 0
                                 cs'16
+                                \p
+                                \>
                                 [
 
                                 s8..
 
-                                d'16
+                                dqf'16
 
                                 s8..
 
@@ -1012,7 +1048,7 @@
                             }
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            c'8
+                            aqs'8
                             - \accent
                             [
 
@@ -1029,8 +1065,7 @@
                             - \tenuto
                             \stopTrillSpan
 
-                            ef'8
-                            \p
+                            dqs'8
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
@@ -1045,7 +1080,7 @@
                             }
 
                             \revert Staff.Stem.stemlet-length
-                            c''8.
+                            cqs''8.
                             ]
 
                         }
@@ -1069,7 +1104,7 @@
 
                             s8..
 
-                            d''16
+                            dqf''16
 
                             s8..
 
@@ -1083,12 +1118,14 @@
                         ef''16.
                         :32
 
-                        cs''8.
+                        dqf''8.
                         :32
+                        \pp
 
                         cs'16.
                         :32
-                        \pp
+                        \mp
+                        \>
 
                         d'16.
                         :32
@@ -1099,7 +1136,7 @@
                             \appoggiatura {
 
                                 \override Staff.Stem.stemlet-length = 0
-                                ef'16
+                                dqs'16
                                 [
 
                                 s8..
@@ -1108,7 +1145,7 @@
 
                                 s8..
 
-                                cs'16
+                                dqf'16
 
                                 s8..
 
@@ -1124,7 +1161,8 @@
                             ef'16
 
                             \revert Staff.Stem.stemlet-length
-                            e'16
+                            eqf'16
+                            \p
                             ]
 
                         }
@@ -1136,6 +1174,7 @@
                     \times 3/4 {
 
                         ef''4.
+                        \mf
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                         \times 2/3 {
@@ -1143,7 +1182,9 @@
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
-                                cs''16
+                                dqf''16
+                                \ff
+                                \>
 
                                 s8..
 
@@ -1158,19 +1199,19 @@
 
                             e''16
 
-                            ef''16
+                            dqs''16
+                            \f
 
                         }
 
                         e''8
-                        \mp
-                        \>
+                        \mf
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            d''16
+                            dqs''16
                             [
 
                             s8..
@@ -1193,7 +1234,7 @@
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            b''16
+                            bqf''16
                             [
 
                             s8..
@@ -1202,7 +1243,7 @@
 
                             s8..
 
-                            cs'''16
+                            dqf'''16
 
                             s8..
 
@@ -1217,12 +1258,11 @@
                         - \accent
 
                         b''16
-                        \p
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
 
-                            bf''16
+                            aqs''16
 
                             s8..
 
@@ -1234,13 +1274,15 @@
                         b'16
 
                         \revert Staff.Stem.stemlet-length
-                        cs''16
+                        dqf''16
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bf''16
+                    \p
+                    \>
                     [
 
                     \scaleDurations #'(1 . 1) {
@@ -1253,7 +1295,7 @@
 
                         s8..
 
-                        b'16
+                        bqf'16
                         - \accent
 
                         s8..
@@ -1267,7 +1309,7 @@
 
                     bf'32
 
-                    c''32
+                    cqs''32
                     - \tenuto
 
                     \scaleDurations #'(1 . 1) {
@@ -1284,20 +1326,22 @@
 
                     \revert Staff.Stem.stemlet-length
                     e''8
-                    \mf
+                    \pp
                     \glissando
                     ]
 
-                    f''4
+                    eqs''4
+                    \mp
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
                         e''16
+                        \p
                         [
 
-                        e'''16
+                        eqs'''16
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
@@ -1319,8 +1363,10 @@
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    e'''8
+                    eqf'''8
                     :32
+                    \mf
+                    \<
                     [
 
                     \scaleDurations #'(1 . 1) {
@@ -1333,7 +1379,7 @@
 
                         s8..
 
-                        fs''16
+                        gqf''16
                         :32
 
                         s8..
@@ -1347,17 +1393,19 @@
 
                     \revert Staff.Stem.stemlet-length
                     g'''8
+                    \ff
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
                     e'''16.
+                    \f
                     [
 
-                    f'''32
+                    eqs'''32
 
                     fs'''32
 
-                    g'''32
+                    gqs'''32
 
                     \revert Staff.Stem.stemlet-length
                     c'16
@@ -1368,18 +1416,19 @@
                     \times 3/5 {
 
                         cs'4
-                        \ff
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            d'8
+                            dqf'8
                             [
 
                             ef'8
 
-                            c'8
+                            aqs'8
+                            \mf
+                            \>
 
                         }
 
@@ -1398,7 +1447,7 @@
 
                         s8..
 
-                        ef'16
+                        dqs'16
 
                         s8..
 
@@ -1414,7 +1463,7 @@
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    c''8.
+                    cqs''8.
                     - \tenuto
                     [
 
@@ -1435,11 +1484,12 @@
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    d''8
+                    dqf''8
                     [
 
                     \revert Staff.Stem.stemlet-length
                     ef''8
+                    \p
                     - \accent
                     ]
 
@@ -1448,9 +1498,9 @@
                     \times 3/4 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        cs''8.
-                        \f
-                        \>
+                        dqf''8.
+                        \pp
+                        \<
                         [
 
                         fs'16
@@ -1464,7 +1514,7 @@
                             \appoggiatura {
 
                                 \override Staff.Stem.stemlet-length = 0
-                                bf'16
+                                aqs'16
                                 [
 
                                 s8..
@@ -1480,7 +1530,7 @@
                             }
                             }
 
-                            af'16
+                            aqf'16
                             - \tenuto
 
                             fs'16
@@ -1488,7 +1538,7 @@
 
                             \revert Staff.Stem.stemlet-length
                             c''16
-                            \mf
+                            \mp
                             ]
 
                         }
@@ -1498,7 +1548,8 @@
                     \scaleDurations #'(1 . 1) {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bf'16.
+                        aqs'16.
+                        \p
                         - \tenuto
                         [
 
@@ -1509,7 +1560,9 @@
 
                     }
 
-                    f''16
+                    fqs''16
+                    \mf
+                    \<
 
                     \scaleDurations #'(1 . 1) {
                     \appoggiatura {
@@ -1524,7 +1577,7 @@
 
                         s8..
 
-                        fs''16
+                        fqs''16
 
                         s8..
 
@@ -1536,13 +1589,15 @@
                     }
 
                     g''8
+                    \ff
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        f''16
+                        fqs''16
                         :32
+                        \f
                         [
 
                         \scaleDurations #'(1 . 1) {
@@ -1562,7 +1617,7 @@
                         :32
 
                         \revert Staff.Stem.stemlet-length
-                        af'16
+                        gqs'16
                         :32
                         ]
 
@@ -1576,10 +1631,9 @@
 
                             \override Staff.Stem.stemlet-length = 0.75
                             g'8.
-                            \p
                             [
 
-                            f'8.
+                            fqs'8.
 
                         }
 
@@ -1603,22 +1657,27 @@
                         }
                         }
 
-                        af'8
+                        gqs'8
 
                         g'8
+                        \mf
+                        \>
 
-                        f'8
-                        \pp
+                        fqs'8
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                         \times 2/3 {
 
                             b'8
+                            \p
 
                             af'8
+                            \pp
+                            \<
 
                             \revert Staff.Stem.stemlet-length
-                            a'8
+                            aqf'8
+                            \mp
                             ]
 
                         }
@@ -1633,13 +1692,14 @@
 
                             \override Staff.Stem.stemlet-length = 0.75
                             g'8.
+                            \p
                             [
 
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
                                 \override Staff.Stem.stemlet-length = 0
-                                af'16
+                                aqf'16
                                 [
 
                                 s8..
@@ -1660,7 +1720,7 @@
                             }
 
                             \revert Staff.Stem.stemlet-length
-                            d'8.
+                            dqf'8.
                             - \tenuto
                             ]
 
@@ -1674,7 +1734,9 @@
                             \scaleDurations #'(1 . 1) {
                             \appoggiatura {
 
-                                c'16
+                                aqs'16
+                                \mf
+                                \<
 
                                 s8..
 
@@ -1688,6 +1750,7 @@
                             [
 
                             d'8.
+                            \ff
                             - \accent
 
                         }
@@ -1696,7 +1759,7 @@
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            ef'16
+                            dqs'16
                             [
 
                             s8..
@@ -1712,7 +1775,7 @@
                         }
                         }
 
-                        c''8
+                        cqs''8
 
                         ef'8
 
@@ -1727,7 +1790,7 @@
                     \times 5/6 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        d''16.
+                        dqf''16.
                         - \tenuto
                         [
 
@@ -1738,7 +1801,7 @@
                         \appoggiatura {
 
                             \override Staff.Stem.stemlet-length = 0
-                            cs''16
+                            dqf''16
                             [
 
                             s8..
@@ -1759,7 +1822,7 @@
                         }
                         }
 
-                        d'8.
+                        dqf'8.
 
                         \scaleDurations #'(1 . 1) {
                         \appoggiatura {
@@ -1773,7 +1836,7 @@
                         }
                         }
 
-                        c'16.
+                        aqs'16.
 
                         cs''16.
 
@@ -1785,7 +1848,7 @@
                             \appoggiatura {
 
                                 \override Staff.Stem.stemlet-length = 0
-                                ef'16
+                                dqs'16
                                 :32
                                 [
 
@@ -1803,7 +1866,7 @@
                             }
                             }
 
-                            c''16
+                            cqs''16
                             :32
 
                             \revert Staff.Stem.stemlet-length

@@ -17,7 +17,9 @@ music_specifiers = OrderedDict(
 rhythm_target_timespan = abjad.Timespan(0, 15)
 
 rhythm_timespan_maker = TaleaTimespanMaker(
-    playing_talea=rmakers.Talea(counts=([4, 3, 4, 5, 6, 5, 6, 4, 3, 2, 3]), denominator=8),
+    playing_talea=rmakers.Talea(
+        counts=([4, 3, 4, 5, 6, 5, 6, 4, 3, 2, 3]), denominator=8
+    ),
     silence_talea=rmakers.Talea(counts=([0]), denominator=4),
 )
 
@@ -121,5 +123,6 @@ tempo_timespan_maker = TaleaTimespanMaker(
 )
 
 tempo_timespan_list = tempo_timespan_maker(
-    music_specifiers=OrderedDict([("Global Context", None)]), target_timespan=tempo_target_timespan
+    music_specifiers=OrderedDict([("Global Context", None)]),
+    target_timespan=tempo_target_timespan,
 )

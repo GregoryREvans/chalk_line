@@ -654,7 +654,7 @@
                         \scaleDurations #'(1 . 1) {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            bqs32.
+                            cqs'32.
                             \mf
                             \>
                             [

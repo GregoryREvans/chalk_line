@@ -8,6 +8,7 @@ from chalk_line.Materials.score_structure.Segment_II.rhythm_material_pattern imp
 from chalk_line.Materials.score_structure.Segment_II.pitch_material_pattern import (
     pitch_material_list,
 )
+
 # from chalk_line.Materials.score_structure.Segment_II.grace_material_pattern import (
 #     grace_material_list,
 # )
@@ -17,6 +18,7 @@ from chalk_line.Materials.score_structure.Segment_II.dynamic_material_pattern im
 from chalk_line.Materials.score_structure.Segment_II.articulation_material_pattern import (
     articulation_material_list,
 )
+
 # from chalk_line.Materials.score_structure.Segment_II.gliss_material_pattern import (
 #     gliss_material_list,
 # )

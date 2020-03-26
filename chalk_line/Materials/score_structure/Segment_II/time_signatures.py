@@ -1,6 +1,8 @@
 import abjad
 import pathlib
-from chalk_line.Materials.timespans.Segment_II.make_timespans import rhythm_timespan_list
+from chalk_line.Materials.timespans.Segment_II.make_timespans import (
+    rhythm_timespan_list,
+)
 
 offset_counter = abjad.OffsetCounter(rhythm_timespan_list)
 

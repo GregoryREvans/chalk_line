@@ -186,7 +186,7 @@ flute_grace_handler_one = evans.GraceHandler(
         0,
         1,
         0,
-        ],
+    ],
     gesture_lengths=[
         1,
         2,
@@ -232,7 +232,7 @@ flute_grace_handler_one = evans.GraceHandler(
         3,
         1,
         2,
-        ],
+    ],
     continuous=True,
-    name="flute_grace_handler_one"
+    name="flute_grace_handler_one",
 )

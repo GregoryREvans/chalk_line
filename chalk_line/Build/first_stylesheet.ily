@@ -1,6 +1,7 @@
 \version "2.19.84"
 \language "english"
-#(set-default-paper-size "11x17landscape")
+#(set! paper-alist (cons '("newsize" . (cons (* 21 in) (* 13.59 in))) paper-alist))
+#(set-default-paper-size "newsize")
 #(set-global-staff-size 15)
 %\include "/Users/evansdsg2/evans/evans/lilypond/evans-articulations.ily"
 \include "/Users/evansdsg2/evans/evans/lilypond/evans-spanners.ily"
@@ -41,7 +42,7 @@
 		\override BarNumber.Y-offset = 0
 		\override BarNumber.extra-offset = #'(-4 . 0)
 		%\override BarNumber.font-name = "Didot"
-		\override BarNumber.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
+		%{ \override BarNumber.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print) %}
 		\override BarNumber.font-size = 3
 		\override BarNumber.padding = 4
 		%\override BarNumber.stencil = ##f
@@ -128,7 +129,7 @@
 		\override TupletNumber.font-size = #1
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
-		proportionalNotationDuration = #(ly:make-moment 1 61)
+		proportionalNotationDuration = #(ly:make-moment 1 74)
         tupletFullLength = ##t
     }
 	\context {
@@ -155,9 +156,9 @@
 
 	indent = 20\mm
     short-indent = 15\mm
-    bottom-margin = 10\mm
+    bottom-margin = 5\mm
     left-margin = 10\mm
-    right-margin = 10\mm
+    right-margin = 5\mm
     top-margin = 10\mm
 
 	%{ top-margin = 1\cm

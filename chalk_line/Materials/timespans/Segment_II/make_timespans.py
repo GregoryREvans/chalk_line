@@ -95,19 +95,19 @@ articulation_timespan_list = articulation_timespan_maker(
 #     music_specifiers=music_specifiers, target_timespan=gliss_target_timespan
 # )
 
-# ##############
-# # trill#
-# ##############
-# trill_target_timespan = abjad.Timespan(0, 15)
-#
-# trill_timespan_maker = TaleaTimespanMaker(
-#     playing_talea=rmakers.Talea(counts=([15]), denominator=1),
-#     silence_talea=rmakers.Talea(counts=([0]), denominator=4),
-# )
-#
-# trill_timespan_list = trill_timespan_maker(
-#     music_specifiers=music_specifiers, target_timespan=trill_target_timespan
-# )
+##############
+# trill#
+##############
+trill_target_timespan = abjad.Timespan(0, 27)
+
+trill_timespan_maker = TaleaTimespanMaker(
+    playing_talea=rmakers.Talea(counts=([3, 2, 1, 2]), denominator=4),
+    silence_talea=rmakers.Talea(counts=([1, 2, 3, 4, 3, 2]), denominator=4),
+)
+
+trill_timespan_list = trill_timespan_maker(
+    music_specifiers=music_specifiers, target_timespan=trill_target_timespan
+)
 
 ##############
 # tempo#

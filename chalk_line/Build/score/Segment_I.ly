@@ -147,7 +147,7 @@
                     \times 2/3 {
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
                             cs'16
 
@@ -175,8 +175,10 @@
                     [
 
                     \scaleDurations #'(1 . 1) {
-                    \appoggiatura {
+                    \acciaccatura {
 
+                        \slash
+                        \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
                         d'16
                         [
@@ -184,6 +186,7 @@
                         s8..
 
                         eqf'16
+                        \revert Stem.direction
 
                         s8..
 
@@ -225,8 +228,10 @@
                         \mf
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             dqs'16
                             \ff
@@ -241,6 +246,7 @@
                             s8..
 
                             aqf'16
+                            \revert Stem.direction
 
                             s8..
 
@@ -272,7 +278,7 @@
                             [
 
                             \scaleDurations #'(1 . 1) {
-                            \appoggiatura {
+                            \acciaccatura {
 
                                 eqf'16
 
@@ -301,8 +307,10 @@
                         \startTrillSpan c''
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             ef''16
                             [
@@ -312,6 +320,7 @@
 
                             dqs''16
                             - \tenuto
+                            \revert Stem.direction
 
                             s8..
 
@@ -336,8 +345,10 @@
                         \<
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             e'16
                             [
@@ -349,6 +360,7 @@
                             s8..
 
                             aqf'16
+                            \revert Stem.direction
 
                             s8..
 
@@ -385,7 +397,7 @@
                     \times 3/5 {
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
                             gqf'16
                             :32
@@ -410,8 +422,10 @@
                             \startTrillSpan aqs'
 
                             \scaleDurations #'(1 . 1) {
-                            \appoggiatura {
+                            \acciaccatura {
 
+                                \slash
+                                \override Stem.direction = #UP
                                 \override Staff.Stem.stemlet-length = 0
                                 c''16
                                 [
@@ -420,6 +434,7 @@
                                 s8..
 
                                 af''16
+                                \revert Stem.direction
 
                                 s8..
 
@@ -453,8 +468,10 @@
                         \glissando
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             cs'16
                             \mf
@@ -468,6 +485,7 @@
                             s8..
 
                             ef'16
+                            \revert Stem.direction
 
                             s8..
 
@@ -528,7 +546,7 @@
                     \scaleDurations #'(1 . 1) {
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
                             ef''16
                             \mp
@@ -553,8 +571,10 @@
                     }
 
                     \scaleDurations #'(1 . 1) {
-                    \appoggiatura {
+                    \acciaccatura {
 
+                        \slash
+                        \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
                         fs'16
                         [
@@ -563,6 +583,7 @@
 
                         eqf'16
                         - \tenuto
+                        \revert Stem.direction
 
                         s8..
 
@@ -603,7 +624,7 @@
                         \times 9/16 {
 
                             \scaleDurations #'(1 . 1) {
-                            \appoggiatura {
+                            \acciaccatura {
 
                                 e'16
                                 \mf
@@ -696,7 +717,7 @@
                     \p
 
                     \scaleDurations #'(1 . 1) {
-                    \appoggiatura {
+                    \acciaccatura {
 
                         c''16
                         \pp
@@ -742,8 +763,10 @@
                     [
 
                     \scaleDurations #'(1 . 1) {
-                    \appoggiatura {
+                    \acciaccatura {
 
+                        \slash
+                        \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
                         b'16
                         [
@@ -751,6 +774,7 @@
                         s8..
 
                         a'16
+                        \revert Stem.direction
 
                         s8..
 
@@ -768,8 +792,10 @@
                     \mf
 
                     \scaleDurations #'(1 . 1) {
-                    \appoggiatura {
+                    \acciaccatura {
 
+                        \slash
+                        \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
                         g'16
                         \ff
@@ -784,6 +810,7 @@
 
                         b'16
                         - \tenuto
+                        \revert Stem.direction
 
                         s8..
 
@@ -863,7 +890,7 @@
                         ]
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
                             c''16
                             :32
@@ -879,8 +906,10 @@
                         :32
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             fs''16
                             :32
@@ -890,6 +919,7 @@
 
                             fqs''16
                             \mf
+                            \revert Stem.direction
 
                             s8..
 
@@ -939,8 +969,10 @@
                     \times 2/3 {
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             aqs'16
                             [
@@ -952,6 +984,7 @@
                             s8..
 
                             aqf'16
+                            \revert Stem.direction
 
                             s8..
 
@@ -983,7 +1016,7 @@
                         [
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
                             fs''16
                             - \tenuto
@@ -1011,8 +1044,10 @@
                         [
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             fqs''16
                             - \accent
@@ -1021,6 +1056,7 @@
                             s8..
 
                             g''16
+                            \revert Stem.direction
 
                             s8..
 
@@ -1043,8 +1079,10 @@
                         \times 4/5 {
 
                             \scaleDurations #'(1 . 1) {
-                            \appoggiatura {
+                            \acciaccatura {
 
+                                \slash
+                                \override Stem.direction = #UP
                                 \override Staff.Stem.stemlet-length = 0
                                 cs'16
                                 \p
@@ -1059,6 +1097,7 @@
 
                                 ef'16
                                 - \tenuto
+                                \revert Stem.direction
 
                                 s8..
 
@@ -1093,7 +1132,7 @@
                             \>
 
                             \scaleDurations #'(1 . 1) {
-                            \appoggiatura {
+                            \acciaccatura {
 
                                 d''16
 
@@ -1124,8 +1163,10 @@
                         [
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             ef''16
                             [
@@ -1133,6 +1174,7 @@
                             s8..
 
                             dqf''16
+                            \revert Stem.direction
 
                             s8..
 
@@ -1161,8 +1203,10 @@
                         \scaleDurations #'(1 . 1) {
 
                             \scaleDurations #'(1 . 1) {
-                            \appoggiatura {
+                            \acciaccatura {
 
+                                \slash
+                                \override Stem.direction = #UP
                                 \override Staff.Stem.stemlet-length = 0
                                 dqs'16
                                 [
@@ -1174,6 +1218,7 @@
                                 s8..
 
                                 dqf'16
+                                \revert Stem.direction
 
                                 s8..
 
@@ -1208,7 +1253,7 @@
                         \times 2/3 {
 
                             \scaleDurations #'(1 . 1) {
-                            \appoggiatura {
+                            \acciaccatura {
 
                                 dqf''16
                                 \mf
@@ -1237,8 +1282,10 @@
                         \>
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             dqs''16
                             [
@@ -1246,6 +1293,7 @@
                             s8..
 
                             cs'''16
+                            \revert Stem.direction
 
                             s8..
 
@@ -1260,8 +1308,10 @@
                         - \tenuto
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             bqf''16
                             [
@@ -1273,6 +1323,7 @@
                             s8..
 
                             dqf'''16
+                            \revert Stem.direction
 
                             s8..
 
@@ -1290,7 +1341,7 @@
                         \mf
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
                             aqs''16
                             \p
@@ -1316,8 +1367,10 @@
                     [
 
                     \scaleDurations #'(1 . 1) {
-                    \appoggiatura {
+                    \acciaccatura {
 
+                        \slash
+                        \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
                         bf'16
                         - \tenuto
@@ -1327,6 +1380,7 @@
 
                         bqf'16
                         - \accent
+                        \revert Stem.direction
 
                         s8..
 
@@ -1343,7 +1397,7 @@
                     - \tenuto
 
                     \scaleDurations #'(1 . 1) {
-                    \appoggiatura {
+                    \acciaccatura {
 
                         fs''16
                         \pp
@@ -1374,7 +1428,7 @@
                         eqs'''16
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
                             g''16
 
@@ -1401,8 +1455,10 @@
                     [
 
                     \scaleDurations #'(1 . 1) {
-                    \appoggiatura {
+                    \acciaccatura {
 
+                        \slash
+                        \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
                         f'''16
                         :32
@@ -1412,6 +1468,7 @@
 
                         gqf''16
                         :32
+                        \revert Stem.direction
 
                         s8..
 
@@ -1472,8 +1529,10 @@
                     }
 
                     \scaleDurations #'(1 . 1) {
-                    \appoggiatura {
+                    \acciaccatura {
 
+                        \slash
+                        \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
                         d'16
                         [
@@ -1486,6 +1545,7 @@
 
                         d''16
                         \pp
+                        \revert Stem.direction
 
                         s8..
 
@@ -1508,7 +1568,7 @@
                     ]
 
                     \scaleDurations #'(1 . 1) {
-                    \appoggiatura {
+                    \acciaccatura {
 
                         ef''16
                         \p
@@ -1550,8 +1610,10 @@
                         \times 2/3 {
 
                             \scaleDurations #'(1 . 1) {
-                            \appoggiatura {
+                            \acciaccatura {
 
+                                \slash
+                                \override Stem.direction = #UP
                                 \override Staff.Stem.stemlet-length = 0
                                 aqs'16
                                 [
@@ -1559,6 +1621,7 @@
                                 s8..
 
                                 a'16
+                                \revert Stem.direction
 
                                 s8..
 
@@ -1606,8 +1669,10 @@
                     \>
 
                     \scaleDurations #'(1 . 1) {
-                    \appoggiatura {
+                    \acciaccatura {
 
+                        \slash
+                        \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
                         ef''16
                         [
@@ -1619,6 +1684,7 @@
                         s8..
 
                         fqs''16
+                        \revert Stem.direction
 
                         s8..
 
@@ -1643,7 +1709,7 @@
                         [
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
                             b'16
                             :32
@@ -1681,8 +1747,10 @@
                         }
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             b'16
                             \f
@@ -1692,6 +1760,7 @@
                             s8..
 
                             a'16
+                            \revert Stem.direction
 
                             s8..
 
@@ -1737,8 +1806,10 @@
                             [
 
                             \scaleDurations #'(1 . 1) {
-                            \appoggiatura {
+                            \acciaccatura {
 
+                                \slash
+                                \override Stem.direction = #UP
                                 \override Staff.Stem.stemlet-length = 0
                                 aqf'16
                                 [
@@ -1750,6 +1821,7 @@
                                 s8..
 
                                 cs'16
+                                \revert Stem.direction
 
                                 s8..
 
@@ -1773,7 +1845,7 @@
                         \scaleDurations #'(1 . 1) {
 
                             \scaleDurations #'(1 . 1) {
-                            \appoggiatura {
+                            \acciaccatura {
 
                                 aqs'16
 
@@ -1797,8 +1869,10 @@
                         }
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             dqs'16
                             [
@@ -1806,6 +1880,7 @@
                             s8..
 
                             d''16
+                            \revert Stem.direction
 
                             s8..
 
@@ -1840,8 +1915,10 @@
                         - \accent
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
+                            \slash
+                            \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             dqf''16
                             [
@@ -1854,6 +1931,7 @@
                             s8..
 
                             cs'16
+                            \revert Stem.direction
 
                             s8..
 
@@ -1867,7 +1945,7 @@
                         dqf'8.
 
                         \scaleDurations #'(1 . 1) {
-                        \appoggiatura {
+                        \acciaccatura {
 
                             ef'16
 
@@ -1887,8 +1965,10 @@
                             d'16
 
                             \scaleDurations #'(1 . 1) {
-                            \appoggiatura {
+                            \acciaccatura {
 
+                                \slash
+                                \override Stem.direction = #UP
                                 \override Staff.Stem.stemlet-length = 0
                                 dqs'16
                                 :32
@@ -1898,6 +1978,7 @@
 
                                 d''16
                                 :32
+                                \revert Stem.direction
 
                                 s8..
 

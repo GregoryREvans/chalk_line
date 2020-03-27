@@ -22,9 +22,9 @@ from chalk_line.Materials.score_structure.Segment_II.articulation_material_patte
 # from chalk_line.Materials.score_structure.Segment_II.gliss_material_pattern import (
 #     gliss_material_list,
 # )
-# from chalk_line.Materials.score_structure.Segment_II.trill_material_pattern import (
-#     trill_material_list,
-# )
+from chalk_line.Materials.score_structure.Segment_II.trill_material_pattern import (
+    trill_material_list,
+)
 from chalk_line.Materials.score_structure.Segment_II.tempo_material_pattern import (
     tempo_material_list,
 )
@@ -35,7 +35,7 @@ from chalk_line.Materials.timespans.Segment_II.make_timespans import (
     dynamic_timespan_list,
     articulation_timespan_list,
     # gliss_timespan_list,
-    # trill_timespan_list,
+    trill_timespan_list,
     tempo_timespan_list,
 )
 from chalk_line.Materials.score_structure.Segment_II.time_signatures import bounds
@@ -126,19 +126,19 @@ segment_II_articulation_timespans = evans.ConvertTimespans.convert_timespans(
 #     add_silence=False,
 # )
 
-# ##############
-# # trill#
-# ##############
-# trill_mat = trill_material_list
-#
-# segment_II_trill_timespans = evans.ConvertTimespans.convert_timespans(
-#     materials=trill_mat,
-#     ts_list=trill_timespan_list,
-#     bounds=bounds,
-#     segment_name="Segment_II_trill_timespans",
-#     current_directory=pathlib.Path(__file__).parent,
-#     add_silence=False,
-# )
+##############
+# trill#
+##############
+trill_mat = trill_material_list
+
+segment_II_trill_timespans = evans.ConvertTimespans.convert_timespans(
+    materials=trill_mat,
+    ts_list=trill_timespan_list,
+    bounds=bounds,
+    segment_name="Segment_II_trill_timespans",
+    current_directory=pathlib.Path(__file__).parent,
+    add_silence=False,
+)
 
 ##############
 # tempo#
@@ -163,7 +163,7 @@ segment_II_timespans = [
     # segment_II_grace_timespans,
     segment_II_pitch_timespans,
     # segment_II_gliss_timespans,
-    # segment_II_trill_timespans,
+    segment_II_trill_timespans,
     segment_II_dynamic_timespans,
     segment_II_articulation_timespans,
 ]

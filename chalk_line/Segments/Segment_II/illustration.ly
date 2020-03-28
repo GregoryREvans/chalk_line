@@ -292,9 +292,17 @@
                     \<
                     [
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
+                    }
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
@@ -302,27 +310,22 @@
                     ]
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup {
-                    \lower #1.7
+                    \lower #5
                     \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
                     \woodwind-diagram
                     #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
                     }
                     \startTrillSpan
 
                     gqs'4
                     \mp
                     \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "16")
@@ -330,18 +333,17 @@
 
                         fs'4
                         \p
-                        \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
                         \markup {
-                        \lower #1.7
+                        \lower #5
                         \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
                         \woodwind-diagram
                         #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                        #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
                         }
                         \startTrillSpan
 
@@ -351,9 +353,17 @@
                         [
                         \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
+                        }
                         \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
@@ -372,16 +382,16 @@
                     \>
                     [
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup {
-                    \lower #1.7
+                    \lower #5
                     \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
                     \woodwind-diagram
                     #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                    #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
                     }
                     \startTrillSpan
 
@@ -391,7 +401,7 @@
                     ]
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
@@ -406,44 +416,22 @@
                     \>
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     fqs''16
                     \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     a'16
                     ~
                     ]
-                    \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -459,15 +447,21 @@
                         \pp
                         ]
                         \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         eqf''4
                         \mp
                         \>
+                        \stopTrillSpan
 
                         f'16
                         ~
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
                         \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
@@ -484,11 +478,22 @@
                     \<
                     [
                     \stopTrillSpan
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     bf'8
                     \ff
                     ]
+                    \stopTrillSpan
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
@@ -498,15 +503,22 @@
                         \f
                         \>
                         [
+                        \stopTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         gqf'8
                         \mf
                         ]
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                     }
 
                     r8
+                    \stopTrillSpan
 
                     r8
 
@@ -514,31 +526,23 @@
                     \p
                     - \accent
                     \>
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     ef''8
                     [
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
-                    \startTrillSpan
+                    \stopTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     a'8
                     ~
                     ]
-                    \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
@@ -558,17 +562,9 @@
                         ]
                         \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup {
-                        \lower #1.7
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                        }
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
 
                     }
@@ -581,14 +577,41 @@
                     \p
                     \<
                     [
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
+                    }
+                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     bf'16
                     ]
+                    \stopTrillSpan
 
                     cqs''4
                     \mf
                     - \tenuto
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
+                    }
+                    \startTrillSpan
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
@@ -598,6 +621,20 @@
                         - \accent
                         \>
                         ~
+                        \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
+                        }
+                        \startTrillSpan
 
                         f'16
                         \f
@@ -606,6 +643,7 @@
                         \mf
                         \>
                         ~
+                        \stopTrillSpan
 
                     }
 
@@ -617,9 +655,17 @@
                     - \tenuto
                     ~
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
+                    }
                     \startTrillSpan
 
                     dqf''16
@@ -631,16 +677,16 @@
                     ]
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup {
-                    \lower #1.7
+                    \lower #5
                     \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
                     \woodwind-diagram
                     #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                    #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
                     }
                     \startTrillSpan
 
@@ -657,7 +703,7 @@
                         \>
                         [
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
                         \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
@@ -669,11 +715,22 @@
                         cs'16
                         \mf
                         \<
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         aqf'8
                         ~
                         ]
+                        \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                     }
 
@@ -686,6 +743,7 @@
                     \f
                     \>
                     ~
+                    \stopTrillSpan
 
                     d'16
 
@@ -693,24 +751,22 @@
                     af''16
                     :32
                     ]
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     af'8
                     :32
                     \mf
                     [
+                    \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
@@ -720,7 +776,7 @@
                     ]
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
@@ -735,25 +791,11 @@
                         :32
                         \pp
                         \<
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
-                        - \tweak bound-details.left.text
-                        \markup {
-                        \lower #1.7
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                        }
-                        \startTrillSpan
 
                         af'4
                         ~
-                        \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
                         \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
@@ -767,11 +809,17 @@
                         \p
                         \<
                         \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         b'16
                         ~
                         ]
+                        \stopTrillSpan
 
                     }
 
@@ -783,6 +831,11 @@
                     bf'16
                     ~
                     ]
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bf'8.
@@ -795,18 +848,11 @@
                     \>
                     ~
                     ]
+                    \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -822,36 +868,36 @@
                         \f
                         ]
                         \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                     }
 
                     r4
+                    \stopTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf'8
                     \mf
                     [
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     f'8.
                     \p
                     \>
-                    \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup {
-                    \lower #1.7
+                    \lower #5
                     \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
                     \woodwind-diagram
                     #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                    #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
                     }
                     \startTrillSpan
 
@@ -860,6 +906,19 @@
                     ~
                     ]
                     \stopTrillSpan
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
+                    }
+                    \startTrillSpan
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
@@ -872,11 +931,25 @@
                         gqs'8
                         \pp
                         ]
+                        \stopTrillSpan
 
                         d'4
                         \mp
                         \>
                         ~
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
+                        }
+                        \startTrillSpan
 
                         \override Staff.Stem.stemlet-length = 0.75
                         d'16
@@ -887,10 +960,19 @@
                         f''16
                         \mf
                         ]
+                        \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
+                        }
                         \startTrillSpan
 
                     }
@@ -903,16 +985,16 @@
                     \>
                     ~
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup {
-                    \lower #1.7
+                    \lower #5
                     \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
                     \woodwind-diagram
                     #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                    #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
                     }
                     \startTrillSpan
 
@@ -928,11 +1010,6 @@
                     ~
                     ]
                     \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
@@ -945,19 +1022,10 @@
                         dqs'8.
                         \p
                         - \tenuto
-                        \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup {
-                        \lower #1.7
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                        }
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
@@ -967,6 +1035,11 @@
                         ~
                         ]
                         \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                     }
 
@@ -979,16 +1052,23 @@
                     aqs''8.
                     \p
                     ]
+                    \stopTrillSpan
 
                     c'4
                     \mf
                     \<
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     af'8
                     \ff
                     - \accent
+                    \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
@@ -1001,11 +1081,17 @@
                     \f
                     \>
                     [
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     f'8
                     ~
                     ]
+                    \stopTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     f'16
@@ -1017,6 +1103,11 @@
                     \p
                     \>
                     ]
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
@@ -1024,9 +1115,16 @@
 
                         a'4
                         \pp
+                        \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         c'16
                         \mp
+                        \stopTrillSpan
 
                     }
 
@@ -1037,17 +1135,9 @@
                     - \tenuto
                     \<
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     af'8
@@ -1055,7 +1145,7 @@
                     ~
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
@@ -1073,14 +1163,25 @@
                         \ff
                         \>
                         \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         f'8
                         - \tenuto
+                        \stopTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         f'16
                         ~
                         ]
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                     }
 
@@ -1094,27 +1195,42 @@
                     \mf
                     \>
                     ]
+                    \stopTrillSpan
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
+                    }
+                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     f'8.
                     \p
                     [
+                    \stopTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     bqs''16
                     \pp
                     ]
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup {
-                    \lower #1.7
+                    \lower #5
                     \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
                     \woodwind-diagram
                     #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
                     }
                     \startTrillSpan
 
@@ -1129,25 +1245,33 @@
                         \mp
                         \>
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
+                        }
                         \startTrillSpan
 
                         g'4
                         ~
                         \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
                         \markup {
-                        \lower #1.7
+                        \lower #5
                         \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
                         \woodwind-diagram
                         #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                        #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
                         }
                         \startTrillSpan
 
@@ -1169,6 +1293,19 @@
                     :32
                     ~
                     ]
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
+                    }
+                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bf'8.
@@ -1181,8 +1318,9 @@
                     :32
                     \f
                     ]
+                    \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
@@ -1200,27 +1338,13 @@
                         \mf
                         \>
                         [
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
-                        - \tweak bound-details.left.text
-                        \markup {
-                        \lower #1.7
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                        }
-                        \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         b'8.
                         \p
                         ]
-                        \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
                         \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
@@ -1229,22 +1353,19 @@
                         \pp
                         \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup {
-                        \lower #1.7
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                        }
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
 
                         b'8.
                         \mp
                         \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                     }
 
@@ -1253,27 +1374,14 @@
                     \p
                     \<
                     [
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
+                    \stopTrillSpan
 
                     f'16
                     \mf
-                    \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
@@ -1284,7 +1392,7 @@
                     ]
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
@@ -1309,10 +1417,16 @@
                         a'8.
                         \p
                         ]
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                     }
 
                     r4
+                    \stopTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf''16
@@ -1320,17 +1434,9 @@
                     \<
                     [
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
@@ -1339,7 +1445,7 @@
                     ]
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
@@ -1357,15 +1463,27 @@
 
                         gqs''8.
                         \mp
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         cs'8
                         \p
                         ]
+                        \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                     }
 
                     r8
+                    \stopTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf'8
@@ -1380,16 +1498,16 @@
                     ~
                     ]
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup {
-                    \lower #1.7
+                    \lower #5
                     \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
                     \woodwind-diagram
                     #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                    #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
                     }
                     \startTrillSpan
 
@@ -1403,9 +1521,17 @@
                     ]
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
+                    }
                     \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -1424,6 +1550,19 @@
                         ~
                         ]
                         \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
+                        }
+                        \startTrillSpan
 
                     }
 
@@ -1438,6 +1577,7 @@
                     \<
                     ~
                     ]
+                    \stopTrillSpan
 
                     c'4
                     \mp
@@ -1455,49 +1595,43 @@
                         \<
                         [
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
                         \markup {
-                        \lower #1.7
+                        \lower #5
                         \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
                         \woodwind-diagram
                         #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                        #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
                         }
                         \startTrillSpan
 
                         b'8.
                         \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
+                        }
                         \startTrillSpan
 
                         cs'8.
                         \mf
                         \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
-                        - \tweak bound-details.left.text
-                        \markup {
-                        \lower #1.7
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                        }
-                        \startTrillSpan
 
                         cqs'8.
                         \ff
-                        \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
                         \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
@@ -1510,17 +1644,9 @@
                         ]
                         \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup {
-                        \lower #1.7
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                        }
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
 
                     }
@@ -1532,7 +1658,7 @@
                     aqf''16
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
@@ -1546,8 +1672,14 @@
                     g'4
                     \mf
                     - \accent
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     r8
+                    \stopTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
@@ -1556,10 +1688,16 @@
                         bqf''16
                         \p
                         \>
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         fs'4
                         \pp
                         - \tenuto
+                        \stopTrillSpan
 
                     }
 
@@ -1568,17 +1706,9 @@
                     \>
                     ~
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -1595,7 +1725,7 @@
                         \<
                         \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
                         \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
@@ -1603,11 +1733,17 @@
                         c'16
                         \ff
                         \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         gqf'8
                         \f
                         ]
+                        \stopTrillSpan
 
                     }
 
@@ -1619,17 +1755,9 @@
                     \>
                     [
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
@@ -1638,7 +1766,7 @@
                     ]
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
@@ -1666,6 +1794,11 @@
                     \<
                     ~
                     ]
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
@@ -1682,17 +1815,18 @@
                         :32
                         \ff
                         ]
+                        \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
                         \markup {
-                        \lower #1.7
+                        \lower #5
                         \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
                         \woodwind-diagram
                         #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                        #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
                         }
                         \startTrillSpan
 
@@ -1707,11 +1841,25 @@
                     \f
                     \>
                     [
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
+                    }
+                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     fqs''8.
                     ~
                     ]
+                    \stopTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     fqs''16
@@ -1721,6 +1869,19 @@
                     b'8.
                     ~
                     ]
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
+                    }
+                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "16")
@@ -1733,10 +1894,19 @@
                         \p
                         \>
                         ~
+                        \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
+                        }
                         \startTrillSpan
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1748,29 +1918,23 @@
                         \mp
                         \>
                         \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
-                        - \tweak bound-details.left.text
-                        \markup {
-                        \lower #1.7
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.4)
-                        \override #'(thickness . 0.25)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                        }
-                        \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         b'8
                         \p
                         ]
-                        \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
+                        }
                         \startTrillSpan
 
                     }
@@ -1782,17 +1946,9 @@
                     [
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
@@ -1801,7 +1957,7 @@
                     ]
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
@@ -1820,33 +1976,32 @@
                     bqs'16
                     ~
                     ]
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     bqs'8
                     \mf
 
                     r8
+                    \stopTrillSpan
 
                     r8
 
                     cs'8
                     \p
                     \>
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     d''4
                     ~
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
-                    \startTrillSpan
+                    \stopTrillSpan
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
@@ -1856,9 +2011,8 @@
 
                         fs'4
                         \mp
-                        \stopTrillSpan
                         - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
+                        - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
                         \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
@@ -1873,19 +2027,36 @@
                     \p
                     \<
                     [
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     gqs'16
                     \mf
+                    \stopTrillSpan
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     f'8
                     \ff
                     - \tenuto
                     \>
+                    \stopTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     fqs''8
                     ~
                     ]
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
@@ -1895,6 +2066,12 @@
 
                         af'4
                         ~
+                        \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         af'16
                         \f
@@ -1905,19 +2082,7 @@
                     \mf
                     \>
                     ~
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
-                    \startTrillSpan
+                    \stopTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     d'16
@@ -1929,9 +2094,14 @@
                     \pp
                     - \accent
                     ]
-                    \stopTrillSpan
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     r4
+                    \stopTrillSpan
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
@@ -1939,9 +2109,28 @@
                         bf'8
                         \mp
                         \>
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         aqs'4
                         ~
+                        \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
+                        }
+                        \startTrillSpan
 
                         \override Staff.Stem.stemlet-length = 0.75
                         aqs'16
@@ -1954,11 +2143,7 @@
                         \<
                         ~
                         ]
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #1.5
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
+                        \stopTrillSpan
 
                     }
 
@@ -1970,27 +2155,34 @@
                     fs'16
                     \f
                     \>
-                    \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
                     \markup {
-                    \lower #1.7
+                    \lower #5
                     \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
                     \woodwind-diagram
                     #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
+                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
                     }
                     \startTrillSpan
 
                     dqs'16
                     \stopTrillSpan
                     - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
+                    - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
+                    }
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
@@ -1999,19 +2191,6 @@
                     ~
                     ]
                     \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #1.5
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #1.7
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.4)
-                    \override #'(thickness . 0.25)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four five six)) (lh . (bes b gis)) (rh . (bes d dis ees cis c gz)))
-                    }
-                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     af'8
@@ -2023,9 +2202,22 @@
                     \p
                     - \accent
                     ]
-                    \stopTrillSpan
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
+                    }
+                    \startTrillSpan
 
                     r8
+                    \stopTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
@@ -2036,10 +2228,29 @@
                         \pp
                         \<
                         [
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
+                        }
+                        \startTrillSpan
 
                         d'8.
                         \mp
                         - \tenuto
+                        \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         fqs'16
@@ -2047,6 +2258,7 @@
                         \<
                         ~
                         ]
+                        \stopTrillSpan
 
                     }
 
@@ -2061,11 +2273,22 @@
                     e'16
                     \ff
                     \>
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     aqs''16
                     ~
                     ]
+                    \stopTrillSpan
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
@@ -2074,6 +2297,7 @@
 
                         c'16
                         \f
+                        \stopTrillSpan
 
                     }
 
@@ -2082,9 +2306,20 @@
                     \override Staff.Stem.stemlet-length = 0.75
                     b'8.
                     [
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     fqs''16
                     ~
+                    \stopTrillSpan
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     fqs''16
 
@@ -2092,6 +2327,12 @@
                     bf'16
                     :32
                     ]
+                    \stopTrillSpan
+                    - \tweak staff-padding #3
+                    - \tweak bound-details.right.padding #2
+                    - \tweak bound-details.left.text
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
@@ -2101,18 +2342,31 @@
                         gqs'16
                         :32
                         [
+                        \stopTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         ef'8
                         :32
                         ]
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                         f'4
                         :32
+                        \stopTrillSpan
+                        - \tweak staff-padding #3
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \startTrillSpan
 
                     }
 
                     r8
+                    \stopTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     aqf'16

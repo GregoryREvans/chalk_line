@@ -19,6 +19,7 @@
 
         \context TimeSignatureContext = "Global Context"
         {
+            % [Global Context measure 1]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \tempo 4=71
             \time 2/4                                                          %! scaling time signatures
@@ -29,15 +30,19 @@
                     }
                 }
             s1 * 1/2
+            % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
+            % [Global Context measure 3]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
+            % [Global Context measure 4]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            % [Global Context measure 5]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -45,6 +50,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "71"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 6]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
@@ -53,10 +59,12 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "63"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 7]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
             \bacaStopTextSpanMM
+            % [Global Context measure 8]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
@@ -64,6 +72,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "63"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 9]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -72,13 +81,16 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "58"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 10]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
             \bacaStopTextSpanMM
+            % [Global Context measure 11]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            % [Global Context measure 12]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -86,6 +98,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "58"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 13]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
@@ -94,13 +107,16 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "92"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 14]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
             \bacaStopTextSpanMM
+            % [Global Context measure 15]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            % [Global Context measure 16]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
@@ -108,6 +124,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "92"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 17]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
@@ -116,13 +133,16 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "71"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 18]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
             \bacaStopTextSpanMM
+            % [Global Context measure 19]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            % [Global Context measure 20]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
@@ -130,6 +150,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "71"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 21]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -138,13 +159,16 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "63"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 22]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
             \bacaStopTextSpanMM
+            % [Global Context measure 23]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
+            % [Global Context measure 24]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -152,6 +176,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "63"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 25]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
@@ -160,16 +185,20 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "58"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 26]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
             \bacaStopTextSpanMM
+            % [Global Context measure 27]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
+            % [Global Context measure 28]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            % [Global Context measure 29]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
@@ -177,6 +206,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "58"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 30]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -185,13 +215,16 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "92"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 31]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
             \bacaStopTextSpanMM
+            % [Global Context measure 32]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
+            % [Global Context measure 33]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -199,6 +232,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "92"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 34]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
@@ -207,13 +241,16 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "71"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 35]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
             \bacaStopTextSpanMM
+            % [Global Context measure 36]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            % [Global Context measure 37]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -221,6 +258,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "71"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 38]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
@@ -229,16 +267,20 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "63"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 39]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
             \bacaStopTextSpanMM
+            % [Global Context measure 40]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
+            % [Global Context measure 41]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            % [Global Context measure 42]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
@@ -246,6 +288,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "63"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 43]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -254,19 +297,24 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "58"
             - \tweak staff-padding #1
             \bacaStartTextSpanMM
+            % [Global Context measure 44]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
             \bacaStopTextSpanMM
+            % [Global Context measure 45]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
+            % [Global Context measure 46]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            % [Global Context measure 47]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
+            % [Global Context measure 48]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -282,6 +330,7 @@
 
                 \context Voice = "Voice 1"
                 {
+                    % [Voice 1 measure 1]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Flute }                                          %! applying staff names and clefs
@@ -330,6 +379,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "16")
                     \times 6/7 {
+                        % [Voice 1 measure 2]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         fs'4
                         \p
@@ -373,6 +423,7 @@
                         \stopTrillSpan
 
                     }
+                    % [Voice 1 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r8
 
@@ -400,11 +451,6 @@
                     ~
                     ]
                     \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     cqs'16
@@ -414,29 +460,18 @@
                     c'16
                     \p
                     \>
-                    \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     fqs''16
-                    \stopTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     a'16
                     ~
                     ]
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "16")
                     \times 10/9 {
+                        % [Voice 1 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         a'8
@@ -446,25 +481,13 @@
                         c'8
                         \pp
                         ]
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                         eqf''4
                         \mp
                         \>
-                        \stopTrillSpan
 
                         f'16
                         ~
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                     }
 
@@ -477,7 +500,6 @@
                     - \tenuto
                     \<
                     [
-                    \stopTrillSpan
                     - \tweak staff-padding #3
                     - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
@@ -497,6 +519,7 @@
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
+                        % [Voice 1 measure 5]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         af'16
@@ -550,6 +573,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
+                        % [Voice 1 measure 6]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         a'16
@@ -561,57 +585,25 @@
                         \mp
                         ]
                         \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                     }
 
                     r8
-                    \stopTrillSpan
+                    % [Voice 1 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     eqf'16
                     \p
                     \<
                     [
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
-                    }
-                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     bf'16
                     ]
-                    \stopTrillSpan
 
                     cqs''4
                     \mf
                     - \tenuto
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
-                    }
-                    \startTrillSpan
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
@@ -621,20 +613,6 @@
                         - \accent
                         \>
                         ~
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup {
-                        \lower #5
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
-                        }
-                        \startTrillSpan
 
                         f'16
                         \f
@@ -643,9 +621,9 @@
                         \mf
                         \>
                         ~
-                        \stopTrillSpan
 
                     }
+                    % [Voice 1 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     c'16
@@ -654,19 +632,6 @@
                     dqf''16
                     - \tenuto
                     ~
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
-                    }
-                    \startTrillSpan
 
                     dqf''16
                     \p
@@ -675,20 +640,12 @@
                     fs'8.
                     \pp
                     ]
-                    \stopTrillSpan
                     - \tweak staff-padding #3
                     - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
+                    % [Voice 1 measure 9]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r4
                     \stopTrillSpan
@@ -733,6 +690,7 @@
                         \startTrillSpan
 
                     }
+                    % [Voice 1 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     aqf'8.
@@ -763,26 +721,15 @@
                     \mf
                     [
                     \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     af'8
                     :32
                     \p
                     ]
-                    \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
+                    % [Voice 1 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r8
-                    \stopTrillSpan
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
@@ -794,11 +741,6 @@
 
                         af'4
                         ~
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                         \override Staff.Stem.stemlet-length = 0.75
                         af'16
@@ -808,18 +750,11 @@
                         aqs''16
                         \p
                         \<
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         b'16
                         ~
                         ]
-                        \stopTrillSpan
 
                     }
 
@@ -831,11 +766,6 @@
                     bf'16
                     ~
                     ]
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bf'8.
@@ -848,7 +778,6 @@
                     \>
                     ~
                     ]
-                    \stopTrillSpan
                     - \tweak staff-padding #3
                     - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
@@ -858,6 +787,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
+                        % [Voice 1 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         aqs''16
@@ -871,13 +801,22 @@
                         - \tweak staff-padding #3
                         - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
+                        }
                         \startTrillSpan
 
                     }
 
                     r4
                     \stopTrillSpan
+                    % [Voice 1 measure 13]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf'8
@@ -897,7 +836,7 @@
                     \override #'(thickness . 0.125)
                     \woodwind-diagram
                     #'flute
-                    #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
+                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
                     }
                     \startTrillSpan
 
@@ -916,7 +855,7 @@
                     \override #'(thickness . 0.125)
                     \woodwind-diagram
                     #'flute
-                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
+                    #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
                     }
                     \startTrillSpan
 
@@ -947,7 +886,7 @@
                         \override #'(thickness . 0.125)
                         \woodwind-diagram
                         #'flute
-                        #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
+                        #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
                         }
                         \startTrillSpan
 
@@ -961,42 +900,16 @@
                         \mf
                         ]
                         \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup {
-                        \lower #5
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
-                        }
-                        \startTrillSpan
 
                     }
+                    % [Voice 1 measure 14]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r8
-                    \stopTrillSpan
 
                     d'8
                     \ff
                     \>
                     ~
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
-                    }
-                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     d'8
@@ -1009,11 +922,11 @@
                     \>
                     ~
                     ]
-                    \stopTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
                     \times 8/7 {
+                        % [Voice 1 measure 15]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         f'16
@@ -1022,11 +935,6 @@
                         dqs'8.
                         \p
                         - \tenuto
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         cs'8.
@@ -1034,12 +942,6 @@
                         \<
                         ~
                         ]
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                     }
 
@@ -1052,25 +954,27 @@
                     aqs''8.
                     \p
                     ]
-                    \stopTrillSpan
 
                     c'4
                     \mf
                     \<
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
+                    % [Voice 1 measure 16]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     af'8
                     \ff
                     - \accent
-                    \stopTrillSpan
                     - \tweak staff-padding #3
                     - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
+                    }
                     \startTrillSpan
 
                     r4
@@ -1112,6 +1016,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
                     \times 6/5 {
+                        % [Voice 1 measure 17]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         a'4
                         \pp
@@ -1127,6 +1032,7 @@
                         \stopTrillSpan
 
                     }
+                    % [Voice 1 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r8
 
@@ -1144,11 +1050,6 @@
                     - \accent
                     ~
                     \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "16")
@@ -1162,28 +1063,17 @@
                         b''16
                         \ff
                         \>
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                         f'8
                         - \tenuto
-                        \stopTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         f'16
                         ~
                         ]
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                     }
+                    % [Voice 1 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     f'8.
@@ -1195,47 +1085,19 @@
                     \mf
                     \>
                     ]
-                    \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
-                    }
-                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     f'8.
                     \p
                     [
-                    \stopTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     bqs''16
                     \pp
                     ]
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
-                    }
-                    \startTrillSpan
+                    % [Voice 1 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r4
-                    \stopTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
@@ -1247,15 +1109,7 @@
                         - \tweak staff-padding #3
                         - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup {
-                        \lower #5
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
-                        }
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
 
                         g'4
@@ -1264,18 +1118,11 @@
                         - \tweak staff-padding #3
                         - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup {
-                        \lower #5
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
-                        }
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
 
                     }
+                    % [Voice 1 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     g'16
@@ -1296,15 +1143,7 @@
                     - \tweak staff-padding #3
                     - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
@@ -1324,6 +1163,7 @@
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
+                    % [Voice 1 measure 22]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r8
                     \stopTrillSpan
@@ -1352,37 +1192,21 @@
                         eqf'4
                         \pp
                         \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                         b'8.
                         \mp
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                     }
+                    % [Voice 1 measure 23]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     g''8.
                     \p
                     \<
                     [
-                    \stopTrillSpan
 
                     f'16
                     \mf
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     g'8
@@ -1390,12 +1214,6 @@
                     \>
                     ~
                     ]
-                    \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     g'8
                     ~
@@ -1411,22 +1229,16 @@
 
                         aqf'16
                         \mf
-                        \stopTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         a'8.
                         \p
                         ]
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                     }
+                    % [Voice 1 measure 24]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r4
-                    \stopTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf''16
@@ -1453,6 +1265,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "16")
                     \times 6/7 {
+                        % [Voice 1 measure 25]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         bf'16
@@ -1466,7 +1279,15 @@
                         - \tweak staff-padding #3
                         - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
+                        }
                         \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
@@ -1477,10 +1298,19 @@
                         - \tweak staff-padding #3
                         - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
+                        }
                         \startTrillSpan
 
                     }
+                    % [Voice 1 measure 26]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r8
                     \stopTrillSpan
@@ -1507,7 +1337,7 @@
                     \override #'(thickness . 0.125)
                     \woodwind-diagram
                     #'flute
-                    #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
+                    #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
                     }
                     \startTrillSpan
 
@@ -1520,23 +1350,11 @@
                     ~
                     ]
                     \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
-                    }
-                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
                     \times 6/5 {
+                        % [Voice 1 measure 27]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         ef'8.
@@ -1549,22 +1367,9 @@
                         \>
                         ~
                         ]
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup {
-                        \lower #5
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
-                        }
-                        \startTrillSpan
 
                     }
+                    % [Voice 1 measure 28]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bqs'8.
@@ -1577,10 +1382,10 @@
                     \<
                     ~
                     ]
-                    \stopTrillSpan
 
                     c'4
                     \mp
+                    % [Voice 1 measure 29]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r4
 
@@ -1594,6 +1399,21 @@
                         - \accent
                         \<
                         [
+
+                        b'8.
+
+                        cs'8.
+                        \mf
+
+                        cqs'8.
+                        \ff
+
+                        \revert Staff.Stem.stemlet-length
+                        b'16
+                        \f
+                        \>
+                        ~
+                        ]
                         - \tweak staff-padding #3
                         - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
@@ -1608,48 +1428,8 @@
                         }
                         \startTrillSpan
 
-                        b'8.
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup {
-                        \lower #5
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
-                        }
-                        \startTrillSpan
-
-                        cs'8.
-                        \mf
-                        \stopTrillSpan
-
-                        cqs'8.
-                        \ff
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
-
-                        \revert Staff.Stem.stemlet-length
-                        b'16
-                        \f
-                        \>
-                        ~
-                        ]
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
-
                     }
+                    % [Voice 1 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     b'16
@@ -1660,7 +1440,15 @@
                     - \tweak staff-padding #3
                     - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
+                    }
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
@@ -1677,6 +1465,7 @@
                     - \tweak bound-details.left.text
                     \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
+                    % [Voice 1 measure 31]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r8
                     \stopTrillSpan
@@ -1714,6 +1503,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "16")
                     \times 6/7 {
+                        % [Voice 1 measure 32]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         gqf'16
@@ -1724,28 +1514,17 @@
                         \mf
                         \<
                         \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                         c'16
                         \ff
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         gqf'8
                         \f
                         ]
-                        \stopTrillSpan
 
                     }
+                    % [Voice 1 measure 33]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r4
 
@@ -1754,22 +1533,11 @@
                     \mf
                     \>
                     [
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     b''16
                     ~
                     ]
-                    \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     b''16
@@ -1781,7 +1549,6 @@
                     \pp
                     \<
                     ~
-                    \stopTrillSpan
 
                     af'16
                     :32
@@ -1794,15 +1561,11 @@
                     \<
                     ~
                     ]
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
                     \times 6/5 {
+                        % [Voice 1 measure 34]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         g'8
@@ -1815,22 +1578,14 @@
                         :32
                         \ff
                         ]
-                        \stopTrillSpan
                         - \tweak staff-padding #3
                         - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup {
-                        \lower #5
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
-                        }
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
 
                     }
+                    % [Voice 1 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r8
                     \stopTrillSpan
@@ -1844,15 +1599,7 @@
                     - \tweak staff-padding #3
                     - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
@@ -1872,20 +1619,13 @@
                     - \tweak staff-padding #3
                     - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
-                    }
+                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                     \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "16")
                     \times 10/11 {
+                        % [Voice 1 measure 36]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         b'16
                         \mf
@@ -1898,15 +1638,7 @@
                         - \tweak staff-padding #3
                         - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup {
-                        \lower #5
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
-                        }
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1926,15 +1658,7 @@
                         - \tweak staff-padding #3
                         - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup {
-                        \lower #5
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
-                        }
+                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
                         \startTrillSpan
 
                     }
@@ -1945,22 +1669,11 @@
                     \<
                     [
                     \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     d'16
                     ~
                     ]
-                    \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     d'8
@@ -1970,57 +1683,41 @@
                     cs'16
                     \f
                     \>
-                    \stopTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     bqs'16
                     ~
                     ]
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
+                    % [Voice 1 measure 37]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     bqs'8
                     \mf
 
                     r8
-                    \stopTrillSpan
 
                     r8
 
                     cs'8
                     \p
                     \>
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     d''4
                     ~
-                    \stopTrillSpan
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
+                        % [Voice 1 measure 38]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         d''16
                         \pp
 
                         fs'4
                         \mp
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                     }
 
                     r8
-                    \stopTrillSpan
+                    % [Voice 1 measure 39]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     cs'16
@@ -2070,13 +1767,22 @@
                         - \tweak staff-padding #3
                         - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
+                        }
                         \startTrillSpan
 
                         af'16
                         \f
 
                     }
+                    % [Voice 1 measure 40]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     d'4
                     \mf
@@ -2097,8 +1803,17 @@
                     - \tweak staff-padding #3
                     - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
+                    }
                     \startTrillSpan
+                    % [Voice 1 measure 41]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r4
                     \stopTrillSpan
@@ -2109,28 +1824,9 @@
                         bf'8
                         \mp
                         \>
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                         aqs'4
                         ~
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup {
-                        \lower #5
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three fiveT six)) (lh . (b)) (rh . (dis)))
-                        }
-                        \startTrillSpan
 
                         \override Staff.Stem.stemlet-length = 0.75
                         aqs'16
@@ -2143,9 +1839,9 @@
                         \<
                         ~
                         ]
-                        \stopTrillSpan
 
                     }
+                    % [Voice 1 measure 42]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     ef'8
@@ -2155,42 +1851,14 @@
                     fs'16
                     \f
                     \>
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one threeRT five)) (lh . (bes)) (rh . (dis)))
-                    }
-                    \startTrillSpan
 
                     dqs'16
-                    \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
-                    }
-                    \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
                     af'8
                     - \tenuto
                     ~
                     ]
-                    \stopTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     af'8
@@ -2202,22 +1870,9 @@
                     \p
                     - \accent
                     ]
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup {
-                    \lower #5
-                    \override #'(graphical . #t)
-                    \override #'(size . 0.6)
-                    \override #'(thickness . 0.125)
-                    \woodwind-diagram
-                    #'flute
-                    #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
-                    }
-                    \startTrillSpan
+                    % [Voice 1 measure 43]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r8
-                    \stopTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
@@ -2238,7 +1893,7 @@
                         \override #'(thickness . 0.125)
                         \woodwind-diagram
                         #'flute
-                        #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
+                        #'((cc . (one two three fiveRT six)) (lh . (b)) (rh . (dis)))
                         }
                         \startTrillSpan
 
@@ -2249,7 +1904,15 @@
                         - \tweak staff-padding #3
                         - \tweak bound-details.right.padding #2
                         - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                        \markup {
+                        \lower #5
+                        \override #'(graphical . #t)
+                        \override #'(size . 0.6)
+                        \override #'(thickness . 0.125)
+                        \woodwind-diagram
+                        #'flute
+                        #'((cc . (one two three four sixT)) (lh . (b)) (rh . (besT dis)))
+                        }
                         \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
@@ -2276,7 +1939,15 @@
                     - \tweak staff-padding #3
                     - \tweak bound-details.right.padding #2
                     - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
+                    \markup {
+                    \lower #5
+                    \override #'(graphical . #t)
+                    \override #'(size . 0.6)
+                    \override #'(thickness . 0.125)
+                    \woodwind-diagram
+                    #'flute
+                    #'((cc . (one two three five sixRT)) (lh . (b)) (rh . (dis)))
+                    }
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
@@ -2292,6 +1963,7 @@
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
+                        % [Voice 1 measure 44]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         aqs''4
 
@@ -2302,6 +1974,7 @@
                     }
 
                     r4
+                    % [Voice 1 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     b'8.
@@ -2315,11 +1988,6 @@
                     fqs''16
                     ~
                     \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     fqs''16
 
@@ -2327,12 +1995,6 @@
                     bf'16
                     :32
                     ]
-                    \stopTrillSpan
-                    - \tweak staff-padding #3
-                    - \tweak bound-details.right.padding #2
-                    - \tweak bound-details.left.text
-                    \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                    \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
@@ -2342,31 +2004,19 @@
                         gqs'16
                         :32
                         [
-                        \stopTrillSpan
 
                         \revert Staff.Stem.stemlet-length
                         ef'8
                         :32
                         ]
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                         f'4
                         :32
-                        \stopTrillSpan
-                        - \tweak staff-padding #3
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup{ \raise #1 \teeny \musicglyph #"scripts.halfopenvertical" }
-                        \startTrillSpan
 
                     }
+                    % [Voice 1 measure 46]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r8
-                    \stopTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
                     aqf'16
@@ -2394,6 +2044,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "16")
                     \times 6/7 {
+                        % [Voice 1 measure 47]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         a'8
 
@@ -2403,6 +2054,7 @@
                         g'16
 
                     }
+                    % [Voice 1 measure 48]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     c'8
                     ~

@@ -14,7 +14,22 @@ from chalk_line.Materials.pitch.Segment_II.clef_handlers import clef_handlers
 
 
 measure_30 = abjad.Staff([abjad.TremoloContainer(2, "<d'' f''>16 <cs'' fs''>16"), abjad.Rest((1, 8))])
-abjad.attach(abjad.Dynamic("p"), abjad.select(measure_30).leaves()[0])
+abjad.attach(abjad.Dynamic("pp"), abjad.select(measure_30).leaves()[0])
+fingering_1 = abjad.LilyPondLiteral(
+    [
+        r"- \tweak padding #5",
+        r"- \tweak staff-padding #4",
+        r"^\markup {",
+        r"  \override #'(size . 0.6)",
+        r"  \override #'(thickness . 0.125)",
+        r"  \woodwind-diagram",
+        r"      #'flute",
+        r"      #'((cc . (one two three fourT six)) (lh . (bes b)) (rh . (dT dis cis c)))",
+        r"}",
+    ],
+    format_slot="after",
+)
+abjad.attach(fingering_1, abjad.select(measure_30).leaves()[-2])
 
 maker = evans.SegmentMaker(
     instruments=insts,

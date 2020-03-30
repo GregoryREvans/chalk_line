@@ -562,11 +562,20 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         <d'' f''>16
-                        \p
+                        \pp
 
                         \revert Staff.Stem.stemlet-length
                         <cs'' fs''>16
                         ]
+                        - \tweak padding #5
+                        - \tweak staff-padding #4
+                        ^\markup {
+                          \override #'(size . 0.6)
+                          \override #'(thickness . 0.125)
+                          \woodwind-diagram
+                              #'flute
+                              #'((cc . (one two three fourT six)) (lh . (bes b)) (rh . (dT dis cis c)))
+                        }
 
                     }
 

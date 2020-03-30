@@ -555,6 +555,7 @@
 
                     \revert Staff.Stem.stemlet-length
                     a'8
+                    \pp
                     ]
 
                     \repeat tremolo 2 {
@@ -562,24 +563,27 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         <d'' f''>16
-                        \pp
-
-                        \revert Staff.Stem.stemlet-length
-                        <cs'' fs''>16
-                        ]
+                        \abjad-solid-line-with-up-hook
                         - \tweak padding #5
-                        - \tweak staff-padding #4
-                        ^\markup {
+                        - \tweak staff-padding #10
+                        - \tweak direction #down
+                        - \tweak bound-details.left.text \markup {
                           \override #'(size . 0.6)
                           \override #'(thickness . 0.125)
                           \woodwind-diagram
                               #'flute
                               #'((cc . (one two three fourT six)) (lh . (bes b)) (rh . (dT dis cis c)))
                         }
+                        \startTextSpan
+
+                        \revert Staff.Stem.stemlet-length
+                        <cs'' fs''>16
+                        ]
 
                     }
 
                     r8
+                    \stopTextSpan
                     % [Voice 1 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75

@@ -540,22 +540,17 @@
 
                     \revert Staff.Stem.stemlet-length
                     a'8
-                    ~
                     ]
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
-                    \times 4/3 {
+                    \repeat tremolo 2 {
                         % [Voice 1 measure 6]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        a'16
-                        \pp
-                        [
+                        <d'' f''>16
+                        \p
 
                         \revert Staff.Stem.stemlet-length
-                        a'8
-                        \mp
+                        <cs'' fs''>16
                         ]
 
                     }

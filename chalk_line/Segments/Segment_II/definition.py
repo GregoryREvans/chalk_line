@@ -13,16 +13,21 @@ from chalk_line.Materials.score_structure.Segment_II.time_signatures import (
 from chalk_line.Materials.pitch.Segment_II.clef_handlers import clef_handlers
 
 
+measure_30 = abjad.Staff([abjad.TremoloContainer(2, "<d'' f''>16 <cs'' fs''>16"), abjad.Rest((1, 8))])
+abjad.attach(abjad.Dynamic("p"), abjad.select(measure_30).leaves()[0])
+
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Flute"],
-    # abbreviations=[" "],
     rhythm_timespans=segment_II_rhythm_timespans,
     handler_timespans=segment_II_timespans,
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
     voicewise_persistent_indicators=None,
+    voicewise_measure_replacement=[[(5, measure_30)]],
+    measure_replacement_timing="post-handlers",
+    voicewise_direct_detachments=[[(abjad.select().leaves().get([26], 1000), abjad.Tie())]],
     tuplet_bracket_noteheads=True,
     add_final_grand_pause=False,
     score_includes=[

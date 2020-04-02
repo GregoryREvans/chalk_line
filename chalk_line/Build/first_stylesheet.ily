@@ -11,11 +11,11 @@
 \header {
 	tagline = ##f
 	breakbefore = ##t
-	dedication = \markup \override #'(font-name . "Didot") \fontsize #5 \center-column {"t  o      P  a  u  l      M  i  z  z  i"}
-	title = \markup \override #'(font-name . "Didot") \fontsize #9.5 \center-column {"Chalk Line"}
-	subtitle = \markup \override #'(font-name . "Didot") \fontsize #4 \center-column {"f  o  r     s  o  l  o     f  l  u  t  e"}
-	%{ subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #3 \center-column {"; or , inscriptions from a crumbling stone"} %}
-	composer = \markup \override #'(font-name . "Didot") \fontsize #3 {"Gregory Rowland Evans" \override #'(font-name . "MaestroTimes") "(*1995)"}
+	dedication = \markup \override #'(font-name . "STIXGeneral") \fontsize #5 \center-column {"t  o      P  a  u  l      M  i  z  z  i"}
+	title = \markup \override #'(font-name . "STIXGeneral") \fontsize #9.5 \center-column {"Chalk Line"}
+	subtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #4 \center-column {"f  o  r     s  o  l  o     f  l  u  t  e"}
+	%{ subsubtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #3 \center-column {"; or , inscriptions from a crumbling stone"} %}
+	composer = \markup \override #'(font-name . "STIXGeneral") \fontsize #3 {"Gregory Rowland Evans" \override #'(font-name . "STIXGeneral") "(*1995)"}
 }
 
 \layout {
@@ -41,7 +41,7 @@
 		\override BarNumber.Y-extent = #'(0 . 0)
 		\override BarNumber.Y-offset = 0
 		\override BarNumber.extra-offset = #'(-4 . 0)
-		%\override BarNumber.font-name = "Didot"
+		\override BarNumber.font-name = "STIXGeneral"
 		%{ \override BarNumber.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print) %}
 		\override BarNumber.font-size = 3
 		\override BarNumber.padding = 4
@@ -58,7 +58,7 @@
 		\override RehearsalMark.Y-offset = -2.5
 		\override RehearsalMark.break-align-symbols = #'(time-signature)
 		\override RehearsalMark.break-visibility = #end-of-line-invisible
-		\override RehearsalMark.font-name = "Didot"
+		\override RehearsalMark.font-name = "STIXGeneral"
 		\override RehearsalMark.font-size = 3
 		\override RehearsalMark.outside-staff-priority = 500
 		\override RehearsalMark.self-alignment-X = #center
@@ -67,12 +67,14 @@
         \override TimeSignature.Y-extent = #'(0 . 0)
         \override TimeSignature.break-align-symbol = ##f
         \override TimeSignature.break-visibility = #end-of-line-invisible
-        \override TimeSignature.font-size = #2
+        \override TimeSignature.font-size = #7
+		%{ \override TimeSignature.font-size = #2 %}
+		\override TimeSignature.font-name = "STIXGeneral"
         \override TimeSignature.self-alignment-X = #center
 		%\override TimeSignature.stencil = ##f
 		\override TimeSignature.whiteout-style = #'outline
 		\override TimeSignature.whiteout = ##t
-        \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 9) (minimum-distance . 9) (padding . 2) (stretchability . 0))
+        \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 9) (minimum-distance . 9) (padding . 4) (stretchability . 0))
     }
     \context {
         \Score
@@ -171,10 +173,10 @@
 	evenHeaderMarkup = \markup ""
 	oddFooterMarkup = \markup
         \fill-line {
-            \override #'(font-name . "Didot")
+            \override #'(font-name . "STIXGeneral")
                 \bold \fontsize #3 "Chalk Line - GR Evans"
             \concat {
-                \override #'(font-name . "MaestroTimes")
+                \override #'(font-name . "STIXGeneral")
                     \bold \fontsize #3
                         %{ \on-the-fly #print-page-number-check-first %}
                         \fromproperty #'page:page-number-string
@@ -183,12 +185,12 @@
     evenFooterMarkup = \markup
         \fill-line {
             \concat {
-                \override #'(font-name . "MaestroTimes")
+                \override #'(font-name . "STIXGeneral")
                     \bold \fontsize #3
                         %{ \on-the-fly #print-page-number-check-first %}
                         \fromproperty #'page:page-number-string
                 }
-            \override #'(font-name . "Didot")
+            \override #'(font-name . "STIXGeneral")
                 \bold \fontsize #3 "Chalk Line - GR Evans"
             }
 }

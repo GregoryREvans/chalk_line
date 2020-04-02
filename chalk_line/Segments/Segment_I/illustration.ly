@@ -179,7 +179,7 @@
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Flute }                                          %! applying staff names and clefs
                     \clef "treble"
-                    c'8.
+                    c''8.
                     \pp
                     \<
 
@@ -187,9 +187,9 @@
                     \times 2/3 {
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
-                            cs'16
+                            cs''16
 
                             s8..
 
@@ -199,33 +199,33 @@
                         }
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        dqs'32
+                        dqs''32
                         [
 
-                        ef'32
+                        ef''32
 
                         \revert Staff.Stem.stemlet-length
-                        aqf'32
+                        aqf''32
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    cs''16
+                    cs'''16
                     [
 
                     \scaleDurations #'(1 . 1) {
-                    \acciaccatura {
+                    \slashedGrace {
 
                         \slash
                         \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
-                        d'16
+                        d''16
                         [
 
                         s8..
 
-                        eqf'16
+                        eqf''16
                         \revert Stem.direction
 
                         s8..
@@ -237,56 +237,56 @@
                     }
                     }
 
-                    d''16
+                    d'''16
                     \mp
                     \glissando
 
-                    bqs'32
+                    bqs''32
                     \p
                     \<
 
-                    ef'32
-
                     ef''32
 
+                    ef'''32
+
                     \revert Staff.Stem.stemlet-length
-                    dqs''32
+                    dqs'''32
                     ]
 
                     \scaleDurations #'(1 . 1) {
                         % [Voice 1 measure 2]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ef''32.
+                        ef'''32.
                         [
 
-                        cqs''64.
+                        cqs'''64.
                         - \tenuto
 
-                        c'64.
+                        c''64.
 
-                        cs'16.
+                        cs''16.
                         \mf
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
                             \slash
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
-                            dqs'16
+                            dqs''16
                             \ff
                             \>
                             [
 
                             s8..
 
-                            ef'16
+                            ef''16
                             - \accent
 
                             s8..
 
-                            aqf'16
+                            aqf''16
                             \revert Stem.direction
 
                             s8..
@@ -299,7 +299,7 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        cs''8.
+                        cs'''8.
                         \f
                         \glissando
                         ]
@@ -314,15 +314,15 @@
                             % [Voice 1 measure 3]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            d'8
+                            d''8
                             \mf
                             \>
                             [
 
                             \scaleDurations #'(1 . 1) {
-                            \acciaccatura {
+                            \slashedGrace {
 
-                                eqf'16
+                                eqf''16
 
                                 s8..
 
@@ -331,10 +331,10 @@
                             }
                             }
 
-                            d''8
+                            d'''8
 
                             \revert Staff.Stem.stemlet-length
-                            bqs'8
+                            bqs''8
                             \p
                             - \tenuto
                             ]
@@ -342,25 +342,25 @@
                         }
 
                         \pitchedTrill
-                        ef'4
+                        ef''4
                         \pp
                         - \accent
                         \<
-                        \startTrillSpan c''
+                        \startTrillSpan c'''
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
                             \slash
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
-                            ef''16
+                            ef'''16
                             [
                             \stopTrillSpan
 
                             s8..
 
-                            dqs''16
+                            dqs'''16
                             - \tenuto
                             \revert Stem.direction
 
@@ -373,7 +373,7 @@
                         }
                         }
 
-                        ef''4
+                        ef'''4
                         \mp
 
                     }
@@ -383,26 +383,26 @@
                     \times 5/8 {
                         % [Voice 1 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        cqs''4.
+                        cqs'''4.
                         \p
                         \<
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
                             \slash
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
-                            e'16
+                            e''16
                             [
 
                             s8..
 
-                            fs'16
+                            fs''16
 
                             s8..
 
-                            aqf'16
+                            aqf''16
                             \revert Stem.direction
 
                             s8..
@@ -415,21 +415,21 @@
                         }
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bf'8
+                        bf''8
                         [
 
-                        bqs'8
+                        bqs''8
                         :32
                         \mf
 
                         \revert Staff.Stem.stemlet-length
-                        af''8
+                        af'''8
                         :32
                         \ff
                         \>
                         ]
 
-                        e'4
+                        e''4
                         :32
                         \glissando
 
@@ -441,9 +441,9 @@
                         % [Voice 1 measure 5]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
-                            gqf'16
+                            gqf''16
                             :32
 
                             s8..
@@ -453,31 +453,31 @@
                         }
                         }
 
-                        af'2
+                        af''2
                         \f
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                         \times 2/3 {
 
                             \pitchedTrill
-                            gqf'4
+                            gqf''4
                             \mf
                             \>
-                            \startTrillSpan aqs'
+                            \startTrillSpan aqs''
 
                             \scaleDurations #'(1 . 1) {
-                            \acciaccatura {
+                            \slashedGrace {
 
                                 \slash
                                 \override Stem.direction = #UP
                                 \override Staff.Stem.stemlet-length = 0
-                                c''16
+                                c'''16
                                 [
                                 \stopTrillSpan
 
                                 s8..
 
-                                af''16
+                                af'''16
                                 \revert Stem.direction
 
                                 s8..
@@ -489,16 +489,16 @@
                             }
                             }
 
-                            aqs''4
+                            aqs'''4
                             \p
 
-                            fs''4
+                            fs'''4
                             \pp
                             \<
 
                         }
 
-                        eqs'4
+                        eqs''4
                         \mp
 
                     }
@@ -508,28 +508,28 @@
                     \times 5/8 {
                         % [Voice 1 measure 6]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        c'4.
+                        c''4.
                         \p
                         \glissando
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
                             \slash
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
-                            cs'16
+                            cs''16
                             \mf
                             \<
                             [
 
                             s8..
 
-                            dqf'16
+                            dqf''16
 
                             s8..
 
-                            ef'16
+                            ef''16
                             \revert Stem.direction
 
                             s8..
@@ -541,11 +541,11 @@
                         }
                         }
 
-                        aqs'8
+                        aqs''8
 
-                        cs''4
+                        cs'''4
 
-                        d'4
+                        d''4
                         \ff
 
                     }
@@ -555,17 +555,17 @@
                     \times 3/4 {
                         % [Voice 1 measure 7]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        dqs'4.
+                        dqs''4.
                         \f
                         - \tenuto
 
                         \pitchedTrill
-                        d''8
+                        d'''8
                         \mf
                         \>
-                        \startTrillSpan ef''
+                        \startTrillSpan ef'''
 
-                        cqs''4
+                        cqs'''4
                         \p
                         \stopTrillSpan
 
@@ -573,16 +573,16 @@
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            ef'8
+                            ef''8
                             \pp
                             \<
                             [
 
-                            ef''8
+                            ef'''8
                             - \accent
 
                             \revert Staff.Stem.stemlet-length
-                            dqf''8
+                            dqf'''8
                             ]
 
                         }
@@ -592,9 +592,9 @@
                     \scaleDurations #'(1 . 1) {
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
-                            ef''16
+                            ef'''16
                             \mp
 
                             s8..
@@ -605,29 +605,29 @@
                         }
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        dqf''16.
+                        dqf'''16.
                         \p
                         \<
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        af'16.
+                        af''16.
                         ]
 
                     }
 
                     \scaleDurations #'(1 . 1) {
-                    \acciaccatura {
+                    \slashedGrace {
 
                         \slash
                         \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
-                        fs'16
+                        fs''16
                         [
 
                         s8..
 
-                        eqf'16
+                        eqf''16
                         - \tenuto
                         \revert Stem.direction
 
@@ -640,25 +640,25 @@
                     }
                     }
 
-                    d'16
+                    d''16
                     - \accent
                     \glissando
 
-                    cqs'8
+                    cqs''8
                     \glissando
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        e'16
+                        e''16
                         - \tenuto
                         [
 
-                        af'16
+                        af''16
 
                         \revert Staff.Stem.stemlet-length
-                        fqs'16
+                        fqs''16
                         ]
 
                     }
@@ -671,9 +671,9 @@
                             % [Voice 1 measure 8]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \scaleDurations #'(1 . 1) {
-                            \acciaccatura {
+                            \slashedGrace {
 
-                                e'16
+                                e''16
                                 \mf
 
                                 s8..
@@ -684,31 +684,31 @@
                             }
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            dqs'8
+                            dqs''8
                             \ff
                             \>
                             [
 
-                            c'8
+                            c''8
 
                         }
 
-                        e'32.
+                        e''32.
 
-                        dqf'32.
+                        dqf''32.
                         :32
 
-                        fs'32.
+                        fs''32.
                         :32
 
                         \scaleDurations #'(1 . 1) {
 
-                            aqf'32
+                            aqf''32
 
-                            ef''32
+                            ef'''32
 
                             \revert Staff.Stem.stemlet-length
-                            fs'32
+                            fs''32
                             \f
                             ]
 
@@ -723,52 +723,52 @@
                             % [Voice 1 measure 9]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            cqs'32.
+                            cqs''32.
                             \mf
                             \>
                             [
 
-                            ef'32.
+                            ef''32.
 
                         }
 
-                        eqf'16
+                        eqf''16
 
                         \scaleDurations #'(1 . 1) {
 
-                            fs'32.
+                            fs''32.
 
-                            a'32.
+                            a''32.
 
                         }
 
-                        bqs'32
+                        bqs''32
 
-                        ef''32
+                        ef'''32
 
                         \revert Staff.Stem.stemlet-length
-                        eqf'32
+                        eqf''32
                         ]
 
                     }
                     % [Voice 1 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ef'32.
+                    ef''32.
                     [
 
-                    fs'32.
+                    fs''32.
 
-                    aqf'32
+                    aqf''32
                     ~
 
-                    aqf'16
+                    aqf''16
                     \p
 
                     \scaleDurations #'(1 . 1) {
-                    \acciaccatura {
+                    \slashedGrace {
 
-                        c''16
+                        c'''16
                         \pp
                         \<
 
@@ -779,50 +779,50 @@
                     }
                     }
 
-                    eqf''32.
+                    eqf'''32.
 
-                    b'64
+                    b''64
                     - \tenuto
                     ~
 
                     \revert Staff.Stem.stemlet-length
-                    b'32
+                    b''32
                     \mp
                     ]
 
                     \scaleDurations #'(1 . 1) {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        a'32
+                        a''32
                         \p
                         \<
                         [
 
-                        gqs'32
+                        gqs''32
 
                         \revert Staff.Stem.stemlet-length
-                        g'32
+                        g''32
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fqs'16
+                    fqs''16
                     - \accent
                     [
 
                     \scaleDurations #'(1 . 1) {
-                    \acciaccatura {
+                    \slashedGrace {
 
                         \slash
                         \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
-                        b'16
+                        b''16
                         [
 
                         s8..
 
-                        a'16
+                        a''16
                         \revert Stem.direction
 
                         s8..
@@ -834,30 +834,30 @@
                     }
                     }
 
-                    gqs'16
+                    gqs''16
                     ~
 
-                    gqs'16
+                    gqs''16
                     \mf
 
                     \scaleDurations #'(1 . 1) {
-                    \acciaccatura {
+                    \slashedGrace {
 
                         \slash
                         \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
-                        g'16
+                        g''16
                         \ff
                         \>
                         [
 
                         s8..
 
-                        fqs'16
+                        fqs''16
 
                         s8..
 
-                        b'16
+                        b''16
                         - \tenuto
                         \revert Stem.direction
 
@@ -871,39 +871,39 @@
                     }
 
                     \revert Staff.Stem.stemlet-length
-                    af'16
+                    af''16
                     - \accent
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    af'16
+                    af''16
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    aqf'8.
+                    aqf''8.
                     \f
                     \glissando
                     ]
                     % [Voice 1 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    g'16
+                    g''16
                     \mf
                     - \tenuto
                     \>
                     [
 
-                    aqf'16
+                    aqf''16
                     ~
 
-                    aqf'16
+                    aqf''16
 
-                    fs'16
+                    fs''16
                     ~
 
                     \revert Staff.Stem.stemlet-length
-                    fs'16
+                    fs''16
                     \p
                     ]
 
@@ -911,15 +911,15 @@
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        c''64
+                        c'''64
                         \pp
                         \<
                         [
 
-                        aqs'64
+                        aqs''64
 
                         \revert Staff.Stem.stemlet-length
-                        a'32.
+                        a''32.
                         \mp
                         ]
 
@@ -930,20 +930,20 @@
                         % [Voice 1 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aqf'16
+                        aqf''16
                         \p
                         \<
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        fs'16
+                        fs''16
                         :32
                         ]
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
-                            c''16
+                            c'''16
                             :32
 
                             s8..
@@ -953,22 +953,22 @@
                         }
                         }
 
-                        aqs'4
+                        aqs''4
                         :32
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
                             \slash
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
-                            fs''16
+                            fs'''16
                             :32
                             [
 
                             s8..
 
-                            fqs''16
+                            fqs'''16
                             \mf
                             \revert Stem.direction
 
@@ -981,7 +981,7 @@
                         }
                         }
 
-                        ef''4
+                        ef'''4
                         \ff
                         \>
 
@@ -989,13 +989,13 @@
                         \times 4/5 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            a''32
+                            a'''32
                             [
 
-                            fqs''32
+                            fqs'''32
 
                             \revert Staff.Stem.stemlet-length
-                            g''16.
+                            g'''16.
                             \f
                             ]
 
@@ -1005,37 +1005,37 @@
                     % [Voice 1 measure 13]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fqs''16
+                    fqs'''16
                     \mf
                     \>
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    fs'16
+                    fs''16
                     ]
 
-                    c''4
+                    c'''4
                     \glissando
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
                             \slash
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
-                            aqs'16
+                            aqs''16
                             [
 
                             s8..
 
-                            a'16
+                            a''16
 
                             s8..
 
-                            aqf'16
+                            aqf''16
                             \revert Stem.direction
 
                             s8..
@@ -1048,11 +1048,11 @@
                         }
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        fs'16
+                        fs''16
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        c''8
+                        c'''8
                         \p
                         ]
 
@@ -1062,15 +1062,15 @@
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aqs'32
+                        aqs''32
                         \pp
                         \<
                         [
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
-                            fs''16
+                            fs'''16
                             - \tenuto
 
                             s8..
@@ -1080,10 +1080,10 @@
                         }
                         }
 
-                        fqs''32
+                        fqs'''32
 
                         \revert Staff.Stem.stemlet-length
-                        ef''16.
+                        ef'''16.
                         ]
 
                     }
@@ -1093,22 +1093,22 @@
                         % [Voice 1 measure 14]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        a''8
+                        a'''8
                         [
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
                             \slash
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
-                            fqs''16
+                            fqs'''16
                             - \accent
                             [
 
                             s8..
 
-                            g''16
+                            g'''16
                             \revert Stem.direction
 
                             s8..
@@ -1121,10 +1121,10 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        fqs''8
+                        fqs'''8
                         ]
 
-                        c'4.
+                        c''4.
                         \mp
                         \glissando
 
@@ -1132,23 +1132,23 @@
                         \times 4/5 {
 
                             \scaleDurations #'(1 . 1) {
-                            \acciaccatura {
+                            \slashedGrace {
 
                                 \slash
                                 \override Stem.direction = #UP
                                 \override Staff.Stem.stemlet-length = 0
-                                cs'16
+                                cs''16
                                 \p
                                 \<
                                 [
 
                                 s8..
 
-                                dqf'16
+                                dqf''16
 
                                 s8..
 
-                                ef'16
+                                ef''16
                                 - \tenuto
                                 \revert Stem.direction
 
@@ -1162,32 +1162,32 @@
                             }
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            aqs'8
+                            aqs''8
                             - \accent
                             [
 
                             \pitchedTrill
-                            cs''8.
-                            \startTrillSpan d''
+                            cs'''8.
+                            \startTrillSpan d'''
 
                         }
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 4) "16")
                         \times 4/7 {
 
-                            d'8
+                            d''8
                             \mf
                             - \tenuto
                             \stopTrillSpan
 
-                            dqs'8
+                            dqs''8
                             \ff
                             \>
 
                             \scaleDurations #'(1 . 1) {
-                            \acciaccatura {
+                            \slashedGrace {
 
-                                d''16
+                                d'''16
 
                                 s8..
 
@@ -1197,7 +1197,7 @@
                             }
 
                             \revert Staff.Stem.stemlet-length
-                            cqs''8.
+                            cqs'''8.
                             \f
                             ]
 
@@ -1211,169 +1211,19 @@
                         % [Voice 1 measure 15]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ef'16.
+                        ef''16.
                         \mf
                         \>
                         [
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
                             \slash
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
-                            ef''16
+                            ef'''16
                             [
-
-                            s8..
-
-                            dqf''16
-                            \revert Stem.direction
-
-                            s8..
-
-                            \revert Staff.Stem.stemlet-length
-                            s2
-                            ]
-
-                        }
-                        }
-
-                        ef''16.
-                        :32
-
-                        dqf''8.
-                        :32
-                        \p
-
-                        cs'16.
-                        :32
-                        \pp
-                        \<
-
-                        d'16.
-                        :32
-
-                        \scaleDurations #'(1 . 1) {
-
-                            \scaleDurations #'(1 . 1) {
-                            \acciaccatura {
-
-                                \slash
-                                \override Stem.direction = #UP
-                                \override Staff.Stem.stemlet-length = 0
-                                dqs'16
-                                [
-
-                                s8..
-
-                                e'16
-
-                                s8..
-
-                                dqf'16
-                                \revert Stem.direction
-
-                                s8..
-
-                                \revert Staff.Stem.stemlet-length
-                                s2
-                                ]
-
-                            }
-                            }
-
-                            d''16
-
-                            ef'16
-
-                            \revert Staff.Stem.stemlet-length
-                            eqf'16
-                            \mp
-                            ]
-
-                        }
-
-                    }
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 3) "4")
-                    \times 3/4 {
-                        % [Voice 1 measure 16]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
-
-                        ef''4.
-                        \p
-
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
-                        \times 2/3 {
-
-                            \scaleDurations #'(1 . 1) {
-                            \acciaccatura {
-
-                                dqf''16
-                                \mf
-                                \<
-
-                                s8..
-
-                                s2
-
-                            }
-                            }
-
-                            \override Staff.Stem.stemlet-length = 0.75
-                            e'16
-                            [
-
-                            e''16
-
-                            dqs''16
-                            \ff
-
-                        }
-
-                        e''8
-                        \f
-                        \>
-
-                        \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
-
-                            \slash
-                            \override Stem.direction = #UP
-                            \override Staff.Stem.stemlet-length = 0
-                            dqs''16
-                            [
-
-                            s8..
-
-                            cs'''16
-                            \revert Stem.direction
-
-                            s8..
-
-                            \revert Staff.Stem.stemlet-length
-                            s2
-                            ]
-
-                        }
-                        }
-
-                        c'''8
-                        - \tenuto
-
-                        \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
-
-                            \slash
-                            \override Stem.direction = #UP
-                            \override Staff.Stem.stemlet-length = 0
-                            bqf''16
-                            [
-
-                            s8..
-
-                            bf''16
 
                             s8..
 
@@ -1389,297 +1239,39 @@
                         }
                         }
 
-                        c''16
-                        - \accent
+                        ef'''16.
+                        :32
 
-                        b''16
-                        \mf
-
-                        \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
-
-                            aqs''16
-                            \p
-                            \>
-
-                            s8..
-
-                            s2
-
-                        }
-                        }
-
-                        b'16
-
-                        \revert Staff.Stem.stemlet-length
-                        dqf''16
-                        ]
-
-                    }
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    bf''16
-                    [
-
-                    \scaleDurations #'(1 . 1) {
-                    \acciaccatura {
-
-                        \slash
-                        \override Stem.direction = #UP
-                        \override Staff.Stem.stemlet-length = 0
-                        bf'16
-                        - \tenuto
-                        [
-
-                        s8..
-
-                        bqf'16
-                        - \accent
-                        \revert Stem.direction
-
-                        s8..
-
-                        \revert Staff.Stem.stemlet-length
-                        s2
-                        ]
-
-                    }
-                    }
-
-                    bf'32
-
-                    cqs''32
-                    - \tenuto
-
-                    \scaleDurations #'(1 . 1) {
-                    \acciaccatura {
-
-                        fs''16
-                        \pp
-
-                        s8..
-
-                        s2
-
-                    }
-                    }
-
-                    \revert Staff.Stem.stemlet-length
-                    e''8
-                    \mp
-                    \>
-                    \glissando
-                    ]
-
-                    eqs''4
-
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
-                    \times 2/3 {
-                        % [Voice 1 measure 17]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        e''16
-                        [
-
-                        eqs'''16
-
-                        \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
-
-                            g''16
-
-                            s8..
-
-                            s2
-
-                        }
-                        }
-
-                        \revert Staff.Stem.stemlet-length
-                        f''16
+                        dqf'''8.
                         :32
                         \p
-                        ]
 
-                    }
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    eqf'''8
-                    :32
-                    \mf
-                    \<
-                    [
-
-                    \scaleDurations #'(1 . 1) {
-                    \acciaccatura {
-
-                        \slash
-                        \override Stem.direction = #UP
-                        \override Staff.Stem.stemlet-length = 0
-                        f'''16
+                        cs''16.
                         :32
-                        [
-
-                        s8..
-
-                        gqf''16
-                        :32
-                        \revert Stem.direction
-
-                        s8..
-
-                        \revert Staff.Stem.stemlet-length
-                        s2
-                        ]
-
-                    }
-                    }
-
-                    \revert Staff.Stem.stemlet-length
-                    g'''8
-                    ]
-                    % [Voice 1 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    e'''16.
-                    [
-
-                    eqs'''32
-                    \ff
-
-                    fs'''32
-                    \f
-                    \>
-
-                    gqs'''32
-
-                    \revert Staff.Stem.stemlet-length
-                    c'16
-                    ]
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
-                    \times 3/5 {
-                        % [Voice 1 measure 19]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
-
-                        cs'4
-
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
-                        \times 2/3 {
-
-                            \override Staff.Stem.stemlet-length = 0.75
-                            dqf'8
-                            [
-
-                            ef'8
-                            \mf
-
-                            aqs'8
-                            \p
-                            \>
-
-                        }
-
-                        \revert Staff.Stem.stemlet-length
-                        cs''8
-                        ]
-
-                    }
-
-                    \scaleDurations #'(1 . 1) {
-                    \acciaccatura {
-
-                        \slash
-                        \override Stem.direction = #UP
-                        \override Staff.Stem.stemlet-length = 0
-                        d'16
-                        [
-
-                        s8..
-
-                        dqs'16
-
-                        s8..
-
-                        d''16
                         \pp
-                        \revert Stem.direction
+                        \<
 
-                        s8..
+                        d''16.
+                        :32
 
-                        \revert Staff.Stem.stemlet-length
-                        s2
-                        ]
-
-                    }
-                    }
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    cqs''8.
-                    \mp
-                    - \tenuto
-                    \>
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    ef'16
-                    ]
-
-                    \scaleDurations #'(1 . 1) {
-                    \acciaccatura {
-
-                        ef''16
-                        \p
-
-                        s8..
-
-                        s2
-
-                    }
-                    }
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    dqf''8
-                    \mf
-                    \<
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    ef''8
-                    - \accent
-                    ]
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 3) "8")
-                    \times 3/4 {
-                        % [Voice 1 measure 20]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        dqf''8.
-                        \ff
-                        [
-
-                        fs'16
-                        \f
-                        \>
-
-                        c''8
-
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
-                        \times 2/3 {
+                        \scaleDurations #'(1 . 1) {
 
                             \scaleDurations #'(1 . 1) {
-                            \acciaccatura {
+                            \slashedGrace {
 
                                 \slash
                                 \override Stem.direction = #UP
                                 \override Staff.Stem.stemlet-length = 0
-                                aqs'16
+                                dqs''16
                                 [
 
                                 s8..
 
-                                a'16
+                                e''16
+
+                                s8..
+
+                                dqf''16
                                 \revert Stem.direction
 
                                 s8..
@@ -1691,59 +1283,158 @@
                             }
                             }
 
-                            aqf'16
-                            - \tenuto
+                            d'''16
 
-                            fs'16
-                            - \accent
+                            ef''16
 
                             \revert Staff.Stem.stemlet-length
-                            c''16
-                            \mf
+                            eqf''16
+                            \mp
                             ]
 
                         }
 
                     }
 
-                    \scaleDurations #'(1 . 1) {
-                        % [Voice 1 measure 21]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 3) "4")
+                    \times 3/4 {
+                        % [Voice 1 measure 16]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \override Staff.Stem.stemlet-length = 0.75
-                        aqs'16.
+                        ef'''4.
                         \p
-                        - \tenuto
+
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
+                        \times 2/3 {
+
+                            \scaleDurations #'(1 . 1) {
+                            \slashedGrace {
+
+                                dqf'''16
+                                \mf
+                                \<
+
+                                s8..
+
+                                s2
+
+                            }
+                            }
+
+                            \override Staff.Stem.stemlet-length = 0.75
+                            e''16
+                            [
+
+                            e'''16
+
+                            dqs'''16
+                            \ff
+
+                        }
+
+                        e'''8
+                        \f
                         \>
-                        [
+
+                        \scaleDurations #'(1 . 1) {
+                        \slashedGrace {
+
+                            \slash
+                            \override Stem.direction = #UP
+                            \override Staff.Stem.stemlet-length = 0
+                            dqs'''16
+                            [
+
+                            s8..
+
+                            cs''''16
+                            \revert Stem.direction
+
+                            s8..
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
+
+                        c''''8
+                        - \tenuto
+
+                        \scaleDurations #'(1 . 1) {
+                        \slashedGrace {
+
+                            \slash
+                            \override Stem.direction = #UP
+                            \override Staff.Stem.stemlet-length = 0
+                            bqf'''16
+                            [
+
+                            s8..
+
+                            bf'''16
+
+                            s8..
+
+                            dqf''''16
+                            \revert Stem.direction
+
+                            s8..
+
+                            \revert Staff.Stem.stemlet-length
+                            s2
+                            ]
+
+                        }
+                        }
+
+                        c'''16
+                        - \accent
+
+                        b'''16
+                        \mf
+
+                        \scaleDurations #'(1 . 1) {
+                        \slashedGrace {
+
+                            aqs'''16
+                            \p
+                            \>
+
+                            s8..
+
+                            s2
+
+                        }
+                        }
+
+                        b''16
 
                         \revert Staff.Stem.stemlet-length
-                        fs''16.
-                        \pp
-                        \glissando
+                        dqf'''16
                         ]
 
                     }
 
-                    fqs''16
-                    \mp
-                    \>
+                    \override Staff.Stem.stemlet-length = 0.75
+                    bf'''16
+                    [
 
                     \scaleDurations #'(1 . 1) {
-                    \acciaccatura {
+                    \slashedGrace {
 
                         \slash
                         \override Stem.direction = #UP
                         \override Staff.Stem.stemlet-length = 0
-                        ef''16
+                        bf''16
+                        - \tenuto
                         [
 
                         s8..
 
-                        a''16
-
-                        s8..
-
-                        fqs''16
+                        bqf''16
+                        - \accent
                         \revert Stem.direction
 
                         s8..
@@ -1755,23 +1446,332 @@
                     }
                     }
 
-                    g''8
+                    bf''32
+
+                    cqs'''32
+                    - \tenuto
+
+                    \scaleDurations #'(1 . 1) {
+                    \slashedGrace {
+
+                        fs'''16
+                        \pp
+
+                        s8..
+
+                        s2
+
+                    }
+                    }
+
+                    \revert Staff.Stem.stemlet-length
+                    e'''8
+                    \mp
+                    \>
+                    \glissando
+                    ]
+
+                    eqs'''4
+
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
+                    \times 2/3 {
+                        % [Voice 1 measure 17]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        e'''16
+                        [
+
+                        eqs''''16
+
+                        \scaleDurations #'(1 . 1) {
+                        \slashedGrace {
+
+                            g'''16
+
+                            s8..
+
+                            s2
+
+                        }
+                        }
+
+                        \revert Staff.Stem.stemlet-length
+                        f'''16
+                        :32
+                        \p
+                        ]
+
+                    }
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    eqf''''8
+                    :32
+                    \mf
+                    \<
+                    [
+
+                    \scaleDurations #'(1 . 1) {
+                    \slashedGrace {
+
+                        \slash
+                        \override Stem.direction = #UP
+                        \override Staff.Stem.stemlet-length = 0
+                        f''''16
+                        :32
+                        [
+
+                        s8..
+
+                        gqf'''16
+                        :32
+                        \revert Stem.direction
+
+                        s8..
+
+                        \revert Staff.Stem.stemlet-length
+                        s2
+                        ]
+
+                    }
+                    }
+
+                    \revert Staff.Stem.stemlet-length
+                    g''''8
+                    ]
+                    % [Voice 1 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    e''''16.
+                    [
+
+                    eqs''''32
+                    \ff
+
+                    fs''''32
+                    \f
+                    \>
+
+                    gqs''''32
+
+                    \revert Staff.Stem.stemlet-length
+                    c''16
+                    ]
+
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
+                    \times 3/5 {
+                        % [Voice 1 measure 19]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                        cs''4
+
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
+                        \times 2/3 {
+
+                            \override Staff.Stem.stemlet-length = 0.75
+                            dqf''8
+                            [
+
+                            ef''8
+                            \mf
+
+                            aqs''8
+                            \p
+                            \>
+
+                        }
+
+                        \revert Staff.Stem.stemlet-length
+                        cs'''8
+                        ]
+
+                    }
+
+                    \scaleDurations #'(1 . 1) {
+                    \slashedGrace {
+
+                        \slash
+                        \override Stem.direction = #UP
+                        \override Staff.Stem.stemlet-length = 0
+                        d''16
+                        [
+
+                        s8..
+
+                        dqs''16
+
+                        s8..
+
+                        d'''16
+                        \pp
+                        \revert Stem.direction
+
+                        s8..
+
+                        \revert Staff.Stem.stemlet-length
+                        s2
+                        ]
+
+                    }
+                    }
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    cqs'''8.
+                    \mp
+                    - \tenuto
+                    \>
+                    [
+
+                    \revert Staff.Stem.stemlet-length
+                    ef''16
+                    ]
+
+                    \scaleDurations #'(1 . 1) {
+                    \slashedGrace {
+
+                        ef'''16
+                        \p
+
+                        s8..
+
+                        s2
+
+                    }
+                    }
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    dqf'''8
+                    \mf
+                    \<
+                    [
+
+                    \revert Staff.Stem.stemlet-length
+                    ef'''8
+                    - \accent
+                    ]
+
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 3) "8")
+                    \times 3/4 {
+                        % [Voice 1 measure 20]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        dqf'''8.
+                        \ff
+                        [
+
+                        fs''16
+                        \f
+                        \>
+
+                        c'''8
+
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
+                        \times 2/3 {
+
+                            \scaleDurations #'(1 . 1) {
+                            \slashedGrace {
+
+                                \slash
+                                \override Stem.direction = #UP
+                                \override Staff.Stem.stemlet-length = 0
+                                aqs''16
+                                [
+
+                                s8..
+
+                                a''16
+                                \revert Stem.direction
+
+                                s8..
+
+                                \revert Staff.Stem.stemlet-length
+                                s2
+                                ]
+
+                            }
+                            }
+
+                            aqf''16
+                            - \tenuto
+
+                            fs''16
+                            - \accent
+
+                            \revert Staff.Stem.stemlet-length
+                            c'''16
+                            \mf
+                            ]
+
+                        }
+
+                    }
+
+                    \scaleDurations #'(1 . 1) {
+                        % [Voice 1 measure 21]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                        \override Staff.Stem.stemlet-length = 0.75
+                        aqs''16.
+                        \p
+                        - \tenuto
+                        \>
+                        [
+
+                        \revert Staff.Stem.stemlet-length
+                        fs'''16.
+                        \pp
+                        \glissando
+                        ]
+
+                    }
+
+                    fqs'''16
+                    \mp
+                    \>
+
+                    \scaleDurations #'(1 . 1) {
+                    \slashedGrace {
+
+                        \slash
+                        \override Stem.direction = #UP
+                        \override Staff.Stem.stemlet-length = 0
+                        ef'''16
+                        [
+
+                        s8..
+
+                        a'''16
+
+                        s8..
+
+                        fqs'''16
+                        \revert Stem.direction
+
+                        s8..
+
+                        \revert Staff.Stem.stemlet-length
+                        s2
+                        ]
+
+                    }
+                    }
+
+                    g'''8
                     \p
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        fqs''16
+                        fqs'''16
                         :32
                         \mf
                         \<
                         [
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
-                            b'16
+                            b''16
                             :32
 
                             s8..
@@ -1781,11 +1781,11 @@
                         }
                         }
 
-                        a'16
+                        a''16
                         :32
 
                         \revert Staff.Stem.stemlet-length
-                        gqs'16
+                        gqs''16
                         :32
                         ]
 
@@ -1799,28 +1799,28 @@
                             % [Voice 1 measure 22]                             %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            g'8.
+                            g''8.
                             [
 
-                            fqs'8.
+                            fqs''8.
                             \ff
 
                         }
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
                             \slash
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
-                            b'16
+                            b''16
                             \f
                             \>
                             [
 
                             s8..
 
-                            a'16
+                            a''16
                             \revert Stem.direction
 
                             s8..
@@ -1832,21 +1832,21 @@
                         }
                         }
 
-                        gqs'8
+                        gqs''8
 
-                        g'8
+                        g''8
 
-                        fqs'8
+                        fqs''8
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                         \times 2/3 {
 
-                            b'8
+                            b''8
 
-                            af'8
+                            af''8
 
                             \revert Staff.Stem.stemlet-length
-                            aqf'8
+                            aqf''8
                             \mf
                             ]
 
@@ -1862,27 +1862,27 @@
                             % [Voice 1 measure 23]                             %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            g'8.
+                            g''8.
                             \p
                             \>
                             [
 
                             \scaleDurations #'(1 . 1) {
-                            \acciaccatura {
+                            \slashedGrace {
 
                                 \slash
                                 \override Stem.direction = #UP
                                 \override Staff.Stem.stemlet-length = 0
-                                aqf'16
+                                aqf''16
                                 [
 
                                 s8..
 
-                                c'16
+                                c''16
 
                                 s8..
 
-                                cs'16
+                                cs''16
                                 \revert Stem.direction
 
                                 s8..
@@ -1895,21 +1895,21 @@
                             }
 
                             \revert Staff.Stem.stemlet-length
-                            dqf'8.
+                            dqf''8.
                             - \tenuto
                             ]
 
                         }
 
-                        ef'4
+                        ef''4
                         \glissando
 
                         \scaleDurations #'(1 . 1) {
 
                             \scaleDurations #'(1 . 1) {
-                            \acciaccatura {
+                            \slashedGrace {
 
-                                aqs'16
+                                aqs''16
 
                                 s8..
 
@@ -1919,11 +1919,11 @@
                             }
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            cs''8.
+                            cs'''8.
                             \pp
                             [
 
-                            d'8.
+                            d''8.
                             \mp
                             - \accent
                             \>
@@ -1931,17 +1931,17 @@
                         }
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
                             \slash
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
-                            dqs'16
+                            dqs''16
                             [
 
                             s8..
 
-                            d''16
+                            d'''16
                             \revert Stem.direction
 
                             s8..
@@ -1953,12 +1953,12 @@
                         }
                         }
 
-                        cqs''8
+                        cqs'''8
 
-                        ef'8
+                        ef''8
 
                         \revert Staff.Stem.stemlet-length
-                        ef''8
+                        ef'''8
                         \p
                         ]
 
@@ -1970,30 +1970,30 @@
                         % [Voice 1 measure 24]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        dqf''16.
+                        dqf'''16.
                         - \tenuto
                         [
 
-                        ef''16.
+                        ef'''16.
                         - \accent
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
                             \slash
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
-                            dqf''16
+                            dqf'''16
                             [
 
                             s8..
 
-                            c'16
+                            c''16
                             - \tenuto
 
                             s8..
 
-                            cs'16
+                            cs''16
                             \revert Stem.direction
 
                             s8..
@@ -2005,12 +2005,12 @@
                         }
                         }
 
-                        dqf'8.
+                        dqf''8.
 
                         \scaleDurations #'(1 . 1) {
-                        \acciaccatura {
+                        \slashedGrace {
 
-                            ef'16
+                            ef''16
 
                             s8..
 
@@ -2019,27 +2019,27 @@
                         }
                         }
 
-                        aqs'16.
+                        aqs''16.
 
-                        cs''16.
+                        cs'''16.
 
                         \scaleDurations #'(1 . 1) {
 
-                            d'16
+                            d''16
 
                             \scaleDurations #'(1 . 1) {
-                            \acciaccatura {
+                            \slashedGrace {
 
                                 \slash
                                 \override Stem.direction = #UP
                                 \override Staff.Stem.stemlet-length = 0
-                                dqs'16
+                                dqs''16
                                 :32
                                 [
 
                                 s8..
 
-                                d''16
+                                d'''16
                                 :32
                                 \revert Stem.direction
 
@@ -2052,11 +2052,11 @@
                             }
                             }
 
-                            cqs''16
+                            cqs'''16
                             :32
 
                             \revert Staff.Stem.stemlet-length
-                            ef'16
+                            ef''16
                             :32
                             ]
                             \bar "||"

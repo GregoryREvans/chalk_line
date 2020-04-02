@@ -14,26 +14,36 @@ from chalk_line.Materials.pitch.Segment_II.clef_handlers import clef_handlers
 
 
 measure_30 = abjad.Staff([abjad.TremoloContainer(2, "<d'' f''>16 <cs'' fs''>16"), abjad.Rest((1, 8))])
-fingering_1 = abjad.LilyPondLiteral(
-    [
-        r"\abjad-solid-line-with-up-hook",
-        r"- \tweak padding #5",
-        r"- \tweak staff-padding #10",
-        r"- \tweak direction #down",
-        r"- \tweak bound-details.left.text \markup {",
+fingering_1 = [
+        r"\markup {",
+        r"  \lower #5",
+        r"  \override #'(graphical . #t)",
         r"  \override #'(size . 0.6)",
         r"  \override #'(thickness . 0.125)",
         r"  \woodwind-diagram",
         r"      #'flute",
         r"      #'((cc . (one two three fourT six)) (lh . (bes b)) (rh . (dT dis cis c)))",
         r"}",
-        r"\startTextSpan",
-    ],
-    format_slot="after",
+    ]
+bis_handler = evans.BisbigliandoHandler(
+    fingering_list=[fingering_1],
+    boolean_vector=[1, 0],
+    padding=3,
+    staff_padding=1,
+    right_padding=1,
+    continuous=True,
 )
-fingering_1_stopper = abjad.LilyPondLiteral(r"\stopTextSpan", format_slot="after")
-abjad.attach(fingering_1, abjad.select(measure_30).leaves()[0])
-abjad.attach(fingering_1_stopper, abjad.select(measure_30).leaves()[-1])
+bis_handler(measure_30[:-1])
+abjad.attach(
+    abjad.LilyPondLiteral(
+        [
+            r"\once",
+            r"\override Stem.stencil = ##f",
+        ],
+        format_slot="before",
+    ),
+    abjad.select(measure_30).leaves()[1],
+)
 
 maker = evans.SegmentMaker(
     instruments=insts,

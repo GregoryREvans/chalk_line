@@ -13,6 +13,7 @@ tempo_handler_one = evans.TempoSpannerHandler(
         (2, 0, 1, "71"),
     ],
     boolean_vector=[1],
+    padding=4,
     staff_padding=1,
     continuous=True,
     name="tempo_handler_one",

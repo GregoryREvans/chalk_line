@@ -96,7 +96,7 @@
   		\override Clef.whiteout = 1
 		\override DynamicText.font-size = #-2
 		%{ \override DynamicLineSpanner.staff-padding = 4.5 %}
-		\override DynamicLineSpanner.staff-padding = 9
+		\override DynamicLineSpanner.staff-padding = 8
 		\override DynamicLineSpanner.padding = 2
         %{ \override DynamicLineSpanner.Y-extent = #'(-1.5 . 1.5) %}
 		\override Hairpin.bound-padding = #1
@@ -134,7 +134,7 @@
 		\override TupletNumber.font-size = #1
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
-		proportionalNotationDuration = #(ly:make-moment 1 74)
+		proportionalNotationDuration = #(ly:make-moment 1 77)
         tupletFullLength = ##t
     }
 	\context {

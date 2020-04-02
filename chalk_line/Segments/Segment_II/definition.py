@@ -16,6 +16,7 @@ from chalk_line.Materials.pitch.Segment_II.clef_handlers import clef_handlers
 measure_30 = abjad.Staff([abjad.TremoloContainer(2, "<d'' f''>16 <cs'' fs''>16"), abjad.Rest((1, 8))])
 fingering_1 = [
         r"\markup {",
+        r"  \hspace #8.5",
         r"  \lower #5",
         r"  \override #'(graphical . #t)",
         r"  \override #'(size . 0.6)",
@@ -28,8 +29,8 @@ fingering_1 = [
 bis_handler = evans.BisbigliandoHandler(
     fingering_list=[fingering_1],
     boolean_vector=[1, 0],
-    padding=3,
-    staff_padding=1,
+    padding=1,
+    staff_padding=0.5,
     right_padding=1,
     continuous=True,
 )

@@ -74,7 +74,7 @@
 		%\override TimeSignature.stencil = ##f
 		\override TimeSignature.whiteout-style = #'outline
 		\override TimeSignature.whiteout = ##t
-        \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 9) (minimum-distance . 9) (padding . 4) (stretchability . 0))
+        \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 9) (minimum-distance . 9) (padding . 5) (stretchability . 0))
     }
     \context {
         \Score
@@ -95,9 +95,12 @@
 		\override Clef.whiteout-style = #'outline
   		\override Clef.whiteout = 1
 		\override DynamicText.font-size = #-2
-		\override DynamicLineSpanner.staff-padding = 4.5
+		%{ \override DynamicLineSpanner.staff-padding = 4.5 %}
+		\override DynamicLineSpanner.staff-padding = 9
+		\override DynamicLineSpanner.padding = 2
         %{ \override DynamicLineSpanner.Y-extent = #'(-1.5 . 1.5) %}
-		\override Hairpin.bound-padding = #1.5 %is this necessary?
+		\override Hairpin.bound-padding = #1
+		\override Hairpin.padding = #2
 		\override Glissando.breakable = ##t
 		\override Glissando.thickness = #2
 		\override Stem.thickness = #0.5
@@ -154,14 +157,14 @@
 }
 
 \paper {
-	system-system-spacing = #'((basic-distance . 19) (minimum-distance . 19) (padding . 4))
+	system-system-spacing = #'((basic-distance . 20) (minimum-distance . 20) (padding . 6))
 
 	indent = 20\mm
     short-indent = 15\mm
     bottom-margin = 5\mm
     left-margin = 10\mm
     right-margin = 5\mm
-    top-margin = 10\mm
+    top-margin = 15\mm
 
 	%{ top-margin = 1\cm
 	bottom-margin = 1\cm

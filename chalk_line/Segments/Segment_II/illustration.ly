@@ -2821,7 +2821,7 @@
                     }
                     % [Voice 1 measure 48]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    c'8
+                    eqs'8
                     \p
                     \<
                     ~
@@ -2831,17 +2831,17 @@
                     \times 10/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        c'8
+                        eqs'8
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        c'8
+                        b'8
                         ]
 
-                        c'4
+                        fqs''4
                         ~
 
-                        c'16
+                        fqs''16
                         \mf
                         \bar "||"
 

@@ -33,8 +33,8 @@
             s1 * 3/4
             - \abjad-dashed-line-with-arrow
             - \baca-metronome-mark-spanner-left-text 2 0 1 "87"
-            - \tweak padding #1
-            - \tweak staff-padding #1
+            - \tweak padding #0.5
+            - \tweak staff-padding #0.5
             \bacaStartTextSpanMM
             % [Global Context measure 6]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -43,8 +43,8 @@
             \bacaStopTextSpanMM
             - \abjad-invisible-line
             - \baca-metronome-mark-spanner-left-text 2 0 1 "95"
-            - \tweak padding #1
-            - \tweak staff-padding #1
+            - \tweak padding #0.5
+            - \tweak staff-padding #0.5
             \bacaStartTextSpanMM
             % [Global Context measure 7]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -57,8 +57,8 @@
             s1 * 3/8
             - \abjad-dashed-line-with-arrow
             - \baca-metronome-mark-spanner-left-text 2 0 1 "95"
-            - \tweak padding #1
-            - \tweak staff-padding #1
+            - \tweak padding #0.5
+            - \tweak staff-padding #0.5
             \bacaStartTextSpanMM
             % [Global Context measure 9]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -71,8 +71,8 @@
             \bacaStopTextSpanMM
             - \abjad-invisible-line
             - \baca-metronome-mark-spanner-left-text 2 0 1 "60"
-            - \tweak padding #1
-            - \tweak staff-padding #1
+            - \tweak padding #0.5
+            - \tweak staff-padding #0.5
             \bacaStartTextSpanMM
             % [Global Context measure 11]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -89,8 +89,8 @@
             s1 * 5/8
             - \abjad-dashed-line-with-arrow
             - \baca-metronome-mark-spanner-left-text 2 0 1 "73"
-            - \tweak padding #1
-            - \tweak staff-padding #1
+            - \tweak padding #0.5
+            - \tweak staff-padding #0.5
             \bacaStartTextSpanMM
             % [Global Context measure 14]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -103,8 +103,8 @@
             \bacaStopTextSpanMM
             - \abjad-invisible-line
             - \baca-metronome-mark-spanner-left-text 2 0 1 "90"
-            - \tweak padding #1
-            - \tweak staff-padding #1
+            - \tweak padding #0.5
+            - \tweak staff-padding #0.5
             \bacaStartTextSpanMM
             % [Global Context measure 16]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -117,8 +117,8 @@
             s1 * 3/8
             - \abjad-dashed-line-with-arrow
             - \baca-metronome-mark-spanner-left-text 2 0 1 "90"
-            - \tweak padding #1
-            - \tweak staff-padding #1
+            - \tweak padding #0.5
+            - \tweak staff-padding #0.5
             \bacaStartTextSpanMM
             % [Global Context measure 18]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -131,8 +131,8 @@
             \bacaStopTextSpanMM
             - \abjad-invisible-line
             - \baca-metronome-mark-spanner-left-text 2 0 1 "87"
-            - \tweak padding #1
-            - \tweak staff-padding #1
+            - \tweak padding #0.5
+            - \tweak staff-padding #0.5
             \bacaStartTextSpanMM
             % [Global Context measure 20]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 

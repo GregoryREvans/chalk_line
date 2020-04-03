@@ -96,7 +96,7 @@
   		\override Clef.whiteout = 1
 		\override DynamicText.font-size = #-2
 		%{ \override DynamicLineSpanner.staff-padding = 4.5 %}
-		\override DynamicLineSpanner.staff-padding = 8
+		\override DynamicLineSpanner.staff-padding = 9
 		\override DynamicLineSpanner.padding = 2
         %{ \override DynamicLineSpanner.Y-extent = #'(-1.5 . 1.5) %}
 		\override Hairpin.bound-padding = #1
@@ -157,7 +157,7 @@
 }
 
 \paper {
-	system-system-spacing = #'((basic-distance . 20) (minimum-distance . 20) (padding . 6))
+	system-system-spacing = #'((basic-distance . 21) (minimum-distance . 21) (padding . 6))
 
 	indent = 20\mm
     short-indent = 15\mm

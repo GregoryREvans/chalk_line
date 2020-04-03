@@ -1979,10 +1979,13 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         dqf'''16.
+                        \mf
                         - \tenuto
+                        \<
                         [
 
                         ef'''16.
+                        \ff
                         - \accent
 
                         \scaleDurations #'(1 . 1) {
@@ -1992,6 +1995,8 @@
                             \override Stem.direction = #UP
                             \override Staff.Stem.stemlet-length = 0
                             dqf'''16
+                            \f
+                            \>
                             [
 
                             s8..
@@ -2028,8 +2033,11 @@
                         }
 
                         aqs''16.
+                        \mf
 
                         cs'''16.
+                        \p
+                        \>
 
                         \scaleDurations #'(1 . 1) {
 
@@ -2066,6 +2074,7 @@
                             \revert Staff.Stem.stemlet-length
                             ef''16
                             :32
+                            \pp
                             ]
                             \bar "||"
 

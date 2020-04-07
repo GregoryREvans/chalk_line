@@ -592,7 +592,7 @@
                         \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
-                        gqf'8
+                        fs'8
                         \mf
                         ]
                         \stopTrillSpan
@@ -906,7 +906,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
 
-                        gqf'8
+                        fs'8
                         :32
                         \pp
                         \<
@@ -1395,7 +1395,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    gqf'16
+                    fs'16
                     \mf
                     \>
                     ]
@@ -1986,7 +1986,7 @@
 
                     }
 
-                    gqf'4
+                    fs'4
                     \mp
                     \>
                     ~
@@ -2006,7 +2006,7 @@
                         % [Voice 1 measure 32]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        gqf'16
+                        fs'16
                         \p
                         [
 
@@ -2036,7 +2036,7 @@
                         \startTrillSpan
 
                         \revert Staff.Stem.stemlet-length
-                        gqf'8
+                        fs'8
                         \f
                         ]
                         \stopTrillSpan

@@ -468,10 +468,10 @@
                         \times 2/3 {
 
                             \pitchedTrill
-                            gqf''4
+                            fs''4
                             \mf
                             \>
-                            \startTrillSpan aqs''
+                            \startTrillSpan bf''
 
                             \scaleDurations #'(1 . 1) {
                             \slashedGrace {

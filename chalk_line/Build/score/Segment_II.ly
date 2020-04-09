@@ -597,7 +597,7 @@
 
                     r8
 
-                    d'8
+                    d''8
                     \p
                     - \accent
                     \>
@@ -842,7 +842,7 @@
                     \ff
                     [
 
-                    d'16
+                    d''16
                     \f
                     \>
                     ~
@@ -856,7 +856,7 @@
                     }
                     \startTrillSpan
 
-                    d'16
+                    d''16
 
                     \revert Staff.Stem.stemlet-length
                     af''16
@@ -1045,7 +1045,7 @@
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
-                    d'16
+                    d''16
                     ~
                     ]
                     \stopTrillSpan
@@ -1062,7 +1062,7 @@
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        d'16
+                        d''16
                         [
 
                         \revert Staff.Stem.stemlet-length
@@ -1079,7 +1079,7 @@
                         }
                         \startTrillSpan
 
-                        d'4
+                        d''4
                         \mp
                         \>
                         ~
@@ -1094,7 +1094,7 @@
                         \startTrillSpan
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        d'16
+                        d''16
                         \p
                         [
 
@@ -1118,7 +1118,7 @@
                     r8
                     \stopTrillSpan
 
-                    d'8
+                    d''8
                     \ff
                     \>
                     ~
@@ -1132,7 +1132,7 @@
                     \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    d'8
+                    d''8
                     \f
                     [
 
@@ -1161,7 +1161,7 @@
                         f'16
                         [
 
-                        dqs'8.
+                        dqs'''8.
                         \p
                         - \tenuto
                         \stopTrillSpan
@@ -1910,7 +1910,7 @@
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
-                    d'8
+                    d''8
                     - \tenuto
                     ]
                     \stopTrillSpan
@@ -2251,7 +2251,7 @@
                     \startTrillSpan
 
                     \revert Staff.Stem.stemlet-length
-                    d'16
+                    d''16
                     ~
                     ]
                     \stopTrillSpan
@@ -2265,7 +2265,7 @@
                     \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    d'8
+                    d''8
                     \ff
                     [
 
@@ -2414,7 +2414,7 @@
                     }
                     % [Voice 1 measure 40]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    d'4
+                    d''4
                     \mf
                     \>
                     ~
@@ -2429,7 +2429,7 @@
                     \startTrillSpan
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    d'16
+                    d''16
                     \p
                     [
 
@@ -2521,7 +2521,7 @@
                     }
                     \startTrillSpan
 
-                    dqs'16
+                    dqs'''16
                     \stopTrillSpan
                     - \tweak padding #5
                     - \tweak staff-padding #4
@@ -2576,7 +2576,7 @@
                     \times 8/7 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        d'8.
+                        d''8.
                         \pp
                         \<
                         [
@@ -2589,7 +2589,7 @@
                         }
                         \startTrillSpan
 
-                        d'8.
+                        d''8.
                         \mp
                         - \tenuto
                         \stopTrillSpan

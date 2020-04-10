@@ -14,6 +14,7 @@
     {
     \include "Segment_I.ly"
     \include "Segment_II.ly"
+    \include "Segment_III.ly"
 	}
 %\midi{}
 }

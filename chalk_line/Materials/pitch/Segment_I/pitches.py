@@ -46,7 +46,7 @@ chord_1 = [
     4,
     6,
     8,
-    [10.5, 5.5], #was [10, 6]
+    [10.5, 5.5],  # was [10, 6]
     12,
     20,
     22,
@@ -275,7 +275,7 @@ chord_1 = [
     3,
 ]
 
-for i , _ in enumerate(chord_1):
+for i, _ in enumerate(chord_1):
     if isinstance(_, list):
         for x, subitem in enumerate(_):
             _[x] = subitem + 12

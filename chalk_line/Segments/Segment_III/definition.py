@@ -13,6 +13,24 @@ from chalk_line.Materials.score_structure.Segment_III.time_signatures import (
 from chalk_line.Materials.pitch.Segment_III.clef_handlers import clef_handlers
 
 
+c = abjad.LilyPondLiteral(
+    r"""
+        _ \markup {
+            \override #'(font-name . "STIXGeneral")
+            \with-color #white
+            \right-column {
+                \line { "." }
+                \line { "." }
+                \with-color #black
+                \line { \hspace #0.75 Spring Valley, Oh. }
+                \with-color #black
+                \line { \hspace #0.75 April 2020 }
+            }
+        }
+    """,
+    format_slot="absolute_after",
+)
+
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Flute"],
@@ -22,7 +40,7 @@ maker = evans.SegmentMaker(
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
     tuplet_bracket_noteheads=True,
-    add_final_grand_pause=False,
+    add_final_grand_pause=True,
     score_includes=[
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
         "/Users/evansdsg2/Scores/chalk_line/chalk_line/Build/first_stylesheet.ily",
@@ -37,11 +55,12 @@ maker = evans.SegmentMaker(
     cutaway=False,
     beam_pattern="meter",
     beam_rests=False,
-    barline="||",
+    barline="|.",
     tempo=((1, 4), 59),
     rehearsal_mark="Afterimage",
     page_break_counts=[90],
     midi=False,
+    colophon=c,
 )
 
 maker.build_segment()

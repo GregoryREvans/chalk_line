@@ -717,39 +717,38 @@
 
                     }
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 16) "64")
-                    \times 16/11 {
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 8) "32")
+                    \times 8/11 {
 
                         \scaleDurations #'(1 . 1) {
                             % [Voice 1 measure 9]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            cqs''64.
+                            cqs''32.
                             \mf
                             \>
                             [
 
-                            ef''64.
+                            ef''32.
 
                         }
 
-                        eqf''32
+                        eqf''16
 
                         \scaleDurations #'(1 . 1) {
 
-                            fs''64.
+                            fs''32.
 
-                            a''64.
+                            a''32.
 
                         }
 
-                        bqs''64
+                        bqs''32
 
-                        ef'''64
+                        ef'''32
 
                         \revert Staff.Stem.stemlet-length
-                        eqf''64
+                        eqf''32
                         ]
 
                     }

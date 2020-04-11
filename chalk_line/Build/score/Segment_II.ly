@@ -475,14 +475,18 @@
                     \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 5) "8")
-                    \times 5/9 {
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "16")
+                    \times 10/9 {
                         % [Voice 1 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        a'4
+                        \override Staff.Stem.stemlet-length = 0.75
+                        a'8
+                        [
 
-                        c''4
+                        \revert Staff.Stem.stemlet-length
+                        c''8
                         \pp
+                        ]
                         \stopTrillSpan
                         - \tweak padding #5
                         - \tweak staff-padding #4
@@ -493,7 +497,7 @@
                         }
                         \startTrillSpan
 
-                        eqf''2
+                        eqf''4
                         \mp
                         \>
                         \stopTrillSpan
@@ -506,7 +510,7 @@
                         }
                         \startTrillSpan
 
-                        f'8
+                        f'16
                         ~
                         \stopTrillSpan
                         - \tweak padding #5
@@ -782,25 +786,26 @@
                     r4
                     \stopTrillSpan
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 4) "8")
-                    \times 4/7 {
-
-                        dqf''4.
-                        \mp
-                        \>
-                        - \tweak padding #5
-                        - \tweak staff-padding #4
-                        - \tweak bound-details.right.padding #2
-                        - \tweak bound-details.left.text
-                        \markup {
-                          \musicglyph #"scripts.trill"
-                        }
-                        \startTrillSpan
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
+                    \times 8/7 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ef'8
-                        \p
+                        dqf''8.
+                        \mp
+                        \>
                         [
+                        - \tweak padding #5
+                        - \tweak staff-padding #4
+                        - \tweak bound-details.right.padding #2
+                        - \tweak bound-details.left.text
+                        \markup {
+                          \musicglyph #"scripts.trill"
+                        }
+                        \startTrillSpan
+
+                        ef'16
+                        \p
                         \stopTrillSpan
                         - \tweak padding #5
                         - \tweak staff-padding #4
@@ -811,15 +816,15 @@
                         }
                         \startTrillSpan
 
-                        \revert Staff.Stem.stemlet-length
-                        cs''8
+                        cs''16
                         \mf
                         \<
-                        ]
                         \stopTrillSpan
 
-                        aqf'4
+                        \revert Staff.Stem.stemlet-length
+                        aqf'8
                         ~
+                        ]
                         - \tweak padding #5
                         - \tweak staff-padding #4
                         - \tweak bound-details.right.padding #2
@@ -984,14 +989,19 @@
                     }
                     \startTrillSpan
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
-                    \times 2/3 {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
+                    \times 4/3 {
                         % [Voice 1 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        aqs''8
+                        \override Staff.Stem.stemlet-length = 0.75
+                        aqs''16
+                        [
 
-                        a'4
+                        \revert Staff.Stem.stemlet-length
+                        a'8
                         \f
+                        ]
                         \stopTrillSpan
                         - \tweak padding #5
                         - \tweak staff-padding #4
@@ -1142,13 +1152,16 @@
                     }
                     \startTrillSpan
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 4) "8")
-                    \times 4/7 {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
+                    \times 8/7 {
                         % [Voice 1 measure 15]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        f'8
+                        \override Staff.Stem.stemlet-length = 0.75
+                        f'16
+                        [
 
-                        dqs'''4.
+                        dqs'''8.
                         \p
                         - \tenuto
                         \stopTrillSpan
@@ -1161,10 +1174,12 @@
                         }
                         \startTrillSpan
 
-                        cs''4.
+                        \revert Staff.Stem.stemlet-length
+                        cs''8.
                         \pp
                         \<
                         ~
+                        ]
                         \stopTrillSpan
                         - \tweak padding #5
                         - \tweak staff-padding #4
@@ -1275,15 +1290,15 @@
                     \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
-                    \times 3/5 {
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
+                    \times 6/5 {
                         % [Voice 1 measure 17]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        a'2
+                        a'4
                         \pp
                         \stopTrillSpan
 
-                        c''8
+                        c''16
                         \mp
                         - \tweak padding #5
                         - \tweak staff-padding #4
@@ -1412,10 +1427,10 @@
                     \stopTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
-                    \times 3/5 {
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
+                    \times 6/5 {
 
-                        f'8
+                        f'16
                         \mp
                         \>
                         - \tweak padding #5
@@ -1427,7 +1442,7 @@
                         }
                         \startTrillSpan
 
-                        g'2
+                        g'4
                         ~
                         \stopTrillSpan
                         - \tweak padding #5
@@ -1608,18 +1623,16 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
-                    \times 3/5 {
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
+                    \times 6/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        g'8
+                        g'16
                         \f
                         [
 
-                        \revert Staff.Stem.stemlet-length
-                        aqf'8
+                        aqf'16
                         \mf
-                        ]
                         \stopTrillSpan
                         - \tweak padding #5
                         - \tweak staff-padding #4
@@ -1630,8 +1643,10 @@
                         }
                         \startTrillSpan
 
-                        a'4.
+                        \revert Staff.Stem.stemlet-length
+                        a'8.
                         \p
+                        ]
                         \stopTrillSpan
                         - \tweak padding #5
                         - \tweak staff-padding #4
@@ -1768,17 +1783,21 @@
                     \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
-                    \times 3/5 {
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
+                    \times 6/5 {
                         % [Voice 1 measure 27]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        ef'4.
+                        \override Staff.Stem.stemlet-length = 0.75
+                        ef'8.
                         \f
+                        [
 
-                        bqs'4
+                        \revert Staff.Stem.stemlet-length
+                        bqs'8
                         \mf
                         \>
                         ~
+                        ]
                         \stopTrillSpan
 
                     }
@@ -1922,10 +1941,10 @@
                     \stopTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
-                    \times 3/5 {
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
+                    \times 6/5 {
 
-                        bqf''8
+                        bqf''16
                         \p
                         \>
                         - \tweak padding #5
@@ -1937,7 +1956,7 @@
                         }
                         \startTrillSpan
 
-                        fs'2
+                        fs'4
                         \pp
                         - \tenuto
                         \stopTrillSpan
@@ -2091,17 +2110,21 @@
                     \startTrillSpan
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
-                    \times 3/5 {
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
+                    \times 6/5 {
                         % [Voice 1 measure 34]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        g'4
+                        \override Staff.Stem.stemlet-length = 0.75
+                        g'8
                         :32
                         \mf
+                        [
 
-                        eqs'4.
+                        \revert Staff.Stem.stemlet-length
+                        eqs'8.
                         :32
                         \ff
+                        ]
                         \stopTrillSpan
                         - \tweak padding #5
                         - \tweak staff-padding #4
@@ -2367,12 +2390,13 @@
                     }
                     \startTrillSpan
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 4) "8")
-                    \times 4/7 {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
+                    \times 8/7 {
 
-                        fqs''4
+                        fqs''8
 
-                        af'2
+                        af'4
                         ~
                         \stopTrillSpan
                         - \tweak padding #5
@@ -2384,7 +2408,7 @@
                         }
                         \startTrillSpan
 
-                        af'8
+                        af'16
                         \f
 
                     }
@@ -2547,12 +2571,15 @@
                     r8
                     \stopTrillSpan
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 4) "8")
-                    \times 4/7 {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
+                    \times 8/7 {
 
-                        d''4.
+                        \override Staff.Stem.stemlet-length = 0.75
+                        d''8.
                         \pp
                         \<
+                        [
                         - \tweak padding #5
                         - \tweak staff-padding #4
                         - \tweak bound-details.right.padding #2
@@ -2562,7 +2589,7 @@
                         }
                         \startTrillSpan
 
-                        d''4.
+                        d''8.
                         \mp
                         - \tenuto
                         \stopTrillSpan
@@ -2575,10 +2602,12 @@
                         }
                         \startTrillSpan
 
-                        fqs'8
+                        \revert Staff.Stem.stemlet-length
+                        fqs'16
                         \p
                         \<
                         ~
+                        ]
                         \stopTrillSpan
                         - \tweak padding #5
                         - \tweak staff-padding #4
@@ -2687,11 +2716,14 @@
                     }
                     \startTrillSpan
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 4) "8")
-                    \times 4/7 {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
+                    \times 8/7 {
 
-                        gqs'8
+                        \override Staff.Stem.stemlet-length = 0.75
+                        gqs'16
                         :32
+                        [
                         \stopTrillSpan
                         - \tweak padding #5
                         - \tweak staff-padding #4
@@ -2702,12 +2734,14 @@
                         }
                         \startTrillSpan
 
-                        ef'4
+                        \revert Staff.Stem.stemlet-length
+                        ef'8
                         :32
                         \p
+                        ]
                         \stopTrillSpan
 
-                        f'2
+                        f'4
                         :32
                         \mf
                         - \tweak padding #5
@@ -2778,17 +2812,21 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 5) "8")
-                    \times 5/9 {
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "16")
+                    \times 10/9 {
 
-                        eqs'4
+                        \override Staff.Stem.stemlet-length = 0.75
+                        eqs'8
+                        [
 
-                        b'4
+                        \revert Staff.Stem.stemlet-length
+                        b'8
+                        ]
 
-                        fqs''2
+                        fqs''4
                         ~
 
-                        fqs''8
+                        fqs''16
                         \mf
                         \bar "||"
 

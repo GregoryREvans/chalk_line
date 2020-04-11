@@ -19,8 +19,7 @@ c = abjad.LilyPondLiteral(
             \override #'(font-name . "STIXGeneral")
             \with-color #white
             \right-column {
-                \line { "." }
-                \line { "." }
+                \line { "\hspace #0.75 .........................." }
                 \with-color #black
                 \line { \hspace #0.75 Spring Valley, Oh. }
                 \with-color #black

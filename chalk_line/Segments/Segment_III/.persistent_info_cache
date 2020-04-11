@@ -218,3 +218,11 @@ voice_0
 voice_0
 [LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "STIXGeneral")\n            \\with-color #white\n            \\right-column {\n                \\line { "\\hspace #0.75 .........................." }\n                \\with-color #black\n                \\line { \\hspace #0.75 Spring Valley, Oh. }\n                \\with-color #black\n                \\line { \\hspace #0.75 April 2020 }\n            }\n        }\n    ', format_slot='absolute_after')]
 
+2020-04-11 16:43:50.030128
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "STIXGeneral")\n            \\with-color #white\n            \\right-column {\n                \\line { "\\hspace #0.75 .........................." }\n                \\with-color #black\n                \\line { \\hspace #0.75 Spring Valley, Oh. }\n                \\with-color #black\n                \\line { \\hspace #0.75 April 2020 }\n            }\n        }\n    ', format_slot='absolute_after')]
+
+2020-04-11 16:46:26.133530
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "STIXGeneral")\n            \\with-color #white\n            \\right-column {\n                \\line { "\\hspace #0.75 .........................." }\n                \\with-color #black\n                \\line { \\hspace #0.75 Spring Valley, Oh. }\n                \\with-color #black\n                \\line { \\hspace #0.75 April 2020 }\n            }\n        }\n    ', format_slot='absolute_after')]
+

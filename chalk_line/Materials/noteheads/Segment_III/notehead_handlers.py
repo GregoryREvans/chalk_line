@@ -31,7 +31,7 @@ notehead_handler_one = evans.NoteheadHandler(
         "default",
     ],
     transition=False,
-    head_boolean_vector=[0],
+    head_boolean_vector=[1],
     head_vector_continuous=True,
     continuous=True,
     count=-1,

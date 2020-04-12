@@ -276,7 +276,6 @@
 
                         \tweak NoteHead.style #'default
                         cs''16.
-                        \mf
 
                         \scaleDurations #'(1 . 1) {
                         \slashedGrace {
@@ -314,7 +313,6 @@
                         \tweak NoteHead.style #'slash
                         \revert Staff.Stem.stemlet-length
                         cs'''8.
-                        \f
                         \glissando
                         ]
 
@@ -353,7 +351,6 @@
                             \tweak NoteHead.style #'default
                             \revert Staff.Stem.stemlet-length
                             bqs''8
-                            \p
                             - \tenuto
                             ]
 
@@ -448,7 +445,6 @@
                         \tweak NoteHead.style #'default
                         bqs''16
                         :32
-                        \mf
 
                         \tweak NoteHead.style #'default
                         af'''16
@@ -486,7 +482,6 @@
 
                         \tweak NoteHead.style #'diamond
                         af''4
-                        \f
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                         \times 2/3 {
@@ -598,7 +593,6 @@
                         \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
                         d''8
-                        \ff
                         ]
 
                     }
@@ -744,7 +738,6 @@
 
                                 \tweak NoteHead.style #'default
                                 e''16
-                                \mf
 
                                 s8..
 
@@ -1700,7 +1693,7 @@
 
                     \tweak NoteHead.style #'default
                     \override Staff.Stem.stemlet-length = 0.75
-                    eqf''''8
+                    dqs''''8
                     :32
                     \mf
                     \<
@@ -1754,7 +1747,7 @@
                     \>
 
                     \tweak NoteHead.style #'diamond
-                    gqs''''32
+                    g''''32
 
                     \tweak NoteHead.style #'diamond
                     \revert Staff.Stem.stemlet-length

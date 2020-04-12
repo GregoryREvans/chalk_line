@@ -18,7 +18,7 @@ measure_30 = abjad.Staff(
 )
 fingering_1 = [
     r"\markup {",
-    r"  \hspace #8.5",
+    r"  \hspace #0.5",
     r"  \lower #5",
     r"  \override #'(graphical . #t)",
     r"  \override #'(size . 0.6)",

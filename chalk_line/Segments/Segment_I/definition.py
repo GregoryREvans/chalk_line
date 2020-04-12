@@ -23,6 +23,17 @@ maker = evans.SegmentMaker(
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
     voicewise_persistent_indicators=None,
+    voicewise_direct_detachments=[
+        [
+            (abjad.select().leaves(pitched=True).get([16], 1000), abjad.Dynamic("mf")),
+            (abjad.select().leaves(pitched=True).get([20], 1000), abjad.Dynamic("f")),
+            (abjad.select().leaves(pitched=True).get([24], 1000), abjad.Dynamic("p")),
+            (abjad.select().leaves(pitched=True).get([34], 1000), abjad.Dynamic("mf")),
+            (abjad.select().leaves(pitched=True).get([38], 1000), abjad.Dynamic("f")),
+            (abjad.select().leaves(pitched=True).get([51], 1000), abjad.Dynamic("ff")),
+            (abjad.select().leaves(pitched=True).get([68], 1000), abjad.Dynamic("mf")),
+        ],
+    ],
     tuplet_bracket_noteheads=True,
     add_final_grand_pause=False,
     score_includes=[

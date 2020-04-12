@@ -11,9 +11,9 @@
 \header {
 	tagline = ##f
 	breakbefore = ##t
-	dedication = \markup \override #'(font-name . "STIXGeneral") \fontsize #9 \center-column {"t  o      P  a  u  l      M  i  z  z  i"}
-	title = \markup \override #'(font-name . "STIXGeneral") \fontsize #13.5 \center-column {"Chalk Line"}
-	subtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #8 \center-column {"f  o  r     s  o  l  o     f  l  u  t  e"}
+	dedication = \markup \override #'(font-name . "STIXGeneral") \fontsize #7 \center-column {"t   o           P   a   u   l           M   i   z   z   i"}
+	title = \markup \override #'(font-name . "STIXGeneral") \fontsize #14.5 \center-column {"Chalk Line"}
+	subtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #6 \center-column {"f   o   r          s   o   l   o          f   l   u   t   e"}
 	%{ subsubtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #3 \center-column {"; or , inscriptions from a crumbling stone"} %}
 	composer = \markup \override #'(font-name . "STIXGeneral") \fontsize #3 {"Gregory Rowland Evans" \override #'(font-name . "STIXGeneral") "(*1995)"}
 }

@@ -186,6 +186,7 @@
 
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Flute }                                          %! applying staff names and clefs
+                    \once \override Staff.NoteHead.style = #'default
                     \clef "treble"
                     c''8.
                     \pp
@@ -197,6 +198,7 @@
                         \scaleDurations #'(1 . 1) {
                         \slashedGrace {
 
+                            \once \override Staff.NoteHead.style = #'default
                             cs''16
 
                             s8..
@@ -206,18 +208,22 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         dqs''32
                         [
 
+                        \once \override Staff.NoteHead.style = #'default
                         ef''32
 
+                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         aqf''32
                         ]
 
                     }
 
+                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     cs'''16
                     [
@@ -227,12 +233,14 @@
 
                         \slash
                         \override Stem.direction = #UP
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0
                         d''16
                         [
 
                         s8..
 
+                        \once \override Staff.NoteHead.style = #'default
                         eqf''16
                         \revert Stem.direction
 
@@ -245,18 +253,23 @@
                     }
                     }
 
+                    \once \override Staff.NoteHead.style = #'default
                     d'''16
                     \mp
                     \glissando
 
+                    \once \override Staff.NoteHead.style = #'default
                     bqs''32
                     \p
                     \<
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     ef''32
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     ef'''32
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     dqs'''32
                     ]
@@ -264,15 +277,19 @@
                     \scaleDurations #'(1 . 1) {
                         % [Voice 1 measure 2]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         ef'''32.
                         [
 
+                        \once \override Staff.NoteHead.style = #'default
                         cqs'''64.
                         - \tenuto
 
+                        \once \override Staff.NoteHead.style = #'default
                         c''64.
 
+                        \once \override Staff.NoteHead.style = #'default
                         cs''16.
                         \mf
 
@@ -281,6 +298,7 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'diamond
                             \override Staff.Stem.stemlet-length = 0
                             dqs''16
                             \ff
@@ -289,11 +307,13 @@
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             ef''16
                             - \accent
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'slash
                             aqf''16
                             \revert Stem.direction
 
@@ -306,6 +326,7 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'slash
                         \revert Staff.Stem.stemlet-length
                         cs'''8.
                         \f
@@ -321,6 +342,7 @@
                         \times 2/3 {
                             % [Voice 1 measure 3]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             \override Staff.Stem.stemlet-length = 0.75
                             d''8
                             \mf
@@ -330,6 +352,7 @@
                             \scaleDurations #'(1 . 1) {
                             \slashedGrace {
 
+                                \once \override Staff.NoteHead.style = #'diamond
                                 eqf''16
 
                                 s8..
@@ -339,8 +362,10 @@
                             }
                             }
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             d'''8
 
+                            \once \override Staff.NoteHead.style = #'default
                             \revert Staff.Stem.stemlet-length
                             bqs''8
                             \p
@@ -350,6 +375,7 @@
                         }
 
                         \pitchedTrill
+                        \once \override Staff.NoteHead.style = #'default
                         ef''4
                         \pp
                         - \accent
@@ -361,6 +387,7 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0
                             ef'''16
                             [
@@ -368,6 +395,7 @@
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'default
                             dqs'''16
                             - \tenuto
                             \revert Stem.direction
@@ -381,6 +409,7 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         ef'''4
                         \mp
 
@@ -391,6 +420,7 @@
                     \times 5/4 {
                         % [Voice 1 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         cqs'''8.
                         \p
@@ -402,16 +432,19 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0
                             e''16
                             [
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'default
                             fs''16
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'default
                             aqf''16
                             \revert Stem.direction
 
@@ -424,17 +457,21 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         bf''16
 
+                        \once \override Staff.NoteHead.style = #'default
                         bqs''16
                         :32
                         \mf
 
+                        \once \override Staff.NoteHead.style = #'default
                         af'''16
                         :32
                         \ff
                         \>
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         e''8
                         :32
@@ -451,6 +488,7 @@
                         \scaleDurations #'(1 . 1) {
                         \slashedGrace {
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             gqf''16
                             :32
 
@@ -461,6 +499,7 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         af''4
                         \f
 
@@ -468,6 +507,7 @@
                         \times 2/3 {
 
                             \pitchedTrill
+                            \once \override Staff.NoteHead.style = #'diamond
                             \override Staff.Stem.stemlet-length = 0.75
                             fs''8
                             \mf
@@ -480,6 +520,7 @@
 
                                 \slash
                                 \override Stem.direction = #UP
+                                \once \override Staff.NoteHead.style = #'default
                                 \override Staff.Stem.stemlet-length = 0
                                 c'''16
                                 [
@@ -487,6 +528,7 @@
 
                                 s8..
 
+                                \once \override Staff.NoteHead.style = #'default
                                 af'''16
                                 \revert Stem.direction
 
@@ -499,15 +541,18 @@
                             }
                             }
 
+                            \once \override Staff.NoteHead.style = #'default
                             aqs'''8
                             \p
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             fs'''8
                             \pp
                             \<
 
                         }
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         eqs''8
                         \mp
@@ -520,6 +565,7 @@
                     \times 5/4 {
                         % [Voice 1 measure 6]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'slash
                         \override Staff.Stem.stemlet-length = 0.75
                         c''8.
                         \p
@@ -531,6 +577,7 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'slash
                             \override Staff.Stem.stemlet-length = 0
                             cs''16
                             \mf
@@ -539,10 +586,12 @@
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             dqf''16
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             ef''16
                             \revert Stem.direction
 
@@ -555,10 +604,13 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         aqs''16
 
+                        \once \override Staff.NoteHead.style = #'default
                         cs'''8
 
+                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         d''8
                         \ff
@@ -571,16 +623,19 @@
                     \times 3/4 {
                         % [Voice 1 measure 7]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'default
                         dqs''4.
                         \f
                         - \tenuto
 
                         \pitchedTrill
+                        \once \override Staff.NoteHead.style = #'default
                         d'''8
                         \mf
                         \>
                         \startTrillSpan ef'''
 
+                        \once \override Staff.NoteHead.style = #'default
                         cqs'''4
                         \p
                         \stopTrillSpan
@@ -588,15 +643,18 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                         \times 2/3 {
 
+                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0.75
                             ef''8
                             \pp
                             \<
                             [
 
+                            \once \override Staff.NoteHead.style = #'default
                             ef'''8
                             - \accent
 
+                            \once \override Staff.NoteHead.style = #'default
                             \revert Staff.Stem.stemlet-length
                             dqf'''8
                             ]
@@ -610,6 +668,7 @@
                         \scaleDurations #'(1 . 1) {
                         \slashedGrace {
 
+                            \once \override Staff.NoteHead.style = #'default
                             ef'''16
                             \mp
 
@@ -620,12 +679,14 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         dqf'''16.
                         \p
                         \<
                         [
 
+                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         af''16.
                         ]
@@ -637,12 +698,14 @@
 
                         \slash
                         \override Stem.direction = #UP
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0
                         fs''16
                         [
 
                         s8..
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         eqf''16
                         - \tenuto
                         \revert Stem.direction
@@ -656,23 +719,28 @@
                     }
                     }
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     d''16
                     - \accent
                     \glissando
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     cqs''8
                     \glissando
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         e''16
                         - \tenuto
                         [
 
+                        \once \override Staff.NoteHead.style = #'default
                         af''16
 
+                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         fqs''16
                         ]
@@ -689,6 +757,7 @@
                             \scaleDurations #'(1 . 1) {
                             \slashedGrace {
 
+                                \once \override Staff.NoteHead.style = #'default
                                 e''16
                                 \mf
 
@@ -699,30 +768,38 @@
                             }
                             }
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             \override Staff.Stem.stemlet-length = 0.75
                             dqs''16
                             \ff
                             \>
                             [
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             c''16
 
                         }
 
+                        \once \override Staff.NoteHead.style = #'slash
                         e''32.
 
+                        \once \override Staff.NoteHead.style = #'slash
                         dqf''32.
                         :32
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         fs''32.
                         :32
 
                         \scaleDurations #'(1 . 1) {
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             aqf''32
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             ef'''32
 
+                            \once \override Staff.NoteHead.style = #'default
                             \revert Staff.Stem.stemlet-length
                             fs''32
                             \f
@@ -738,30 +815,38 @@
                         \scaleDurations #'(1 . 1) {
                             % [Voice 1 measure 9]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0.75
                             cqs''32.
                             \mf
                             \>
                             [
 
+                            \once \override Staff.NoteHead.style = #'default
                             ef''32.
 
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         eqf''16
 
                         \scaleDurations #'(1 . 1) {
 
+                            \once \override Staff.NoteHead.style = #'default
                             fs''32.
 
+                            \once \override Staff.NoteHead.style = #'default
                             a''32.
 
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         bqs''32
 
+                        \once \override Staff.NoteHead.style = #'default
                         ef'''32
 
+                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         eqf''32
                         ]
@@ -769,21 +854,26 @@
                     }
                     % [Voice 1 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     ef''32.
                     [
 
+                    \once \override Staff.NoteHead.style = #'default
                     fs''32.
 
+                    \once \override Staff.NoteHead.style = #'default
                     aqf''32
                     ~
 
+                    \once \override Staff.NoteHead.style = #'default
                     aqf''16
                     \p
 
                     \scaleDurations #'(1 . 1) {
                     \slashedGrace {
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         c'''16
                         \pp
                         \<
@@ -795,12 +885,15 @@
                     }
                     }
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     eqf'''32.
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     b''64
                     - \tenuto
                     ~
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     b''32
                     \mp
@@ -808,20 +901,24 @@
 
                     \scaleDurations #'(1 . 1) {
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         a''32
                         \p
                         \<
                         [
 
+                        \once \override Staff.NoteHead.style = #'default
                         gqs''32
 
+                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         g''32
                         ]
 
                     }
 
+                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     fqs''16
                     - \accent
@@ -832,12 +929,14 @@
 
                         \slash
                         \override Stem.direction = #UP
+                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0
                         b''16
                         [
 
                         s8..
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         a''16
                         \revert Stem.direction
 
@@ -850,9 +949,11 @@
                     }
                     }
 
+                    \once \override Staff.NoteHead.style = #'slash
                     gqs''16
                     ~
 
+                    \once \override Staff.NoteHead.style = #'slash
                     gqs''16
                     \mf
 
@@ -861,6 +962,7 @@
 
                         \slash
                         \override Stem.direction = #UP
+                        \once \override Staff.NoteHead.style = #'slash
                         \override Staff.Stem.stemlet-length = 0
                         g''16
                         \ff
@@ -869,10 +971,12 @@
 
                         s8..
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         fqs''16
 
                         s8..
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         b''16
                         - \tenuto
                         \revert Stem.direction
@@ -886,16 +990,19 @@
                     }
                     }
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     af''16
                     - \accent
                     ~
                     ]
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     af''16
                     [
 
+                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     aqf''8.
                     \f
@@ -903,6 +1010,7 @@
                     ]
                     % [Voice 1 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     g''16
                     \mf
@@ -910,14 +1018,18 @@
                     \>
                     [
 
+                    \once \override Staff.NoteHead.style = #'default
                     aqf''16
                     ~
 
+                    \once \override Staff.NoteHead.style = #'default
                     aqf''16
 
+                    \once \override Staff.NoteHead.style = #'default
                     fs''16
                     ~
 
+                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     fs''16
                     \p
@@ -926,14 +1038,17 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "64")
                     \times 4/5 {
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         c'''64
                         \pp
                         \<
                         [
 
+                        \once \override Staff.NoteHead.style = #'default
                         aqs''64
 
+                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         a''32.
                         \mp
@@ -945,12 +1060,14 @@
                     \times 2/3 {
                         % [Voice 1 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         aqf''16
                         \p
                         \<
                         [
 
+                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         fs''16
                         :32
@@ -959,6 +1076,7 @@
                         \scaleDurations #'(1 . 1) {
                         \slashedGrace {
 
+                            \once \override Staff.NoteHead.style = #'default
                             c'''16
                             :32
 
@@ -969,6 +1087,7 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         aqs''4
                         :32
 
@@ -977,6 +1096,7 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0
                             fs'''16
                             :32
@@ -984,6 +1104,7 @@
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             fqs'''16
                             \mf
                             \revert Stem.direction
@@ -997,6 +1118,7 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         ef'''4
                         \ff
                         \>
@@ -1004,12 +1126,15 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "32")
                         \times 4/5 {
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             \override Staff.Stem.stemlet-length = 0.75
                             a'''32
                             [
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             fqs'''32
 
+                            \once \override Staff.NoteHead.style = #'default
                             \revert Staff.Stem.stemlet-length
                             g'''16.
                             \f
@@ -1020,16 +1145,19 @@
                     }
                     % [Voice 1 measure 13]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     fqs'''16
                     \mf
                     \>
                     [
 
+                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     fs''16
                     ]
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     c'''4
                     \glissando
 
@@ -1041,16 +1169,19 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'diamond
                             \override Staff.Stem.stemlet-length = 0
                             aqs''16
                             [
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'slash
                             a''16
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'slash
                             aqf''16
                             \revert Stem.direction
 
@@ -1063,10 +1194,12 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         fs''16
                         [
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         c'''8
                         \p
@@ -1077,6 +1210,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "32")
                     \times 4/5 {
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         aqs''32
                         \pp
@@ -1086,6 +1220,7 @@
                         \scaleDurations #'(1 . 1) {
                         \slashedGrace {
 
+                            \once \override Staff.NoteHead.style = #'default
                             fs'''16
                             - \tenuto
 
@@ -1096,8 +1231,10 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         fqs'''32
 
+                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         ef'''16.
                         ]
@@ -1108,6 +1245,7 @@
                     \times 2/3 {
                         % [Voice 1 measure 14]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         a'''8
                         [
@@ -1117,6 +1255,7 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0
                             fqs'''16
                             - \accent
@@ -1124,6 +1263,7 @@
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'default
                             g'''16
                             \revert Stem.direction
 
@@ -1136,10 +1276,12 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         fqs'''8
                         ]
 
+                        \once \override Staff.NoteHead.style = #'default
                         c''4.
                         \mp
                         \glissando
@@ -1152,6 +1294,7 @@
 
                                 \slash
                                 \override Stem.direction = #UP
+                                \once \override Staff.NoteHead.style = #'default
                                 \override Staff.Stem.stemlet-length = 0
                                 cs''16
                                 \p
@@ -1160,10 +1303,12 @@
 
                                 s8..
 
+                                \once \override Staff.NoteHead.style = #'default
                                 dqf''16
 
                                 s8..
 
+                                \once \override Staff.NoteHead.style = #'default
                                 ef''16
                                 - \tenuto
                                 \revert Stem.direction
@@ -1177,12 +1322,14 @@
                             }
                             }
 
+                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0.75
                             aqs''8
                             - \accent
                             [
 
                             \pitchedTrill
+                            \once \override Staff.NoteHead.style = #'diamond
                             cs'''8.
                             \startTrillSpan d'''
 
@@ -1192,11 +1339,13 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "32")
                         \times 8/7 {
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             d''16
                             \mf
                             - \tenuto
                             \stopTrillSpan
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             dqs''16
                             \ff
                             \>
@@ -1204,6 +1353,7 @@
                             \scaleDurations #'(1 . 1) {
                             \slashedGrace {
 
+                                \once \override Staff.NoteHead.style = #'diamond
                                 d'''16
 
                                 s8..
@@ -1213,6 +1363,7 @@
                             }
                             }
 
+                            \once \override Staff.NoteHead.style = #'default
                             \revert Staff.Stem.stemlet-length
                             cqs'''16.
                             \f
@@ -1227,6 +1378,7 @@
                     \times 5/6 {
                         % [Voice 1 measure 15]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         ef''16.
                         \mf
@@ -1238,12 +1390,14 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0
                             ef'''16
                             [
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             dqf'''16
                             \revert Stem.direction
 
@@ -1256,18 +1410,22 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         ef'''16.
                         :32
 
+                        \once \override Staff.NoteHead.style = #'slash
                         dqf'''8.
                         :32
                         \p
 
+                        \once \override Staff.NoteHead.style = #'slash
                         cs''16.
                         :32
                         \pp
                         \<
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         d''16.
                         :32
 
@@ -1278,16 +1436,19 @@
 
                                 \slash
                                 \override Stem.direction = #UP
+                                \once \override Staff.NoteHead.style = #'diamond
                                 \override Staff.Stem.stemlet-length = 0
                                 dqs''16
                                 [
 
                                 s8..
 
+                                \once \override Staff.NoteHead.style = #'diamond
                                 e''16
 
                                 s8..
 
+                                \once \override Staff.NoteHead.style = #'default
                                 dqf''16
                                 \revert Stem.direction
 
@@ -1300,10 +1461,13 @@
                             }
                             }
 
+                            \once \override Staff.NoteHead.style = #'default
                             d'''16
 
+                            \once \override Staff.NoteHead.style = #'default
                             ef''16
 
+                            \once \override Staff.NoteHead.style = #'default
                             \revert Staff.Stem.stemlet-length
                             eqf''16
                             \mp
@@ -1318,6 +1482,7 @@
                     \times 3/4 {
                         % [Voice 1 measure 16]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'default
                         ef'''4.
                         \p
 
@@ -1327,6 +1492,7 @@
                             \scaleDurations #'(1 . 1) {
                             \slashedGrace {
 
+                                \once \override Staff.NoteHead.style = #'default
                                 dqf'''16
                                 \mf
                                 \<
@@ -1338,17 +1504,21 @@
                             }
                             }
 
+                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0.75
                             e''16
                             [
 
+                            \once \override Staff.NoteHead.style = #'default
                             e'''16
 
+                            \once \override Staff.NoteHead.style = #'default
                             dqs'''16
                             \ff
 
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         e'''8
                         \f
                         \>
@@ -1358,12 +1528,14 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0
                             dqs'''16
                             [
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'default
                             cs''''16
                             \revert Stem.direction
 
@@ -1376,6 +1548,7 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         c''''8
                         - \tenuto
 
@@ -1384,16 +1557,19 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'diamond
                             \override Staff.Stem.stemlet-length = 0
                             bqf'''16
                             [
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             bf'''16
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             dqf''''16
                             \revert Stem.direction
 
@@ -1406,15 +1582,18 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         c'''16
                         - \accent
 
+                        \once \override Staff.NoteHead.style = #'default
                         b'''16
                         \mf
 
                         \scaleDurations #'(1 . 1) {
                         \slashedGrace {
 
+                            \once \override Staff.NoteHead.style = #'default
                             aqs'''16
                             \p
                             \>
@@ -1426,14 +1605,17 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         b''16
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         dqf'''16
                         ]
 
                     }
 
+                    \once \override Staff.NoteHead.style = #'slash
                     \override Staff.Stem.stemlet-length = 0.75
                     bf'''16
                     [
@@ -1443,6 +1625,7 @@
 
                         \slash
                         \override Stem.direction = #UP
+                        \once \override Staff.NoteHead.style = #'slash
                         \override Staff.Stem.stemlet-length = 0
                         bf''16
                         - \tenuto
@@ -1450,6 +1633,7 @@
 
                         s8..
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         bqf''16
                         - \accent
                         \revert Stem.direction
@@ -1463,14 +1647,17 @@
                     }
                     }
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     bf''32
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     cqs'''32
                     - \tenuto
 
                     \scaleDurations #'(1 . 1) {
                     \slashedGrace {
 
+                        \once \override Staff.NoteHead.style = #'default
                         fs'''16
                         \pp
 
@@ -1481,6 +1668,7 @@
                     }
                     }
 
+                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     e'''8
                     \mp
@@ -1488,21 +1676,25 @@
                     \glissando
                     ]
 
+                    \once \override Staff.NoteHead.style = #'default
                     eqs'''4
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
                         % [Voice 1 measure 17]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         e'''16
                         [
 
+                        \once \override Staff.NoteHead.style = #'default
                         eqs''''16
 
                         \scaleDurations #'(1 . 1) {
                         \slashedGrace {
 
+                            \once \override Staff.NoteHead.style = #'default
                             g'''16
 
                             s8..
@@ -1512,6 +1704,7 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         f'''16
                         :32
@@ -1520,6 +1713,7 @@
 
                     }
 
+                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     eqf''''8
                     :32
@@ -1532,6 +1726,7 @@
 
                         \slash
                         \override Stem.direction = #UP
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0
                         f''''16
                         :32
@@ -1539,6 +1734,7 @@
 
                         s8..
 
+                        \once \override Staff.NoteHead.style = #'default
                         gqf'''16
                         :32
                         \revert Stem.direction
@@ -1552,24 +1748,30 @@
                     }
                     }
 
+                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     g''''8
                     ]
                     % [Voice 1 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     e''''16.
                     [
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     eqs''''32
                     \ff
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     fs''''32
                     \f
                     \>
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     gqs''''32
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     c''16
                     ]
@@ -1579,6 +1781,7 @@
                     \times 6/5 {
                         % [Voice 1 measure 19]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         cs''8
                         [
@@ -1586,17 +1789,21 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                         \times 2/3 {
 
+                            \once \override Staff.NoteHead.style = #'default
                             dqf''16
 
+                            \once \override Staff.NoteHead.style = #'default
                             ef''16
                             \mf
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             aqs''16
                             \p
                             \>
 
                         }
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         cs'''16
                         ]
@@ -1608,16 +1815,19 @@
 
                         \slash
                         \override Stem.direction = #UP
+                        \once \override Staff.NoteHead.style = #'slash
                         \override Staff.Stem.stemlet-length = 0
                         d''16
                         [
 
                         s8..
 
+                        \once \override Staff.NoteHead.style = #'slash
                         dqs''16
 
                         s8..
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         d'''16
                         \pp
                         \revert Stem.direction
@@ -1631,6 +1841,7 @@
                     }
                     }
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     cqs'''8.
                     \mp
@@ -1638,6 +1849,7 @@
                     \>
                     [
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     ef''16
                     ]
@@ -1645,6 +1857,7 @@
                     \scaleDurations #'(1 . 1) {
                     \slashedGrace {
 
+                        \once \override Staff.NoteHead.style = #'default
                         ef'''16
                         \p
 
@@ -1655,12 +1868,14 @@
                     }
                     }
 
+                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     dqf'''8
                     \mf
                     \<
                     [
 
+                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     ef'''8
                     - \accent
@@ -1671,15 +1886,18 @@
                     \times 3/4 {
                         % [Voice 1 measure 20]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         dqf'''8.
                         \ff
                         [
 
+                        \once \override Staff.NoteHead.style = #'default
                         fs''16
                         \f
                         \>
 
+                        \once \override Staff.NoteHead.style = #'default
                         c'''8
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
@@ -1690,12 +1908,14 @@
 
                                 \slash
                                 \override Stem.direction = #UP
+                                \once \override Staff.NoteHead.style = #'default
                                 \override Staff.Stem.stemlet-length = 0
                                 aqs''16
                                 [
 
                                 s8..
 
+                                \once \override Staff.NoteHead.style = #'default
                                 a''16
                                 \revert Stem.direction
 
@@ -1708,12 +1928,15 @@
                             }
                             }
 
+                            \once \override Staff.NoteHead.style = #'default
                             aqf''16
                             - \tenuto
 
+                            \once \override Staff.NoteHead.style = #'default
                             fs''16
                             - \accent
 
+                            \once \override Staff.NoteHead.style = #'default
                             \revert Staff.Stem.stemlet-length
                             c'''16
                             \mf
@@ -1726,6 +1949,7 @@
                     \scaleDurations #'(1 . 1) {
                         % [Voice 1 measure 21]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         aqs''16.
                         \p
@@ -1733,6 +1957,7 @@
                         \>
                         [
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         fs'''16.
                         \pp
@@ -1741,6 +1966,7 @@
 
                     }
 
+                    \once \override Staff.NoteHead.style = #'diamond
                     fqs'''16
                     \mp
                     \>
@@ -1750,16 +1976,19 @@
 
                         \slash
                         \override Stem.direction = #UP
+                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0
                         ef'''16
                         [
 
                         s8..
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         a'''16
 
                         s8..
 
+                        \once \override Staff.NoteHead.style = #'default
                         fqs'''16
                         \revert Stem.direction
 
@@ -1772,12 +2001,14 @@
                     }
                     }
 
+                    \once \override Staff.NoteHead.style = #'default
                     g'''8
                     \p
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
+                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         fqs'''16
                         :32
@@ -1788,6 +2019,7 @@
                         \scaleDurations #'(1 . 1) {
                         \slashedGrace {
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             b''16
                             :32
 
@@ -1798,9 +2030,11 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         a''16
                         :32
 
+                        \once \override Staff.NoteHead.style = #'slash
                         \revert Staff.Stem.stemlet-length
                         gqs''16
                         :32
@@ -1815,10 +2049,12 @@
                         \scaleDurations #'(1 . 1) {
                             % [Voice 1 measure 22]                             %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                            \once \override Staff.NoteHead.style = #'slash
                             \override Staff.Stem.stemlet-length = 0.75
                             g''16.
                             [
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             fqs''16.
                             \ff
 
@@ -1829,6 +2065,7 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'diamond
                             \override Staff.Stem.stemlet-length = 0
                             b''16
                             \f
@@ -1837,6 +2074,7 @@
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             a''16
                             \revert Stem.direction
 
@@ -1849,19 +2087,25 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         gqs''16
 
+                        \once \override Staff.NoteHead.style = #'default
                         g''16
 
+                        \once \override Staff.NoteHead.style = #'default
                         fqs''16
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                         \times 2/3 {
 
+                            \once \override Staff.NoteHead.style = #'default
                             b''16
 
+                            \once \override Staff.NoteHead.style = #'default
                             af''16
 
+                            \once \override Staff.NoteHead.style = #'default
                             \revert Staff.Stem.stemlet-length
                             aqf''16
                             \mf
@@ -1878,6 +2122,7 @@
                         \scaleDurations #'(1 . 1) {
                             % [Voice 1 measure 23]                             %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0.75
                             g''16.
                             \p
@@ -1889,16 +2134,19 @@
 
                                 \slash
                                 \override Stem.direction = #UP
+                                \once \override Staff.NoteHead.style = #'default
                                 \override Staff.Stem.stemlet-length = 0
                                 aqf''16
                                 [
 
                                 s8..
 
+                                \once \override Staff.NoteHead.style = #'default
                                 c''16
 
                                 s8..
 
+                                \once \override Staff.NoteHead.style = #'default
                                 cs''16
                                 \revert Stem.direction
 
@@ -1911,11 +2159,13 @@
                             }
                             }
 
+                            \once \override Staff.NoteHead.style = #'default
                             dqf''16.
                             - \tenuto
 
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         ef''8
                         \glissando
 
@@ -1924,6 +2174,7 @@
                             \scaleDurations #'(1 . 1) {
                             \slashedGrace {
 
+                                \once \override Staff.NoteHead.style = #'diamond
                                 aqs''16
 
                                 s8..
@@ -1933,9 +2184,11 @@
                             }
                             }
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             cs'''16.
                             \pp
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             d''16.
                             \mp
                             - \accent
@@ -1948,12 +2201,14 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'diamond
                             \override Staff.Stem.stemlet-length = 0
                             dqs''16
                             [
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'default
                             d'''16
                             \revert Stem.direction
 
@@ -1966,10 +2221,13 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         cqs'''16
 
+                        \once \override Staff.NoteHead.style = #'default
                         ef''16
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         ef'''16
                         \p
@@ -1982,6 +2240,7 @@
                     \times 5/6 {
                         % [Voice 1 measure 24]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         dqf'''16.
                         \mf
@@ -1989,6 +2248,7 @@
                         \<
                         [
 
+                        \once \override Staff.NoteHead.style = #'slash
                         ef'''16.
                         \ff
                         - \accent
@@ -1998,6 +2258,7 @@
 
                             \slash
                             \override Stem.direction = #UP
+                            \once \override Staff.NoteHead.style = #'slash
                             \override Staff.Stem.stemlet-length = 0
                             dqf'''16
                             \f
@@ -2006,11 +2267,13 @@
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             c''16
                             - \tenuto
 
                             s8..
 
+                            \once \override Staff.NoteHead.style = #'diamond
                             cs''16
                             \revert Stem.direction
 
@@ -2023,11 +2286,13 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'diamond
                         dqf''8.
 
                         \scaleDurations #'(1 . 1) {
                         \slashedGrace {
 
+                            \once \override Staff.NoteHead.style = #'default
                             ef''16
 
                             s8..
@@ -2037,15 +2302,18 @@
                         }
                         }
 
+                        \once \override Staff.NoteHead.style = #'default
                         aqs''16.
                         \mf
 
+                        \once \override Staff.NoteHead.style = #'default
                         cs'''16.
                         \p
                         \>
 
                         \scaleDurations #'(1 . 1) {
 
+                            \once \override Staff.NoteHead.style = #'default
                             d''16
 
                             \scaleDurations #'(1 . 1) {
@@ -2053,6 +2321,7 @@
 
                                 \slash
                                 \override Stem.direction = #UP
+                                \once \override Staff.NoteHead.style = #'default
                                 \override Staff.Stem.stemlet-length = 0
                                 dqs''16
                                 :32
@@ -2060,6 +2329,7 @@
 
                                 s8..
 
+                                \once \override Staff.NoteHead.style = #'default
                                 d'''16
                                 :32
                                 \revert Stem.direction
@@ -2073,9 +2343,11 @@
                             }
                             }
 
+                            \once \override Staff.NoteHead.style = #'default
                             cqs'''16
                             :32
 
+                            \once \override Staff.NoteHead.style = #'default
                             \revert Staff.Stem.stemlet-length
                             ef''16
                             :32

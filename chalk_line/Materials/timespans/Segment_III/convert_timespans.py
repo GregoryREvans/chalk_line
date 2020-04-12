@@ -8,6 +8,9 @@ from chalk_line.Materials.score_structure.Segment_III.rhythm_material_pattern im
 from chalk_line.Materials.score_structure.Segment_III.pitch_material_pattern import (
     pitch_material_list,
 )
+from chalk_line.Materials.score_structure.Segment_III.notehead_material_pattern import (
+    notehead_material_list,
+)
 from chalk_line.Materials.score_structure.Segment_III.dynamic_material_pattern import (
     dynamic_material_list,
 )
@@ -23,6 +26,7 @@ from chalk_line.Materials.score_structure.Segment_III.tempo_material_pattern imp
 from chalk_line.Materials.timespans.Segment_III.make_timespans import (
     rhythm_timespan_list,
     pitch_timespan_list,
+    notehead_timespan_list,
     dynamic_timespan_list,
     articulation_timespan_list,
     tempo_timespan_list,
@@ -55,6 +59,20 @@ segment_III_pitch_timespans = evans.ConvertTimespans.convert_timespans(
     ts_list=pitch_timespan_list,
     bounds=bounds,
     segment_name="Segment_III_pitch_timespans",
+    current_directory=pathlib.Path(__file__).parent,
+    add_silence=False,
+)
+
+#######
+# notehead#
+#######
+notehead_mat = notehead_material_list
+
+segment_III_notehead_timespans = evans.ConvertTimespans.convert_timespans(
+    materials=notehead_mat,
+    ts_list=notehead_timespan_list,
+    bounds=bounds,
+    segment_name="Segment_III_notehead_timespans",
     current_directory=pathlib.Path(__file__).parent,
     add_silence=False,
 )
@@ -108,6 +126,6 @@ segment_III_tempo_timespans = evans.ConvertTimespans.convert_timespans(
 segment_III_timespans = [
     segment_III_tempo_timespans,
     segment_III_pitch_timespans,
+    segment_III_notehead_timespans,
     segment_III_dynamic_timespans,
-    # segment_III_articulation_timespans,
 ]

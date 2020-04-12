@@ -41,6 +41,22 @@ pitch_timespan_list = pitch_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=pitch_target_timespan
 )
 
+########
+# notehead#
+########
+notehead_target_timespan = abjad.Timespan(0, (80, 4))
+
+notehead_timespan_maker = TaleaTimespanMaker(
+    playing_talea=rmakers.Talea(
+        counts=([80]), denominator=4
+    ),
+    silence_talea=rmakers.Talea(counts=([0]), denominator=4),
+)
+
+notehead_timespan_list = notehead_timespan_maker(
+    music_specifiers=music_specifiers, target_timespan=notehead_target_timespan
+)
+
 #########
 # dynamic#
 #########

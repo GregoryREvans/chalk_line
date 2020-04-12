@@ -11,6 +11,9 @@ from chalk_line.Materials.score_structure.Segment_I.pitch_material_pattern impor
 from chalk_line.Materials.score_structure.Segment_I.grace_material_pattern import (
     grace_material_list,
 )
+from chalk_line.Materials.score_structure.Segment_I.notehead_material_pattern import (
+    notehead_material_list,
+)
 from chalk_line.Materials.score_structure.Segment_I.dynamic_material_pattern import (
     dynamic_material_list,
 )
@@ -30,6 +33,7 @@ from chalk_line.Materials.timespans.Segment_I.make_timespans import (
     rhythm_timespan_list,
     pitch_timespan_list,
     grace_timespan_list,
+    notehead_timespan_list,
     dynamic_timespan_list,
     articulation_timespan_list,
     gliss_timespan_list,
@@ -64,6 +68,20 @@ segment_I_pitch_timespans = evans.ConvertTimespans.convert_timespans(
     ts_list=pitch_timespan_list,
     bounds=bounds,
     segment_name="Segment_I_pitch_timespans",
+    current_directory=pathlib.Path(__file__).parent,
+    add_silence=False,
+)
+
+#######
+# notehead#
+#######
+notehead_mat = notehead_material_list
+
+segment_I_notehead_timespans = evans.ConvertTimespans.convert_timespans(
+    materials=notehead_mat,
+    ts_list=notehead_timespan_list,
+    bounds=bounds,
+    segment_name="Segment_I_notehead_timespans",
     current_directory=pathlib.Path(__file__).parent,
     add_silence=False,
 )
@@ -162,6 +180,7 @@ segment_I_timespans = [
     segment_I_pitch_timespans,
     segment_I_gliss_timespans,
     segment_I_trill_timespans,
+    segment_I_notehead_timespans,
     segment_I_dynamic_timespans,
     segment_I_articulation_timespans,
 ]

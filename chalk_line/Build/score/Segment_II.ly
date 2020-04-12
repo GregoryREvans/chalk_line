@@ -339,7 +339,6 @@
 
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Flute }                                          %! applying staff names and clefs
-                    \once \override Staff.NoteHead.style = #'default
                     \clef "treble"
                     \override Staff.Stem.stemlet-length = 0.75
                     fs'8.
@@ -355,7 +354,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     bf'16
                     ]
@@ -369,7 +367,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     gqs'4
                     \mp
                     \stopTrillSpan
@@ -379,7 +376,6 @@
                     \times 6/7 {
                         % [Voice 1 measure 2]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         fs'4
                         \p
                         - \tweak padding #5
@@ -391,7 +387,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         f''8
                         \mf
@@ -406,7 +401,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         e''16
                         \ff
@@ -418,7 +412,6 @@
 
                     r8
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     fs'8.
                     \f
@@ -433,20 +426,17 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     cqs''16
                     ~
                     ]
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     cqs''16
                     \mf
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     c'16
                     \p
                     \>
@@ -459,7 +449,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     fqs''16
                     \stopTrillSpan
                     - \tweak padding #5
@@ -471,7 +460,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     a'16
                     ~
@@ -491,12 +479,10 @@
                     \times 10/9 {
                         % [Voice 1 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         a'8
                         [
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         c''8
                         \pp
@@ -511,7 +497,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         eqf''4
                         \mp
                         \>
@@ -525,7 +510,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         f'16
                         ~
                         \stopTrillSpan
@@ -540,11 +524,9 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     f'8
                     \p
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     eqf'8
                     \mf
@@ -561,7 +543,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     bf'8
                     \ff
@@ -580,7 +561,6 @@
                     \times 2/3 {
                         % [Voice 1 measure 5]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         af'16
                         \f
@@ -596,7 +576,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         fs'8
                         \mf
@@ -618,7 +597,6 @@
 
                     r8
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     d''8
                     \p
                     - \accent
@@ -632,7 +610,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'slash
                     \override Staff.Stem.stemlet-length = 0.75
                     ef''8
                     [
@@ -646,7 +623,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'slash
                     \revert Staff.Stem.stemlet-length
                     a'8
                     \pp
@@ -694,7 +670,6 @@
                     r8
                     % [Voice 1 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     eqf'16
                     \p
@@ -709,7 +684,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     bf'16
                     ]
@@ -723,7 +697,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     cqs''4
                     \mf
                     - \tenuto
@@ -740,7 +713,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
 
-                        \once \override Staff.NoteHead.style = #'default
                         f'4
                         \ff
                         - \accent
@@ -756,11 +728,9 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         f'16
                         \f
 
-                        \once \override Staff.NoteHead.style = #'default
                         c''4
                         \mf
                         \>
@@ -778,12 +748,10 @@
                     }
                     % [Voice 1 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     c''16
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     dqf''16
                     - \tenuto
                     ~
@@ -797,11 +765,9 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     dqf''16
                     \p
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     fs'8.
                     \pp
@@ -824,7 +790,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
                     \times 8/7 {
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         dqf''8.
                         \mp
@@ -839,7 +804,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         ef'16
                         \p
                         \stopTrillSpan
@@ -852,13 +816,11 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         cs''16
                         \mf
                         \<
                         \stopTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         aqf'8
                         ~
@@ -875,13 +837,11 @@
                     }
                     % [Voice 1 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     aqf'8.
                     \ff
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     d''16
                     \f
                     \>
@@ -896,17 +856,14 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     d''16
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     af''16
                     :32
                     ]
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     af'8
                     :32
@@ -921,7 +878,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     af'8
                     :32
@@ -935,7 +891,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         fs'8
                         :32
                         \pp
@@ -949,7 +904,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         af'4
                         ~
                         \stopTrillSpan
@@ -962,13 +916,11 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         af'16
                         \mp
                         [
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         aqs''16
                         \p
                         \<
@@ -982,7 +934,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         b'16
                         ~
@@ -999,12 +950,10 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     b'16
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     bf'16
                     ~
@@ -1019,13 +968,11 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     bf'8.
                     \mf
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     aqs''16
                     \ff
@@ -1047,12 +994,10 @@
                     \times 4/3 {
                         % [Voice 1 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         aqs''16
                         [
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         a'8
                         \f
@@ -1073,7 +1018,6 @@
                     \stopTrillSpan
                     % [Voice 1 measure 13]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf'8
                     \mf
@@ -1087,7 +1031,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'slash
                     f'8.
                     \p
                     \>
@@ -1101,7 +1044,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'slash
                     \revert Staff.Stem.stemlet-length
                     d''16
                     ~
@@ -1119,12 +1061,10 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
 
-                        \once \override Staff.NoteHead.style = #'slash
                         \override Staff.Stem.stemlet-length = 0.75
                         d''16
                         [
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         gqs'8
                         \pp
@@ -1139,7 +1079,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         d''4
                         \mp
                         \>
@@ -1154,13 +1093,11 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         d''16
                         \p
                         [
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         f''16
                         \mf
@@ -1181,7 +1118,6 @@
                     r8
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     d''8
                     \ff
                     \>
@@ -1195,13 +1131,11 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     d''8
                     \f
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     f'8
                     \mf
@@ -1223,12 +1157,10 @@
                     \times 8/7 {
                         % [Voice 1 measure 15]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         f'16
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         dqs'''8.
                         \p
                         - \tenuto
@@ -1242,7 +1174,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         cs''8.
                         \pp
@@ -1261,13 +1192,11 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     cs''16
                     \mp
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     aqs''8.
                     \p
@@ -1282,7 +1211,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     c''4
                     \mf
                     \<
@@ -1297,7 +1225,6 @@
                     \startTrillSpan
                     % [Voice 1 measure 16]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     af'8
                     \ff
                     - \accent
@@ -1314,7 +1241,6 @@
                     r4
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     fqs''8
                     \f
@@ -1329,7 +1255,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     f'8
                     ~
@@ -1344,13 +1269,11 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     f'16
                     \mf
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     bqs'8.
                     \p
@@ -1371,12 +1294,10 @@
                     \times 6/5 {
                         % [Voice 1 measure 17]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         a'4
                         \pp
                         \stopTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         c''16
                         \mp
                         - \tweak padding #5
@@ -1394,7 +1315,6 @@
                     r8
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     bqs'8
                     \p
                     - \tenuto
@@ -1408,7 +1328,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     af'8
                     - \accent
                     ~
@@ -1418,13 +1337,11 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "16")
                     \times 6/7 {
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         af'8.
                         \mf
                         [
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         b''16
                         \ff
                         \>
@@ -1437,12 +1354,10 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         f'8
                         - \tenuto
                         \stopTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         f'16
                         ~
@@ -1459,13 +1374,11 @@
                     }
                     % [Voice 1 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     f'8.
                     \f
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     fs'16
                     \mf
@@ -1481,7 +1394,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     f'8.
                     \p
@@ -1496,7 +1408,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     bqs''16
                     \pp
@@ -1519,7 +1430,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
                     \times 6/5 {
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         f'16
                         \mp
                         \>
@@ -1532,7 +1442,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'slash
                         g'4
                         ~
                         \stopTrillSpan
@@ -1548,13 +1457,11 @@
                     }
                     % [Voice 1 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'slash
                     \override Staff.Stem.stemlet-length = 0.75
                     g'16
                     \p
                     [
 
-                    \once \override Staff.NoteHead.style = #'slash
                     aqf''16
                     :32
                     \mf
@@ -1569,7 +1476,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     bf'8
                     :32
@@ -1585,14 +1491,12 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     bf'8.
                     :32
                     \ff
                     [
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     gqs'16
                     :32
@@ -1616,7 +1520,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "16")
                     \times 10/11 {
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         b'16
                         :32
@@ -1632,7 +1535,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         b'8.
                         \p
@@ -1647,7 +1549,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         eqf'4
                         \pp
                         \stopTrillSpan
@@ -1660,7 +1561,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         b'8.
                         \mp
                         \stopTrillSpan
@@ -1676,7 +1576,6 @@
                     }
                     % [Voice 1 measure 23]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     g''8.
                     \p
@@ -1692,7 +1591,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     f'16
                     \mf
                     \stopTrillSpan
@@ -1705,7 +1603,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     g'8
                     \ff
@@ -1722,7 +1619,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     g'8
                     ~
 
@@ -1730,13 +1626,11 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
                     \times 6/5 {
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         g'16
                         \f
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         aqf'16
                         \mf
                         \stopTrillSpan
@@ -1749,7 +1643,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         a'8.
                         \p
@@ -1770,7 +1663,6 @@
                     r4
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf''16
                     \pp
@@ -1785,7 +1677,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     bf'8.
                     ~
@@ -1805,12 +1696,10 @@
                     \times 6/7 {
                         % [Voice 1 measure 25]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         bf'16
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         a'16
                         \stopTrillSpan
                         - \tweak padding #5
@@ -1822,7 +1711,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         gqs''8.
                         \mp
                         \stopTrillSpan
@@ -1835,7 +1723,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         cs''8
                         \p
@@ -1856,13 +1743,11 @@
                     r8
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf'8
                     \mf
                     [
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     f'8
                     \ff
@@ -1879,12 +1764,10 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     f'8.
                     [
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     ef'16
                     ~
@@ -1904,13 +1787,11 @@
                     \times 6/5 {
                         % [Voice 1 measure 27]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         ef'8.
                         \f
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         bqs'8
                         \mf
@@ -1922,13 +1803,11 @@
                     }
                     % [Voice 1 measure 28]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     bqs'8.
                     \p
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     c''16
                     \pp
@@ -1944,7 +1823,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     c''4
                     \mp
                     % [Voice 1 measure 29]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -1956,7 +1834,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "16")
                     \times 10/11 {
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         e''16
                         \p
@@ -1964,7 +1841,6 @@
                         \<
                         [
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         b'8.
                         - \tweak padding #5
                         - \tweak staff-padding #4
@@ -1975,7 +1851,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         cs''8.
                         \mf
                         \stopTrillSpan
@@ -1988,7 +1863,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'slash
                         cqs''8.
                         \ff
                         \stopTrillSpan
@@ -2001,7 +1875,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'slash
                         \revert Staff.Stem.stemlet-length
                         b'16
                         \f
@@ -2021,12 +1894,10 @@
                     }
                     % [Voice 1 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'slash
                     \override Staff.Stem.stemlet-length = 0.75
                     b'16
                     [
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     aqf''16
                     \stopTrillSpan
                     - \tweak padding #5
@@ -2038,7 +1909,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     d''8
                     - \tenuto
@@ -2053,7 +1923,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     g'4
                     \mf
                     - \accent
@@ -2075,7 +1944,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
                     \times 6/5 {
 
-                        \once \override Staff.NoteHead.style = #'default
                         bqf''16
                         \p
                         \>
@@ -2088,7 +1956,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         fs'4
                         \pp
                         - \tenuto
@@ -2104,7 +1971,6 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'default
                     fs'4
                     \mp
                     \>
@@ -2124,13 +1990,11 @@
                     \times 6/7 {
                         % [Voice 1 measure 32]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         fs'16
                         \p
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         e'8.
                         \mf
                         \<
@@ -2144,7 +2008,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         c''16
                         \ff
                         \stopTrillSpan
@@ -2157,7 +2020,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         fs'8
                         \f
@@ -2178,7 +2040,6 @@
                     r4
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     cs''8.
                     \mf
@@ -2193,7 +2054,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     b''16
                     ~
@@ -2208,13 +2068,11 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     b''16
                     \p
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     af'16
                     :32
                     \pp
@@ -2230,12 +2088,10 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     af'16
                     :32
                     \mp
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     g'16
                     :32
@@ -2258,14 +2114,12 @@
                     \times 6/5 {
                         % [Voice 1 measure 34]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         g'8
                         :32
                         \mf
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         eqs'8.
                         :32
@@ -2287,7 +2141,6 @@
                     r8
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     cs''16
                     :32
@@ -2303,7 +2156,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     fqs''8.
                     ~
@@ -2318,12 +2170,10 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     fqs''16
                     [
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     b'8.
                     ~
@@ -2343,11 +2193,9 @@
                     \times 10/11 {
                         % [Voice 1 measure 36]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         b'16
                         \mf
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         af'4
                         \p
                         \>
@@ -2362,13 +2210,11 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         af'16
                         \pp
                         [
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         gqf''8.
                         \mp
                         \>
@@ -2382,7 +2228,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         b'8
                         \p
@@ -2391,7 +2236,6 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     aqs'16
                     \mf
@@ -2406,7 +2250,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     d''16
                     ~
@@ -2421,19 +2264,16 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     d''8
                     \ff
                     [
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     cs''16
                     \f
                     \>
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     bqs'16
                     ~
@@ -2448,7 +2288,6 @@
                     \startTrillSpan
                     % [Voice 1 measure 37]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     bqs'8
                     \mf
 
@@ -2457,12 +2296,10 @@
 
                     r8
 
-                    \once \override Staff.NoteHead.style = #'slash
                     cs''8
                     \p
                     \>
 
-                    \once \override Staff.NoteHead.style = #'slash
                     d''4
                     ~
                     - \tweak padding #5
@@ -2478,11 +2315,9 @@
                     \times 4/5 {
                         % [Voice 1 measure 38]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'slash
                         d''16
                         \pp
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         fs'4
                         \mp
                         \stopTrillSpan
@@ -2501,7 +2336,6 @@
                     \stopTrillSpan
                     % [Voice 1 measure 39]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     cs''16
                     \p
@@ -2516,7 +2350,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     gqs'16
                     \mf
                     \stopTrillSpan
@@ -2529,7 +2362,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     f'8
                     \ff
                     - \tenuto
@@ -2544,7 +2376,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     fqs''8
                     ~
@@ -2563,10 +2394,8 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
                     \times 8/7 {
 
-                        \once \override Staff.NoteHead.style = #'default
                         fqs''8
 
-                        \once \override Staff.NoteHead.style = #'default
                         af'4
                         ~
                         \stopTrillSpan
@@ -2579,14 +2408,12 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         af'16
                         \f
 
                     }
                     % [Voice 1 measure 40]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     d''4
                     \mf
                     \>
@@ -2601,13 +2428,11 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     d''16
                     \p
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     gqf''16
                     \pp
@@ -2630,7 +2455,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
 
-                        \once \override Staff.NoteHead.style = #'default
                         bf'8
                         \mp
                         \>
@@ -2643,7 +2467,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         aqs'4
                         ~
                         \stopTrillSpan
@@ -2656,13 +2479,11 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         aqs'16
                         \p
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         ef'8
                         \mf
@@ -2682,13 +2503,11 @@
                     }
                     % [Voice 1 measure 42]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     ef'8
                     \ff
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     fs'16
                     \f
                     \>
@@ -2702,7 +2521,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     dqs'''16
                     \stopTrillSpan
                     - \tweak padding #5
@@ -2714,7 +2532,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     af'8
                     - \tenuto
@@ -2730,13 +2547,11 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     af'8
                     \mf
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     ef''8
                     \p
@@ -2760,7 +2575,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
                     \times 8/7 {
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         d''8.
                         \pp
@@ -2775,7 +2589,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         d''8.
                         \mp
                         - \tenuto
@@ -2789,7 +2602,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         fqs'16
                         \p
@@ -2808,17 +2620,14 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     fqs'8
                     ~
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     fqs'8
                     \mf
                     [
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     e'16
                     \ff
                     \>
@@ -2832,7 +2641,6 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     aqs''16
                     ~
@@ -2851,10 +2659,8 @@
                     \times 4/5 {
                         % [Voice 1 measure 44]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         aqs''4
 
-                        \once \override Staff.NoteHead.style = #'default
                         c''16
                         \f
                         \stopTrillSpan
@@ -2873,7 +2679,6 @@
                     \stopTrillSpan
                     % [Voice 1 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     b'8.
                     \mf
@@ -2887,18 +2692,15 @@
                     }
                     \startTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     fqs''16
                     \p
                     \>
                     ~
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     fqs''16
                     \pp
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     bf'16
                     :32
@@ -2918,7 +2720,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
                     \times 8/7 {
 
-                        \once \override Staff.NoteHead.style = #'slash
                         \override Staff.Stem.stemlet-length = 0.75
                         gqs'16
                         :32
@@ -2933,7 +2734,6 @@
                         }
                         \startTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'slash
                         \revert Staff.Stem.stemlet-length
                         ef'8
                         :32
@@ -2941,7 +2741,6 @@
                         ]
                         \stopTrillSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         f'4
                         :32
                         \mf
@@ -2960,36 +2759,30 @@
                     r8
                     \stopTrillSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     aqf'16
                     \ff
                     \>
                     [
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \revert Staff.Stem.stemlet-length
                     a'16
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     \override Staff.Stem.stemlet-length = 0.75
                     a'16
                     \f
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     a''16
                     \mf
                     \>
                     ~
 
-                    \once \override Staff.NoteHead.style = #'default
                     a''16
                     \p
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     a'16
                     \pp
@@ -3002,21 +2795,17 @@
                     \times 6/7 {
                         % [Voice 1 measure 47]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         a'8
 
-                        \once \override Staff.NoteHead.style = #'default
                         g'4
                         ~
 
-                        \once \override Staff.NoteHead.style = #'default
                         g'16
                         \mp
 
                     }
                     % [Voice 1 measure 48]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     eqs'8
                     \p
                     \<
@@ -3026,21 +2815,17 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "16")
                     \times 10/9 {
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         eqs'8
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         b'8
                         ]
 
-                        \once \override Staff.NoteHead.style = #'default
                         fqs''4
                         ~
 
-                        \once \override Staff.NoteHead.style = #'default
                         fqs''16
                         \mf
                         \bar "||"

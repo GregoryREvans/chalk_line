@@ -194,7 +194,6 @@
 
                         \set Staff.instrumentName =                            %! applying staff names and clefs
                         \markup { Flute }                                      %! applying staff names and clefs
-                        \once \override Staff.NoteHead.style = #'default
                         \clef "treble"
                         \override Staff.Stem.stemlet-length = 0.75
                         af''32
@@ -202,7 +201,6 @@
                         \<
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         af''32
                         ^ \markup {
                             \override
@@ -212,7 +210,6 @@
                                         3
                             }
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         af''32
                         ^ \markup {
@@ -226,7 +223,6 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'default
                     af''32
                     \mp
                     ^ \markup {
@@ -243,7 +239,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 3) "4.")
                     \times 3/4 {
 
-                        \once \override Staff.NoteHead.style = #'default
                         cs'4
                         \pp
                         \<
@@ -262,47 +257,39 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         <cs' cs''>2
                         \mp
 
-                        \once \override Staff.NoteHead.style = #'default
                         <af'' f'''>2.
                         \pp
 
                     }
                     % [Voice 1 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     af''16
                     \mf
                     \<
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     <cs'' af''>8.
                     ]
                     % [Voice 1 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     f'''4
                     \f
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     cs''4
                     \pp
                     \<
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     <cs' cs'' af''>2
                     \mp
 
                     \scaleDurations #'(1 . 1) {
                         % [Voice 1 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         aqf''8.
                         \pp
@@ -323,7 +310,6 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         <d' d''>8.
                         \mp
@@ -331,13 +317,11 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'default
                     <d' d'' aqf''>8
                     \pp
                     \<
                     ~
 
-                    \once \override Staff.NoteHead.style = #'default
                     <d' d'' aqf''>2.
                     \mp
 
@@ -345,12 +329,10 @@
                     \times 2/3 {
                         % [Voice 1 measure 5]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         d''4
                         \pp
                         \stopTextSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         d''4
                         \mf
                         ^ \markup {
@@ -362,7 +344,6 @@
                             }
                         \<
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         d''8
                         \f
                         ^ \markup {
@@ -378,7 +359,6 @@
                     }
                     % [Voice 1 measure 6]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     dqs''2.
                     \pp
                     - \abjad-solid-line-with-hook
@@ -404,7 +384,6 @@
                         \times 2/3 {
                             % [Voice 1 measure 7]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                            \once \override Staff.NoteHead.style = #'slash
                             \override Staff.Stem.stemlet-length = 0.75
                             af''8
                             \mp
@@ -412,7 +391,6 @@
                             \stopTextSpan
                             [
 
-                            \once \override Staff.NoteHead.style = #'slash
                             af''8
                             ^ \markup {
                                 \override
@@ -422,7 +400,6 @@
                                             3
                                 }
 
-                            \once \override Staff.NoteHead.style = #'diamond
                             af''8
                             ^ \markup {
                                 \override
@@ -434,7 +411,6 @@
 
                         }
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         af''8
                         \pp
@@ -455,7 +431,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "8")
                     \times 5/6 {
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         cs'8
                         \mp
                         \>
@@ -474,24 +449,20 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         <cs' cs''>4
                         \pp
 
-                        \once \override Staff.NoteHead.style = #'default
                         <af'' f'''>4.
                         \mp
 
                     }
                     % [Voice 1 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     af''8
                     \pp
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     <cs'' af''>8
                     \mf
@@ -499,27 +470,23 @@
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'default
                     <cs'' af''>4
                     \f
 
                     \scaleDurations #'(1 . 1) {
                         % [Voice 1 measure 9]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         f'''8.
                         \pp
                         \<
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         cs''8.
                         \mp
                         ]
 
-                        \once \override Staff.NoteHead.style = #'default
                         <cs' cs'' af''>4.
                         \pp
 
@@ -528,7 +495,6 @@
                     \scaleDurations #'(1 . 1) {
                         % [Voice 1 measure 10]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         aqf''8.
                         \mp
@@ -550,7 +516,6 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         <d' d''>8.
                         \pp
@@ -558,13 +523,11 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'default
                     <d' d'' aqf''>8
                     \mp
                     \>
                     ~
 
-                    \once \override Staff.NoteHead.style = #'default
                     <d' d'' aqf''>2.
                     \pp
 
@@ -572,7 +535,6 @@
                     \times 2/3 {
                         % [Voice 1 measure 11]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         d''8
                         \mf
@@ -580,7 +542,6 @@
                         \stopTextSpan
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         d''8
                         ^ \markup {
                             \override
@@ -590,7 +551,6 @@
                                         2
                             }
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         d''16
                         \f
@@ -608,7 +568,6 @@
                     }
                     % [Voice 1 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     dqs''1
                     \pp
                     - \abjad-solid-line-with-hook
@@ -630,7 +589,6 @@
                     \times 2/3 {
                         % [Voice 1 measure 13]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         bqs'8
                         \mp
@@ -652,7 +610,6 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         <bqs' cqs''>16
                         \stopTextSpan
@@ -678,11 +635,9 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 3) "4.")
                     \times 3/4 {
 
-                        \once \override Staff.NoteHead.style = #'default
                         cqs''2.
                         \pp
 
-                        \once \override Staff.NoteHead.style = #'default
                         dqf''2
                         \mp
                         \stopTextSpan
@@ -701,7 +656,6 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         <cqs''' dqf'''>4
                         \pp
 
@@ -711,7 +665,6 @@
                     \times 4/5 {
                         % [Voice 1 measure 14]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         eqs'''32
                         \mp
@@ -733,13 +686,10 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         a''16
 
-                        \once \override Staff.NoteHead.style = #'slash
                         b'16.
 
-                        \once \override Staff.NoteHead.style = #'slash
                         \revert Staff.Stem.stemlet-length
                         <a' b'>8
                         \pp
@@ -751,7 +701,6 @@
                     \times 16/21 {
                         % [Voice 1 measure 15]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         cqs''16
                         \mf
@@ -773,29 +722,23 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         e''8
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         bqf''8.
                         ]
 
-                        \once \override Staff.NoteHead.style = #'default
                         ef'''4
                         \f
 
-                        \once \override Staff.NoteHead.style = #'default
                         <bqf'' ef'''>4
                         \pp
                         \<
                         ~
 
-                        \once \override Staff.NoteHead.style = #'default
                         <bqf'' ef'''>16
                         \mp
 
-                        \once \override Staff.NoteHead.style = #'default
                         <cqs'' e'' bqf''>4.
                         \pp
 
@@ -806,7 +749,6 @@
                         \scaleDurations #'(1 . 1) {
                             % [Voice 1 measure 16]                             %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                            \once \override Staff.NoteHead.style = #'default
                             \override Staff.Stem.stemlet-length = 0.75
                             cqs'''16
                             \mp
@@ -814,7 +756,6 @@
                             \stopTextSpan
                             [
 
-                            \once \override Staff.NoteHead.style = #'default
                             cqs'''16
                             ^ \markup {
                                 \override
@@ -824,7 +765,6 @@
                                             3
                                 }
 
-                            \once \override Staff.NoteHead.style = #'default
                             cqs'''16
                             ^ \markup {
                                 \override
@@ -836,7 +776,6 @@
 
                         }
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         cqs'''16.
                         \pp
@@ -857,7 +796,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 7) "8")
                     \times 7/6 {
 
-                        \once \override Staff.NoteHead.style = #'default
                         <gqs'' cqs'''>8
                         \mp
                         \>
@@ -876,25 +814,21 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         <eqs'' gqs''>4
                         \pp
 
-                        \once \override Staff.NoteHead.style = #'default
                         <fqs' eqs''>4.
                         \mf
 
                     }
                     % [Voice 1 measure 17]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     fqs'8
                     \f
                     \>
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
                     <fqs' bqf'>8
                     \stopTextSpan
@@ -915,14 +849,12 @@
                     - \tweak bound-details.right.padding #2
                     \startTextSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     <fqs' bqf'>4
                     \pp
 
                     \scaleDurations #'(1 . 1) {
                         % [Voice 1 measure 18]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \override Staff.Stem.stemlet-length = 0.75
                         gqs''8.
                         \mp
@@ -943,14 +875,12 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         \revert Staff.Stem.stemlet-length
                         gqs'8.
                         \pp
                         \<
                         ]
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         <gqs' gqs'' dqf'''>4.
                         \mp
 
@@ -961,7 +891,6 @@
                     \times 5/4 {
                         % [Voice 1 measure 19]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         <aqf' gqf'' eqs'''>4
                         \pp
                         \stopTextSpan
@@ -980,13 +909,11 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         <aqf' gqf''>4
                         \mp
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'default
                     <eqs' eqs'' cqs'''>8
                     \pp
                     \<
@@ -1007,7 +934,6 @@
                     - \tweak bound-details.right.padding #2
                     \startTextSpan
 
-                    \once \override Staff.NoteHead.style = #'default
                     <eqs' eqs'' cqs'''>2
                     \mf
 
@@ -1015,7 +941,6 @@
                     \times 2/3 {
                         % [Voice 1 measure 20]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         cqs''4
                         \f
                         \>
@@ -1035,11 +960,9 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         e''4
                         \pp
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         <cqs'' e''>8
                         \mp
 
@@ -1048,13 +971,11 @@
                     }
                     % [Voice 1 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'slash
                     dqs''2.
                     \pp
                     \stopTextSpan
                     % [Voice 1 measure 22]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'slash
                     dqf''4
                     \mp
                     - \abjad-solid-line-with-hook
@@ -1072,7 +993,6 @@
                     - \tweak bound-details.right.padding #2
                     \startTextSpan
 
-                    \once \override Staff.NoteHead.style = #'diamond
                     <dqf'' f''>8
                     \pp
 
@@ -1080,7 +1000,6 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 7) "8")
                     \times 7/6 {
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         c''4.
                         \mp
                         \stopTextSpan
@@ -1099,11 +1018,9 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'diamond
                         fs''4
                         \pp
 
-                        \once \override Staff.NoteHead.style = #'default
                         <c'' fs''>8
                         \mf
                         \<
@@ -1114,7 +1031,6 @@
                     \times 4/5 {
                         % [Voice 1 measure 23]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         b'32
                         \stopTextSpan
@@ -1134,13 +1050,10 @@
                         - \tweak bound-details.right.padding #2
                         \startTextSpan
 
-                        \once \override Staff.NoteHead.style = #'default
                         <b' a''>16
 
-                        \once \override Staff.NoteHead.style = #'default
                         <b' a'' eqs'''>16.
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         <a' b' a'' eqs'''>8
                         \f
@@ -1152,35 +1065,28 @@
                     \times 16/21 {
                         % [Voice 1 measure 24]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         eqs'''16
                         \pp
                         \<
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
                         <a'' eqs'''>8
 
-                        \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
                         <b' a'' eqs'''>8.
                         ]
 
-                        \once \override Staff.NoteHead.style = #'default
                         b'4
                         \mp
 
-                        \once \override Staff.NoteHead.style = #'default
                         a'4
                         \pp
                         \<
                         ~
 
-                        \once \override Staff.NoteHead.style = #'default
                         a'16
 
-                        \once \override Staff.NoteHead.style = #'default
                         <a' b'>4.
                         \mp
 

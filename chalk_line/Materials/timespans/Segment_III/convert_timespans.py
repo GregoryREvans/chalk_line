@@ -25,7 +25,6 @@ from chalk_line.Materials.timespans.Segment_III.make_timespans import (
     pitch_timespan_list,
     dynamic_timespan_list,
     articulation_timespan_list,
-    trill_timespan_list,
     tempo_timespan_list,
 )
 from chalk_line.Materials.score_structure.Segment_III.time_signatures import bounds
@@ -89,20 +88,6 @@ segment_III_articulation_timespans = evans.ConvertTimespans.convert_timespans(
 )
 
 ##############
-# trill#
-##############
-trill_mat = trill_material_list
-
-segment_III_trill_timespans = evans.ConvertTimespans.convert_timespans(
-    materials=trill_mat,
-    ts_list=trill_timespan_list,
-    bounds=bounds,
-    segment_name="Segment_III_trill_timespans",
-    current_directory=pathlib.Path(__file__).parent,
-    add_silence=False,
-)
-
-##############
 # tempo#
 ##############
 tempo_mat = tempo_material_list
@@ -121,9 +106,8 @@ segment_III_tempo_timespans = evans.ConvertTimespans.convert_timespans(
 # all timespans#
 ###############
 segment_III_timespans = [
-    # segment_II_tempo_timespans,
+    segment_III_tempo_timespans,
     segment_III_pitch_timespans,
-    # segment_II_trill_timespans,
-    # segment_II_dynamic_timespans,
-    # segment_II_articulation_timespans,
+    segment_III_dynamic_timespans,
+    # segment_III_articulation_timespans,
 ]

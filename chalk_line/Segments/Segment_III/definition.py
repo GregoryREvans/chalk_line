@@ -347,76 +347,99 @@ maker = evans.SegmentMaker(
     clef_handlers=clef_handlers,
     voicewise_direct_attachments=[
         [
-            (abjad.select().leaves(pitched=True).get([1], 1000), abjad.ColorFingering(3)),
-            (abjad.select().leaves(pitched=True).get([2], 1000), abjad.ColorFingering(1)),
-            (abjad.select().leaves(pitched=True).get([3], 1000), abjad.ColorFingering(2)),
-            (abjad.select().leaves(pitched=True).get([17], 1000), abjad.ColorFingering(2)), (abjad.select().leaves(pitched=True).get([18], 1000), abjad.ColorFingering(1)),
-            (abjad.select().leaves(pitched=True).get([21], 1000), abjad.ColorFingering(3)),
-            (abjad.select().leaves(pitched=True).get([22], 1000), abjad.ColorFingering(1)), (abjad.select().leaves(pitched=True).get([23], 1000), abjad.ColorFingering(2)),
-            (abjad.select().leaves(pitched=True).get([38], 1000), abjad.ColorFingering(2)), (abjad.select().leaves(pitched=True).get([39], 1000), abjad.ColorFingering(1)),
-            (abjad.select().leaves(pitched=True).get([58], 1000), abjad.ColorFingering(3)),
-            (abjad.select().leaves(pitched=True).get([59], 1000), abjad.ColorFingering(1)), (abjad.select().leaves(pitched=True).get([60], 1000), abjad.ColorFingering(2)),
-
+            (
+                abjad.select().leaves(pitched=True).get([1], 1000),
+                abjad.ColorFingering(3),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([2], 1000),
+                abjad.ColorFingering(1),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([3], 1000),
+                abjad.ColorFingering(2),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([17], 1000),
+                abjad.ColorFingering(2),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([18], 1000),
+                abjad.ColorFingering(1),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([21], 1000),
+                abjad.ColorFingering(3),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([22], 1000),
+                abjad.ColorFingering(1),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([23], 1000),
+                abjad.ColorFingering(2),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([38], 1000),
+                abjad.ColorFingering(2),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([39], 1000),
+                abjad.ColorFingering(1),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([58], 1000),
+                abjad.ColorFingering(3),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([59], 1000),
+                abjad.ColorFingering(1),
+            ),
+            (
+                abjad.select().leaves(pitched=True).get([60], 1000),
+                abjad.ColorFingering(2),
+            ),
             (abjad.select().leaves(pitched=True).get([4], 1000), charts[0]),
             (abjad.select().leaves(pitched=True).get([12], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([12], 1000), charts[1]),
             (abjad.select().leaves(pitched=True).get([16], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([19], 1000), charts[2]),
             (abjad.select().leaves(pitched=True).get([20], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([24], 1000), charts[0]),
             (abjad.select().leaves(pitched=True).get([33], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([33], 1000), charts[1]),
             (abjad.select().leaves(pitched=True).get([37], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([40], 1000), charts[2]),
             (abjad.select().leaves(pitched=True).get([41], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([41], 1000), charts[3]),
             (abjad.select().leaves(pitched=True).get([42], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([42], 1000), charts[4]),
             (abjad.select().leaves(pitched=True).get([44], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([44], 1000), charts[5]),
             (abjad.select().leaves(pitched=True).get([46], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([46], 1000), charts[6]),
             (abjad.select().leaves(pitched=True).get([50], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([50], 1000), charts[7]),
             (abjad.select().leaves(pitched=True).get([57], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([61], 1000), charts[8]),
             (abjad.select().leaves(pitched=True).get([65], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([65], 1000), charts[9]),
             (abjad.select().leaves(pitched=True).get([67], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([67], 1000), charts[10]),
             (abjad.select().leaves(pitched=True).get([70], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([70], 1000), charts[11]),
             (abjad.select().leaves(pitched=True).get([72], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([72], 1000), charts[12]),
             (abjad.select().leaves(pitched=True).get([74], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([74], 1000), charts[13]),
             (abjad.select().leaves(pitched=True).get([77], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([78], 1000), charts[14]),
             (abjad.select().leaves(pitched=True).get([80], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([80], 1000), charts[15]),
             (abjad.select().leaves(pitched=True).get([83], 1000), abjad.StopTextSpan()),
-
             (abjad.select().leaves(pitched=True).get([83], 1000), charts[6]),
             (abjad.select().leaves().get([-1], 1000), abjad.StopTextSpan()),
-        ],
+        ]
     ],
     tuplet_bracket_noteheads=True,
     add_final_grand_pause=True,

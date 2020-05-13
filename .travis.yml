@@ -60,6 +60,9 @@ before_install:
     # log setup:
     - echo $PYTHONPATH
 
+script:
+    - `which py.test` -rf $PACKAGE
+
 after_success:
     - pip install --quiet coveralls
     - coveralls

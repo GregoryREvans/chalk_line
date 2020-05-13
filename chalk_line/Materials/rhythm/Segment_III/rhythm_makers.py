@@ -1,7 +1,6 @@
 import abjad
-import evans
 import abjadext.rmakers
-
+import evans
 
 rmaker_one = evans.RTMMaker(
     rtm=[

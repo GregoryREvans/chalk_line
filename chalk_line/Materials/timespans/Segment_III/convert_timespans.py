@@ -1,38 +1,36 @@
-import evans
 import pathlib
 
-
-from chalk_line.Materials.score_structure.Segment_III.rhythm_material_pattern import (
-    rhythm_material_list,
-)
-from chalk_line.Materials.score_structure.Segment_III.pitch_material_pattern import (
-    pitch_material_list,
-)
-from chalk_line.Materials.score_structure.Segment_III.notehead_material_pattern import (
-    notehead_material_list,
+import evans
+from chalk_line.Materials.score_structure.Segment_III.articulation_material_pattern import (
+    articulation_material_list,
 )
 from chalk_line.Materials.score_structure.Segment_III.dynamic_material_pattern import (
     dynamic_material_list,
 )
-from chalk_line.Materials.score_structure.Segment_III.articulation_material_pattern import (
-    articulation_material_list,
+from chalk_line.Materials.score_structure.Segment_III.notehead_material_pattern import (
+    notehead_material_list,
 )
-from chalk_line.Materials.score_structure.Segment_III.trill_material_pattern import (
-    trill_material_list,
+from chalk_line.Materials.score_structure.Segment_III.pitch_material_pattern import (
+    pitch_material_list,
+)
+from chalk_line.Materials.score_structure.Segment_III.rhythm_material_pattern import (
+    rhythm_material_list,
 )
 from chalk_line.Materials.score_structure.Segment_III.tempo_material_pattern import (
     tempo_material_list,
 )
+from chalk_line.Materials.score_structure.Segment_III.time_signatures import bounds
+from chalk_line.Materials.score_structure.Segment_III.trill_material_pattern import (
+    trill_material_list,
+)
 from chalk_line.Materials.timespans.Segment_III.make_timespans import (
-    rhythm_timespan_list,
-    pitch_timespan_list,
-    notehead_timespan_list,
-    dynamic_timespan_list,
     articulation_timespan_list,
+    dynamic_timespan_list,
+    notehead_timespan_list,
+    pitch_timespan_list,
+    rhythm_timespan_list,
     tempo_timespan_list,
 )
-from chalk_line.Materials.score_structure.Segment_III.time_signatures import bounds
-
 
 ########
 # rhythm#

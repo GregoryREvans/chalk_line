@@ -1,6 +1,5 @@
 import evans
 
-
 # cc
 #    possibilities for one:
 #       (one oneT oneRT oneTR oneR oneRT1q one1qTR oneRT1h one1hTR oneRT3q one3qTR oneRTF oneFTR one1qT oneT1q one1q one1qT1h one1hT1q one1qT3q one3qT1q one1qTF oneFT1q one1hT oneT1h one1h one1hT3q one3qT1h one1hTF oneFT1h one3qT oneT3q one3q one3qTF oneFT3q oneFT oneF)

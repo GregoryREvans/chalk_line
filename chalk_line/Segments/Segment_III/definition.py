@@ -1,17 +1,17 @@
+import pathlib
+
 import abjad
 import evans
-import pathlib
+from chalk_line.Materials.pitch.Segment_III.clef_handlers import clef_handlers
+from chalk_line.Materials.score_structure.Segment_III.time_signatures import (
+    time_signatures,
+)
 from chalk_line.Materials.score_structure.instruments import instruments as insts
+from chalk_line.Materials.score_structure.score_structure import score
 from chalk_line.Materials.timespans.Segment_III.convert_timespans import (
     segment_III_rhythm_timespans,
     segment_III_timespans,
 )
-from chalk_line.Materials.score_structure.score_structure import score
-from chalk_line.Materials.score_structure.Segment_III.time_signatures import (
-    time_signatures,
-)
-from chalk_line.Materials.pitch.Segment_III.clef_handlers import clef_handlers
-
 
 c = abjad.LilyPondLiteral(
     r"""

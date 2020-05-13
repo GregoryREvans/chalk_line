@@ -1,17 +1,17 @@
+import pathlib
+
 import abjad
 import evans
-import pathlib
+from chalk_line.Materials.pitch.Segment_II.clef_handlers import clef_handlers
+from chalk_line.Materials.score_structure.Segment_II.time_signatures import (
+    time_signatures,
+)
 from chalk_line.Materials.score_structure.instruments import instruments as insts
+from chalk_line.Materials.score_structure.score_structure import score
 from chalk_line.Materials.timespans.Segment_II.convert_timespans import (
     segment_II_rhythm_timespans,
     segment_II_timespans,
 )
-from chalk_line.Materials.score_structure.score_structure import score
-from chalk_line.Materials.score_structure.Segment_II.time_signatures import (
-    time_signatures,
-)
-from chalk_line.Materials.pitch.Segment_II.clef_handlers import clef_handlers
-
 
 measure_30 = abjad.Staff(
     [abjad.TremoloContainer(2, "<d'' f''>16 <cs'' fs''>16"), abjad.Rest((1, 8))]

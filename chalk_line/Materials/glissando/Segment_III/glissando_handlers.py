@@ -1,6 +1,5 @@
 import evans
 
-
 glissando_handler_one = evans.GlissandoHandler(
     boolean_vector=[
         0,

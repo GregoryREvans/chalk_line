@@ -1,6 +1,5 @@
 import evans
 
-
 tempo_handler_one = evans.TempoSpannerHandler(
     tempo_list=[
         (2, 0, 1, "87"),

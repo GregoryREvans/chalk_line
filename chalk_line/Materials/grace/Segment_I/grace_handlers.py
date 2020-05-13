@@ -1,6 +1,5 @@
 import evans
 
-
 flute_grace_handler_one = evans.GraceHandler(
     boolean_vector=[
         0,

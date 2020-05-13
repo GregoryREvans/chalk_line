@@ -1,6 +1,5 @@
 from chalk_line.Materials.glissando.Segment_I.glissando_handlers import *
 
-
 key_list_1 = ["glissando_handler_one"]
 
 dict = {"glissando_handler_one": glissando_handler_one}

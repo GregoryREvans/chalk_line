@@ -1,12 +1,14 @@
-import evans
 import pathlib
 
-
-from chalk_line.Materials.score_structure.Segment_I.rhythm_material_pattern import (
-    rhythm_material_list,
+import evans
+from chalk_line.Materials.score_structure.Segment_I.articulation_material_pattern import (
+    articulation_material_list,
 )
-from chalk_line.Materials.score_structure.Segment_I.pitch_material_pattern import (
-    pitch_material_list,
+from chalk_line.Materials.score_structure.Segment_I.dynamic_material_pattern import (
+    dynamic_material_list,
+)
+from chalk_line.Materials.score_structure.Segment_I.gliss_material_pattern import (
+    gliss_material_list,
 )
 from chalk_line.Materials.score_structure.Segment_I.grace_material_pattern import (
     grace_material_list,
@@ -14,34 +16,30 @@ from chalk_line.Materials.score_structure.Segment_I.grace_material_pattern impor
 from chalk_line.Materials.score_structure.Segment_I.notehead_material_pattern import (
     notehead_material_list,
 )
-from chalk_line.Materials.score_structure.Segment_I.dynamic_material_pattern import (
-    dynamic_material_list,
+from chalk_line.Materials.score_structure.Segment_I.pitch_material_pattern import (
+    pitch_material_list,
 )
-from chalk_line.Materials.score_structure.Segment_I.articulation_material_pattern import (
-    articulation_material_list,
-)
-from chalk_line.Materials.score_structure.Segment_I.gliss_material_pattern import (
-    gliss_material_list,
-)
-from chalk_line.Materials.score_structure.Segment_I.trill_material_pattern import (
-    trill_material_list,
+from chalk_line.Materials.score_structure.Segment_I.rhythm_material_pattern import (
+    rhythm_material_list,
 )
 from chalk_line.Materials.score_structure.Segment_I.tempo_material_pattern import (
     tempo_material_list,
 )
+from chalk_line.Materials.score_structure.Segment_I.time_signatures import bounds
+from chalk_line.Materials.score_structure.Segment_I.trill_material_pattern import (
+    trill_material_list,
+)
 from chalk_line.Materials.timespans.Segment_I.make_timespans import (
-    rhythm_timespan_list,
-    pitch_timespan_list,
+    articulation_timespan_list,
+    dynamic_timespan_list,
+    gliss_timespan_list,
     grace_timespan_list,
     notehead_timespan_list,
-    dynamic_timespan_list,
-    articulation_timespan_list,
-    gliss_timespan_list,
-    trill_timespan_list,
+    pitch_timespan_list,
+    rhythm_timespan_list,
     tempo_timespan_list,
+    trill_timespan_list,
 )
-from chalk_line.Materials.score_structure.Segment_I.time_signatures import bounds
-
 
 ########
 # rhythm#

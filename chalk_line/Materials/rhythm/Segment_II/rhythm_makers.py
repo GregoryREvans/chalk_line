@@ -1,7 +1,6 @@
 import abjad
-import evans
 import abjadext.rmakers
-
+import evans
 
 # lor = evans.lorenz(
 #     rho=28.0,

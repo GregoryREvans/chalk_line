@@ -1,5 +1,3 @@
-import abjad
-import abjadext.rmakers
 import evans
 
 rmaker_one = evans.RTMMaker(

@@ -1,9 +1,5 @@
-import abjad
 import evans
-from chalk_line.Materials.score_structure.instruments import (
-    instrument_one_range_highest,
-    instrument_one_range_lowest,
-)
+
 
 chord_1 = [
     0,  # 1

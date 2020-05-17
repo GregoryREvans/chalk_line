@@ -1,7 +1,7 @@
 import abjad
 import abjadext.rmakers
 import evans
-from chalk_line.Materials.rhythm.Segment_I.rhythm_makers import *
+from chalk_line.Materials.rhythm.Segment_I.rhythm_makers import rmaker_one
 
 silence_maker = abjadext.rmakers.stack(
     abjadext.rmakers.NoteRhythmMaker(),

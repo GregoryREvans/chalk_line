@@ -1,4 +1,4 @@
-from chalk_line.Materials.dynamics.Segment_I.dynamic_handlers import *
+from chalk_line.Materials.dynamics.Segment_I.dynamic_handlers import dynamic_handler_one
 
 key_list_1 = ["dynamic_handler_one"]
 

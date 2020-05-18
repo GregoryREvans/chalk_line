@@ -20,6 +20,9 @@ before_install:
     # upgrade pip:
     - pip install --upgrade pip
 
+    # install isort:
+    - pip install isort
+
     # install lilypond:
     - LILYPOND=/tmp/lilypond
     - LILYPOND_URL=http://lilypond.org/download/binaries/linux-64/

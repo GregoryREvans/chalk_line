@@ -1,8 +1,8 @@
-import evans
-from chalk_line.Materials.rhythm.Segment_II.rhythm_handlers import *
+from chalk_line.Materials.rhythm.Segment_II.rhythm_handlers import (
+    rhythm_handler_one,
+    silence_maker,
+)
 
-# np.random.seed(7)
-# key_list_1 = [x for x in material_chain.generate_states(current_state='rhythm_handler_two', no=14)]
 key_list_1 = ["rhythm_handler_one"]
 
 dict = {"rhythm_handler_one": rhythm_handler_one, "silence_maker": silence_maker}

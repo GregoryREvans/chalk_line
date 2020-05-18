@@ -1,6 +1,5 @@
 import evans
 
-
 chord_1 = [
     0,  # 1
     1,

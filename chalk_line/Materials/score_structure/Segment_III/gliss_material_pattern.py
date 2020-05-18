@@ -1,4 +1,6 @@
-from chalk_line.Materials.glissando.Segment_III.glissando_handlers import *
+from chalk_line.Materials.glissando.Segment_III.glissando_handlers import (
+    glissando_handler_one,
+)
 
 key_list_1 = ["glissando_handler_one"]
 

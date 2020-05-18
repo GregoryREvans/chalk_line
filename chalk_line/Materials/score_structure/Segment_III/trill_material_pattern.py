@@ -1,4 +1,6 @@
-from chalk_line.Materials.trill.Segment_III.trill_handlers import *
+from chalk_line.Materials.trill.Segment_III.trill_handlers import (
+    bisbigliando_handler_one,
+)
 
 key_list_1 = ["bisbigliando_handler_one"]
 

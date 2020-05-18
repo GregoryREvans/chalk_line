@@ -20,9 +20,6 @@ from chalk_line.Materials.score_structure.Segment_III.tempo_material_pattern imp
     tempo_material_list,
 )
 from chalk_line.Materials.score_structure.Segment_III.time_signatures import bounds
-from chalk_line.Materials.score_structure.Segment_III.trill_material_pattern import (
-    trill_material_list,
-)
 from chalk_line.Materials.timespans.Segment_III.make_timespans import (
     articulation_timespan_list,
     dynamic_timespan_list,

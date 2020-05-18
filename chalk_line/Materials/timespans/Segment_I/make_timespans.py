@@ -2,8 +2,6 @@ from collections import OrderedDict
 
 import abjad
 import abjadext.rmakers as rmakers
-import evans
-from chalk_line.Materials.rhythm.Segment_I.rhythm_handlers import *
 from chalk_line.Materials.score_structure.instruments import instruments
 from tsmakers.TaleaTimespanMaker import TaleaTimespanMaker
 

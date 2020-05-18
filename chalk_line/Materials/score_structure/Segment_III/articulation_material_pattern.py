@@ -1,4 +1,6 @@
-from chalk_line.Materials.articulations.Segment_III.articulation_handlers import *
+from chalk_line.Materials.articulations.Segment_III.articulation_handlers import (
+    articulation_handler_one,
+)
 
 key_list_1 = ["articulation_handler_one"]
 

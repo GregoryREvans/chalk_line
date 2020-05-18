@@ -1,7 +1,6 @@
 import abjad
 import abjadext.rmakers
 
-
 lor = [
     3,
     1,

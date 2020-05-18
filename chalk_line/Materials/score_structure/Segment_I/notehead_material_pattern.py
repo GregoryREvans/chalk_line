@@ -1,4 +1,6 @@
-from chalk_line.Materials.noteheads.Segment_I.notehead_handlers import notehead_handler_one
+from chalk_line.Materials.noteheads.Segment_I.notehead_handlers import (
+    notehead_handler_one,
+)
 
 key_list_1 = ["notehead_handler_one"]
 

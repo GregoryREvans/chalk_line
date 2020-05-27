@@ -1,3 +1,5 @@
+import typing
+
 import evans
 
 chord_1 = [
@@ -269,13 +271,25 @@ chord_1 = [
     3,
 ]
 
-for i, _ in enumerate(chord_1):
-    if isinstance(_, list):
-        for x, subitem in enumerate(_):
-            _[x] = subitem + 12
+chord_2: typing.List = []
+
+for item in chord_1:
+    if isinstance(item, list):
+        item_ = []
+        for _ in item:
+            item_.append(_ + 12)
+        chord_2.append(item_)
     else:
-        chord_1[i] = _ + 12
+        assert isinstance(item, (int, float))
+        chord_2.append(item + 12)
+
+# chord_2 = [
+#     item + 12
+#     if isinstance(item, (int, float))
+#     else [_ + 12 for _ in item]
+#     for item in chord_1
+#     ]
 
 chord_1 = evans.pitch_warp(
-    pitch_list=chord_1, warp_values=[0.5, -0.5], boolean_vector=[0, 0, 1, 0, 1]
+    pitch_list=chord_2, warp_values=[0.5, -0.5], boolean_vector=[0, 0, 1, 0, 1]
 )

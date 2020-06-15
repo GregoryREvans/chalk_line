@@ -33,9 +33,9 @@ from chalk_line.Materials.timespans.Segment_II.make_timespans import (
     trill_timespan_list,
 )
 
-########
+# #######
 # rhythm#
-########
+# #######
 rhythm_mat = rhythm_material_list
 
 segment_II_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
@@ -48,9 +48,9 @@ segment_II_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
     split=True,
 )
 
-#######
+# ######
 # pitch#
-#######
+# ######
 pitch_mat = pitch_material_list
 
 segment_II_pitch_timespans = evans.ConvertTimespans.convert_timespans(
@@ -62,9 +62,9 @@ segment_II_pitch_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-#######
+# ######
 # notehead#
-#######
+# ######
 notehead_mat = notehead_material_list
 
 segment_II_notehead_timespans = evans.ConvertTimespans.convert_timespans(
@@ -76,9 +76,9 @@ segment_II_notehead_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-#########
+# ########
 # dynamic#
-#########
+# ########
 dynamic_mat = dynamic_material_list
 
 segment_II_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
@@ -90,9 +90,9 @@ segment_II_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-##############
+# #############
 # articulation#
-##############
+# #############
 articulation_mat = articulation_material_list
 
 segment_II_articulation_timespans = evans.ConvertTimespans.convert_timespans(
@@ -104,9 +104,9 @@ segment_II_articulation_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-##############
+# #############
 # trill#
-##############
+# #############
 trill_mat = trill_material_list
 
 segment_II_trill_timespans = evans.ConvertTimespans.convert_timespans(
@@ -118,9 +118,9 @@ segment_II_trill_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-##############
+# #############
 # tempo#
-##############
+# #############
 tempo_mat = tempo_material_list
 
 segment_II_tempo_timespans = evans.ConvertTimespans.convert_timespans(
@@ -133,9 +133,9 @@ segment_II_tempo_timespans = evans.ConvertTimespans.convert_timespans(
     is_global=True,
 )
 
-###############
+# ##############
 # all timespans#
-###############
+# ##############
 segment_II_timespans = [
     segment_II_tempo_timespans,
     segment_II_pitch_timespans,

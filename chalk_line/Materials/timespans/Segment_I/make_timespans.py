@@ -9,9 +9,9 @@ music_specifiers = OrderedDict(
     [(f"Voice {i+1}", None) for i, name in enumerate(instruments)]
 )
 
-########
+# #######
 # rhythm#
-########
+# #######
 rhythm_target_timespan = abjad.Timespan(0, 15)
 
 rhythm_timespan_maker = TaleaTimespanMaker(
@@ -25,9 +25,9 @@ rhythm_timespan_list = rhythm_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=rhythm_target_timespan
 )
 
-#######
+# ######
 # pitch#
-#######
+# ######
 pitch_target_timespan = abjad.Timespan(0, 15)
 
 pitch_timespan_maker = TaleaTimespanMaker(
@@ -39,9 +39,9 @@ pitch_timespan_list = pitch_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=pitch_target_timespan
 )
 
-########
+# #######
 # notehead#
-########
+# #######
 notehead_target_timespan = abjad.Timespan(0, 15)
 
 notehead_timespan_maker = TaleaTimespanMaker(
@@ -53,9 +53,9 @@ notehead_timespan_list = notehead_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=notehead_target_timespan
 )
 
-#######
+# ######
 # grace#
-#######
+# ######
 grace_target_timespan = abjad.Timespan(0, 15)
 
 grace_timespan_maker = TaleaTimespanMaker(
@@ -67,9 +67,9 @@ grace_timespan_list = pitch_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=pitch_target_timespan
 )
 
-#########
+# ########
 # dynamic#
-#########
+# ########
 dynamic_target_timespan = abjad.Timespan(0, 15)
 
 dynamic_timespan_maker = TaleaTimespanMaker(
@@ -81,9 +81,9 @@ dynamic_timespan_list = dynamic_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=dynamic_target_timespan
 )
 
-##############
+# #############
 # articulation#
-##############
+# #############
 articulation_target_timespan = abjad.Timespan(0, 15)
 
 articulation_timespan_maker = TaleaTimespanMaker(
@@ -95,9 +95,9 @@ articulation_timespan_list = articulation_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=articulation_target_timespan
 )
 
-##############
+# #############
 # glissando#
-##############
+# #############
 gliss_target_timespan = abjad.Timespan(0, 15)
 
 gliss_timespan_maker = TaleaTimespanMaker(
@@ -109,9 +109,9 @@ gliss_timespan_list = gliss_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=gliss_target_timespan
 )
 
-##############
+# #############
 # trill#
-##############
+# #############
 trill_target_timespan = abjad.Timespan(0, 15)
 
 trill_timespan_maker = TaleaTimespanMaker(
@@ -123,9 +123,9 @@ trill_timespan_list = trill_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=trill_target_timespan
 )
 
-##############
+# #############
 # tempo#
-##############
+# #############
 tempo_target_timespan = abjad.Timespan(0, 13)
 
 tempo_timespan_maker = TaleaTimespanMaker(

@@ -41,9 +41,9 @@ from chalk_line.Materials.timespans.Segment_I.make_timespans import (
     trill_timespan_list,
 )
 
-########
+# #######
 # rhythm#
-########
+# #######
 rhythm_mat = rhythm_material_list
 
 segment_I_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
@@ -56,9 +56,9 @@ segment_I_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
     split=True,
 )
 
-#######
+# ######
 # pitch#
-#######
+# ######
 pitch_mat = pitch_material_list
 
 segment_I_pitch_timespans = evans.ConvertTimespans.convert_timespans(
@@ -70,9 +70,9 @@ segment_I_pitch_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-#######
+# ######
 # notehead#
-#######
+# ######
 notehead_mat = notehead_material_list
 
 segment_I_notehead_timespans = evans.ConvertTimespans.convert_timespans(
@@ -84,9 +84,9 @@ segment_I_notehead_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-#######
+# ######
 # grace#
-#######
+# ######
 grace_mat = grace_material_list
 
 segment_I_grace_timespans = evans.ConvertTimespans.convert_timespans(
@@ -98,9 +98,9 @@ segment_I_grace_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-#########
+# ########
 # dynamic#
-#########
+# ########
 dynamic_mat = dynamic_material_list
 
 segment_I_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
@@ -112,9 +112,9 @@ segment_I_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-##############
+# #############
 # articulation#
-##############
+# #############
 articulation_mat = articulation_material_list
 
 segment_I_articulation_timespans = evans.ConvertTimespans.convert_timespans(
@@ -126,9 +126,9 @@ segment_I_articulation_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-##############
+# #############
 # glissando#
-##############
+# #############
 gliss_mat = gliss_material_list
 
 segment_I_gliss_timespans = evans.ConvertTimespans.convert_timespans(
@@ -140,9 +140,9 @@ segment_I_gliss_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-##############
+# #############
 # trill#
-##############
+# #############
 trill_mat = trill_material_list
 
 segment_I_trill_timespans = evans.ConvertTimespans.convert_timespans(
@@ -154,9 +154,9 @@ segment_I_trill_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-##############
+# #############
 # tempo#
-##############
+# #############
 tempo_mat = tempo_material_list
 
 segment_I_tempo_timespans = evans.ConvertTimespans.convert_timespans(
@@ -169,9 +169,9 @@ segment_I_tempo_timespans = evans.ConvertTimespans.convert_timespans(
     is_global=True,
 )
 
-###############
+# ##############
 # all timespans#
-###############
+# ##############
 segment_I_timespans = [
     segment_I_tempo_timespans,
     segment_I_grace_timespans,

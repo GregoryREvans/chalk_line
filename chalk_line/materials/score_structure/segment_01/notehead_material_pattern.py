@@ -1,4 +1,4 @@
-from chalk_line.materials.noteheads.segment_01.notehead_handlers import (
+from chalk_line.materials.noteheads.segment_01_notehead_handlers import (
     notehead_handler_one,
 )
 

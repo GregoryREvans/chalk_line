@@ -1,4 +1,4 @@
-from chalk_line.materials.dynamics.segment_02.dynamic_handlers import (
+from chalk_line.materials.dynamics.segment_02_dynamic_handlers import (
     dynamic_handler_one,
 )
 

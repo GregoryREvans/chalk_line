@@ -65,15 +65,15 @@ maker = evans.SegmentMaker(
     add_final_grand_pause=False,
     score_includes=[
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
-        "/Users/evansdsg2/Scores/chalk_line/chalk_line/Build/first_stylesheet.ily",
+        "/Users/evansdsg2/Scores/chalk_line/chalk_line/build/first_stylesheet.ily",
     ],
     parts_includes=[
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
-        "/Users/evansdsg2/Scores/chalk_line/chalk_line/Build/parts_stylesheet.ily",
+        "/Users/evansdsg2/Scores/chalk_line/chalk_line/build/parts_stylesheet.ily",
     ],
     segment_name="segment_02",
     current_directory=pathlib.Path(__file__).parent,
-    build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
+    build_path=(pathlib.Path(__file__).parent / ".." / ".." / "build").resolve(),
     cutaway=False,
     beam_pattern="meter",
     beam_rests=False,

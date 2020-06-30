@@ -1,4 +1,4 @@
-from chalk_line.materials.trill.segment_02.trill_handlers import (
+from chalk_line.materials.trill.segment_02_trill_handlers import (
     bisbigliando_handler_one,
 )
 

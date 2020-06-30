@@ -1,4 +1,4 @@
-from chalk_line.materials.trill.segment_01.trill_handlers import trill_handler_one
+from chalk_line.materials.trill.segment_01_trill_handlers import trill_handler_one
 
 key_list_1 = ["trill_handler_one"]
 

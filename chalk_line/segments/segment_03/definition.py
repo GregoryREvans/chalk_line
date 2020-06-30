@@ -2,15 +2,15 @@ import pathlib
 
 import abjad
 import evans
-from chalk_line.Materials.pitch.Segment_III.clef_handlers import clef_handlers
-from chalk_line.Materials.score_structure.Segment_III.time_signatures import (
+from chalk_line.materials.pitch.segment_03.clef_handlers import clef_handlers
+from chalk_line.materials.score_structure.segment_03.time_signatures import (
     time_signatures,
 )
-from chalk_line.Materials.score_structure.instruments import instruments as insts
-from chalk_line.Materials.score_structure.score_structure import score
-from chalk_line.Materials.timespans.Segment_III.convert_timespans import (
-    segment_III_rhythm_timespans,
-    segment_III_timespans,
+from chalk_line.materials.score_structure.instruments import instruments as insts
+from chalk_line.materials.score_structure.score_structure import score
+from chalk_line.materials.timespans.segment_03.convert_timespans import (
+    segment_03_rhythm_timespans,
+    segment_03_timespans,
 )
 
 c = abjad.LilyPondLiteral(
@@ -340,8 +340,8 @@ charts = [
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Flute"],
-    rhythm_timespans=segment_III_rhythm_timespans,
-    handler_timespans=segment_III_timespans,
+    rhythm_timespans=segment_03_rhythm_timespans,
+    handler_timespans=segment_03_timespans,
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
@@ -451,7 +451,7 @@ maker = evans.SegmentMaker(
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
         "/Users/evansdsg2/Scores/chalk_line/chalk_line/Build/parts_stylesheet.ily",
     ],
-    segment_name="Segment_III",
+    segment_name="segment_03",
     current_directory=pathlib.Path(__file__).parent,
     build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
     cutaway=False,

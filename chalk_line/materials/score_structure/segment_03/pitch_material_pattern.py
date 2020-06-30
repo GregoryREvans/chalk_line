@@ -1,6 +1,4 @@
-from chalk_line.materials.pitch.segment_03.pitch_handlers import (
-    flute_pitch_handler_one,
-)
+from chalk_line.materials.pitch.segment_03.pitch_handlers import flute_pitch_handler_one
 
 key_list_1 = ["flute_pitch_handler_one"]
 

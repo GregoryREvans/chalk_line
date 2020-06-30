@@ -3,11 +3,11 @@ import pathlib
 import abjad
 import evans
 from chalk_line.materials.pitch.segment_02.clef_handlers import clef_handlers
+from chalk_line.materials.score_structure.instruments import instruments as insts
+from chalk_line.materials.score_structure.score_structure import score
 from chalk_line.materials.score_structure.segment_02.time_signatures import (
     time_signatures,
 )
-from chalk_line.materials.score_structure.instruments import instruments as insts
-from chalk_line.materials.score_structure.score_structure import score
 from chalk_line.materials.timespans.segment_02.convert_timespans import (
     segment_02_rhythm_timespans,
     segment_02_timespans,

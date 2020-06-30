@@ -1,6 +1,4 @@
-from chalk_line.materials.grace.segment_03.grace_handlers import (
-    flute_grace_handler_one,
-)
+from chalk_line.materials.grace.segment_03.grace_handlers import flute_grace_handler_one
 
 key_list_1 = ["flute_grace_handler_one"]
 

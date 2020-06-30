@@ -1,4 +1,4 @@
-from chalk_line.materials.articulations.segment_01.articulation_handlers import (
+from chalk_line.materials.articulations.segment_01_articulation_handlers import (
     articulation_handler_one,
 )
 

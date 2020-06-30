@@ -1,4 +1,4 @@
-from chalk_line.materials.tempo.segment_03.tempo_handlers import tempo_handler_one
+from chalk_line.materials.tempo.segment_03_tempo_handlers import tempo_handler_one
 
 key_list_1 = ["tempo_handler_one"]
 

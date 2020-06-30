@@ -1,4 +1,4 @@
-from chalk_line.materials.glissando.segment_03.glissando_handlers import (
+from chalk_line.materials.glissando.segment_03_glissando_handlers import (
     glissando_handler_one,
 )
 

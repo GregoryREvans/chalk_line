@@ -498,3 +498,31 @@ voice_0
 voice_0
 [LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "STIXGeneral")\n            \\with-color #white\n            \\right-column {\n                \\line { "\\hspace #0.75 .........................." }\n                \\with-color #black\n                \\line { \\hspace #0.75 Spring Valley, Oh. }\n                \\with-color #black\n                \\line { \\hspace #0.75 April 2020 }\n            }\n        }\n    ', format_slot='absolute_after')]
 
+2020-07-01 11:23:56.209556
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "STIXGeneral")\n            \\with-color #white\n            \\right-column {\n                \\line { "\\hspace #0.75 .........................." }\n                \\with-color #black\n                \\line { \\hspace #0.75 Spring Valley, Oh. }\n                \\with-color #black\n                \\line { \\hspace #0.75 April 2020 }\n            }\n        }\n    ', format_slot='absolute_after')]
+
+2020-07-01 11:33:36.379859
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "STIXGeneral")\n            \\with-color #white\n            \\right-column {\n                \\line { "\\hspace #0.75 .........................." }\n                \\with-color #black\n                \\line { \\hspace #0.75 Spring Valley, Oh. }\n                \\with-color #black\n                \\line { \\hspace #0.75 April 2020 }\n            }\n        }\n    ', format_slot='absolute_after')]
+
+2020-07-01 11:51:24.558426
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "STIXGeneral")\n            \\with-color #white\n            \\right-column {\n                \\line { "\\hspace #0.75 .........................." }\n                \\with-color #black\n                \\line { \\hspace #0.75 Spring Valley, Oh. }\n                \\with-color #black\n                \\line { \\hspace #0.75 April 2020 }\n            }\n        }\n    ', format_slot='absolute_after')]
+
+2020-07-01 11:53:04.346245
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "STIXGeneral")\n            \\with-color #white\n            \\right-column {\n                \\line { "\\hspace #0.75 .........................." }\n                \\with-color #black\n                \\line { \\hspace #0.75 Spring Valley, Oh. }\n                \\with-color #black\n                \\line { \\hspace #0.75 April 2020 }\n            }\n        }\n    ', format_slot='absolute_after')]
+
+2020-07-01 12:30:26.078252
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "STIXGeneral")\n            \\with-color #white\n            \\right-column {\n                \\line { "\\hspace #0.75 .........................." }\n                \\with-color #black\n                \\line { \\hspace #0.75 Spring Valley, Oh. }\n                \\with-color #black\n                \\line { \\hspace #0.75 April 2020 }\n            }\n        }\n    ', format_slot='absolute_after')]
+
+2020-07-01 21:21:31.697495
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "STIXGeneral")\n            \\with-color #white\n            \\right-column {\n                \\line { "\\hspace #0.75 .........................." }\n                \\with-color #black\n                \\line { \\hspace #0.75 Spring Valley, Oh. }\n                \\with-color #black\n                \\line { \\hspace #0.75 April 2020 }\n            }\n        }\n    ', format_slot='absolute_after')]
+
+2020-07-01 21:32:10.408565
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "STIXGeneral")\n            \\with-color #white\n            \\right-column {\n                \\line { "\\hspace #0.75 .........................." }\n                \\with-color #black\n                \\line { \\hspace #0.75 Spring Valley, Oh. }\n                \\with-color #black\n                \\line { \\hspace #0.75 April 2020 }\n            }\n        }\n    ', format_slot='absolute_after')]
+

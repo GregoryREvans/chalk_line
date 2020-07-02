@@ -41,7 +41,7 @@ abjad.attach(
     abjad.LilyPondLiteral(
         [r"\once", r"\override Stem.stencil = ##f"], format_slot="before"
     ),
-    abjad.select(measure_30).leaves()[1],
+    baca.select(measure_30).leaves()[1],
 )
 
 maker = evans.SegmentMaker(
@@ -56,10 +56,10 @@ maker = evans.SegmentMaker(
     voicewise_measure_replacement=[[(5, measure_30)]],
     measure_replacement_timing="post-handlers",
     voicewise_direct_detachments=[
-        [(abjad.select().leaves().get([26], 1000), abjad.Tie())]
+        [(baca.select().leaves().get([26], 1000), abjad.Tie())]
     ],
     voicewise_direct_attachments=[
-        [(abjad.select().leaves().get([26], 1000), abjad.Dynamic("pp"))]
+        [(baca.select().leaves().get([26], 1000), abjad.Dynamic("pp"))]
     ],
     tuplet_bracket_noteheads=True,
     add_final_grand_pause=False,

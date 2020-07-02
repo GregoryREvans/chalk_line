@@ -1,6 +1,7 @@
 import pathlib
 
 import abjad
+import baca
 import evans
 from chalk_line.materials.pitch.segment_02.clef_handlers import clef_handlers
 from chalk_line.materials.score_structure.instruments import instruments as insts
@@ -52,15 +53,23 @@ maker = evans.SegmentMaker(
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
+    commands=[
+        evans.Command(
+            command="detach",
+            indicator=abjad.Tie(),
+            selector=baca.select().leaf(26),
+            voice="Voice 1",
+        ),
+        evans.Command(
+            command="attach",
+            indicator=abjad.Dynamic("pp"),
+            selector=baca.select().leaf(26),
+            voice="Voice 1",
+        ),
+    ],
     voicewise_persistent_indicators=None,
     voicewise_measure_replacement=[[(5, measure_30)]],
     measure_replacement_timing="post-handlers",
-    voicewise_direct_detachments=[
-        [(baca.select().leaves().get([26], 1000), abjad.Tie())]
-    ],
-    voicewise_direct_attachments=[
-        [(baca.select().leaves().get([26], 1000), abjad.Dynamic("pp"))]
-    ],
     tuplet_bracket_noteheads=True,
     add_final_grand_pause=False,
     score_includes=[

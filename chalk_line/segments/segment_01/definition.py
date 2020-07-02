@@ -1,6 +1,7 @@
 import pathlib
 
 import abjad
+import baca
 import evans
 from chalk_line.materials.pitch.segment_01.clef_handlers import clef_handlers
 from chalk_line.materials.score_structure.instruments import instruments as insts
@@ -22,18 +23,51 @@ maker = evans.SegmentMaker(
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
-    voicewise_persistent_indicators=None,
-    voicewise_direct_detachments=[
-        [
-            (baca.select().leaves(pitched=True).get([16], 1000), abjad.Dynamic("mf")),
-            (baca.select().leaves(pitched=True).get([20], 1000), abjad.Dynamic("f")),
-            (baca.select().leaves(pitched=True).get([24], 1000), abjad.Dynamic("p")),
-            (baca.select().leaves(pitched=True).get([34], 1000), abjad.Dynamic("mf")),
-            (baca.select().leaves(pitched=True).get([38], 1000), abjad.Dynamic("f")),
-            (baca.select().leaves(pitched=True).get([51], 1000), abjad.Dynamic("ff")),
-            (baca.select().leaves(pitched=True).get([68], 1000), abjad.Dynamic("mf")),
-        ]
+    commands=[
+        evans.Command(
+            command="detach",
+            indicator=abjad.Dynamic("mf"),
+            selector=baca.select().pleaf(16),
+            voice="Voice 1",
+        ),
+        evans.Command(
+            command="detach",
+            indicator=abjad.Dynamic("f"),
+            selector=baca.select().pleaf(20),
+            voice="Voice 1",
+        ),
+        evans.Command(
+            command="detach",
+            indicator=abjad.Dynamic("p"),
+            selector=baca.select().pleaf(24),
+            voice="Voice 1",
+        ),
+        evans.Command(
+            command="detach",
+            indicator=abjad.Dynamic("mf"),
+            selector=baca.select().pleaf(34),
+            voice="Voice 1",
+        ),
+        evans.Command(
+            command="detach",
+            indicator=abjad.Dynamic("f"),
+            selector=baca.select().pleaf(38),
+            voice="Voice 1",
+        ),
+        evans.Command(
+            command="detach",
+            indicator=abjad.Dynamic("ff"),
+            selector=baca.select().pleaf(51),
+            voice="Voice 1",
+        ),
+        evans.Command(
+            command="detach",
+            indicator=abjad.Dynamic("mf"),
+            selector=baca.select().pleaf(68),
+            voice="Voice 1",
+        ),
     ],
+    voicewise_persistent_indicators=None,
     tuplet_bracket_noteheads=True,
     add_final_grand_pause=False,
     score_includes=[

@@ -33,7 +33,6 @@ maker = evans.SegmentMaker(
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
     commands=commands,
-    voicewise_persistent_indicators=None,
     tuplet_bracket_noteheads=True,
     add_final_grand_pause=False,
     score_includes=[

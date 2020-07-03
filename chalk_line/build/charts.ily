@@ -298,3 +298,16 @@ chart-fifteen =
 - \tweak staff-padding #7
 - \tweak bound-details.right.padding #2
 \startTextSpan
+
+colophon =
+_ \markup {
+    \override #'(font-name . "STIXGeneral")
+    \with-color #white
+    \right-column {
+        \line { "\hspace #0.75 .........................." }
+        \with-color #black
+        \line { \hspace #0.75 Spring Valley, Oh. }
+        \with-color #black
+        \line { \hspace #0.75 April 2020 }
+    }
+}

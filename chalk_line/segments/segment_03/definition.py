@@ -15,88 +15,30 @@ from chalk_line.materials.timespans.segment_03.convert_timespans import (
 )
 
 c = abjad.LilyPondLiteral(
-    r"""
-        _ \markup {
-            \override #'(font-name . "STIXGeneral")
-            \with-color #white
-            \right-column {
-                \line { "\hspace #0.75 .........................." }
-                \with-color #black
-                \line { \hspace #0.75 Spring Valley, Oh. }
-                \with-color #black
-                \line { \hspace #0.75 April 2020 }
-            }
-        }
-    """,
+    r"\colophon",
     format_slot="absolute_after",
 )
 
-charts = [
-    abjad.LilyPondLiteral(
-        r"\chart-zero",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-one",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-two",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-three",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-four",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-five",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-six",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-seven",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-eight",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-nine",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-ten",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-eleven",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-twelve",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-thirteen",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-fourteen",
-        format_slot="after",
-    ),
-    abjad.LilyPondLiteral(
-        r"\chart-fifteen",
-        format_slot="after",
-    ),
+chart_strings = [
+    r"\chart-zero",
+    r"\chart-one",
+    r"\chart-two",
+    r"\chart-three",
+    r"\chart-four",
+    r"\chart-five",
+    r"\chart-six",
+    r"\chart-seven",
+    r"\chart-eight",
+    r"\chart-nine",
+    r"\chart-ten",
+    r"\chart-eleven",
+    r"\chart-twelve",
+    r"\chart-thirteen",
+    r"\chart-fourteen",
+    r"\chart-fifteen",
 ]
+
+charts = [abjad.LilyPondLiteral(_, format_slot="after") for _ in chart_strings]
 
 maker = evans.SegmentMaker(
     instruments=insts,

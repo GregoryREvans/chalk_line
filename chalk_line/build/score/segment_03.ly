@@ -915,19 +915,7 @@
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
                     r1 * 1/16
-
-                            _ \markup {
-                                \override #'(font-name . "STIXGeneral")
-                                \with-color #white
-                                \right-column {
-                                    \line { "\hspace #0.75 .........................." }
-                                    \with-color #black
-                                    \line { \hspace #0.75 Spring Valley, Oh. }
-                                    \with-color #black
-                                    \line { \hspace #0.75 April 2020 }
-                                }
-                            }
-
+                    \colophon
 
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
                     R1 * 1/16

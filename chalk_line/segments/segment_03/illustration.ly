@@ -247,20 +247,7 @@
                         cs'4
                         \pp
                         \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one two three four five six)) (lh . (b)) (rh . (cis)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-zero
 
                         \tweak NoteHead.style #'default
                         <cs' cs''>2
@@ -308,20 +295,7 @@
                         \pp
                         \stopTextSpan
                         [
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one two three four five six)) (lh . (b)) (rh . ()))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7.5
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-one
 
                         \tweak NoteHead.style #'diamond
                         \revert Staff.Stem.stemlet-length
@@ -381,20 +355,7 @@
                     \tweak NoteHead.style #'diamond
                     dqs''2.
                     \pp
-                    - \abjad-solid-line-with-hook
-                    - \tweak bound-details.left.text \markup {
-                        \hspace #2
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four fiveR six)) (lh . (b)) (rh . (c cis)))
-                    }
-                    - \tweak padding #5
-                    - \tweak staff-padding #7
-                    - \tweak bound-details.right.padding #2
-                    \startTextSpan
+                    \chart-two
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "8")
@@ -459,20 +420,7 @@
                         cs'8
                         \mp
                         \>
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one two three four five six)) (lh . (b)) (rh . (cis)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-zero
 
                         \tweak NoteHead.style #'default
                         <cs' cs''>4
@@ -535,20 +483,7 @@
                         \>
                         \stopTextSpan
                         [
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one two three four five six)) (lh . (b)) (rh . ()))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7.5
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-one
 
                         \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
@@ -611,20 +546,7 @@
                     \tweak NoteHead.style #'diamond
                     dqs''1
                     \pp
-                    - \abjad-solid-line-with-hook
-                    - \tweak bound-details.left.text \markup {
-                        \hspace #2
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four fiveR six)) (lh . (b)) (rh . (c cis)))
-                    }
-                    - \tweak padding #5
-                    - \tweak staff-padding #7
-                    - \tweak bound-details.right.padding #2
-                    \startTextSpan
+                    \chart-two
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
@@ -637,40 +559,14 @@
                         \>
                         \stopTextSpan
                         [
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one two three fourR five six)) (lh . (b)) (rh . (d)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-three
 
                         \tweak NoteHead.style #'diamond
                         \revert Staff.Stem.stemlet-length
                         <bqs' cqs''>16
                         \stopTextSpan
                         ]
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (three four five six)) (lh . (b)) (rh . (c cis)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-four
 
                     }
 
@@ -686,20 +582,7 @@
                         dqf''2
                         \mp
                         \stopTextSpan
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (twoR three four five six)) (lh . ()) (rh . (cis)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-five
 
                         \tweak NoteHead.style #'default
                         <cqs''' dqf'''>4
@@ -718,20 +601,7 @@
                         \>
                         \stopTextSpan
                         [
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one three four five six)) (lh . (b)) (rh . (cis c gz)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-six
 
                         \tweak NoteHead.style #'diamond
                         a''16
@@ -758,20 +628,7 @@
                         \<
                         \stopTextSpan
                         [
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one two threeR four five six)) (lh . (b)) (rh . (d)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-seven
 
                         \tweak NoteHead.style #'diamond
                         e''8
@@ -861,20 +718,7 @@
                         <gqs'' cqs'''>8
                         \mp
                         \>
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one two three five six)) (lh . (b)) (rh . (c cis)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-eight
 
                         \tweak NoteHead.style #'default
                         <eqs'' gqs''>4
@@ -900,20 +744,7 @@
                     \stopTextSpan
                     ~
                     ]
-                    - \abjad-solid-line-with-hook
-                    - \tweak bound-details.left.text \markup {
-                        \hspace #2
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one twoR three four five six)) (lh . (b)) (rh . (c gz)))
-                    }
-                    - \tweak padding #5
-                    - \tweak staff-padding #7
-                    - \tweak bound-details.right.padding #2
-                    \startTextSpan
+                    \chart-nine
 
                     \tweak NoteHead.style #'default
                     <fqs' bqf'>4
@@ -928,20 +759,7 @@
                         \mp
                         \stopTextSpan
                         [
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one two threeR fourR six)) (lh . (b)) (rh . (c cis)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-ten
 
                         \tweak NoteHead.style #'diamond
                         \revert Staff.Stem.stemlet-length
@@ -965,20 +783,7 @@
                         <aqf' gqf'' eqs'''>4
                         \pp
                         \stopTextSpan
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one twoR three four fiveR six)) (lh . (b)) (rh . (cis c gz)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-eleven
 
                         \tweak NoteHead.style #'default
                         <aqf' gqf''>4
@@ -992,20 +797,7 @@
                     \<
                     \stopTextSpan
                     ~
-                    - \abjad-solid-line-with-hook
-                    - \tweak bound-details.left.text \markup {
-                        \hspace #2
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four six)) (lh . (b)) (rh . (c cis)))
-                    }
-                    - \tweak padding #5
-                    - \tweak staff-padding #10
-                    - \tweak bound-details.right.padding #2
-                    \startTextSpan
+                    \chart-twelve
 
                     \tweak NoteHead.style #'default
                     <eqs' eqs'' cqs'''>2
@@ -1020,20 +812,7 @@
                         \f
                         \>
                         \stopTextSpan
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one twoR three four fiveR six)) (lh . (b)) (rh . (dis c cis)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-thirteen
 
                         \tweak NoteHead.style #'diamond
                         e''4
@@ -1057,20 +836,7 @@
                     \tweak NoteHead.style #'slash
                     dqf''4
                     \mp
-                    - \abjad-solid-line-with-hook
-                    - \tweak bound-details.left.text \markup {
-                        \hspace #2
-                        \override #'(graphical . #t)
-                        \override #'(size . 0.6)
-                        \override #'(thickness . 0.125)
-                        \woodwind-diagram
-                        #'flute
-                        #'((cc . (one two three four)) (lh . (b)) (rh . (ees dis d)))
-                    }
-                    - \tweak padding #5
-                    - \tweak staff-padding #7
-                    - \tweak bound-details.right.padding #2
-                    \startTextSpan
+                    \chart-fourteen
 
                     \tweak NoteHead.style #'diamond
                     <dqf'' f''>8
@@ -1084,20 +850,7 @@
                         c''4.
                         \mp
                         \stopTextSpan
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one two three five)) (lh . (b)) (rh . (dis c cis)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-fifteen
 
                         \tweak NoteHead.style #'diamond
                         fs''4
@@ -1119,20 +872,7 @@
                         b'32
                         \stopTextSpan
                         [
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \hspace #2
-                            \override #'(graphical . #t)
-                            \override #'(size . 0.6)
-                            \override #'(thickness . 0.125)
-                            \woodwind-diagram
-                            #'flute
-                            #'((cc . (one three four five six)) (lh . (b)) (rh . (cis c gz)))
-                        }
-                        - \tweak padding #5
-                        - \tweak staff-padding #7
-                        - \tweak bound-details.right.padding #2
-                        \startTextSpan
+                        \chart-six
 
                         \tweak NoteHead.style #'default
                         <b' a''>16

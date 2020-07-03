@@ -9,6 +9,7 @@ music_specifiers = OrderedDict(
     [(f"Voice {i+1}", None) for i, name in enumerate(instruments)]
 )
 
+print("Making timespans ...")
 # #######
 # rhythm#
 # #######

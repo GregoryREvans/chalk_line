@@ -41,6 +41,7 @@ from chalk_line.materials.timespans.segment_01.make_timespans import (
     trill_timespan_list,
 )
 
+print("Converting timespans ...")
 # #######
 # rhythm#
 # #######

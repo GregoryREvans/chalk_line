@@ -29,6 +29,7 @@ from chalk_line.materials.timespans.segment_03.make_timespans import (
     tempo_timespan_list,
 )
 
+print("Converting timespans ...")
 # #######
 # rhythm#
 # #######

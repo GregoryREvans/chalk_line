@@ -25,6 +25,7 @@ rhythm_timespan_list = rhythm_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=rhythm_target_timespan
 )
 
+print("Making timespans ...")
 # ######
 # pitch#
 # ######

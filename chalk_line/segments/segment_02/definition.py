@@ -45,6 +45,11 @@ abjad.attach(
     baca.select(measure_30).leaves()[1],
 )
 
+commands = [
+    evans.detach("Voice 1", abjad.Tie(), baca.leaf(26),),
+    evans.attach("Voice 1", abjad.Dynamic("pp"), baca.leaf(26),),
+]
+
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Flute"],
@@ -53,20 +58,7 @@ maker = evans.SegmentMaker(
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
-    commands=[
-        evans.Command(
-            command="detach",
-            indicator=abjad.Tie(),
-            selector=baca.select().leaf(26),
-            voice="Voice 1",
-        ),
-        evans.Command(
-            command="attach",
-            indicator=abjad.Dynamic("pp"),
-            selector=baca.select().leaf(26),
-            voice="Voice 1",
-        ),
-    ],
+    commands=commands,
     voicewise_persistent_indicators=None,
     voicewise_measure_replacement=[[(5, measure_30)]],
     measure_replacement_timing="post-handlers",
@@ -75,10 +67,6 @@ maker = evans.SegmentMaker(
     score_includes=[
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
         "/Users/evansdsg2/Scores/chalk_line/chalk_line/build/first_stylesheet.ily",
-    ],
-    parts_includes=[
-        "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
-        "/Users/evansdsg2/Scores/chalk_line/chalk_line/build/parts_stylesheet.ily",
     ],
     segment_name="segment_02",
     current_directory=pathlib.Path(__file__).parent,
@@ -90,7 +78,6 @@ maker = evans.SegmentMaker(
     tempo=((1, 4), 71),
     rehearsal_mark="Spirals",
     page_break_counts=[90],
-    midi=False,
 )
 
 maker.build_segment()

@@ -59,7 +59,6 @@ maker = evans.SegmentMaker(
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
     commands=commands,
-    voicewise_persistent_indicators=None,
     voicewise_measure_replacement=[[(5, measure_30)]],
     measure_replacement_timing="post-handlers",
     tuplet_bracket_noteheads=True,

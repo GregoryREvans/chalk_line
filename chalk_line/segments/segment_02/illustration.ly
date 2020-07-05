@@ -679,7 +679,6 @@
                     \repeat tremolo 2 {
                         % [Voice 1 measure 6]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \override Staff.Stem.stemlet-length = 0.75
                         <d'' f''>16
                         - \tweak padding #1
                         - \tweak staff-padding #0.5
@@ -699,9 +698,7 @@
 
                         \once
                         \override Stem.stencil = ##f
-                        \revert Staff.Stem.stemlet-length
                         <cs'' fs''>16
-                        ]
                         \stopTrillSpan
 
                     }

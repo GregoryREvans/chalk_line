@@ -1,6 +1,7 @@
 import pathlib
 
 import evans
+
 from chalk_line.materials.score_structure.segment_02.articulation_material_pattern import (
     articulation_material_list,
 )

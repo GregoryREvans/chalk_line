@@ -1,6 +1,7 @@
 import pathlib
 
 import abjad
+
 from chalk_line.materials.timespans.segment_02.make_timespans import (
     rhythm_timespan_list,
 )

@@ -14,10 +14,7 @@ from chalk_line.materials.timespans.segment_03.convert_timespans import (
     segment_03_timespans,
 )
 
-c = abjad.LilyPondLiteral(
-    r"\colophon",
-    format_slot="absolute_after",
-)
+c = abjad.LilyPondLiteral(r"\colophon", format_slot="absolute_after",)
 
 chart_strings = [
     r"\chart-zero",

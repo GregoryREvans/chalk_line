@@ -831,3 +831,24 @@ Parts extraction runtime: -3 seconds
 Segment runtime: 13 seconds
 Abjad/Lilypond runtime: 2 seconds
 Parts extraction runtime: -3 seconds
+2020-07-10 11:32:46
+Segment runtime: 17 seconds
+Abjad/Lilypond runtime: 3 seconds
+Parts extraction runtime: 3 seconds
+
+2020-07-10 11:48:29
+Segment runtime: 16 seconds
+Rhythm runtime: 0 seconds
+Handler runtime: 12 seconds
+
+2020-07-10 12:01:32
+Segment runtime: 16 seconds
+ Pre-handlers runtime: 1 second
+ Handlers runtime: 12 seconds
+ Post-handlers runtime: 4 seconds
+
+2020-07-10 12:12:20
+Segment runtime: 15 seconds
+ Pre-handlers runtime: 0 seconds
+ Handlers runtime: 12 seconds
+ Post-handlers runtime: 3 seconds

@@ -1,13 +1,2 @@
 import abjad
-handler_to_value = abjad.OrderedDict(
-    [
-        (
-            'rhythm_handler_one',
-            abjad.OrderedDict(
-                [
-                    ('state', 31),
-                    ]
-                ),
-            ),
-        ]
-    )
+handler_to_value = OrderedDict([('rhythm_handler_one', OrderedDict([('state', 31)]))])

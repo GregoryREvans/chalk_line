@@ -3,8 +3,8 @@
 #(set! paper-alist (cons '("newsize" . (cons (* 21 in) (* 13.59 in))) paper-alist))
 #(set-default-paper-size "newsize")
 #(set-global-staff-size 15)
-%\include "/Users/evansdsg2/evans/evans/lilypond/evans-articulations.ily"
-\include "/Users/evansdsg2/evans/evans/lilypond/evans-spanners.ily"
+%\include "/Users/evansdsg2/evans/lilypond/evans-articulations.ily"
+\include "/Users/evansdsg2/evans/lilypond/evans-spanners.ily"
 \include "charts.ily"
 %{ \include "ekmel.ily"
 \ekmelicStyle evans %}

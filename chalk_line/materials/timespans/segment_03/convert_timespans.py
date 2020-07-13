@@ -43,7 +43,7 @@ segment_03_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
     segment_name="segment_03_rhythm_timespans",
     current_directory=pathlib.Path(__file__).parent,
     add_silence=True,
-    split=True,
+    split=False,
 )
 
 # ######

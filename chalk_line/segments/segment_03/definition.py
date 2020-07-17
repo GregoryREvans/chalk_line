@@ -11,8 +11,8 @@ from chalk_line.materials.score_structure.segment_03.time_signatures import (
     time_signatures,
 )
 from chalk_line.materials.timespans.segment_03.convert_timespans import (
-    segment_03_rhythm_timespans,
-    segment_03_timespans,
+    handler_commands,
+    rhythm_commands,
 )
 
 c = abjad.LilyPondLiteral(r"\colophon", format_slot="absolute_after",)
@@ -97,8 +97,8 @@ commands = [
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Flute"],
-    rhythm_timespans=segment_03_rhythm_timespans,
-    handler_timespans=segment_03_timespans,
+    rhythm_commands=rhythm_commands,
+    handler_commands=handler_commands,
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,

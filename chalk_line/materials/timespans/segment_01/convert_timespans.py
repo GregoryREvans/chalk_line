@@ -1,3 +1,4 @@
+import abjad
 import evans
 
 from chalk_line.materials.score_structure.segment_01.articulation_material_pattern import (
@@ -53,7 +54,14 @@ segment_01_rhythm_timespans = evans.timespan.make_split_list(
     rhythm_timespan_list, bounds
 )
 
-# segment_01_rhythm_timespans = rhythm_timespan_list
+rhythm_commands = []
+for span in segment_01_rhythm_timespans:
+    r_command = evans.RhythmCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    rhythm_commands.append(r_command)
 
 # ######
 # pitch#
@@ -65,6 +73,15 @@ for span in pitch_timespan_list:
 
 segment_01_pitch_timespans = pitch_timespan_list
 
+pitch_commands = []
+for span in segment_01_pitch_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    pitch_commands.append(command)
+
 # ######
 # notehead#
 # ######
@@ -74,6 +91,15 @@ for span in notehead_timespan_list:
     span._handler = notehead_mat(r=1)[0]
 
 segment_01_notehead_timespans = notehead_timespan_list
+
+notehead_commands = []
+for span in segment_01_notehead_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    notehead_commands.append(command)
 
 # ######
 # grace#
@@ -85,6 +111,15 @@ for span in grace_timespan_list:
 
 segment_01_grace_timespans = grace_timespan_list
 
+grace_commands = []
+for span in segment_01_grace_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    grace_commands.append(command)
+
 # ########
 # dynamic#
 # ########
@@ -94,6 +129,15 @@ for span in dynamic_timespan_list:
     span._handler = dynamic_mat(r=1)[0]
 
 segment_01_dynamic_timespans = dynamic_timespan_list
+
+dynamic_commands = []
+for span in segment_01_dynamic_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    dynamic_commands.append(command)
 
 # #############
 # articulation#
@@ -105,6 +149,15 @@ for span in articulation_timespan_list:
 
 segment_01_articulation_timespans = articulation_timespan_list
 
+articulation_commands = []
+for span in segment_01_articulation_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    articulation_commands.append(command)
+
 # #############
 # glissando#
 # #############
@@ -114,6 +167,15 @@ for span in gliss_timespan_list:
     span._handler = gliss_mat(r=1)[0]
 
 segment_01_gliss_timespans = gliss_timespan_list
+
+gliss_commands = []
+for span in segment_01_gliss_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    gliss_commands.append(command)
 
 # #############
 # trill#
@@ -125,6 +187,15 @@ for span in trill_timespan_list:
 
 segment_01_trill_timespans = trill_timespan_list
 
+trill_commands = []
+for span in segment_01_trill_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    trill_commands.append(command)
+
 # #############
 # tempo#
 # #############
@@ -135,16 +206,25 @@ for span in tempo_timespan_list:
 
 segment_01_tempo_timespans = tempo_timespan_list
 
+tempo_commands = []
+for span in segment_01_tempo_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    tempo_commands.append(command)
+
 # ##############
-# all timespans#
+# all commands#
 # ##############
-segment_01_timespans = [
-    segment_01_tempo_timespans,
-    segment_01_grace_timespans,
-    segment_01_pitch_timespans,
-    segment_01_gliss_timespans,
-    segment_01_trill_timespans,
-    segment_01_notehead_timespans,
-    segment_01_dynamic_timespans,
-    segment_01_articulation_timespans,
+handler_commands = [
+    tempo_commands,
+    grace_commands,
+    pitch_commands,
+    gliss_commands,
+    trill_commands,
+    notehead_commands,
+    dynamic_commands,
+    articulation_commands,
 ]

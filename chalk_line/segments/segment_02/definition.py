@@ -11,8 +11,8 @@ from chalk_line.materials.score_structure.segment_02.time_signatures import (
     time_signatures,
 )
 from chalk_line.materials.timespans.segment_02.convert_timespans import (
-    segment_02_rhythm_timespans,
-    segment_02_timespans,
+    handler_commands,
+    rhythm_commands,
 )
 
 measure_30 = abjad.Staff(
@@ -57,8 +57,8 @@ commands = [
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Flute"],
-    rhythm_timespans=segment_02_rhythm_timespans,
-    handler_timespans=segment_02_timespans,
+    rhythm_commands=rhythm_commands,
+    handler_commands=handler_commands,
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,

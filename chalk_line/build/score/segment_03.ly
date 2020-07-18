@@ -908,7 +908,6 @@
                         \tweak NoteHead.style #'default
                         <a' b'>4.
                         \mp
-                        \stopTextSpan
 
                     }
                     % [Voice 1 measure 25]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -924,6 +923,7 @@
                         \musicglyph                                            %! applying ending skips
                             #"scripts.ushortfermata"                           %! applying ending skips
                         }                                                      %! applying ending skips
+                    \stopTextSpan
                     \bar "|."
                     \stopStaff                                                 %! applying ending skips
 

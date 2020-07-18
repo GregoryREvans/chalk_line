@@ -57,12 +57,29 @@ commands = [
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Flute"],
-    rhythm_commands=rhythm_commands,
-    handler_commands=handler_commands,
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
-    commands=commands,
+    commands=[
+        rhythm_commands,
+        evans.call(
+            "score",
+            evans.SegmentMaker.transform_brackets,
+            abjad.select().components(abjad.Score),
+        ),
+        evans.call(
+            "score",
+            evans.SegmentMaker.rewrite_meter,
+            abjad.select().components(abjad.Score),
+        ),
+        handler_commands,
+        evans.call(
+            "score",
+            evans.SegmentMaker.beam_score,
+            abjad.select().components(abjad.Score),
+        ),
+        commands,
+    ],
     tuplet_bracket_noteheads=True,
     add_final_grand_pause=False,
     score_includes=[

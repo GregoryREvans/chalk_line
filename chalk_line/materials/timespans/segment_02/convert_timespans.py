@@ -55,6 +55,8 @@ for span in segment_02_rhythm_timespans:
     )
     rhythm_commands.append(command)
 
+evans.timespan.intercalate_silences(rhythm_commands)
+
 # ######
 # pitch#
 # ######

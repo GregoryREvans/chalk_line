@@ -23,7 +23,8 @@ handler_to_value = abjad.OrderedDict(
             'bisbigliando_handler_one',
             abjad.OrderedDict(
                 [
-                    ('count', 151),
+                    ('boolean_vector_count', 151),
+                    ('fingering_list_count', 134),
                     ]
                 ),
             ),

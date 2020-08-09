@@ -15,9 +15,7 @@ from chalk_line.materials.timespans.segment_02.convert_timespans import (
     rhythm_commands,
 )
 
-measure_30 = abjad.Staff(
-    [abjad.TremoloContainer(2, "<d'' f''>16 <cs'' fs''>16"), abjad.Rest((1, 8))]
-)
+measure_30_trem = abjad.Staff([abjad.TremoloContainer(2, "<d'' f''>16 <cs'' fs''>16")])
 fingering_1 = [
     r"\markup {",
     r"  \hspace #0.5",
@@ -38,20 +36,18 @@ bis_handler = evans.BisbigliandoHandler(
     right_padding=1,
     continuous=True,
 )
-bis_handler(measure_30[:-1])
+bis_handler(measure_30_trem[:])
 abjad.attach(
     abjad.LilyPondLiteral(
         [r"\once", r"\override Stem.stencil = ##f"], format_slot="before"
     ),
-    baca.select(measure_30).leaves()[1],
+    baca.select(measure_30_trem).leaves()[1],
 )
 
 commands = [
     evans.detach("Voice 1", abjad.Tie(), baca.leaf(26),),
     evans.attach("Voice 1", abjad.Dynamic("pp"), baca.leaf(26),),
-    evans.replace(
-        "Voice 1", measure_30, abjad.select().components().group_by_measure().get([5]),
-    ),
+    evans.replace("Voice 1", measure_30_trem, abjad.select().tuplets().get([3]),),
 ]
 
 maker = evans.SegmentMaker(

@@ -689,6 +689,7 @@
                     }
 
                     r8
+                    \stopTrillSpan
                     % [Voice 1 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'diamond

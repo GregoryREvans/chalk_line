@@ -34,7 +34,7 @@ bis_handler = evans.BisbigliandoHandler(
     padding=1,
     staff_padding=0.5,
     right_padding=1,
-    continuous=True,
+    forget=False,
 )
 bis_handler(measure_30_trem[:])
 abjad.attach(

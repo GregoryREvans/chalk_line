@@ -31,8 +31,8 @@ notehead_handler_one = evans.NoteheadHandler(
     ],
     transition=False,
     head_boolean_vector=[1],
-    head_vector_continuous=True,
-    continuous=True,
+    head_vector_forget=False,
+    forget=False,
     count=-1,
     name="notehead handler one",
 )

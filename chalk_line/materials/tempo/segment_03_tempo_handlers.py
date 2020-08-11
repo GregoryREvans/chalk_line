@@ -14,6 +14,6 @@ tempo_handler_one = evans.TempoSpannerHandler(
     boolean_vector=[1],
     padding=1.25,
     staff_padding=1.25,
-    continuous=True,
+    forget=False,
     name="tempo_handler_one",
 )

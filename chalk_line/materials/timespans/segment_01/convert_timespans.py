@@ -45,7 +45,7 @@ print("Converting timespans ...")
 # #######
 # rhythm#
 # #######
-rhythm_mat = evans.CyclicList(rhythm_material_list, continuous=True)
+rhythm_mat = evans.CyclicList(rhythm_material_list, forget=False)
 
 for span in rhythm_timespan_list:
     span._handler = rhythm_mat(r=1)[0]
@@ -66,7 +66,7 @@ for span in segment_01_rhythm_timespans:
 # ######
 # pitch#
 # ######
-pitch_mat = evans.CyclicList(pitch_material_list, continuous=True)
+pitch_mat = evans.CyclicList(pitch_material_list, forget=False)
 
 for span in pitch_timespan_list:
     span._handler = pitch_mat(r=1)[0]
@@ -85,7 +85,7 @@ for span in segment_01_pitch_timespans:
 # ######
 # notehead#
 # ######
-notehead_mat = evans.CyclicList(notehead_material_list, continuous=True)
+notehead_mat = evans.CyclicList(notehead_material_list, forget=False)
 
 for span in notehead_timespan_list:
     span._handler = notehead_mat(r=1)[0]
@@ -104,7 +104,7 @@ for span in segment_01_notehead_timespans:
 # ######
 # grace#
 # ######
-grace_mat = evans.CyclicList(grace_material_list, continuous=True)
+grace_mat = evans.CyclicList(grace_material_list, forget=False)
 
 for span in grace_timespan_list:
     span._handler = grace_mat(r=1)[0]
@@ -123,7 +123,7 @@ for span in segment_01_grace_timespans:
 # ########
 # dynamic#
 # ########
-dynamic_mat = evans.CyclicList(dynamic_material_list, continuous=True)
+dynamic_mat = evans.CyclicList(dynamic_material_list, forget=False)
 
 for span in dynamic_timespan_list:
     span._handler = dynamic_mat(r=1)[0]
@@ -142,7 +142,7 @@ for span in segment_01_dynamic_timespans:
 # #############
 # articulation#
 # #############
-articulation_mat = evans.CyclicList(articulation_material_list, continuous=True)
+articulation_mat = evans.CyclicList(articulation_material_list, forget=False)
 
 for span in articulation_timespan_list:
     span._handler = articulation_mat(r=1)[0]
@@ -161,7 +161,7 @@ for span in segment_01_articulation_timespans:
 # #############
 # glissando#
 # #############
-gliss_mat = evans.CyclicList(gliss_material_list, continuous=True)
+gliss_mat = evans.CyclicList(gliss_material_list, forget=False)
 
 for span in gliss_timespan_list:
     span._handler = gliss_mat(r=1)[0]
@@ -180,7 +180,7 @@ for span in segment_01_gliss_timespans:
 # #############
 # trill#
 # #############
-trill_mat = evans.CyclicList(trill_material_list, continuous=True)
+trill_mat = evans.CyclicList(trill_material_list, forget=False)
 
 for span in trill_timespan_list:
     span._handler = trill_mat(r=1)[0]
@@ -199,7 +199,7 @@ for span in segment_01_trill_timespans:
 # #############
 # tempo#
 # #############
-tempo_mat = evans.CyclicList(tempo_material_list, continuous=True)
+tempo_mat = evans.CyclicList(tempo_material_list, forget=False)
 
 for span in tempo_timespan_list:
     span._handler = tempo_mat(r=1)[0]

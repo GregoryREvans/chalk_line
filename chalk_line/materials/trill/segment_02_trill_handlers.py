@@ -166,6 +166,6 @@ bisbigliando_handler_one = evans.BisbigliandoHandler(
     padding=5,
     staff_padding=4,
     right_padding=2,
-    continuous=True,
+    forget=False,
     name="bisbigliando_handler_one",
 )

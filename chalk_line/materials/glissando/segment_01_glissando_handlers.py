@@ -269,7 +269,7 @@ glissando_handler_one = evans.GlissandoHandler(
         0,
         0,
     ],
-    continuous=True,
+    forget=False,
     apply_to="ties",
     name="glissando_handler_one",
 )

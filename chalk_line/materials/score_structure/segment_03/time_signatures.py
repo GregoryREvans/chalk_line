@@ -9,7 +9,7 @@ from chalk_line.materials.timespans.segment_03.make_timespans import (
 offset_counter = abjad.OffsetCounter(rhythm_timespan_list)
 
 counter_path = f"""{pathlib.Path(__file__).parent}/segment_03_offset_counter.pdf"""
-persisted_counter = abjad.persist(offset_counter).as_pdf(counter_path, scale=0.70)
+persisted_counter = abjad.persist.as_pdf(offset_counter, counter_path, scale=0.70)
 
 permitted_meters = abjad.MeterList(
     [

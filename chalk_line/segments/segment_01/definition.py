@@ -16,13 +16,41 @@ from chalk_line.materials.timespans.segment_01.convert_timespans import (
 )
 
 commands = [
-    evans.detach("Voice 1", abjad.Dynamic("mf"), baca.pleaf(16),),
-    evans.detach("Voice 1", abjad.Dynamic("f"), baca.pleaf(20),),
-    evans.detach("Voice 1", abjad.Dynamic("p"), baca.pleaf(24),),
-    evans.detach("Voice 1", abjad.Dynamic("mf"), baca.pleaf(34),),
-    evans.detach("Voice 1", abjad.Dynamic("f"), baca.pleaf(38),),
-    evans.detach("Voice 1", abjad.Dynamic("ff"), baca.pleaf(51),),
-    evans.detach("Voice 1", abjad.Dynamic("mf"), baca.pleaf(68),),
+    evans.detach(
+        "Voice 1",
+        abjad.Dynamic("mf"),
+        baca.pleaf(16),
+    ),
+    evans.detach(
+        "Voice 1",
+        abjad.Dynamic("f"),
+        baca.pleaf(20),
+    ),
+    evans.detach(
+        "Voice 1",
+        abjad.Dynamic("p"),
+        baca.pleaf(24),
+    ),
+    evans.detach(
+        "Voice 1",
+        abjad.Dynamic("mf"),
+        baca.pleaf(34),
+    ),
+    evans.detach(
+        "Voice 1",
+        abjad.Dynamic("f"),
+        baca.pleaf(38),
+    ),
+    evans.detach(
+        "Voice 1",
+        abjad.Dynamic("ff"),
+        baca.pleaf(51),
+    ),
+    evans.detach(
+        "Voice 1",
+        abjad.Dynamic("mf"),
+        baca.pleaf(68),
+    ),
 ]
 
 maker = evans.SegmentMaker(

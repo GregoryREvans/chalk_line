@@ -15,7 +15,10 @@ from chalk_line.materials.timespans.segment_03.convert_timespans import (
     rhythm_commands,
 )
 
-c = abjad.LilyPondLiteral(r"\colophon", format_slot="absolute_after",)
+c = abjad.LilyPondLiteral(
+    r"\colophon",
+    format_slot="absolute_after",
+)
 
 chart_strings = [
     r"\chart-zero",
@@ -39,59 +42,271 @@ chart_strings = [
 charts = [abjad.LilyPondLiteral(_, format_slot="after") for _ in chart_strings]
 
 commands = [
-    evans.attach("Voice 1", abjad.ColorFingering(3), baca.pleaf(1),),
-    evans.attach("Voice 1", abjad.ColorFingering(1), baca.pleaf(2),),
-    evans.attach("Voice 1", abjad.ColorFingering(2), baca.pleaf(3),),
-    evans.attach("Voice 1", abjad.ColorFingering(2), baca.pleaf(17),),
-    evans.attach("Voice 1", abjad.ColorFingering(1), baca.pleaf(18),),
-    evans.attach("Voice 1", abjad.ColorFingering(3), baca.pleaf(21),),
-    evans.attach("Voice 1", abjad.ColorFingering(1), baca.pleaf(22),),
-    evans.attach("Voice 1", abjad.ColorFingering(2), baca.pleaf(23),),
-    evans.attach("Voice 1", abjad.ColorFingering(2), baca.pleaf(38),),
-    evans.attach("Voice 1", abjad.ColorFingering(1), baca.pleaf(39),),
-    evans.attach("Voice 1", abjad.ColorFingering(3), baca.pleaf(58),),
-    evans.attach("Voice 1", abjad.ColorFingering(1), baca.pleaf(59),),
-    evans.attach("Voice 1", abjad.ColorFingering(2), baca.pleaf(60),),
-    evans.attach("Voice 1", charts[0], baca.pleaf(4),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(12),),
-    evans.attach("Voice 1", charts[1], baca.pleaf(12),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(16),),
-    evans.attach("Voice 1", charts[2], baca.pleaf(19),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(20),),
-    evans.attach("Voice 1", charts[0], baca.pleaf(24),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(33),),
-    evans.attach("Voice 1", charts[1], baca.pleaf(33),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(37),),
-    evans.attach("Voice 1", charts[2], baca.pleaf(40),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(41),),
-    evans.attach("Voice 1", charts[3], baca.pleaf(41),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(42),),
-    evans.attach("Voice 1", charts[4], baca.pleaf(42),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(44),),
-    evans.attach("Voice 1", charts[5], baca.pleaf(44),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(46),),
-    evans.attach("Voice 1", charts[6], baca.pleaf(46),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(50),),
-    evans.attach("Voice 1", charts[7], baca.pleaf(50),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(57),),
-    evans.attach("Voice 1", charts[8], baca.pleaf(61),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(65),),
-    evans.attach("Voice 1", charts[9], baca.pleaf(65),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(67),),
-    evans.attach("Voice 1", charts[10], baca.pleaf(67),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(70),),
-    evans.attach("Voice 1", charts[11], baca.pleaf(70),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(72),),
-    evans.attach("Voice 1", charts[12], baca.pleaf(72),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(74),),
-    evans.attach("Voice 1", charts[13], baca.pleaf(74),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(77),),
-    evans.attach("Voice 1", charts[14], baca.pleaf(78),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(80),),
-    evans.attach("Voice 1", charts[15], baca.pleaf(80),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.pleaf(83),),
-    evans.attach("Voice 1", charts[6], baca.pleaf(83),),
-    evans.attach("Voice 1", abjad.StopTextSpan(), baca.select().leaf(-1),),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(3),
+        baca.pleaf(1),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(1),
+        baca.pleaf(2),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(2),
+        baca.pleaf(3),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(2),
+        baca.pleaf(17),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(1),
+        baca.pleaf(18),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(3),
+        baca.pleaf(21),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(1),
+        baca.pleaf(22),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(2),
+        baca.pleaf(23),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(2),
+        baca.pleaf(38),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(1),
+        baca.pleaf(39),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(3),
+        baca.pleaf(58),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(1),
+        baca.pleaf(59),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.ColorFingering(2),
+        baca.pleaf(60),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[0],
+        baca.pleaf(4),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(12),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[1],
+        baca.pleaf(12),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(16),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[2],
+        baca.pleaf(19),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(20),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[0],
+        baca.pleaf(24),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(33),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[1],
+        baca.pleaf(33),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(37),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[2],
+        baca.pleaf(40),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(41),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[3],
+        baca.pleaf(41),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(42),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[4],
+        baca.pleaf(42),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(44),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[5],
+        baca.pleaf(44),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(46),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[6],
+        baca.pleaf(46),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(50),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[7],
+        baca.pleaf(50),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(57),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[8],
+        baca.pleaf(61),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(65),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[9],
+        baca.pleaf(65),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(67),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[10],
+        baca.pleaf(67),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(70),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[11],
+        baca.pleaf(70),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(72),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[12],
+        baca.pleaf(72),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(74),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[13],
+        baca.pleaf(74),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(77),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[14],
+        baca.pleaf(78),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(80),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[15],
+        baca.pleaf(80),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.pleaf(83),
+    ),
+    evans.attach(
+        "Voice 1",
+        charts[6],
+        baca.pleaf(83),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.StopTextSpan(),
+        baca.select().leaf(-1),
+    ),
 ]
 
 maker = evans.SegmentMaker(

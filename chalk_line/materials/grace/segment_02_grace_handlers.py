@@ -233,5 +233,6 @@ flute_grace_handler_one = evans.GraceHandler(
         2,
     ],
     forget=False,
+    remove_skips=True,
     name="flute_grace_handler_one",
 )

@@ -283,6 +283,19 @@ for item in chord_1:
         assert isinstance(item, (int, float))
         chord_2.append(item + 12)
 
+for i, pitch in enumerate(chord_2):
+    if isinstance(pitch, list):
+        item_ = []
+        for _ in pitch:
+            if 28 < _:
+                item_.append(_ - 12)
+            else:
+                item_.append(_)
+        chord_2[i] = item_
+    else:
+        if 28 < pitch:
+            chord_2[i] = pitch - 12
+
 # chord_2 = [
 #     item + 12
 #     if isinstance(item, (int, float))

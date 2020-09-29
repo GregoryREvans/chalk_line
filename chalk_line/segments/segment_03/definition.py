@@ -311,7 +311,7 @@ commands = [
 
 maker = evans.SegmentMaker(
     instruments=insts,
-    names=["Flute"],
+    names=[r"\markup { Flute }"],
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,

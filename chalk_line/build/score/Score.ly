@@ -1,7 +1,8 @@
 \version "2.19.84"  %! LilyPondFile
 \language "english" %! LilyPondFile
 
-\include "../first_stylesheet.ily"                                      %! LilyPondFile
+\include "../magnolia_stylesheet.ily"                                      %! LilyPondFile
+\include "../charts.ily"
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily" %! LilyPondFile
 \include "/Users/evansdsg2/evans/lilypond/evans-articulations.ily"
 %\include "/Users/evansdsg2/evans/lilypond/evans-spanners.ily"

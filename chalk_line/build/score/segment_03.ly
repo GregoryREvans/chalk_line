@@ -43,6 +43,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "59"
             - \tweak padding #1.25
             - \tweak staff-padding #1.25
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 8]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -57,6 +58,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "55"
             - \tweak padding #1.25
             - \tweak staff-padding #1.25
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 10]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -71,6 +73,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "55"
             - \tweak padding #1.25
             - \tweak staff-padding #1.25
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 12]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -85,6 +88,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "50"
             - \tweak padding #1.25
             - \tweak staff-padding #1.25
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 14]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -103,6 +107,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "50"
             - \tweak padding #1.25
             - \tweak staff-padding #1.25
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 17]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -113,6 +118,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "46"
             - \tweak padding #1.25
             - \tweak staff-padding #1.25
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 18]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -131,6 +137,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "46"
             - \tweak padding #1.25
             - \tweak staff-padding #1.25
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 21]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -145,6 +152,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "34"
             - \tweak padding #1.25
             - \tweak staff-padding #1.25
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 23]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -179,8 +187,8 @@
 
                         \set Staff.instrumentName =                            %! applying staff names and clefs
                         \markup { Flute }                                      %! applying staff names and clefs
-                        \tweak NoteHead.style #'default
                         \clef "treble"
+                        \tweak NoteHead.style #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         af''32
                         \pp

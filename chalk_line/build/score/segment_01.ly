@@ -35,6 +35,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "87"
             - \tweak padding #0.5
             - \tweak staff-padding #0.5
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 6]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -45,6 +46,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "95"
             - \tweak padding #0.5
             - \tweak staff-padding #0.5
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 7]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -59,6 +61,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "95"
             - \tweak padding #0.5
             - \tweak staff-padding #0.5
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 9]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -73,6 +76,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "60"
             - \tweak padding #0.5
             - \tweak staff-padding #0.5
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 11]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -91,6 +95,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "73"
             - \tweak padding #0.5
             - \tweak staff-padding #0.5
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 14]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -105,6 +110,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "90"
             - \tweak padding #0.5
             - \tweak staff-padding #0.5
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 16]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -119,6 +125,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "90"
             - \tweak padding #0.5
             - \tweak staff-padding #0.5
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 18]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -133,6 +140,7 @@
             - \baca-metronome-mark-spanner-left-text 2 0 1 "87"
             - \tweak padding #0.5
             - \tweak staff-padding #0.5
+            - \tweak font-size #2
             \bacaStartTextSpanMM
             % [Global Context measure 20]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -171,8 +179,8 @@
 
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Flute }                                          %! applying staff names and clefs
-                    \tweak NoteHead.style #'default
                     \clef "treble"
+                    \tweak NoteHead.style #'default
                     c''8.
                     \pp
                     \<
@@ -214,13 +222,13 @@
 
                         \slash
                         \override Stem.direction = #UP
-                        \tweak NoteHead.style #'default
                         \override Staff.Stem.stemlet-length = 0
+                        \tweak NoteHead.style #'default
                         d''16
                         [
 
-                        \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
+                        \tweak NoteHead.style #'default
                         eqf''16
                         ]
                         \revert Stem.direction
@@ -272,8 +280,8 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'diamond
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'diamond
                             dqs''16
                             \ff
                             \>
@@ -283,8 +291,8 @@
                             ef''16
                             - \accent
 
-                            \tweak NoteHead.style #'slash
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'slash
                             aqf''16
                             ]
                             \revert Stem.direction
@@ -347,14 +355,14 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'default
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'default
                             ef'''16
                             [
                             \stopTrillSpan
 
-                            \tweak NoteHead.style #'default
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'default
                             dqs'''16
                             - \tenuto
                             ]
@@ -386,16 +394,16 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'default
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'default
                             e''16
                             [
 
                             \tweak NoteHead.style #'default
                             fs''16
 
-                            \tweak NoteHead.style #'default
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'default
                             aqf''16
                             ]
                             \revert Stem.direction
@@ -460,14 +468,14 @@
 
                                 \slash
                                 \override Stem.direction = #UP
-                                \tweak NoteHead.style #'default
                                 \override Staff.Stem.stemlet-length = 0
+                                \tweak NoteHead.style #'default
                                 c'''16
                                 [
                                 \stopTrillSpan
 
-                                \tweak NoteHead.style #'default
                                 \revert Staff.Stem.stemlet-length
+                                \tweak NoteHead.style #'default
                                 af''16
                                 ]
                                 \revert Stem.direction
@@ -511,8 +519,8 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'slash
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'slash
                             cs''16
                             \mf
                             \<
@@ -521,8 +529,8 @@
                             \tweak NoteHead.style #'diamond
                             dqf''16
 
-                            \tweak NoteHead.style #'diamond
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'diamond
                             ef''16
                             ]
                             \revert Stem.direction
@@ -619,13 +627,13 @@
 
                         \slash
                         \override Stem.direction = #UP
-                        \tweak NoteHead.style #'default
                         \override Staff.Stem.stemlet-length = 0
+                        \tweak NoteHead.style #'default
                         fs''16
                         [
 
-                        \tweak NoteHead.style #'diamond
                         \revert Staff.Stem.stemlet-length
+                        \tweak NoteHead.style #'diamond
                         eqf''16
                         - \tenuto
                         ]
@@ -835,13 +843,13 @@
 
                         \slash
                         \override Stem.direction = #UP
-                        \tweak NoteHead.style #'diamond
                         \override Staff.Stem.stemlet-length = 0
+                        \tweak NoteHead.style #'diamond
                         b''16
                         [
 
-                        \tweak NoteHead.style #'diamond
                         \revert Staff.Stem.stemlet-length
+                        \tweak NoteHead.style #'diamond
                         a''16
                         ]
                         \revert Stem.direction
@@ -862,8 +870,8 @@
 
                         \slash
                         \override Stem.direction = #UP
-                        \tweak NoteHead.style #'slash
                         \override Staff.Stem.stemlet-length = 0
+                        \tweak NoteHead.style #'slash
                         g''16
                         \ff
                         \>
@@ -872,8 +880,8 @@
                         \tweak NoteHead.style #'diamond
                         fqs''16
 
-                        \tweak NoteHead.style #'diamond
                         \revert Staff.Stem.stemlet-length
+                        \tweak NoteHead.style #'diamond
                         b''16
                         - \tenuto
                         ]
@@ -984,14 +992,14 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'default
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'default
                             fs''16
                             :32
                             [
 
-                            \tweak NoteHead.style #'diamond
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'diamond
                             fqs''16
                             \mf
                             ]
@@ -1051,16 +1059,16 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'diamond
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'diamond
                             aqs''16
                             [
 
                             \tweak NoteHead.style #'slash
                             a''16
 
-                            \tweak NoteHead.style #'slash
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'slash
                             aqf''16
                             ]
                             \revert Stem.direction
@@ -1125,14 +1133,14 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'default
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'default
                             fqs''16
                             - \accent
                             [
 
-                            \tweak NoteHead.style #'default
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'default
                             g''16
                             ]
                             \revert Stem.direction
@@ -1158,8 +1166,8 @@
 
                                 \slash
                                 \override Stem.direction = #UP
-                                \tweak NoteHead.style #'default
                                 \override Staff.Stem.stemlet-length = 0
+                                \tweak NoteHead.style #'default
                                 cs''16
                                 \p
                                 \<
@@ -1168,8 +1176,8 @@
                                 \tweak NoteHead.style #'default
                                 dqf''16
 
-                                \tweak NoteHead.style #'default
                                 \revert Staff.Stem.stemlet-length
+                                \tweak NoteHead.style #'default
                                 ef''16
                                 - \tenuto
                                 ]
@@ -1242,13 +1250,13 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'default
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'default
                             ef'''16
                             [
 
-                            \tweak NoteHead.style #'diamond
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'diamond
                             dqf'''16
                             ]
                             \revert Stem.direction
@@ -1282,16 +1290,16 @@
 
                                 \slash
                                 \override Stem.direction = #UP
-                                \tweak NoteHead.style #'diamond
                                 \override Staff.Stem.stemlet-length = 0
+                                \tweak NoteHead.style #'diamond
                                 dqs''16
                                 [
 
                                 \tweak NoteHead.style #'diamond
                                 e''16
 
-                                \tweak NoteHead.style #'default
                                 \revert Staff.Stem.stemlet-length
+                                \tweak NoteHead.style #'default
                                 dqf''16
                                 ]
                                 \revert Stem.direction
@@ -1362,13 +1370,13 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'default
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'default
                             dqs'''16
                             [
 
-                            \tweak NoteHead.style #'default
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'default
                             cs'''16
                             ]
                             \revert Stem.direction
@@ -1385,16 +1393,16 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'diamond
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'diamond
                             bqf''16
                             [
 
                             \tweak NoteHead.style #'diamond
                             bf''16
 
-                            \tweak NoteHead.style #'diamond
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'diamond
                             dqf'''16
                             ]
                             \revert Stem.direction
@@ -1441,14 +1449,14 @@
 
                         \slash
                         \override Stem.direction = #UP
-                        \tweak NoteHead.style #'slash
                         \override Staff.Stem.stemlet-length = 0
+                        \tweak NoteHead.style #'slash
                         bf''16
                         - \tenuto
                         [
 
-                        \tweak NoteHead.style #'diamond
                         \revert Staff.Stem.stemlet-length
+                        \tweak NoteHead.style #'diamond
                         bqf''16
                         - \accent
                         ]
@@ -1528,14 +1536,14 @@
 
                         \slash
                         \override Stem.direction = #UP
-                        \tweak NoteHead.style #'default
                         \override Staff.Stem.stemlet-length = 0
+                        \tweak NoteHead.style #'default
                         f'''16
                         :32
                         [
 
-                        \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
+                        \tweak NoteHead.style #'default
                         gqf''16
                         :32
                         ]
@@ -1611,16 +1619,16 @@
 
                         \slash
                         \override Stem.direction = #UP
-                        \tweak NoteHead.style #'slash
                         \override Staff.Stem.stemlet-length = 0
+                        \tweak NoteHead.style #'slash
                         d''16
                         [
 
                         \tweak NoteHead.style #'slash
                         dqs''16
 
-                        \tweak NoteHead.style #'diamond
                         \revert Staff.Stem.stemlet-length
+                        \tweak NoteHead.style #'diamond
                         d'''16
                         \pp
                         ]
@@ -1692,13 +1700,13 @@
 
                                 \slash
                                 \override Stem.direction = #UP
-                                \tweak NoteHead.style #'default
                                 \override Staff.Stem.stemlet-length = 0
+                                \tweak NoteHead.style #'default
                                 aqs''16
                                 [
 
-                                \tweak NoteHead.style #'default
                                 \revert Staff.Stem.stemlet-length
+                                \tweak NoteHead.style #'default
                                 a''16
                                 ]
                                 \revert Stem.direction
@@ -1754,16 +1762,16 @@
 
                         \slash
                         \override Stem.direction = #UP
-                        \tweak NoteHead.style #'diamond
                         \override Staff.Stem.stemlet-length = 0
+                        \tweak NoteHead.style #'diamond
                         ef'''16
                         [
 
                         \tweak NoteHead.style #'diamond
                         a''16
 
-                        \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
+                        \tweak NoteHead.style #'default
                         fqs''16
                         ]
                         \revert Stem.direction
@@ -1831,15 +1839,15 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'diamond
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'diamond
                             b''16
                             \f
                             \>
                             [
 
-                            \tweak NoteHead.style #'diamond
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'diamond
                             a''16
                             ]
                             \revert Stem.direction
@@ -1894,16 +1902,16 @@
 
                                 \slash
                                 \override Stem.direction = #UP
-                                \tweak NoteHead.style #'default
                                 \override Staff.Stem.stemlet-length = 0
+                                \tweak NoteHead.style #'default
                                 aqf''16
                                 [
 
                                 \tweak NoteHead.style #'default
                                 c''16
 
-                                \tweak NoteHead.style #'default
                                 \revert Staff.Stem.stemlet-length
+                                \tweak NoteHead.style #'default
                                 cs''16
                                 ]
                                 \revert Stem.direction
@@ -1949,13 +1957,13 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'diamond
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'diamond
                             dqs''16
                             [
 
-                            \tweak NoteHead.style #'default
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'default
                             d'''16
                             ]
                             \revert Stem.direction
@@ -2000,8 +2008,8 @@
 
                             \slash
                             \override Stem.direction = #UP
-                            \tweak NoteHead.style #'slash
                             \override Staff.Stem.stemlet-length = 0
+                            \tweak NoteHead.style #'slash
                             dqf'''16
                             \f
                             \>
@@ -2011,8 +2019,8 @@
                             c''16
                             - \tenuto
 
-                            \tweak NoteHead.style #'diamond
                             \revert Staff.Stem.stemlet-length
+                            \tweak NoteHead.style #'diamond
                             cs''16
                             ]
                             \revert Stem.direction
@@ -2051,14 +2059,14 @@
 
                                 \slash
                                 \override Stem.direction = #UP
-                                \tweak NoteHead.style #'default
                                 \override Staff.Stem.stemlet-length = 0
+                                \tweak NoteHead.style #'default
                                 dqs''16
                                 :32
                                 [
 
-                                \tweak NoteHead.style #'default
                                 \revert Staff.Stem.stemlet-length
+                                \tweak NoteHead.style #'default
                                 d'''16
                                 :32
                                 ]

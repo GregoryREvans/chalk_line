@@ -195,7 +195,7 @@
                         % [Voice 1 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        \markup { Flute }                                      %! applying staff names and clefs
+                        "Flute"                                                %! applying staff names and clefs
                         \clef "treble"
                         \tweak NoteHead.style #'default
                         c''8.

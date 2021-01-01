@@ -303,6 +303,6 @@ for i, pitch in enumerate(chord_2):
 #     for item in chord_1
 #     ]
 
-chord_1 = evans.pitch_warp(
-    pitch_list=chord_2, warp_values=[0.5, -0.5], boolean_vector=[0, 0, 1, 0, 1]
+chord_1 = evans.Sequence(chord_2).pitch_warp(
+    warp_values=[0.5, -0.5], boolean_vector=[0, 0, 1, 0, 1]
 )

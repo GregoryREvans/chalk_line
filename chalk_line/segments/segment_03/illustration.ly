@@ -368,23 +368,21 @@
                         \chart-two
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "8")
-                        \times 5/4 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 8 5) "8")
+                        \times 5/8 {
 
-                            \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
+                            \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                             \times 2/3 {
                                 % [Voice 1 measure 7]                          %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                                 \tweak NoteHead.style #'slash
-                                \override Staff.Stem.stemlet-length = 0.75
-                                af''8
+                                af''4
                                 \mp
                                 \>
                                 \stopTextSpan
-                                [
 
                                 \tweak NoteHead.style #'slash
-                                af''8
+                                af''4
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -394,7 +392,7 @@
                                     }
 
                                 \tweak NoteHead.style #'diamond
-                                af''8
+                                af''4
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -406,8 +404,7 @@
                             }
 
                             \tweak NoteHead.style #'diamond
-                            \revert Staff.Stem.stemlet-length
-                            af''8
+                            af''4
                             \pp
                             ^ \markup {
                                 \override
@@ -416,9 +413,8 @@
                                         \finger
                                             2
                                 }
-                            ]
 
-                            r8
+                            r4
 
                         }
 
@@ -721,21 +717,21 @@
                         }
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 7) "8")
-                        \times 7/6 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 12 7) "8")
+                        \times 7/12 {
 
                             \tweak NoteHead.style #'default
-                            <gqs'' cqs'''>8
+                            <gqs'' cqs'''>4
                             \mp
                             \>
                             \chart-eight
 
                             \tweak NoteHead.style #'default
-                            <eqs'' gqs''>4
+                            <eqs'' gqs''>2
                             \pp
 
                             \tweak NoteHead.style #'default
-                            <fqs' eqs''>4.
+                            <fqs' eqs''>2.
                             \mf
 
                         }
@@ -785,18 +781,18 @@
                         }
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "8")
-                        \times 5/4 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 8 5) "8")
+                        \times 5/8 {
                             % [Voice 1 measure 19]                             %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \tweak NoteHead.style #'diamond
-                            <aqf' gqf'' eqs'''>4
+                            <aqf' gqf'' eqs'''>2
                             \pp
                             \stopTextSpan
                             \chart-eleven
 
                             \tweak NoteHead.style #'default
-                            <aqf' gqf''>4
+                            <aqf' gqf''>2
                             \mp
 
                         }
@@ -853,21 +849,21 @@
                         \pp
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 7) "8")
-                        \times 7/6 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 12 7) "8")
+                        \times 7/12 {
 
                             \tweak NoteHead.style #'diamond
-                            c''4.
+                            c''2.
                             \mp
                             \stopTextSpan
                             \chart-fifteen
 
                             \tweak NoteHead.style #'diamond
-                            fs''4
+                            fs''2
                             \pp
 
                             \tweak NoteHead.style #'default
-                            <c'' fs''>8
+                            <c'' fs''>4
                             \mf
                             \<
 

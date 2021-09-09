@@ -1,4 +1,3 @@
-import abjad
 import evans
 
 articulation_handler_one = evans.ArticulationHandler(
@@ -45,11 +44,3 @@ articulation_handler_one = evans.ArticulationHandler(
     forget=False,
     name="articulation_handler_one",
 )
-
-test_fingering = abjad.WoodwindFingering(
-    name="flute",
-    center_column=("one", "two", "three", "four", "five", "six"),
-    left_hand=("bes", "b", "gis"),
-    right_hand=("bes", "d", "dis", "ees", "cis", "c", "gz"),
-)
-mark = abjad.Markup(contents=test_fingering(), direction=abjad.Down)

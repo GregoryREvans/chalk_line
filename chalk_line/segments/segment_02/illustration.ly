@@ -4,14 +4,6 @@
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
 \include "/Users/evansdsg2/Scores/chalk_line/chalk_line/build/first_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
 
-\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
-    tagline = ##f
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
-
-\layout {}
-
-\paper {}
-
 \score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
 
     \context Score = "chalk_line Score"
@@ -23,12 +15,7 @@
 
             \tempo 4=71
             \time 2/4                                                          %! scaling time signatures
-            \mark \markup {
-                \bold
-                    {
-                        Spirals
-                    }
-                }
+            \mark \markup \bold { Spirals }
             s1 * 1/2
             % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -375,7 +362,7 @@
                         % [Voice 1 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        "Flute"                                                %! applying staff names and clefs
+                        \markup { \hcenter-in #14 "Flute" }                    %! applying staff names and clefs
                         \clef "treble"
                         \tweak NoteHead.style #'default
                         \override Staff.Stem.stemlet-length = 0.75

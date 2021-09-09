@@ -48,12 +48,12 @@ commands = [
     evans.detach(
         "Voice 1",
         abjad.Tie(),
-        baca.leaf(26),
+        baca.selectors.leaf(26),
     ),
     evans.attach(
         "Voice 1",
         abjad.Dynamic("pp"),
-        baca.leaf(26),
+        baca.selectors.leaf(26),
     ),
     evans.replace(
         "Voice 1",

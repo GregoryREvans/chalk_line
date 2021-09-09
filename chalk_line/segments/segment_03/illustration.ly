@@ -4,14 +4,6 @@
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
 \include "/Users/evansdsg2/Scores/chalk_line/chalk_line/build/first_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
 
-\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
-    tagline = ##f
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
-
-\layout {}
-
-\paper {}
-
 \score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
 
     \context Score = "chalk_line Score"
@@ -23,12 +15,7 @@
 
             \tempo 4=59
             \time 5/4                                                          %! scaling time signatures
-            \mark \markup {
-                \bold
-                    {
-                        Afterimage
-                    }
-                }
+            \mark \markup \bold { Afterimage }
             s1 * 5/4
             % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -203,7 +190,7 @@
                             % [Voice 1 measure 1]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \set Staff.instrumentName =                        %! applying staff names and clefs
-                            "Flute"                                            %! applying staff names and clefs
+                            \markup { \hcenter-in #14 "Flute" }                %! applying staff names and clefs
                             \clef "treble"
                             \tweak NoteHead.style #'default
                             \override Staff.Stem.stemlet-length = 0.75
@@ -214,24 +201,12 @@
 
                             \tweak NoteHead.style #'default
                             af''32
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            3
-                                }
+                            ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
 
                             \tweak NoteHead.style #'default
                             \revert Staff.Stem.stemlet-length
                             af''32
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
+                            ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
                             ]
 
                         }
@@ -239,13 +214,7 @@
                         \tweak NoteHead.style #'default
                         af''32
                         \mp
-                        ^ \markup {
-                            \override
-                                #'(circle-padding . 0.25)
-                                \circle
-                                    \finger
-                                        2
-                            }
+                        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
                         r32
 
@@ -337,25 +306,13 @@
                             \tweak NoteHead.style #'default
                             d''4
                             \mf
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                            ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
                             \<
 
                             \tweak NoteHead.style #'diamond
                             d''8
                             \f
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
+                            ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
                             r8
 
@@ -383,36 +340,18 @@
 
                                 \tweak NoteHead.style #'slash
                                 af''4
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                3
-                                    }
+                                ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
 
                                 \tweak NoteHead.style #'diamond
                                 af''4
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                                ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
                             }
 
                             \tweak NoteHead.style #'diamond
                             af''4
                             \pp
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                            ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
                             r4
 
@@ -523,25 +462,13 @@
 
                             \tweak NoteHead.style #'default
                             d''8
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                            ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
                             \tweak NoteHead.style #'diamond
                             \revert Staff.Stem.stemlet-length
                             d''16
                             \f
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
+                            ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
                             ]
 
                             r16
@@ -679,23 +606,11 @@
 
                                 \tweak NoteHead.style #'default
                                 cqs'''16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                3
-                                    }
+                                ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
 
                                 \tweak NoteHead.style #'default
                                 cqs'''16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                                ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
                             }
 
@@ -703,13 +618,7 @@
                             \revert Staff.Stem.stemlet-length
                             cqs'''16.
                             \pp
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                            ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
                             ]
 
                             r16.
@@ -940,10 +849,7 @@
 
                         \once \override MultiMeasureRest.color = #white        %! applying ending skips
                         R1 * 1/16
-                        ^ \markup {                                            %! applying ending skips
-                            \musicglyph                                        %! applying ending skips
-                                #"scripts.ushortfermata"                       %! applying ending skips
-                            }                                                  %! applying ending skips
+                        ^ \markup \center-align \musicglyph #"scripts.ushortfermata" %! applying ending skips
                         \stopTextSpan
                         \bar "|."
                         \stopStaff                                             %! applying ending skips

@@ -8,12 +8,7 @@
 
             \tempo 4=71
             \time 2/4                                                          %! scaling time signatures
-            \mark \markup {
-                \bold
-                    {
-                        Spirals
-                    }
-                }
+            \mark \markup \bold { Spirals }
             s1 * 1/2
             % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -360,7 +355,7 @@
                         % [Voice 1 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        "Flute"                                                %! applying staff names and clefs
+                        \markup { \hcenter-in #14 "Flute" }                    %! applying staff names and clefs
                         \clef "treble"
                         \tweak NoteHead.style #'default
                         \override Staff.Stem.stemlet-length = 0.75

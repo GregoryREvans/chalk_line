@@ -4006,8 +4006,8 @@ lor = [
 
 rmaker_one = abjadext.rmakers.stack(
     abjadext.rmakers.talea(lor, 16, extra_counts=[0, 1, 0, -1]),
-    abjadext.rmakers.trivialize(abjad.select().tuplets()),
-    abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
-    abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
-    abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
+    abjadext.rmakers.trivialize(lambda _: abjad.Selection(_).tuplets()),
+    abjadext.rmakers.extract_trivial(lambda _: abjad.Selection(_).tuplets()),
+    abjadext.rmakers.rewrite_rest_filled(lambda _: abjad.Selection(_).tuplets()),
+    abjadext.rmakers.rewrite_sustained(lambda _: abjad.Selection(_).tuplets()),
 )

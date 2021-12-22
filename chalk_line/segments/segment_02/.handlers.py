@@ -1,9 +1,9 @@
 import abjad
-handler_to_value = abjad.OrderedDict(
+handler_to_value = dict(
     [
         (
             'tempo_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count', 9),
                     ]
@@ -11,7 +11,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'chord_1',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 159),
                     ('chord_boolean_count', -1),
@@ -21,7 +21,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'bisbigliando_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('boolean_vector_count', 151),
                     ('fingering_list_count', 134),
@@ -30,7 +30,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'notehead handler one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count', 159),
                     ('head_vector_count', 159),
@@ -40,7 +40,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'dynamic_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count_1', 155),
                     ('count_2', 64),
@@ -52,7 +52,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'articulation_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count', 156),
                     ('vector_count', 156),

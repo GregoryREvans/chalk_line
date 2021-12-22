@@ -1,9 +1,9 @@
 import abjad
-handler_to_value = abjad.OrderedDict(
+handler_to_value = dict(
     [
         (
             'tempo_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count', 3),
                     ]
@@ -11,7 +11,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'flute_grace_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('vector_count', 182),
                     ('gesture_count', 43),
@@ -20,7 +20,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'chord_1',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 265),
                     ('chord_boolean_count', -1),
@@ -30,7 +30,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'glissando_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count', 265),
                     ]
@@ -38,7 +38,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'trill_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count', 265),
                     ]
@@ -46,7 +46,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'notehead handler one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count', 265),
                     ('head_vector_count', 265),
@@ -56,7 +56,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'dynamic_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count_1', 96),
                     ('count_2', 46),
@@ -68,7 +68,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'articulation_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count', 265),
                     ('vector_count', 265),

@@ -2,9 +2,9 @@
 \language "english"
 #(set-default-paper-size "letterportrait")
 #(set-global-staff-size 13)
-%\include "/Users/evansdsg2/evans/lilypond/evans-articulations.ily"
-\include "/Users/evansdsg2/evans/lilypond/evans-spanners.ily"
-\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"
+%\include "/Users/gregoryevans/evans/lilypond/evans-articulations.ily"
+\include "/Users/gregoryevans/evans/lilypond/evans-spanners.ily"
+\include "/Users/gregoryevans/abjad/docs/source/_stylesheets/abjad.ily"
 \include "charts.ily"
 %{ \include "ekmel.ily"
 \ekmelicStyle evans %}
